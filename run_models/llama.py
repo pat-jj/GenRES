@@ -7,6 +7,13 @@ def model_name_wrapper(model_name_raw):
     model_name = ''
     if model_name_raw == 'mistral':
         model_name = 'mistralai/Mistral-7B-Instruct-v0.1'
+        
+    elif model_name_raw == 'llama-7b':
+        model_name = 'huggyllama/llama-7b'
+        
+    elif model_name_raw == 'llama-65b':
+        model_name = 'huggyllama/llama-65b'
+    
     
     return model_name
         
