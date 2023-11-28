@@ -44,7 +44,7 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
 def gpt_run_model(args, dataset_file, prompt_file, output_file):
     results = {}
     with open(prompt_file, 'r') as f:
-        prompt = f.read()
+        prompt_ = f.read()
     
     with open(dataset_file, 'r') as f:
         dataset = json.load(f)
@@ -58,7 +58,7 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
     for i in tqdm(range(len(source_texts))):
         try:
             source_text = source_texts[i]
-            prompt = prompt.replace('$TEXT$', source_text)
+            prompt = prompt_.replace('$TEXT$', source_text)
             generation = gpt_func(args.model_name, prompt)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
@@ -75,7 +75,7 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
 def claude_run_model(args, dataset_file, prompt_file, output_file):
     results = {}
     with open(prompt_file, 'r') as f:
-        prompt = f.read()
+        prompt_ = f.read()
     
     with open(dataset_file, 'r') as f:
         dataset = json.load(f)
@@ -86,7 +86,7 @@ def claude_run_model(args, dataset_file, prompt_file, output_file):
     for i in tqdm(range(len(source_texts))):
         try:
             source_text = source_texts[i]
-            prompt = prompt.replace('$TEXT$', source_text)
+            prompt = prompt_.replace('$TEXT$', source_text)
             generation = claude_chat(client, prompt)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
