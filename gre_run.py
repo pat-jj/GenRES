@@ -5,6 +5,7 @@ from tqdm import tqdm
 from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference
 from run_models.gpt import gpt_instruct, gpt_chat
 from run_models.claude import claude_init, claude_chat
+from run_models.galactica import galactica_model_init, galactica_model_inference
 
 device = 'cuda'
 
@@ -96,11 +97,37 @@ def claude_run_model(args, dataset_file, prompt_file, output_file):
         
     return results
 
+
+def galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file):
+    results = {}
+    with open(prompt_file, 'r') as f:
+        prompt = f.read()
+    
+    with open(dataset_file, 'r') as f:
+        dataset = json.load(f)
+    
+    source_texts = list(dataset.keys())
+    for i in tqdm(range(len(source_texts))):
+        try:
+            source_text = source_texts[i]
+            generation = galactica_model_inference(tokenizer, model, source_text, prompt)
+            relation_str = post_processing(args.model_name, generation)
+            results[source_text] = relation_str
+            if i % 20  == 0:
+                with open(output_file, 'w') as f:
+                    json.dump(results, f, indent=6)
+        except:
+            print(f'error occured at {i}')
+            continue
+        
+    return results
+
     
 def construct_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_family', type=str, default='llama')
     parser.add_argument('--model_name', type=str, default='mistral')
+    parser.add_argument('--model_cache_dir', type=str, default='/data/pj20/.cache')
     parser.add_argument('--prompt', type=str, default='general')
     parser.add_argument('--dataset', type=str, default='nyt10m')
     parser.add_argument('--exp_id', type=str, default='1')
@@ -116,12 +143,19 @@ def main():
     
     if args.model_family == 'llama':
         model_name = model_name_wrapper(args.model_name)
-        tokenizer, model = llama_model_init(model_name)
+        tokenizer, model = llama_model_init(model_name, args.model_cache_dir)
         results = llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file)
     
     elif args.model_family == 'gpt':
         results = gpt_run_model(args, dataset_file, prompt_file, output_file)
         
+    elif args.model_family == 'others' and args.model_name == 'claude':
+        results = claude_run_model(args, dataset_file, prompt_file, output_file)
+    
+    elif args.model_family == 'others' and args.model_name == 'galactica':
+        tokenizer, model = galactica_model_init()
+        results = galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file)
+    
         
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=6)
