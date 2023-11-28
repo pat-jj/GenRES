@@ -1,0 +1,10 @@
+Given a prompt, identify and list the relationships between entities within the text. 
+Provide a list of triplets in the format [`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`]. The relationship is directed, so the order of entities in each triplet matters.
+
+Example:
+prompt: Penicillin is an antibiotic that treats bacterial infections. 
+relations:
+[["Penicillin", "is a type of", "antibiotic"], ["Penicillin", "treats", "bacterial infections"]]
+
+prompt: $TEXT$
+relations:

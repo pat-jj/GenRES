@@ -1,0 +1,16 @@
+Given a prompt, identify and list the relationships between entities within the text. 
+Extract relationships both within a single sentence (intra-sentence) and across multiple sentences (inter-sentence). 
+Provide a list of triplets in the format [`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`]. The relationship is directed, so the order of entities in each triplet matters.
+
+Example 1:
+prompt: In 2020, the Nobel Peace Prize was awarded to the World Food Programme for its efforts to combat hunger. The organization has been operational since 1961.
+relations:
+[["Nobel Peace Prize", "awarded in", "2020"], ["Nobel Peace Prize", "awarded to", "World Food Programme"], ["World Food Programme", "efforts to", "combat hunger"], ["World Food Programme", "operational since", "1961"]]
+
+Example 2:
+prompt: The Great Barrier Reef, located off the coast of Australia, is the world's largest coral reef system. It has been severely affected by climate change, leading to coral bleaching.
+relations:
+[["Great Barrier Reef", "located at", "coast of Australia"], ["Great Barrier Reef", "is", "world's largest coral reef system"], ["Great Barrier Reef", "affected by", "climate change"], ["Climate change", "leads to", "coral bleaching"]]
+
+prompt: $TEXT$
+relations:

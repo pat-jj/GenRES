@@ -1,0 +1,10 @@
+Given a prompt, identify and list the relationships between entities within the text. 
+Provide a list of triplets in the format [`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`]. The relationship is directed, so the order of entities in each triplet matters.
+
+Example:
+prompt: The Great Barrier Reef has been severely affected by climate change, leading to coral bleaching.
+relations:
+[["Great Barrier Reef", "affected by", "climate change"], ["Climate change", "leads to", "coral bleaching"]]
+
+prompt: $TEXT$
+relations:
