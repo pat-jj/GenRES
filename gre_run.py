@@ -7,7 +7,6 @@ from run_models.gpt import gpt_instruct, gpt_chat
 from run_models.claude import claude_init, claude_chat
 from run_models.galactica import galactica_model_init, galactica_model_inference
 
-device = 'cuda'
 
 # def post_processing(model, generation):
 #     if model == 'mistral':
@@ -28,7 +27,7 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
     for i in tqdm(range(len(source_texts))):
         try:
             source_text = source_texts[i]
-            generation = llama_model_inference(tokenizer, model, source_text, prompt)
+            generation = llama_model_inference(tokenizer, model, source_text, prompt, device=args.device)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
             if i % 20  == 0:
@@ -132,6 +131,7 @@ def construct_args():
     parser.add_argument('--model_cache_dir', type=str, default='/data/pj20/.cache')
     parser.add_argument('--prompt', type=str, default='general_bag')
     parser.add_argument('--dataset', type=str, default='nyt10m')
+    parser.add_argument('--device', type=str, default='cuda')
     parser.add_argument('--exp_id', type=str, default='1')
 
     args = parser.parse_args()
@@ -145,7 +145,7 @@ def main():
     
     if args.model_family == 'llama':
         model_name = model_name_wrapper(args.model_name)
-        tokenizer, model = llama_model_init(model_name, args.model_cache_dir)
+        tokenizer, model = llama_model_init(model_name, args.model_cache_dir, args.device)
         results = llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file)
     
     elif args.model_family == 'gpt':

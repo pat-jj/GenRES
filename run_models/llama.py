@@ -1,7 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm 
 
-device = 'cuda'
 
 def model_name_wrapper(model_name_raw):
     model_name = ''
@@ -24,14 +23,14 @@ def model_name_wrapper(model_name_raw):
     return model_name
         
 
-def llama_model_init(model_name, cache_dir):
+def llama_model_init(model_name, cache_dir, device='cuda'):
     tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
     model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=cache_dir)
     model.to(device)
     return tokenizer, model
     
     
-def llama_model_inference(tokenizer, model, text, prompt):
+def llama_model_inference(tokenizer, model, text, prompt, device='cuda'):
     prompt = prompt.replace('$TEXT$', text)
     
     messages = [
