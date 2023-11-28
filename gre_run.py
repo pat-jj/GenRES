@@ -58,6 +58,7 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
     for i in tqdm(range(len(source_texts))):
         try:
             source_text = source_texts[i]
+            prompt = prompt.replace('$TEXT$', source_text)
             generation = gpt_func(args.model_name, prompt)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
@@ -85,6 +86,7 @@ def claude_run_model(args, dataset_file, prompt_file, output_file):
     for i in tqdm(range(len(source_texts))):
         try:
             source_text = source_texts[i]
+            prompt = prompt.replace('$TEXT$', source_text)
             generation = claude_chat(client, prompt)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
@@ -128,7 +130,7 @@ def construct_args():
     parser.add_argument('--model_family', type=str, default='llama')
     parser.add_argument('--model_name', type=str, default='mistral')
     parser.add_argument('--model_cache_dir', type=str, default='/data/pj20/.cache')
-    parser.add_argument('--prompt', type=str, default='general')
+    parser.add_argument('--prompt', type=str, default='general_bag')
     parser.add_argument('--dataset', type=str, default='nyt10m')
     parser.add_argument('--exp_id', type=str, default='1')
 

@@ -1,8 +1,8 @@
-from claude_api import Client
+from .claude_api import Client
 import os
 
 def claude_init():
-    with open('claude_cookie.key', 'r') as f:
+    with open('./run_models/claude_cookie.key', 'r') as f:
         cookie = f.read().strip()
         
     client = Client(cookie)
