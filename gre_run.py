@@ -4,6 +4,7 @@ import json
 from tqdm import tqdm 
 from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference
 from run_models.gpt import gpt_instruct, gpt_chat
+from run_models.claude import claude_init, claude_chat
 
 device = 'cuda'
 
@@ -68,6 +69,32 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
         
     return results
 
+
+def claude_run_model(args, dataset_file, prompt_file, output_file):
+    results = {}
+    with open(prompt_file, 'r') as f:
+        prompt = f.read()
+    
+    with open(dataset_file, 'r') as f:
+        dataset = json.load(f)
+        
+    client = claude_init()
+    
+    source_texts = list(dataset.keys())
+    for i in tqdm(range(len(source_texts))):
+        try:
+            source_text = source_texts[i]
+            generation = claude_chat(client, prompt)
+            relation_str = post_processing(args.model_name, generation)
+            results[source_text] = relation_str
+            if i % 20  == 0:
+                with open(output_file, 'w') as f:
+                    json.dump(results, f, indent=6)
+        except:
+            print(f'error occured at {i}')
+            continue
+        
+    return results
 
     
 def construct_args():
