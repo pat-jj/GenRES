@@ -9,11 +9,11 @@ from run_models.galactica import galactica_model_init, galactica_model_inference
 
 device = 'cuda'
 
-def post_processing(model, generation):
-    if model == 'mistral':
-        relation_str = generation.split('[/INST]')[-1].replace('</s>', '').strip()
-        print(relation_str)
-        return relation_str
+# def post_processing(model, generation):
+#     if model == 'mistral':
+#         relation_str = generation.split('[/INST]')[-1].replace('</s>', '').strip()
+#         print(relation_str)
+#         return relation_str
 
     
 def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file):
@@ -29,8 +29,8 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
         try:
             source_text = source_texts[i]
             generation = llama_model_inference(tokenizer, model, source_text, prompt)
-            relation_str = post_processing(args.model_name, generation)
-            results[source_text] = relation_str
+            # relation_str = post_processing(args.model_name, generation)
+            results[source_text] = generation
             if i % 20  == 0:
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=6)
@@ -59,8 +59,8 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
         try:
             source_text = source_texts[i]
             generation = gpt_func(args.model_name, prompt)
-            relation_str = post_processing(args.model_name, generation)
-            results[source_text] = relation_str
+            # relation_str = post_processing(args.model_name, generation)
+            results[source_text] = generation
             if i % 20  == 0:
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=6)
@@ -86,8 +86,8 @@ def claude_run_model(args, dataset_file, prompt_file, output_file):
         try:
             source_text = source_texts[i]
             generation = claude_chat(client, prompt)
-            relation_str = post_processing(args.model_name, generation)
-            results[source_text] = relation_str
+            # relation_str = post_processing(args.model_name, generation)
+            results[source_text] = generation
             if i % 20  == 0:
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=6)
@@ -111,8 +111,8 @@ def galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, outpu
         try:
             source_text = source_texts[i]
             generation = galactica_model_inference(tokenizer, model, source_text, prompt)
-            relation_str = post_processing(args.model_name, generation)
-            results[source_text] = relation_str
+            # relation_str = post_processing(args.model_name, generation)
+            results[source_text] = generation
             if i % 20  == 0:
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=6)
