@@ -13,6 +13,12 @@ def model_name_wrapper(model_name_raw):
         
     elif model_name_raw == 'llama-65b':
         model_name = 'huggyllama/llama-65b'
+        
+    elif model_name_raw == 'llama-2-7b':
+        model_name = 'NousResearch/Llama-2-7b-chat-hf'
+        
+    elif model_name_raw == 'llama-2-70b':
+        model_name = 'NousResearch/Llama-2-70b-chat-hf'
     
     
     return model_name
