@@ -3,8 +3,8 @@ import argparse
 import json
 from tqdm import tqdm 
 from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference
-from run_models.gpt import gpt_instruct, gpt_chat
-from run_models.claude import claude_init, claude_chat
+# from run_models.gpt import gpt_instruct, gpt_chat
+# from run_models.claude import claude_init, claude_chat
 from run_models.galactica import galactica_model_init, galactica_model_inference
 
 
@@ -133,6 +133,7 @@ def construct_args():
     parser.add_argument('--dataset', type=str, default='nyt10m')
     parser.add_argument('--device', type=str, default='cuda')
     parser.add_argument('--exp_id', type=str, default='1')
+    parser.add_argument('--model_device_map', type=str, default='auto')
 
     args = parser.parse_args()
     return args
@@ -145,7 +146,7 @@ def main():
     
     if args.model_family == 'llama':
         model_name = model_name_wrapper(args.model_name)
-        tokenizer, model = llama_model_init(model_name, args.model_cache_dir, args.device)
+        tokenizer, model = llama_model_init(model_name, args.model_cache_dir, args.model_device_map)
         results = llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file)
     
     elif args.model_family == 'gpt':
