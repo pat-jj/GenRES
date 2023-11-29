@@ -3,8 +3,8 @@ import argparse
 import json
 from tqdm import tqdm 
 from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference, vicuna_model_inference
-from run_models.gpt import gpt_instruct, gpt_chat
-from run_models.claude import claude_init, claude_chat
+# from run_models.gpt import gpt_instruct, gpt_chat
+# from run_models.claude import claude_init, claude_chat
 from run_models.galactica import galactica_model_init, galactica_model_inference
 
 
