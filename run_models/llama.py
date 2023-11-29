@@ -26,7 +26,7 @@ def model_name_wrapper(model_name_raw):
         model_name = 'lmsys/vicuna-13b-v1.5'
 
     elif model_name_raw == 'vicuna-1.3-33b':
-        model_name = 'msys/vicuna-33b-v1.3'
+        model_name = 'lmsys/vicuna-33b-v1.3'
     
     return model_name
         
