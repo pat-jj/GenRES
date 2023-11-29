@@ -21,7 +21,7 @@ def model_name_wrapper(model_name_raw):
     
     elif model_name_raw == 'vicuna-1.5-7b':
         model_name = 'lmsys/vicuna-7b-v1.5'
-    
+
     elif model_name_raw == 'vicuna-1.5-13b':
         model_name = 'lmsys/vicuna-13b-v1.5'
 
@@ -47,7 +47,7 @@ def vicuna_model_inference(tokenizer, model, text, prompt, device='cuda'):
         "A chat between a curious user and an artificial intelligence assistant. "
         "The assistant gives helpful, detailed, and polite answers to the user's questions."
     )
-
+    
     message = system_prompt + 'USER:' + prompt + '\nASSISTANT:'
 
     encodeds = tokenizer(message, return_tensors="pt").input_ids
