@@ -9,3 +9,10 @@ Run Vicuna
 bash scripts/llama_run_script.sh wiki20m_rand_500 vicuna-1.5-7b 1 general_bag
 bash scripts/llama_run_script.sh wiki20m_rand_500 vicuna-1.3-33b 1 general_bag
 ```
+
+Run GPT
+```[bash]
+bash scripts/gpt_run.sh docred_rand_200 gpt-3.5-turbo-instruct general_bag
+bash scripts/gpt_run.sh docred_rand_200 gpt-4 general_bag
+bash scripts/gpt_run.sh docred_rand_200 text-davinci-003 general_bag
+```
