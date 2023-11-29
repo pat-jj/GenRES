@@ -1,6 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm 
-
+import torch
 
 def model_name_wrapper(model_name_raw):
     model_name = ''
@@ -23,10 +23,13 @@ def model_name_wrapper(model_name_raw):
     return model_name
         
 
-def llama_model_init(model_name, cache_dir, device='cuda'):
+def llama_model_init(model_name, cache_dir):
     tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
-    model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=cache_dir)
-    model.to(device)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name, cache_dir=cache_dir,
+        device_map='auto',
+        torch_dtype=torch.float16
+        )
     return tokenizer, model
     
     
