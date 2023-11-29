@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import argparse
 import json
 from tqdm import tqdm 
-from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference
+from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference, vicuna_model_inference
 # from run_models.gpt import gpt_instruct, gpt_chat
 # from run_models.claude import claude_init, claude_chat
 from run_models.galactica import galactica_model_init, galactica_model_inference
@@ -14,7 +14,7 @@ from run_models.galactica import galactica_model_init, galactica_model_inference
 #         print(relation_str)
 #         return relation_str
 
-    
+
 def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file):
     results = {}
     with open(prompt_file, 'r') as f:
@@ -27,7 +27,10 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
     for i in tqdm(range(len(source_texts))):
         try:
             source_text = source_texts[i]
-            generation = llama_model_inference(tokenizer, model, source_text, prompt, device=args.device)
+            if 'vicuna' in args.model_name:
+                generation = vicuna_model_inference(tokenizer, model, source_text, prompt, device=args.device)
+            else:
+                generation = llama_model_inference(tokenizer, model, source_text, prompt, device=args.device)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
             if i % 20  == 0:
@@ -38,7 +41,6 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
             continue
         
     return results
-
 
 def gpt_run_model(args, dataset_file, prompt_file, output_file):
     results = {}
