@@ -7,7 +7,6 @@ python3 gre_run.py \
     --dataset nyt10m_rand_500 \
     --prompt general_bag \
     --exp_id 1 \
-    # --model_device_map cuda:0 \
 
 
 # python3 gre_run.py \

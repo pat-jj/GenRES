@@ -1,2 +1,3 @@
 /run_models/openai_api.key
 /run_models/claude_cookie.key
+__pycache__

@@ -23,11 +23,11 @@ def model_name_wrapper(model_name_raw):
     return model_name
         
 
-def llama_model_init(model_name, cache_dir, device_map='auto'):
+def llama_model_init(model_name, cache_dir):
     tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
     model = AutoModelForCausalLM.from_pretrained(
         model_name, cache_dir=cache_dir,
-        device_map=device_map,
+        device_map='auto',
         torch_dtype=torch.float16
         )
     return tokenizer, model
