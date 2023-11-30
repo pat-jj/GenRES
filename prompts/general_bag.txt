@@ -1,7 +1,7 @@
 Given a prompt, identify and list the relationships between entities within the text. 
 Extract relationships both within a single sentence (intra-sentence) and across multiple sentences (inter-sentence). 
 Provide a list of triplets in the format [`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`]. The relationship is directed, so the order of entities in each triplet matters.
-The output should only be a list of triplets ([[`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`], ...]), ] without any additional information. Do not explain how you extract them.
+The output should only be a list of triplets ([[`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`], ...]), without any additional information. Do not explain how you extract them.
 
 Example 1:
 prompt: In 2020, the Nobel Peace Prize was awarded to the World Food Programme for its efforts to combat hunger. The organization has been operational since 1961.
