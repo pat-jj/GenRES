@@ -101,9 +101,9 @@ def claude_run_model(args, dataset_file, prompt_file, output_file):
             generation = claude_chat(client, prompt)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
-            if i % 20  == 0:
-                with open(output_file, 'w') as f:
-                    json.dump(results, f, indent=6)
+            # save every iteration
+            with open(output_file, 'w') as f:
+                json.dump(results, f, indent=6)
         except:
             print(f'error occured at {i}')
             continue
