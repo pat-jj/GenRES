@@ -1,7 +1,7 @@
 Given a prompt, identify and list the relationships between entities within the text. 
 Extract relationships both within a single sentence (intra-sentence) and across multiple sentences (inter-sentence). 
 Provide a list of triplets in the format [`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`]. The relationship is directed, so the order of entities in each triplet matters.
-The output should only be a list of triplets ([[`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`], ...]), without any additional information. Do not explain how you extract them.
+The output should only be a list of triplets ([[`ENTITY 1`, `RELATIONSHIP`, `ENTITY 2`], ...]) without any additional information. Do not explain how you extract them.
 
 Example 1:
 prompt: Penicillin is an antibiotic that treats bacterial infections. It was discovered by Alexander Fleming.
