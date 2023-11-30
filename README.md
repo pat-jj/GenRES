@@ -28,3 +28,9 @@ Run Galactica
 bash scripts/others_run.sh cdr_rand_200 galactica-6.7b bio_bag
 bash scripts/others_run.sh docred_rand_200 galactica-30b general_bag
 ```
+
+
+Post-processing
+```[bash]
+post_process.ipynb
+```
