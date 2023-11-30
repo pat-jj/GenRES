@@ -37,7 +37,7 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=6)
         except:
-            print(f'error occured at {i}')
+            print(f'error occured at {i}', )
             continue
         
     return results
@@ -111,7 +111,7 @@ def galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, outpu
     
     source_texts = list(dataset.keys())
     for i in tqdm(range(len(source_texts))):
-        try:
+        # try:
             source_text = source_texts[i]
             generation = galactica_model_inference(tokenizer, model, source_text, prompt)
             # relation_str = post_processing(args.model_name, generation)
@@ -119,9 +119,9 @@ def galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, outpu
             if i % 20  == 0:
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=6)
-        except:
-            print(f'error occured at {i}')
-            continue
+        # except:
+        #     print(f'error occured at {i}')
+        #     continue
         
     return results
 
@@ -156,8 +156,8 @@ def main():
     elif args.model_family == 'others' and args.model_name == 'claude':
         results = claude_run_model(args, dataset_file, prompt_file, output_file)
     
-    elif args.model_family == 'others' and args.model_name == 'galactica':
-        tokenizer, model = galactica_model_init()
+    elif args.model_family == 'others' and 'galactica' in args.model_name:
+        tokenizer, model = galactica_model_init(args.model_name, args.model_cache_dir)
         results = galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file)
     
         

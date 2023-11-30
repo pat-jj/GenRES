@@ -3,8 +3,9 @@ MODEL_NAME=$2
 PROMPT_DEMO=$3
 
 
-python3 gre_run.py \
+CUDA_VISIBLE_DEVICES=5 python3 gre_run.py \
     --model_family others \
+    --model_cache_dir /data/pj20/.cache \
     --model_name $MODEL_NAME \
     --dataset $DATASET \
     --prompt  $PROMPT_DEMO \
