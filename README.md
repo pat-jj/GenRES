@@ -16,3 +16,9 @@ bash scripts/gpt_run.sh docred_rand_200 gpt-3.5-turbo-instruct general_bag
 bash scripts/gpt_run.sh docred_rand_200 gpt-4 general_bag
 bash scripts/gpt_run.sh docred_rand_200 text-davinci-003 general_bag
 ```
+
+Run Claude
+```[bash]
+bash scripts/others_run.sh cdr_rand_200 claude bio_bag
+bash scripts/others_run.sh docred_rand_200 claude general_bag
+```
