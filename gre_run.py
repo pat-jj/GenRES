@@ -3,10 +3,13 @@ import argparse
 import json
 from tqdm import tqdm 
 from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference, vicuna_model_inference
-from run_models.gpt import gpt_instruct, gpt_chat
-from run_models.claude import claude_init, claude_chat
 from run_models.galactica import galactica_model_init, galactica_model_inference
 
+try:
+    from run_models.gpt import gpt_instruct, gpt_chat
+    from run_models.claude import claude_init, claude_chat
+except:
+    print('gpt or claude not installed')
 
 # def post_processing(model, generation):
 #     if model == 'mistral':
@@ -111,7 +114,7 @@ def galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, outpu
     
     source_texts = list(dataset.keys())
     for i in tqdm(range(len(source_texts))):
-        # try:
+        try:
             source_text = source_texts[i]
             generation = galactica_model_inference(tokenizer, model, source_text, prompt)
             # relation_str = post_processing(args.model_name, generation)
@@ -119,9 +122,9 @@ def galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, outpu
             if i % 20  == 0:
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=6)
-        # except:
-        #     print(f'error occured at {i}')
-        #     continue
+        except:
+            print(f'error occured at {i}')
+            continue
         
     return results
 
