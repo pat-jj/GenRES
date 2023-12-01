@@ -3,13 +3,13 @@ DATASET=$1
 MODEL_NAME=$2
 PROMPT_DEMO=$3
 
-CUDA_VISIBLE_DEVICES=5 python3 gre_run.py \
+CUDA_VISIBLE_DEVICES=1,2,3,4 python3 gre_run.py \
     --model_family llama \
     --model_name $MODEL_NAME \
     --model_cache_dir /data/pj20/.cache \
     --dataset $DATASET \
     --prompt $PROMPT_DEMO \
-    --exp_id 2 \
+    --exp_id 1 \
 
 # python3 gre_run.py \
 #     --model_family llama \
