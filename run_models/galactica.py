@@ -16,19 +16,25 @@ def galactica_model_init(model_name, cache_dir):
     
     
 def galactica_model_inference(tokenizer, model, text, prompt):
-    prompt = prompt.replace('$TEXT$', text)
-
-    prompt = 'Question: ' + prompt + '\n\nAnswer:'
-    
-    input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
-    
     # Tokenize the text to get the number of tokens
     tokens = tokenizer.encode(text)
     num_tokens = len(tokens)  # Number of tokens in the input text
 
+    # If input tokens are more than 2000, skip the inference
+    if num_tokens > 2000:
+        return "The input text is too long to process."
+
+    # Replace placeholder with actual text
+    prompt = prompt.replace('$TEXT$', text)
+    prompt = 'Question: ' + prompt + '\n\nAnswer:'
+
+    # Convert the prompt to model input format
+    input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
+
     # Set max_new_tokens to twice the number of tokens in the text
     max_new_tokens = 8 * num_tokens
 
+    # Generate the output tokens
     generated_ids = model.generate(input_ids, max_new_tokens=max_new_tokens, do_sample=False)
     decoded = tokenizer.batch_decode(generated_ids)
 
