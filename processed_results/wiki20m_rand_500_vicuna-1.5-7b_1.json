@@ -3,11 +3,6 @@
             [
                   "Florence",
                   "visited by",
-                  "Angerer"
-            ],
-            [
-                  "Florence",
-                  "visited by",
                   "local German consul Gerhard Wolf"
             ],
             [
@@ -19,6 +14,11 @@
                   "Angerer",
                   "tour of",
                   "Count Bonacossi's collection"
+            ],
+            [
+                  "Florence",
+                  "visited by",
+                  "Angerer"
             ]
       ]
 }

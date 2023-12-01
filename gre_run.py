@@ -50,9 +50,9 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
                 generation = llama_model_inference(tokenizer, model, source_text, prompt, device=args.device)
             # relation_str = post_processing(args.model_name, generation)
             results[source_text] = generation
-            if i % 20  == 0:
-                with open(output_file, 'w') as f:
-                    json.dump(results, f, indent=6)
+            # if i % 20  == 0:
+            #     with open(output_file, 'w') as f:
+            #         json.dump(results, f, indent=6)
         except:
             print(f'error occured at {i}', )
             continue
@@ -67,7 +67,7 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
     with open(dataset_file, 'r') as f:
         dataset = json.load(f)
         
-    if 'gpt-4' in args.model_name:
+    if 'gpt-4' in args.model_name or "gpt-3.5-turbo-1106" == args.model_name:
         gpt_func = gpt_chat
     else:
         gpt_func = gpt_instruct
