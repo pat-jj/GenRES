@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Define the model names and datasets in arrays
-model_names=("gpt-3.5-turbo-instruct" "text-davinci-003" "gpt-4")
-datasets=("tacred_rand_800" "wiki20m_rand_500" "wiki80_rand_800")
+# model_names=("gpt-3.5-turbo-instruct" "text-davinci-003" "gpt-4")
+model_names=("gpt-3.5-turbo-1106")
+
+datasets=("docred_rand_200" "nyt10m_rand_500" "wiki20m_rand_500" "tacred_rand_800" "wiki80_rand_800")
 
 # Loop over each dataset and model and call the script with the parameters
 for dataset in "${datasets[@]}"; do
