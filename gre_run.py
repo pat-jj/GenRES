@@ -131,9 +131,18 @@ def galactica_run_model(args, tokenizer, model, dataset_file, prompt_file, outpu
     
     with open(dataset_file, 'r') as f:
         dataset = json.load(f)
-    
+        
+    if os.path.exists(output_file):
+        with open(output_file, 'r') as f:
+            results = json.load(f)
+        
     source_texts = list(dataset.keys())
     for i in tqdm(range(len(source_texts))):
+        if source_texts[i] in results:
+            continue
+        if len(source_texts[i]) > 340:
+            results[source_texts[i]] = 'too long'
+            continue
         try:
             source_text = source_texts[i]
             generation = galactica_model_inference(tokenizer, model, source_text, prompt)
