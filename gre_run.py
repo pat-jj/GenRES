@@ -27,9 +27,15 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
     
     with open(dataset_file, 'r') as f:
         dataset = json.load(f)
+        
+    if os.path.exists(output_file):
+        with open(output_file, 'r') as f:
+            results = json.load(f)
     
     source_texts = list(dataset.keys())
     for i in tqdm(range(len(source_texts))):
+        if source_texts[i] in results:
+            continue
         try:
             source_text = source_texts[i]
             if 'vicuna' in args.model_name:
