@@ -4,7 +4,7 @@ import argparse
 import json
 from tqdm import tqdm 
 from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference, vicuna_model_inference, \
-    wizardlm_model_inference, mpt_model_inferece, openchat_model_inference
+    wizardlm_model_inference, mpt_model_inferece, openchat_model_inference, zephyr_model_inferece
 from run_models.galactica import galactica_model_init, galactica_model_inference
 
 try:
@@ -46,6 +46,8 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
                 generation = mpt_model_inferece(tokenizer, model, source_text, prompt, device=args.device)
             elif 'openchat' in args.model_name:
                 generation = openchat_model_inference(tokenizer, model, source_text, prompt, device=args.device)
+            elif 'zephyr' in args.model_name:
+                generation = zephyr_model_inferece(tokenizer, model, source_text, prompt, device=args.device)
             else:
                 generation = llama_model_inference(tokenizer, model, source_text, prompt, device=args.device)
             # relation_str = post_processing(args.model_name, generation)

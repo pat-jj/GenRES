@@ -40,6 +40,8 @@ def model_name_wrapper(model_name_raw):
     elif model_name_raw == 'openchat':
         model_name = 'openchat/openchat_3.5'
 
+    elif model_name_raw == 'zephyr-7b-beta':
+        model_name = 'HuggingFaceH4/zephyr-7b-beta'
     return model_name
     
 
@@ -51,6 +53,32 @@ def llama_model_init(model_name, cache_dir):
         torch_dtype=torch.float16
         )
     return tokenizer, model
+
+def zephyr_model_inferece(tokenizer, model, text, prompt, device='cuda'):
+    prompt = prompt.replace('$TEXT$', text)
+    
+    messages = [
+        {
+            "role": "system",
+            "content": "You are a friendly chatbot who always responds in the style of a pirate",
+        },
+        {"role": "user", "content": f"{prompt}"},
+    ]
+    
+    encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt")
+    model_inputs = encodeds.to(device)
+
+    # Tokenize the text to get the number of tokens
+    tokens = tokenizer.encode(text)
+    num_tokens = len(tokens)  # Number of tokens in the input text
+
+    # Set max_new_tokens to twice the number of tokens in the text
+    max_new_tokens = 8 * num_tokens
+
+    generated_ids = model.generate(model_inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    decoded = tokenizer.batch_decode(generated_ids)
+    
+    return decoded[0]
 
 def mpt_model_inferece(tokenizer, model, text, prompt, device='cuda'):
     prompt = prompt.replace('$TEXT$', text)
