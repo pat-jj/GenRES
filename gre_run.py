@@ -3,12 +3,13 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import argparse
 import json
 from tqdm import tqdm 
-from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference, vicuna_model_inference
+from run_models.llama import model_name_wrapper, llama_model_init, llama_model_inference, vicuna_model_inference, \
+    wizardlm_model_inference, mpt_model_inferece, openchat_model_inference
 from run_models.galactica import galactica_model_init, galactica_model_inference
 
 try:
     from run_models.gpt import gpt_instruct, gpt_chat
-    from run_models.claude import claude_init, claude_chat
+    # from run_models.claude import claude_init, claude_chat
 except:
     print('gpt or claude not installed')
 
@@ -39,6 +40,12 @@ def llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_fi
             source_text = source_texts[i]
             if 'vicuna' in args.model_name:
                 generation = vicuna_model_inference(tokenizer, model, source_text, prompt, device=args.device)
+            elif 'wizardlm' in args.model_name:
+                generation = wizardlm_model_inference(tokenizer, model, source_text, prompt, device=args.device)
+            elif 'mpt' in args.model_name:
+                generation = mpt_model_inferece(tokenizer, model, source_text, prompt, device=args.device)
+            elif 'openchat' in args.model_name:
+                generation = openchat_model_inference(tokenizer, model, source_text, prompt, device=args.device)
             else:
                 generation = llama_model_inference(tokenizer, model, source_text, prompt, device=args.device)
             # relation_str = post_processing(args.model_name, generation)
