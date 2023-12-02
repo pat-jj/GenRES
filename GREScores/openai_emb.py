@@ -1,24 +1,29 @@
 import requests
 import os
+import json
 
 with open('../run_models/openai_api.key', 'r') as f:
     OPENAI_API_KEY = f.read().strip()
     
-# Function to get embeddings from OpenAI API
-def get_embedding(text):
-    """
-    Get the embedding for a given piece of text using the OpenAI API.
-    """
+    
+def embedding_retriever(term):
+    # Set up the API endpoint URL and request headers
+    url = "https://api.openai.com/v1/embeddings"
     headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {OPENAI_API_KEY}'
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {OPENAI_API_KEY}"
     }
-    data = {
-        'input': text,
-        'model': 'text-embedding-ada-002'
+
+    # Set up the request payload with the text string to embed and the model to use
+    payload = {
+        "input": term,
+        "model": "text-embedding-ada-002"
     }
-    response = requests.post('https://api.openai.com/v1/embeddings', headers=headers, json=data)
-    if response.status_code == 200:
-        return response.json()['data'][0]['embedding']
-    else:
-        response.raise_for_status()  # Will raise an HTTPError if the HTTP request returned an unsuccessful status code
+
+    # Send the request and retrieve the response
+    response = requests.post(url, headers=headers, data=json.dumps(payload))
+
+    # Extract the text embeddings from the response JSON
+    embedding = response.json()["data"][0]['embedding']
+
+    return embedding

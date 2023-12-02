@@ -4,7 +4,13 @@ import argparse
 from collections import defaultdict
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from openai_emb import get_embedding
+from scipy.spatial.distance import pdist, squareform
+from openai_emb import embedding_retriever
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from tqdm import tqdm
+import concurrent
+
+num_workers = 16
 
 # File path for storing embeddings
 embedding_file_path = '/data/pj20/grescore/triple_embeddings.json'
@@ -24,33 +30,74 @@ def save_embeddings(embeddings):
 
 def get_triple_embedding(triple, embeddings):
     """Get the embedding for a triple, using the API if not already in the file."""
-    triple_str = ' '.join(triple)  # Convert the triple to a string
+    triple_str = ' '.join(triple)
     if triple_str not in embeddings:
-        embeddings[triple_str] = get_embedding(triple_str)  # Replace with your actual API call
-        save_embeddings(embeddings)  # Save updated embeddings
+        embeddings[triple_str] = embedding_retriever(triple_str)
     return embeddings[triple_str]
 
-def calculate_uniqueness(triples):
-    """Calculate the Uniqueness Score for a list of triples."""
-    embeddings = load_embeddings()
-    vectors = [get_triple_embedding(triple, embeddings) for triple in triples]
-    n = len(vectors)
-    score = 0
-    for i in range(n):
-        for j in range(i + 1, n):
-            sim = cosine_similarity([vectors[i]], [vectors[j]])[0][0]
-            score += (1 - sim)
-    total_pairs = n * (n - 1) / 2
+# def calculate_uniqueness(vectors):
+#     """Calculate the Uniqueness Score using vectorized operations."""
+#     similarity_matrix = cosine_similarity(vectors)
+#     # Subtract the similarity matrix from an identity matrix to get dissimilarity
+#     dissimilarity_matrix = 1 - similarity_matrix
+#     # Zero out the diagonal since we don't consider self-similarity
+#     np.fill_diagonal(dissimilarity_matrix, 0)
+#     # Sum only the upper triangle since the matrix is symmetric
+#     score = np.sum(np.triu(dissimilarity_matrix, k=1))
+#     total_pairs = len(vectors) * (len(vectors) - 1) / 2
+#     return score / total_pairs if total_pairs > 0 else 0
+
+# from scipy.spatial.distance import pdist, squareform
+
+# def calculate_uniqueness(vectors):
+#     """Calculate the Uniqueness Score using Euclidean distance."""
+#     distance_matrix = squareform(pdist(vectors, 'euclidean'))
+#     # Convert distances to a similarity measure (larger distances = more unique)
+#     similarity_matrix = 1 / (1 + distance_matrix)
+#     np.fill_diagonal(similarity_matrix, 0)  # Ignore self-similarity
+#     score = np.sum(np.triu(similarity_matrix, k=1))
+#     total_pairs = len(vectors) * (len(vectors) - 1) / 2
+#     return score / total_pairs if total_pairs > 0 else 0
+
+
+def calculate_uniqueness(vectors):
+    """Calculate the Uniqueness Score using adjusted cosine similarity."""
+    similarity_matrix = cosine_similarity(vectors)
+    np.fill_diagonal(similarity_matrix, 0)  # Ignore self-similarity
+    
+    # Apply non-linear scaling
+    adjusted_similarity = np.square(similarity_matrix)
+
+    score = np.sum(np.triu(adjusted_similarity, k=1))
+    total_pairs = len(vectors) * (len(vectors) - 1) / 2
     return score / total_pairs if total_pairs > 0 else 0
 
 
+def calculate_uniqueness_for_text(triples, embeddings):
+    """Calculate the uniqueness score for a batch of texts."""
+    vectors = [get_triple_embedding(triple, embeddings) for triple in triples]
+    return calculate_uniqueness(np.array(vectors))
+
+
 def calculate_uniqueness_score(data_to_evaluate):
-    """Calculate the Uniqueness Score for a dataset."""
+    """Calculate the Uniqueness Score for a dataset using multi-threading."""
     scores = []
-    for source_text, triples in data_to_evaluate.items():
-        score = calculate_uniqueness(triples)
-        scores.append(score)
-    
+    num_threads = 16
+    embeddings = load_embeddings()  # Load existing embeddings
+
+    def process_triples(triples):
+        if len(triples) == 0:
+            return 0
+        return calculate_uniqueness_for_text(triples, embeddings)
+
+    with ThreadPoolExecutor(max_workers=num_threads) as executor:
+        tasks = [executor.submit(process_triples, triples) for _, triples in data_to_evaluate.items()]
+        for future in tqdm(concurrent.futures.as_completed(tasks), total=len(tasks)):
+            scores.append(future.result())
+
+    # Save all embeddings after processing
+    save_embeddings(embeddings)
+
     avg_score = np.mean(scores)
     return avg_score
 
@@ -73,11 +120,27 @@ def main():
         all_scores = defaultdict(dict)
         
         model_names = [
-            # ... your model names
-        ]
+            'vicuna-1.5-7b',
+            'vicuna-1.3-33b', 
+            'llama-2-7b',
+            'llama-2-70b',
+            'wizardlm-70b'
+            'text-davinci-003',
+            'gpt-3.5-turbo-instruct',
+            'gpt-3.5-turbo-1106',
+            'gpt-4',
+            'mistral',
+            'galactica-30b',
+            'openchat'
+            ]
         
         dataset_names = [
-            # ... your dataset names
+            'cdr_rand_200',
+            'docred_rand_200',
+            'nyt10m_rand_500',
+            'wiki20m_rand_500',
+            'tacred_rand_800',
+            'wiki80_rand_800',
         ]
         
         for model_name in model_names:
