@@ -4,7 +4,7 @@
 # model_names=("gpt-3.5-turbo-instruct" "text-davinci-003" "gpt-4")
 model_names=("gpt-3.5-turbo-1106")
 
-datasets=("docred_rand_200" "nyt10m_rand_500" "wiki20m_rand_500" "tacred_rand_800" "wiki80_rand_800")
+datasets=("cdr_rand_200")
 
 # Loop over each dataset and model and call the script with the parameters
 for dataset in "${datasets[@]}"; do
@@ -13,7 +13,7 @@ for dataset in "${datasets[@]}"; do
       --model_family gpt \
       --model_name "$model_name" \
       --dataset "$dataset" \
-      --prompt general_bag \
+      --prompt bio_bag \
       --exp_id 1
   done
 done
