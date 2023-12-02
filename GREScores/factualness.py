@@ -15,14 +15,17 @@ with open('../prompts/fact_checker.txt', 'r') as f:
 def gpt_instruct(prompt):
     client = OpenAI(api_key=api_key)
 
-    response = client.completions.create(
-    model='gpt-3.5-turbo-instruct',
-    prompt=prompt,
-    max_tokens=800,
-    temperature=0.3,
-    )
-    
-    return response.choices[0].text
+    while True:
+        try:
+            response = client.completions.create(
+                model='gpt-3.5-turbo-instruct',
+                prompt=prompt,
+                max_tokens=800,
+                temperature=0.3,
+            )
+            return response.choices[0].text
+        except Exception as e:
+            print(f"Error in gpt_instruct: {e}. Retrying...")
 
 
 def calculate_factualness_score(data_to_evaluate):
@@ -127,8 +130,8 @@ def main():
                     print(f"Error calculating FS score for model {model_name} on dataset {dataset_name}: {e}")
                     continue
                 
-        with open(f'./results/FS.json', 'w') as f:
-            json.dump(all_scores, f, indent=6)
+                with open(f'./results/FS.json', 'w') as f:
+                    json.dump(all_scores, f, indent=6)
             
     else:
         file_to_evaluate = f'../processed_results/{args.dataset}_{args.model_name}_{args.exp_id}.json'

@@ -35,30 +35,6 @@ def get_triple_embedding(triple, embeddings):
         embeddings[triple_str] = embedding_retriever(triple_str)
     return embeddings[triple_str]
 
-# def calculate_uniqueness(vectors):
-#     """Calculate the Uniqueness Score using vectorized operations."""
-#     similarity_matrix = cosine_similarity(vectors)
-#     # Subtract the similarity matrix from an identity matrix to get dissimilarity
-#     dissimilarity_matrix = 1 - similarity_matrix
-#     # Zero out the diagonal since we don't consider self-similarity
-#     np.fill_diagonal(dissimilarity_matrix, 0)
-#     # Sum only the upper triangle since the matrix is symmetric
-#     score = np.sum(np.triu(dissimilarity_matrix, k=1))
-#     total_pairs = len(vectors) * (len(vectors) - 1) / 2
-#     return score / total_pairs if total_pairs > 0 else 0
-
-# from scipy.spatial.distance import pdist, squareform
-
-# def calculate_uniqueness(vectors):
-#     """Calculate the Uniqueness Score using Euclidean distance."""
-#     distance_matrix = squareform(pdist(vectors, 'euclidean'))
-#     # Convert distances to a similarity measure (larger distances = more unique)
-#     similarity_matrix = 1 / (1 + distance_matrix)
-#     np.fill_diagonal(similarity_matrix, 0)  # Ignore self-similarity
-#     score = np.sum(np.triu(similarity_matrix, k=1))
-#     total_pairs = len(vectors) * (len(vectors) - 1) / 2
-#     return score / total_pairs if total_pairs > 0 else 0
-
 
 def calculate_uniqueness(vectors):
     """Calculate the Uniqueness Score using adjusted cosine similarity."""

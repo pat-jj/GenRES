@@ -1,0 +1,62 @@
+Evaluate the given triple for its potential to be split into more specific sub-triples. Provide the sub-triples in the format [e, r, o] and give the total count. If no split is necessary, explain briefly.
+
+Example 1:
+Triple: ["text messaging", "has popularized", "the use of abbreviations"]
+Sub-triples: N/A (The triple is already specific and cannot be broken down further.)
+Granularity: 0 
+
+Example 2:
+Triple: ["electric cars", "offer benefits like", "energy efficiency and environmental friendliness"]
+Sub-triples: 
+["electric cars", "offer", "energy efficiency"]
+["electric cars", "offer", "environmental friendliness"]
+Granularity: 2
+
+Example 3:
+Triple: ["exercise", "boosts", "health"]
+Sub-triples: N/A (The relationship is direct and does not need further granularity.)
+Granularity: 0 
+
+Example 4:
+Triple: ["trees", "provide", "oxygen, shade, and habitats"]
+Sub-triples: 
+["trees", "provide", "oxygen"]
+["trees", "provide", "shade"]
+["trees", "provide", "habitats"]
+Granularity: 3
+
+Example 5:
+Triple: ["healthy diet", "contributes to", "wellness"]
+Sub-triples: N/A (The term 'wellness' encompasses a broad range of aspects, which are implicitly understood.)
+Granularity: 0 
+
+Example 6:
+Triple: ["water", "exists in states such as", "solid, liquid, gas"]
+Sub-triples: 
+["water", "exists as", "solid"]
+["water", "exists as", "liquid"]
+["water", "exists as", "gas"]
+Granularity: 3
+
+Example 7:
+Triple: ["urbanization", "leads to", "various social and environmental changes"]
+Sub-triples: 
+["urbanization", "leads to", "social changes"]
+["urbanization", "leads to", "environmental changes"]
+Granularity: 2
+
+Example 8:
+Triple: ["global warming", "causes", "climate change and associated phenomena like sea-level rise"]
+Sub-triples: 
+["global warming", "causes", "climate change"]
+["global warming", "causes", "sea-level rise"]
+Granularity: 2
+
+Example 9:
+Triple: ["antibiotics", "treat", "bacterial infections"]
+Sub-triples: N/A (The triple is specific, conveying a singular relation between antibiotics and bacterial infections.)
+Granularity: 0 
+
+Prompt:
+Triple: $TRIPLE$
+Sub-triples:
