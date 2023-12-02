@@ -144,8 +144,10 @@ def main():
             'tacred_rand_800',
             'wiki80_rand_800',
         ]
-        with open(f'./results/US.json', 'r') as f:
-            all_scores = json.load(f)
+        
+        if os.path.exists(f'./results/US.json'):
+            with open(f'./results/US.json', 'r') as f:
+                all_scores = json.load(f)
             
         for model_name in model_names:
             for dataset_name in dataset_names:

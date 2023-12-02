@@ -1,0 +1,22 @@
+Evaluate the factualness of an extracted relationship (triplet) based on the given source text. Indicate whether the relationship accurately reflects the information in the source text by responding with "true" or "false".
+You should only output "true" or "false" with no additional information.
+
+Example 1:
+Source Text: The Great Barrier Reef, located off the coast of Australia, is the world's largest coral reef system. It has been severely affected by climate change, leading to coral bleaching.
+Relationship: ["Great Barrier Reef", "affected by", "climate change"]
+Factualness: true
+
+Example 2:
+Source Text: The Eiffel Tower was constructed in 1889 and is located in Paris, France. It is one of the most recognizable structures in the world.
+Relationship: ["Eiffel Tower", "located in", "London"]
+Factualness: false
+
+Example 3:
+Source Text: The novel "Moby-Dick" by Herman Melville features a ship named Pequod. The narrative follows the ship and its crew in their pursuit of a giant white sperm whale.
+Relationship: ["Moby-Dick", "is about", "a whale named Pequod"]
+Factualness: false
+
+
+Source Text: $TEXT$
+Relationship: $TRIPLE$
+Factualness:
