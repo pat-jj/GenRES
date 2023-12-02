@@ -124,12 +124,14 @@ def main():
             'vicuna-1.3-33b', 
             'llama-2-7b',
             'llama-2-70b',
-            'wizardlm-70b'
+            'wizardlm-70b',
             'text-davinci-003',
             'gpt-3.5-turbo-instruct',
             'gpt-3.5-turbo-1106',
             'gpt-4',
+            'gpt-4-1106-preview',
             'mistral',
+            'zephyr-7b-beta',
             'galactica-30b',
             'openchat'
             ]

@@ -68,7 +68,9 @@ def main():
             'gpt-3.5-turbo-instruct',
             'gpt-3.5-turbo-1106',
             'gpt-4',
+            'gpt-4-1106-preview',
             'mistral',
+            'zephyr-7b-beta',
             'galactica-30b',
             'openchat'
             ]
