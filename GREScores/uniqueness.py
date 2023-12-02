@@ -142,9 +142,13 @@ def main():
             'tacred_rand_800',
             'wiki80_rand_800',
         ]
-        
+        with open(f'./results/US.json', 'r') as f:
+            all_scores = json.load(f)
+            
         for model_name in model_names:
             for dataset_name in dataset_names:
+                if model_name in all_scores[dataset_name]:
+                    continue
                 try:
                     file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{args.exp_id}.json'
                     with open(file_to_evaluate, 'r') as f:
