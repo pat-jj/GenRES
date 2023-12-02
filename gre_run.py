@@ -78,18 +78,18 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
     
     source_texts = list(dataset.keys())
     for i in tqdm(range(len(source_texts))):
-        try:
-            source_text = source_texts[i]
-            prompt = prompt_.replace('$TEXT$', source_text)
-            generation = gpt_func(args.model_name, prompt)
-            # relation_str = post_processing(args.model_name, generation)
-            results[source_text] = generation
-            if i % 20  == 0:
-                with open(output_file, 'w') as f:
-                    json.dump(results, f, indent=6)
-        except:
-            print(f'error occured at {i}')
-            continue
+        # try:
+        source_text = source_texts[i]
+        prompt = prompt_.replace('$TEXT$', source_text)
+        generation = gpt_func(args.model_name, prompt)
+        # relation_str = post_processing(args.model_name, generation)
+        results[source_text] = generation
+        if i % 20  == 0:
+            with open(output_file, 'w') as f:
+                json.dump(results, f, indent=6)
+        # except:
+        #     print(f'error occured at {i}')
+        #     continue
         
     return results
 
