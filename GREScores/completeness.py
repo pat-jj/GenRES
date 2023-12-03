@@ -73,6 +73,10 @@ def calculate_completeness_score(data_to_evaluate, dataset, gt_tristr2emb, thres
     for text, triples in tqdm(data_to_evaluate.items()):
         matches = 0
         gt_embeddings = {}
+        
+        if text not in text2tristrs:
+            completeness_scores.append(1)
+            continue
 
         if len(triples) == 0:
             completeness_scores.append(0)

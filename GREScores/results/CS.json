@@ -1,5 +1,17 @@
 {
       "cdr_rand_200": {
             "vicuna-1.5-7b": 0.297176131058484
-      }
+      },
+      "docred_rand_200": {
+            "galactica-30b": 0.0,
+            "vicuna-1.5-7b": 0.34635300481777437
+      },
+      "nyt10m_rand_500": {
+            "vicuna-1.5-7b": 0.40259523809523806
+      },
+      "wiki20m_rand_500": {
+            "vicuna-1.5-7b": 0.55
+      },
+      "tacred_rand_800": {},
+      "wiki80_rand_800": {}
 }
