@@ -20,10 +20,15 @@ def embedding_retriever(term):
         "model": "text-embedding-ada-002"
     }
 
-    # Send the request and retrieve the response
-    response = requests.post(url, headers=headers, data=json.dumps(payload))
+    while True:
+        try:
+            # Send the request and retrieve the response
+            response = requests.post(url, headers=headers, data=json.dumps(payload))
 
-    # Extract the text embeddings from the response JSON
-    embedding = response.json()["data"][0]['embedding']
-
-    return embedding
+            # Extract the text embeddings from the response JSON
+            embedding = response.json()["data"][0]['embedding']
+            
+            return embedding
+        
+        except Exception as e:
+            print(f"Error in gpt_instruct: {e}. Retrying...")

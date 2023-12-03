@@ -63,12 +63,12 @@ def load_ground_truth_text2tristrs(dataset_name):
         return {}
 
 import threading
-def calculate_completeness_score(data_to_evaluate, dataset, gt_tristr2emb, threshold=0.85):
+def calculate_completeness_score(data_to_evaluate, dataset, gt_tristr2emb, threshold=0.90):
     embeddings = load_embeddings()  # Load existing embeddings
     embeddings_lock = threading.Lock()
     text2tristrs = load_ground_truth_text2tristrs(dataset)
     completeness_scores = []
-    scores_details = defaultdict(dict)  # Initialize scores_details here
+    scores_details = defaultdict(dict)
 
     for text, triples in tqdm(data_to_evaluate.items()):
         matches = 0
@@ -84,7 +84,10 @@ def calculate_completeness_score(data_to_evaluate, dataset, gt_tristr2emb, thres
         
         for tristr in text2tristrs[text]:
             gt_embeddings[tristr] = gt_tristr2emb[tristr]
-            
+
+        extracted_embeddings = []
+        extracted_triples = []
+        
         # Parallel embedding retrieval
         with ThreadPoolExecutor(max_workers=num_workers) as executor:
             future_to_triple = {executor.submit(get_triple_string_embedding, triple, dataset, embeddings): triple for triple in triples}
@@ -94,19 +97,26 @@ def calculate_completeness_score(data_to_evaluate, dataset, gt_tristr2emb, thres
                     with embeddings_lock:
                         embeddings[triple_str] = triple_embedding  # Safely update embeddings
 
-                    # Continue with scoring logic...
-                    # Find the best match from the ground truth
-                    similarity_scores = cosine_similarity([triple_embedding], list(gt_embeddings.values()))
-                    scores_details[text][triple_str] = similarity_scores.tolist()[0]
-                    best_match_score = np.max(similarity_scores)
-                    if best_match_score >= threshold:
-                        matches += 1
+                    extracted_embeddings.append(triple_embedding)
+                    extracted_triples.append(triple_str)
 
                 except Exception as exc:
                     print(f'Error processing: {exc}')
+        
+
+        # Recall calculation
+        gt_recalls = {tristr: 0 for tristr in gt_embeddings}
+        for gt_tristr, gt_embedding in gt_embeddings.items():
+            similarity_scores = cosine_similarity([gt_embedding], extracted_embeddings)
+            best_match_score = np.max(similarity_scores)
+            if best_match_score >= threshold:
+                gt_recalls[gt_tristr] = 1
+
+            # Store details
+            scores_details[text][gt_tristr] = similarity_scores.tolist()[0]
 
         # Compute completeness score for this text
-        completeness_scores.append(matches / len(gt_embeddings) if len(gt_embeddings) > 0 else 0)
+        completeness_scores.append(sum(gt_recalls.values()) / len(gt_recalls) if len(gt_recalls) > 0 else 0)
 
     # Save all embeddings after processing
     with embeddings_lock:
@@ -114,6 +124,7 @@ def calculate_completeness_score(data_to_evaluate, dataset, gt_tristr2emb, thres
 
     avg_completeness_score = np.mean(completeness_scores) if completeness_scores else 0
     return avg_completeness_score, scores_details
+
 
 
 
