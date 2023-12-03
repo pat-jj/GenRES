@@ -22,7 +22,7 @@ def gpt_instruct(prompt):
             response = client.completions.create(
                 model='gpt-3.5-turbo-instruct',
                 prompt=prompt,
-                max_tokens=800,
+                max_tokens=200,
                 temperature=0.3,
             )
             return response.choices[0].text
