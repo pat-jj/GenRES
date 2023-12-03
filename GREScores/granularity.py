@@ -6,6 +6,7 @@ from tqdm import tqdm
 from openai import OpenAI
 import numpy as np
 from multiprocessing import Pool
+import time
 
 with open('../run_models/openai_api.key', 'r') as f:
     api_key = f.read().strip()
@@ -28,6 +29,8 @@ def gpt_instruct(prompt):
             return response.choices[0].text
         except Exception as e:
             print(f"Error in gpt_instruct: {e}. Retrying...")
+            time.sleep(3)
+            
 
 
 def calculate_granularity_score(data_to_evaluate):

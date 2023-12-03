@@ -1,6 +1,7 @@
 import requests
 import os
 import json
+import time
 
 with open('../run_models/openai_api.key', 'r') as f:
     OPENAI_API_KEY = f.read().strip()
@@ -32,3 +33,5 @@ def embedding_retriever(term):
         
         except Exception as e:
             print(f"Error in gpt_instruct: {e}. Retrying...")
+            time.sleep(6)
+            

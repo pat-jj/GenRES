@@ -4,6 +4,7 @@ import json
 import os
 from tqdm import tqdm
 from openai import OpenAI
+import time
 
 with open('../run_models/openai_api.key', 'r') as f:
     api_key = f.read().strip()
@@ -26,6 +27,8 @@ def gpt_instruct(prompt):
             return response.choices[0].text
         except Exception as e:
             print(f"Error in gpt_instruct: {e}. Retrying...")
+            #delay
+            time.sleep(10)
 
 
 def calculate_factualness_score(data_to_evaluate):
