@@ -7,11 +7,11 @@ def model_name_wrapper(model_name_raw):
     if model_name_raw == 'mistral':
         model_name = 'mistralai/Mistral-7B-Instruct-v0.1'
         
-    elif model_name_raw == 'llama-7b':
-        model_name = 'huggyllama/llama-7b'
+    # elif model_name_raw == 'llama-7b':
+    #     model_name = 'huggyllama/llama-7b'
         
-    elif model_name_raw == 'llama-65b':
-        model_name = 'huggyllama/llama-65b'
+    # elif model_name_raw == 'llama-65b':
+    #     model_name = 'huggyllama/llama-65b'
         
     elif model_name_raw == 'llama-2-7b':
         model_name = 'NousResearch/Llama-2-7b-chat-hf'
@@ -25,17 +25,17 @@ def model_name_wrapper(model_name_raw):
     elif model_name_raw == 'vicuna-1.3-33b':
         model_name = 'lmsys/vicuna-33b-v1.3'
     
-    elif model_name_raw == 'wizardlm-7b':
-        model_name = 'WizardLM/WizardLM-7B-V1.0'
+    # elif model_name_raw == 'wizardlm-7b':
+    #     model_name = 'WizardLM/WizardLM-7B-V1.0'
     
     elif model_name_raw == 'wizardlm-70b':
         model_name = 'WizardLM/WizardLM-70B-V1.0'
 
-    elif model_name_raw == 'mpt-7b':
-        model_name = 'mosaicml/mpt-7b-chat'
+    # elif model_name_raw == 'mpt-7b':
+    #     model_name = 'mosaicml/mpt-7b-chat'
 
-    elif model_name_raw == 'mpt-30b':
-        model_name = 'mosaicml/mpt-30b-chat'
+    # elif model_name_raw == 'mpt-30b':
+    #     model_name = 'mosaicml/mpt-30b-chat'
     
     elif model_name_raw == 'openchat':
         model_name = 'openchat/openchat_3.5'
@@ -43,8 +43,8 @@ def model_name_wrapper(model_name_raw):
     elif model_name_raw == 'zephyr-7b-beta':
         model_name = 'HuggingFaceH4/zephyr-7b-beta'
     
-    elif model_name_raw == 'chatglm3':
-        model_name = 'THUDM/chatglm3-6b'
+    # elif model_name_raw == 'chatglm3':
+    #     model_name = 'THUDM/chatglm3-6b'
     return model_name
     
 
