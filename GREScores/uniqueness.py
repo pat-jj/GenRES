@@ -30,7 +30,10 @@ def save_embeddings(embeddings):
 
 def get_triple_embedding(triple, embeddings):
     """Get the embedding for a triple, using the API if not already in the file."""
-    triple_str = ' '.join(triple)
+    try:
+        triple_str = ' '.join(triple)
+    except TypeError:
+        return np.zeros(1536)
     if triple_str not in embeddings:
         embeddings[triple_str] = embedding_retriever(triple_str)
     return embeddings[triple_str]
@@ -62,6 +65,7 @@ def calculate_uniqueness_score(data_to_evaluate):
     embeddings = load_embeddings()  # Load existing embeddings
 
     def process_triples(triples):
+        # if no triples, return 0
         if len(triples) == 0:
             return 0
         return calculate_uniqueness_for_text(triples, embeddings)
@@ -129,23 +133,21 @@ def main():
             for dataset_name in dataset_names:
                 if model_name in all_scores[dataset_name]:
                     continue
-                try:
-                    file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{args.exp_id}.json'
-                    with open(file_to_evaluate, 'r') as f:
-                        data_to_evaluate = json.load(f)
-                    
-                    print(f"Calculating US score for model {model_name} on dataset {dataset_name}...")
-                    us_score = calculate_uniqueness_score(data_to_evaluate)
-                    print(f"US score for model {model_name} on dataset {dataset_name}: {us_score}")
-                    
-                    all_scores[dataset_name][model_name] = us_score
-                except Exception as e:
-                    print(f"Error calculating US score for model {model_name} on dataset {dataset_name}: {e}")
-                    continue
                 
-        with open(f'./results/US.json', 'w') as f:
-            json.dump(all_scores, f, indent=6)
-            
+                file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{args.exp_id}.json'
+                with open(file_to_evaluate, 'r') as f:
+                    data_to_evaluate = json.load(f)
+                
+                print(f"Calculating US score for model {model_name} on dataset {dataset_name}...")
+                us_score = calculate_uniqueness_score(data_to_evaluate)
+                print(f"US score for model {model_name} on dataset {dataset_name}: {us_score}")
+                
+                all_scores[dataset_name][model_name] = us_score
+
+                
+                with open(f'./results/US.json', 'w') as f:
+                    json.dump(all_scores, f, indent=6)
+                    
     else:
         file_to_evaluate = f'../processed_results/{args.dataset}_{args.model_name}_{args.exp_id}.json'
         with open(file_to_evaluate, 'r') as f:

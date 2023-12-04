@@ -28,7 +28,7 @@ def gpt_instruct(prompt):
         except Exception as e:
             print(f"Error in gpt_instruct: {e}. Retrying...")
             #delay
-            time.sleep(10)
+            time.sleep(50)
 
 
 def calculate_factualness_score(data_to_evaluate):
