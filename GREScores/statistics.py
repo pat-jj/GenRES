@@ -83,7 +83,8 @@ def main():
         
         with open(f'./results/average_num_tokens_per_triple.json', 'w') as f:
             json.dump(average_num_tokens_per_triple_all, f, indent=4)
-                
-    
+            
+        
+        
 if __name__ == '__main__':
     main()
