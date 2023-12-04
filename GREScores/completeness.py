@@ -10,121 +10,79 @@ from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from tqdm import tqdm
 import concurrent
 
-num_workers = 16
 
-# File path for storing embeddings
-embedding_file_path = '/data/pj20/grescore/triple_string_embeddings.json'
+print("Loading element embeddings...")
+with open('/data/pj20/gre_element_embedding_dict.json', 'r') as f:
+    ELE_EMB_DICT = json.load(f)
 
-def load_embeddings():
-    """Load embeddings from the JSON file."""
-    if os.path.exists(embedding_file_path):
-        with open(embedding_file_path, 'r') as file:
-            return json.load(file)
-    else:
-        return {}
-
-def save_embeddings(embeddings):
-    """Save embeddings to the JSON file."""
-    with open(embedding_file_path, 'w') as file:
-        json.dump(embeddings, file)
-
-
-def get_triple_string_embedding(triple, dataset, embeddings):
-    """Get the embedding for a triple, using the API if not already in the file."""
-    term_1, relation, term_2 = triple
-    if dataset == 'cdr':
-        triple_str = f"The relation between \"{term_1}\" and \"{term_2}\""
-    else:
-        triple_str = f"The relation between \"{term_1}\" and \"{term_2}\" is \"{relation}\""
-        
-    if triple_str not in embeddings:
-        return triple_str, embedding_retriever(triple_str)
-    else:
-        return triple_str, embeddings[triple_str]
-
-
-def load_ground_truth_tristr2emb():
-    """Load ground truth data from JSON file."""
-    gt_tristr2emb_path = f"/data/pj20/triple_string_embeddings.json"
-    if os.path.exists(gt_tristr2emb_path):
-        with open(gt_tristr2emb_path, 'r') as file:
-            return json.load(file)
-    else:
-        return {}
-
-
-def load_ground_truth_text2tristrs(dataset_name):
-    """Load ground truth data from JSON file."""
-    gt_text2tristrs_path = f"./completeness/datasets_text2triple_string/{dataset_name}.json"
-    if os.path.exists(gt_text2tristrs_path):
-        with open(gt_text2tristrs_path, 'r') as file:
-            return json.load(file)
-    else:
-        return {}
+print("Loading Ground Truth triple embeddings...")
+gt_triple_emb_store = {}
+for dataset in ['cdr', 'docred', 'nyt10m', 'wiki20m', 'tacred', 'wiki80']:
+    with open(f'../datasets/processed/{dataset}_processed.json', 'r') as f:
+            gt_text_triples = json.load(f)
+    
+    for text in gt_text_triples.keys():
+        gt_triple_list = gt_text_triples[text]
+        for triple in gt_triple_list:
+            triple_str = str(triple)
+            entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
+            triple_emb = np.add(entity_emb, ELE_EMB_DICT[triple[1]])
+            gt_triple_emb_store[triple_str] = triple_emb.tolist()
+            
 
 import threading
-def calculate_completeness_score(data_to_evaluate, dataset, gt_tristr2emb, threshold=0.90):
-    embeddings = load_embeddings()  # Load existing embeddings
-    embeddings_lock = threading.Lock()
-    text2tristrs = load_ground_truth_text2tristrs(dataset)
+def calculate_completeness_score(data_to_evaluate, dataset, threshold=0.95):
+        
     completeness_scores = []
     scores_details = defaultdict(dict)
+    with open(f'../datasets/processed/{dataset}_processed.json', 'r') as f:
+            gt_text_triples = json.load(f)
 
     for text, triples in tqdm(data_to_evaluate.items()):
-        matches = 0
-        gt_embeddings = {}
         
-        if text not in text2tristrs:
-            completeness_scores.append(1)
-            continue
-
         if len(triples) == 0:
             completeness_scores.append(0)
             continue
         
-        if len(text2tristrs[text]) == 0:
+        if text not in gt_text_triples.keys():
+            continue
+            
+        if len(gt_text_triples[text]) == 0:
             completeness_scores.append(1)
             continue
         
-        for tristr in text2tristrs[text]:
-            gt_embeddings[tristr] = gt_tristr2emb[tristr]
-
-        extracted_embeddings = []
-        extracted_triples = []
-        
-        # Parallel embedding retrieval
-        with ThreadPoolExecutor(max_workers=num_workers) as executor:
-            future_to_triple = {executor.submit(get_triple_string_embedding, triple, dataset, embeddings): triple for triple in triples}
-            for future in concurrent.futures.as_completed(future_to_triple):
-                try:
-                    triple_str, triple_embedding = future.result()
-                    with embeddings_lock:
-                        embeddings[triple_str] = triple_embedding  # Safely update embeddings
-
-                    extracted_embeddings.append(triple_embedding)
-                    extracted_triples.append(triple_str)
-
-                except Exception as exc:
-                    print(f'Error processing: {exc}')
-        
-
+        # if type(triples[0][0]) == list:
+        #     triples = triples[0]
+        # else:
+        #     triples = triples
+            
+        gt_triples = gt_text_triples[text]
+        gt_embeddings = {str(triple): gt_triple_emb_store[str(triple)] for triple in gt_triples}
         # Recall calculation
-        gt_recalls = {tristr: 0 for tristr in gt_embeddings}
-        for gt_tristr, gt_embedding in gt_embeddings.items():
+        gt_recalls = {gt_triple: 0 for gt_triple in gt_embeddings.keys()}
+        
+        extracted_embeddings = []
+        for triple in triples:
+            try:
+                entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
+                triple_emb = np.add(entity_emb, ELE_EMB_DICT[triple[1]])
+                extracted_embeddings.append(triple_emb.tolist())
+            except:
+                continue
+        if len(extracted_embeddings) == 0:
+            continue
+        for gt_triple, gt_embedding in gt_embeddings.items():
             similarity_scores = cosine_similarity([gt_embedding], extracted_embeddings)
             best_match_score = np.max(similarity_scores)
             if best_match_score >= threshold:
-                gt_recalls[gt_tristr] = 1
+                gt_recalls[gt_triple] = 1
 
             # Store details
-            scores_details[text][gt_tristr] = similarity_scores.tolist()[0]
+            scores_details[text][gt_triple] = similarity_scores.tolist()[0]
 
         # Compute completeness score for this text
         completeness_scores.append(sum(gt_recalls.values()) / len(gt_recalls) if len(gt_recalls) > 0 else 0)
-
-    # Save all embeddings after processing
-    with embeddings_lock:
-        save_embeddings(embeddings)
+        
 
     avg_completeness_score = np.mean(completeness_scores) if completeness_scores else 0
     return avg_completeness_score, scores_details
@@ -178,27 +136,25 @@ def main():
         if os.path.exists(f'./results/CS.json'):
             with open(f'./results/CS.json', 'r') as f:
                 all_scores = json.load(f)
-                
-        gt_tristr2emb = load_ground_truth_tristr2emb()
-            
+                            
         for model_name in model_names:
             for dataset_name in dataset_names:
                 if model_name in all_scores[dataset_name]:
                     continue
-                try:
-                    file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{args.exp_id}.json'
-                    with open(file_to_evaluate, 'r') as f:
-                        data_to_evaluate = json.load(f)
+                # try:
+                file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{args.exp_id}.json'
+                with open(file_to_evaluate, 'r') as f:
+                    data_to_evaluate = json.load(f)
+                
+                print(f"Calculating CS score for model {model_name} on dataset {dataset_name}...")
+                CS_score, details = calculate_completeness_score(data_to_evaluate, dataset_name.split('_')[0])
+                print(f"CS score for model {model_name} on dataset {dataset_name}: {CS_score}")
+                
+                all_scores[dataset_name][model_name] = CS_score
                     
-                    print(f"Calculating CS score for model {model_name} on dataset {dataset_name}...")
-                    CS_score, details = calculate_completeness_score(data_to_evaluate, dataset_name.split('_')[0], gt_tristr2emb)
-                    print(f"CS score for model {model_name} on dataset {dataset_name}: {CS_score}")
-                    
-                    all_scores[dataset_name][model_name] = CS_score
-                    
-                except Exception as e:
-                    print(f"Error calculating CS score for model {model_name} on dataset {dataset_name}: {e}")
-                    continue
+                # except Exception as e:
+                #     print(f"Error calculating CS score for model {model_name} on dataset {dataset_name}: {e}")
+                #     continue
                 
                 with open(f'./completeness/details/{dataset_name}_{model_name}.json', 'w') as f:
                     json.dump(details, f, indent=6)
@@ -212,7 +168,7 @@ def main():
             data_to_evaluate = json.load(f)
         
         print(f"Calculating CS score for model {args.model_name} on dataset {args.dataset}...")
-        CS_score, details = calculate_completeness_score(data_to_evaluate, args.dataset.split('_')[0], gt_tristr2emb)
+        CS_score, details = calculate_completeness_score(data_to_evaluate, args.dataset.split('_')[0])
         print(f"CS score for model {args.model_name} on dataset {args.dataset}: {CS_score}")
     
 if __name__ == '__main__':

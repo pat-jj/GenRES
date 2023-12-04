@@ -10,73 +10,60 @@ from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from tqdm import tqdm
 import concurrent
 
-num_workers = 16
 
-# File path for storing embeddings
-embedding_file_path = '/data/pj20/grescore/triple_embeddings.json'
-
-def load_embeddings():
-    """Load embeddings from the JSON file."""
-    if os.path.exists(embedding_file_path):
-        with open(embedding_file_path, 'r') as file:
-            return json.load(file)
-    else:
-        return {}
-
-def save_embeddings(embeddings):
-    """Save embeddings to the JSON file."""
-    with open(embedding_file_path, 'w') as file:
-        json.dump(embeddings, file)
-
-def get_triple_embedding(triple, embeddings):
-    """Get the embedding for a triple, using the API if not already in the file."""
-    try:
-        triple_str = ' '.join(triple)
-    except TypeError:
-        return np.zeros(1536)
-    if triple_str not in embeddings:
-        embeddings[triple_str] = embedding_retriever(triple_str)
-    return embeddings[triple_str]
-
-
-def calculate_uniqueness(vectors):
-    """Calculate the Uniqueness Score using adjusted cosine similarity."""
-    similarity_matrix = cosine_similarity(vectors)
-    np.fill_diagonal(similarity_matrix, 0)  # Ignore self-similarity
+print("Loading element embeddings...")
+with open('/data/pj20/gre_element_embedding_dict.json', 'r') as f:
+    ELE_EMB_DICT = json.load(f)
     
-    # Apply non-linear scaling
-    adjusted_similarity = np.square(similarity_matrix)
+    
+def get_triple_embedding(triple):
+    entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
+    triple_emb = np.add(entity_emb, ELE_EMB_DICT[triple[1]])
+    return triple_emb.tolist()
 
-    score = np.sum(np.triu(adjusted_similarity, k=1))
-    total_pairs = len(vectors) * (len(vectors) - 1) / 2
-    return score / total_pairs if total_pairs > 0 else 0
+
+def calculate_uniqueness(vectors, phi=0.95):
+    """Calculate the Uniqueness Score using cosine similarity and a threshold."""
+    similarity_matrix = cosine_similarity(vectors)
+    np.fill_diagonal(similarity_matrix, 1)  # Ignore self-similarity
+    
+    # Count pairs with cosine similarity smaller than the threshold
+    count_smaller_than_phi = np.sum(similarity_matrix < phi)
+    
+    total_pairs = len(vectors) * (len(vectors) - 1)
+    return count_smaller_than_phi / total_pairs if total_pairs > 0 else 1
 
 
-def calculate_uniqueness_for_text(triples, embeddings):
+def calculate_uniqueness_for_text(triples):
     """Calculate the uniqueness score for a batch of texts."""
-    vectors = [get_triple_embedding(triple, embeddings) for triple in triples]
-    return calculate_uniqueness(np.array(vectors))
+    vectors = []
+    for triple in triples:
+        try:
+            vectors.append(get_triple_embedding(triple))
+        except:
+            continue
+    
+    try:
+        return calculate_uniqueness(np.array(vectors))
+    except:
+        return 1
 
 
 def calculate_uniqueness_score(data_to_evaluate):
     """Calculate the Uniqueness Score for a dataset using multi-threading."""
     scores = []
     num_threads = 16
-    embeddings = load_embeddings()  # Load existing embeddings
 
     def process_triples(triples):
         # if no triples, return 0
         if len(triples) == 0:
-            return 0
-        return calculate_uniqueness_for_text(triples, embeddings)
+            return 1
+        return calculate_uniqueness_for_text(triples)
 
     with ThreadPoolExecutor(max_workers=num_threads) as executor:
         tasks = [executor.submit(process_triples, triples) for _, triples in data_to_evaluate.items()]
         for future in tqdm(concurrent.futures.as_completed(tasks), total=len(tasks)):
             scores.append(future.result())
-
-    # Save all embeddings after processing
-    save_embeddings(embeddings)
 
     avg_score = np.mean(scores)
     return avg_score
