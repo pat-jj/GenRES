@@ -13,7 +13,14 @@ import os
 
 
 def main():
-    datasets = ['cdr', 'docred', 'nyt10m', 'wiki20m', 'tacred', 'wiki80']    
+    datasets = [
+        # 'cdr', 
+        # 'docred', 
+        'nyt10m', 
+        # 'wiki20m', 
+        # 'tacred', 
+        # 'wiki80'
+        ]    
     if os.path.exists('./results/ground_truth.json'):
         results = json.load(open('./results/ground_truth.json', 'r'))
     else:
@@ -22,7 +29,7 @@ def main():
     for dataset_name in datasets:
         print(f'Processing {dataset_name} ...')
         
-        file_to_evaluate = f'../datasets/processed/{dataset_name}_processed.json'
+        file_to_evaluate = f'../datasets/processed/{dataset_name}_processed_.json'
         with open(file_to_evaluate, 'r') as f:
             data_to_evaluate = json.load(f)
             
@@ -72,9 +79,10 @@ def main():
         
         if 'FS' not in results[dataset_name]:
             print('Computing FS ...')
-            FS, _ = calculate_factualness_score(data_to_evaluate=data_to_evaluate)
+            FS, details = calculate_factualness_score(data_to_evaluate=data_to_evaluate)
             results[dataset_name]['FS'] = FS
             json.dump(results, open('./results/ground_truth.json', 'w'), indent=4)
+            json.dump(details, open(f'./factualness/{dataset_name}_factualness_details.json', 'w'), indent=4)
             
         if 'GS' not in results[dataset_name]:
             print('Computing GS ...')

@@ -1,0 +1,13 @@
+Given a set of relation types and a set of entity types, extract the relation from the sentence.
+
+Example:
+Relation Set: [OrgBased In, Work For, Located In, Live In, Kill]
+Entity Type Set: [PERSON, LOCATION, ORGANIZATION, OTHER]
+Sentence: "“If it does not snow, and a lot, within this month we will have no water to submerge 150,000 hectares (370,500 acres) of rice”, said Bruno Pusterla, a top official of the Italian Agricultural Confederation."
+Relations: [[’Bruno Pusterla:PERSON’, ’Work For’, ’Italian Agricultural Confederation:ORGANIZATION’]]
+
+Prompt:
+Relation Set: $RELATION_SET$
+Entity Type Set: $ENTITY_TYPE_SET$
+Sentence: $TEXT$
+Relations:

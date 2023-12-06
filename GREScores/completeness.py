@@ -17,6 +17,7 @@ with open('/data/pj20/gre_element_embedding_dict.json', 'r') as f:
 
 print("Loading Ground Truth triple embeddings...")
 gt_triple_emb_store = {}
+gt_relation_emb_store = {}
 for dataset in ['cdr', 'docred', 'nyt10m', 'wiki20m', 'tacred', 'wiki80']:
     with open(f'../datasets/processed/{dataset}_processed.json', 'r') as f:
             gt_text_triples = json.load(f)
@@ -26,12 +27,13 @@ for dataset in ['cdr', 'docred', 'nyt10m', 'wiki20m', 'tacred', 'wiki80']:
         for triple in gt_triple_list:
             triple_str = str(triple)
             entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
-            triple_emb = np.add(entity_emb, ELE_EMB_DICT[triple[1]])
+            triple_emb = np.add(np.array(entity_emb), np.array(ELE_EMB_DICT[triple[1]]))
             gt_triple_emb_store[triple_str] = triple_emb.tolist()
+            gt_relation_emb_store[triple_str] = ELE_EMB_DICT[triple[1]]
             
 
 import threading
-def calculate_completeness_score(data_to_evaluate, dataset, threshold=0.95):
+def calculate_completeness_score(data_to_evaluate, dataset, model_name=None, threshold=0.95):
         
     completeness_scores = []
     scores_details = defaultdict(dict)
@@ -61,21 +63,30 @@ def calculate_completeness_score(data_to_evaluate, dataset, threshold=0.95):
         # Recall calculation
         gt_recalls = {gt_triple: 0 for gt_triple in gt_embeddings.keys()}
         
-        extracted_embeddings = []
+        extracted_triple_embeddings = []
+        extracted_relation_embeddings = []
         for triple in triples:
             try:
                 entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
                 triple_emb = np.add(entity_emb, ELE_EMB_DICT[triple[1]])
-                extracted_embeddings.append(triple_emb.tolist())
+                extracted_triple_embeddings.append(triple_emb.tolist())
+                extracted_relation_embeddings.append(ELE_EMB_DICT[triple[1]])
             except:
                 continue
-        if len(extracted_embeddings) == 0:
+        if len(extracted_triple_embeddings) == 0:
             continue
         for gt_triple, gt_embedding in gt_embeddings.items():
-            similarity_scores = cosine_similarity([gt_embedding], extracted_embeddings)
+            similarity_scores = cosine_similarity([gt_embedding], extracted_triple_embeddings)
             best_match_score = np.max(similarity_scores)
+            best_match_index = np.argmax(similarity_scores)
             if best_match_score >= threshold:
-                gt_recalls[gt_triple] = 1
+                if model_name == 'gpt-3.5_closed':
+                    extracted_relation_emb = extracted_relation_embeddings[best_match_index]
+                    relation_similarity_score = cosine_similarity([gt_relation_emb_store[gt_triple]], [extracted_relation_emb])
+                    if relation_similarity_score >= threshold:
+                        gt_recalls[gt_triple] = 1
+                else:
+                    gt_recalls[gt_triple] = 1
 
             # Store details
             scores_details[text][gt_triple] = similarity_scores.tolist()[0]
@@ -108,29 +119,31 @@ def main():
         all_scores = defaultdict(dict)
         
         model_names = [
-            'vicuna-1.5-7b',
-            'vicuna-1.3-33b', 
-            'llama-2-7b',
-            'llama-2-70b',
-            'wizardlm-70b',
-            'text-davinci-003',
-            'gpt-3.5-turbo-instruct',
-            'gpt-3.5-turbo-1106',
-            'gpt-4',
-            'gpt-4-1106-preview',
-            'mistral',
-            'zephyr-7b-beta',
-            'galactica-30b',
-            'openchat'
+            'gpt-3.5_closed',
+            'gpt-3.5_semi',            
+            # 'vicuna-1.5-7b',
+            # 'vicuna-1.3-33b', 
+            # 'llama-2-7b',
+            # 'llama-2-70b',
+            # 'wizardlm-70b',
+            # 'text-davinci-003',
+            # 'gpt-3.5-turbo-instruct',
+            # 'gpt-3.5-turbo-1106',
+            # 'gpt-4',
+            # 'gpt-4-1106-preview',
+            # 'mistral',
+            # 'zephyr-7b-beta',
+            # 'galactica-30b',
+            # 'openchat',
             ]
         
         dataset_names = [
             'cdr_rand_200',
-            'docred_rand_200',
+            # 'docred_rand_200',
             'nyt10m_rand_500',
-            'wiki20m_rand_500',
-            'tacred_rand_800',
-            'wiki80_rand_800',
+            # 'wiki20m_rand_500',
+            # 'tacred_rand_800',
+            # 'wiki80_rand_800',
         ]
         
         if os.path.exists(f'./results/CS.json'):
@@ -147,7 +160,7 @@ def main():
                     data_to_evaluate = json.load(f)
                 
                 print(f"Calculating CS score for model {model_name} on dataset {dataset_name}...")
-                CS_score, details = calculate_completeness_score(data_to_evaluate, dataset_name.split('_')[0])
+                CS_score, details = calculate_completeness_score(data_to_evaluate, dataset_name.split('_')[0], model_name)
                 print(f"CS score for model {model_name} on dataset {dataset_name}: {CS_score}")
                 
                 all_scores[dataset_name][model_name] = CS_score

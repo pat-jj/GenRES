@@ -20,29 +20,31 @@ def main():
     
     if args.all == 'true':        
         model_names = [
-            'vicuna-1.5-7b',
-            'vicuna-1.3-33b', 
-            'llama-2-7b',
-            'llama-2-70b',
-            'wizardlm-70b',
-            'text-davinci-003',
-            'gpt-3.5-turbo-instruct',
-            'gpt-3.5-turbo-1106',
-            'gpt-4',
-            'gpt-4-1106-preview',
-            'mistral',
-            'zephyr-7b-beta',
-            'galactica-30b',
-            'openchat'
+            # 'vicuna-1.5-7b',
+            # 'vicuna-1.3-33b', 
+            # 'llama-2-7b',
+            # 'llama-2-70b',
+            # 'wizardlm-70b',
+            # 'text-davinci-003',
+            # 'gpt-3.5-turbo-instruct',
+            # 'gpt-3.5-turbo-1106',
+            # 'gpt-4',
+            # 'gpt-4-1106-preview',
+            # 'mistral',
+            # 'zephyr-7b-beta',
+            # 'galactica-30b',
+            # 'openchat',
+            'gpt-3.5_closed',
+            'gpt-3.5_semi',
             ]
         
         dataset_names = [
             'cdr_rand_200',
-            'docred_rand_200',
+            # 'docred_rand_200',
             'nyt10m_rand_500',
-            'wiki20m_rand_500',
-            'tacred_rand_800',
-            'wiki80_rand_800',
+            # 'wiki20m_rand_500',
+            # 'tacred_rand_800',
+            # 'wiki80_rand_800',
         ]
         
         num_triples_all = defaultdict(dict)

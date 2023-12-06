@@ -170,6 +170,7 @@ def construct_args():
     parser.add_argument('--prompt', type=str, default='general_bag')
     parser.add_argument('--dataset', type=str, default='nyt10m')
     parser.add_argument('--device', type=str, default='cuda')
+    parser.add_argument('--type', type=str, default='open')
     parser.add_argument('--exp_id', type=str, default='1')
     
     args = parser.parse_args()

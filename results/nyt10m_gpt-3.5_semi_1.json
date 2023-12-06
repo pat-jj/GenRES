@@ -1,0 +1,3 @@
+{
+      "BUSINESS DAY , PAGE C1 Castro Missing on May Day The throngs were out in the streets of Havana as they always are on May Day , but Cuba 's holiday honoring workers came and went without Fidel Castro .": " [['Castro:person', 'place_lived', 'Havana:location'], ['Cuba:country', 'contains', 'Havana:location'], ['Cuba:country', 'country', 'Cuba:country'], ['Fidel Castro:person', 'place_of_birth', 'Cuba:country'], ['Fidel Castro:person', 'place_of_death', 'unknown:location']]"
+}

@@ -49,9 +49,9 @@ def calculate_uniqueness_for_text(triples):
         return 1
 
 
-def calculate_uniqueness_score(data_to_evaluate):
+def calculate_uniqueness_score(data_to_evaluate, output_all_scores=False):
     """Calculate the Uniqueness Score for a dataset using multi-threading."""
-    scores = []
+    scores = {}
     num_threads = 16
 
     def process_triples(triples):
@@ -60,12 +60,17 @@ def calculate_uniqueness_score(data_to_evaluate):
             return 1
         return calculate_uniqueness_for_text(triples)
 
-    with ThreadPoolExecutor(max_workers=num_threads) as executor:
-        tasks = [executor.submit(process_triples, triples) for _, triples in data_to_evaluate.items()]
-        for future in tqdm(concurrent.futures.as_completed(tasks), total=len(tasks)):
-            scores.append(future.result())
+    # with ThreadPoolExecutor(max_workers=num_threads) as executor:
+    #     tasks = [executor.submit(process_triples, triples) for _, triples in data_to_evaluate.items()]
+    #     for future in tqdm(concurrent.futures.as_completed(tasks), total=len(tasks)):
+    #         scores.append(future.result())
+    
+    for text, triples in tqdm(data_to_evaluate.items()):
+        scores[text] = process_triples(triples)
 
-    avg_score = np.mean(scores)
+    avg_score = np.mean(list(scores.values()))
+    if output_all_scores:
+        return avg_score, scores
     return avg_score
 
 
@@ -87,29 +92,31 @@ def main():
         all_scores = defaultdict(dict)
         
         model_names = [
-            'vicuna-1.5-7b',
-            'vicuna-1.3-33b', 
-            'llama-2-7b',
-            'llama-2-70b',
-            'wizardlm-70b',
-            'text-davinci-003',
-            'gpt-3.5-turbo-instruct',
-            'gpt-3.5-turbo-1106',
-            'gpt-4',
-            'gpt-4-1106-preview',
-            'mistral',
-            'zephyr-7b-beta',
-            'galactica-30b',
-            'openchat'
+            # 'vicuna-1.5-7b',
+            # 'vicuna-1.3-33b', 
+            # 'llama-2-7b',
+            # 'llama-2-70b',
+            # 'wizardlm-70b',
+            # 'text-davinci-003',
+            # 'gpt-3.5-turbo-instruct',
+            # 'gpt-3.5-turbo-1106',
+            # 'gpt-4',
+            # 'gpt-4-1106-preview',
+            # 'mistral',
+            # 'zephyr-7b-beta',
+            # 'galactica-30b',
+            # 'openchat',
+            'gpt-3.5_closed',
+            'gpt-3.5_semi',
             ]
         
         dataset_names = [
             'cdr_rand_200',
-            'docred_rand_200',
+            # 'docred_rand_200',
             'nyt10m_rand_500',
-            'wiki20m_rand_500',
-            'tacred_rand_800',
-            'wiki80_rand_800',
+            # 'wiki20m_rand_500',
+            # 'tacred_rand_800',
+            # 'wiki80_rand_800',
         ]
         
         if os.path.exists(f'./results/US.json'):

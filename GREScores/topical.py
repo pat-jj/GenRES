@@ -19,8 +19,8 @@ def preprocess(text):
     words = word_tokenize(text)
     return [word for word in words if word not in stop_words and word.isalnum()]
 
-def calculate_ts_score(data, dictionary, lda):
-    all_ts_scores = []
+def calculate_ts_score(data, dictionary, lda, output_all_scores=False):
+    all_ts_scores = {}
     for source_text in data.keys():  
         triples = data[source_text]
         triples_str = ''
@@ -35,10 +35,13 @@ def calculate_ts_score(data, dictionary, lda):
         triples_dist = lda.get_document_topics(triples_corpus, minimum_probability=0)
 
         ts_score = math.exp(-kullback_leibler(source_dist, triples_dist))
-        all_ts_scores.append(ts_score)
+        all_ts_scores[source_text] = ts_score
     
+    average_ts_score = sum(all_ts_scores.values()) / len(all_ts_scores)
     
-    average_ts_score = sum(all_ts_scores) / len(all_ts_scores)
+    if output_all_scores:
+        return average_ts_score, all_ts_scores
+    
     return average_ts_score
     
 
@@ -59,29 +62,31 @@ def main():
         all_scores = defaultdict(dict)
         
         model_names = [
-            'vicuna-1.5-7b',
-            'vicuna-1.3-33b', 
-            'llama-2-7b',
-            'llama-2-70b',
-            'wizardlm-70b',
-            'text-davinci-003',
-            'gpt-3.5-turbo-instruct',
-            'gpt-3.5-turbo-1106',
-            'gpt-4',
-            'gpt-4-1106-preview',
-            'mistral',
-            'zephyr-7b-beta',
-            'galactica-30b',
-            'openchat'
+            # 'vicuna-1.5-7b',
+            # 'vicuna-1.3-33b', 
+            # 'llama-2-7b',
+            # 'llama-2-70b',
+            # 'wizardlm-70b',
+            # 'text-davinci-003',
+            # 'gpt-3.5-turbo-instruct',
+            # 'gpt-3.5-turbo-1106',
+            # 'gpt-4',
+            # 'gpt-4-1106-preview',
+            # 'mistral',
+            # 'zephyr-7b-beta',
+            # 'galactica-30b',
+            # 'openchat',
+            'gpt-3.5_closed',
+            'gpt-3.5_semi',
             ]
         
         dataset_names = [
             'cdr_rand_200',
-            'docred_rand_200',
+            # 'docred_rand_200',
             'nyt10m_rand_500',
-            'wiki20m_rand_500',
-            'tacred_rand_800',
-            'wiki80_rand_800',
+            # 'wiki20m_rand_500',
+            # 'tacred_rand_800',
+            # 'wiki80_rand_800',
         ]
         
         for model_name in model_names:

@@ -1,0 +1,6 @@
+Given Relation Set: $RELATION_SET$
+What are the relations between the subject entity and the object entity expressed by the sentence?
+Sentence: $TEXT$
+Subject: $SUBJECT$
+Object: $OBJECT$
+Identified Relation:

@@ -1,0 +1,1620 @@
+{
+      "BUSINESS DAY , PAGE C1 Castro Missing on May Day The throngs were out in the streets of Havana as they always are on May Day , but Cuba 's holiday honoring workers came and went without Fidel Castro .": {
+            "['Fidel Castro', 'nationality', 'Cuba']": [
+                  0.954515664923507,
+                  0.954515664923507,
+                  0.9545156649235065
+            ],
+            "['Havana', 'country', 'Cuba']": [
+                  0.9798128438653397,
+                  0.9798128438653397,
+                  0.9798128438653397
+            ],
+            "['Cuba', 'contains', 'Havana']": [
+                  0.9751490381467598,
+                  0.9751490381467598,
+                  0.9751490381467582
+            ],
+            "['Cuba', 'administrative divisions', 'Havana']": [
+                  0.9693551461361082,
+                  0.9693551461361082,
+                  0.9693551461361085
+            ]
+      },
+      "You know , the Arab world thinks that Israel wants to conquer the Middle East , '' he says inside the production van . ''": {
+            "['Middle East', 'contains', 'Israel']": [
+                  0.973966064011804
+            ]
+      },
+      "Peter Matthiessen , the writer , recalled meeting Mr. Styron in Montparnasse in Paris , just weeks before the publication of '' Lie Down in Darkness . '' ''": {
+            "['Paris', 'contains', 'Montparnasse']": [
+                  0.974630111405054
+            ]
+      },
+      "Tom Anderson , 31 , a MySpace founder , said , '' MySpace has a method of reaching people who are historically not interested in voting '' and may not read newspapers or watch news on television .": {
+            "['Tom Anderson', 'company', 'MySpace']": [
+                  0.9775219841725614,
+                  0.9756268690492097
+            ],
+            "['MySpace', 'founders', 'Tom Anderson']": [
+                  0.993981341865967,
+                  1.0
+            ]
+      },
+      "We try to inspire people to understand that they do not just have to work for Paramount or Sony -- that does not necessarily validate their lives , '' said Lloyd Kaufman , the longtime president of Troma Entertainment , whose book-and-DVD combination program , '' Make Your Own Damn Movie , '' offers lessons on everything from script conferences to presentations to potential investors to creating inexpensive yet realistic special effects .": {
+            "['Lloyd Kaufman', 'company', 'Troma Entertainment']": [
+                  0.9745015110304663
+            ]
+      },
+      "It 's all cash , '' said Michael S. Melbinger , an executive compensation lawyer at Winston & Strawn in Chicago .": {
+            "['Winston & Strawn', 'place lived', 'Chicago']": [
+                  0.9767534997971801
+            ]
+      },
+      "Brian Carroll is with D.C. United as it prepares for its match on Tuesday against Chivas in Guadalajara , Mexico , the second leg of their Concacaf Champions Cup semifinal series .": {
+            "['Mexico', 'contains', 'Guadalajara']": [
+                  0.9745350863576023
+            ]
+      },
+      "Worst of all are the prospects for low-lying Kitzb\u00fchel , Austria , home of the Hahnenkamm , scheduled for Jan. 26-28 .": {
+            "['Kitzb\u00fchel', 'contains', 'Hahnenkamm']": [
+                  0.9741242538105621
+            ]
+      },
+      "Mrs. Acworth , 36 , graduated from Fordham and is a senior vice president in Boston for KeyCorp , a Cleveland bank .": {
+            "['KeyCorp', 'location', 'Cleveland']": [
+                  1.0000000000000009
+            ]
+      },
+      "The Australian foreign minister said Sunday that his government had reached a deal to allow David Hicks , who has been held at the American military base in Guant\u00e1namo Bay , Cuba , for more than five years without trial , to return to Australia by the end of the year .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "For about a year , Mr. Kaplan had been helping Robert De Niro , Craig Hatkoff and Jane Rosenthal of Tribeca Productions , founders of the Tribeca Film Festival , to put together a bid .": {
+            "['Craig Hatkoff', 'company', 'Tribeca Film Festival']": [
+                  0.9756200650524715
+            ]
+      },
+      "Peter Munk , founder and chairman of Barrick Gold in Toronto , has warned that an exodus of head offices to other countries will cause , among other things , lower levels of charitable donations and fewer opportunities for skilled workers .": {
+            "['Peter Munk', 'place lived', 'Toronto']": [
+                  0.9403300048679475,
+                  0.9403300048679475,
+                  0.9403300048679475,
+                  0.9346243929546629,
+                  0.949106160080983
+            ],
+            "['Barrick Gold', 'advisors', 'Peter Munk']": [
+                  0.9774887344894376,
+                  0.9774887344894376,
+                  0.9774887344894376,
+                  0.9729104564322864,
+                  0.9367045079595373
+            ],
+            "['Barrick Gold', 'location', 'Toronto']": [
+                  0.9346913816450506,
+                  0.9346913816450506,
+                  0.9346913816450506,
+                  0.931003522265567,
+                  0.9999999999999996
+            ],
+            "['Barrick Gold', 'company', 'Peter Munk']": [
+                  0.9760172615494236,
+                  0.9760172615494236,
+                  0.9760172615494236,
+                  0.9766607686879418,
+                  0.9433884148391285
+            ],
+            "['Barrick Gold', 'founders', 'Peter Munk']": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.9863702248458712,
+                  0.9346913816450506
+            ],
+            "['Peter Munk', 'company', 'Barrick Gold']": [
+                  0.9760172615494236,
+                  0.9760172615494236,
+                  0.9760172615494236,
+                  0.9766607686879418,
+                  0.9433884148391285
+            ],
+            "['Barrick Gold', 'place lived', 'Toronto']": [
+                  0.9402265754934052,
+                  0.9402265754934052,
+                  0.9402265754934052,
+                  0.9363405016857282,
+                  0.9765114539168918
+            ]
+      },
+      "INTERNATIONAL A3-11 Poverty Stricken Iraqis Turn to Selling Sex in Syria For anyone living in Damascus , the fact that some Iraqi refugees are selling sex or working in sex clubs is difficult to ignore .": {
+            "['Syria', 'contains', 'Damascus']": [
+                  0.9745966921351386,
+                  0.9745966921351386,
+                  0.9745966921351381
+            ],
+            "['Syria', 'administrative divisions', 'Damascus']": [
+                  0.9687209561083152,
+                  0.9687209561083152,
+                  0.9687209561083139
+            ],
+            "['Damascus', 'country', 'Syria']": [
+                  0.9793348674495429,
+                  0.9793348674495429,
+                  0.9793348674495431
+            ]
+      },
+      "This week , during a Congressional spring break , the presidential candidates whose day jobs normally are on Capitol Hill have been given a reprieve from flying back to Washington to cast votes .": {
+            "['Washington', 'contains', 'Capitol Hill']": [
+                  0.9744091651073384
+            ]
+      },
+      "It 's a new world now , '' Mr. McCartney , the former Beatle , said yesterday during a video chat with Howard Schultz , Starbucks 's chairman , conducted in front of thousands of people attending the shareholders ' meeting . ''": {
+            "['Howard Schultz', 'company', 'Starbucks']": [
+                  0.9741644810355561
+            ],
+            "['Starbucks', 'advisors', 'Howard Schultz']": [
+                  0.9999999999999999
+            ]
+      },
+      "Does Joe Torre show Bernie the respect normally given to elders -- allowing him to duck the long bus rides to Fort Myers or Kissimmee when the exhibitions begin in Florida ?": {
+            "['Florida', 'contains', 'Fort Myers']": [
+                  0.9742621638457322
+            ]
+      },
+      "Over time , could this predominantly Sunni country change its religious orientation -- solidifying its ties to Iran and creating strong repercussions throughout the Middle East ?": {
+            "['Middle East', 'contains', 'Iran']": [
+                  0.9696099761642963
+            ]
+      },
+      "On Wednesday , suicide bombings killed 33 people in Algiers , the capital of Algeria .": {
+            "['Algeria', 'contains', 'Algiers']": [
+                  0.9751509911113265
+            ],
+            "['Algeria', 'capital', 'Algiers']": [
+                  0.9999999999999996
+            ],
+            "['Algeria', 'administrative divisions', 'Algiers']": [
+                  0.9687910510410596
+            ]
+      },
+      "It 's even better when you can just roll out of bed each morning and tackle a different menu , spending one day on Neapolitan-style pizza and perhaps returning on another for pasta , as you can at the Sorrento Cooking School at the Esperidi Resort on the Amalfi Coast in Italy .": {
+            "['Italy', 'contains', 'Amalfi Coast']": [
+                  0.9744100376950269
+            ]
+      },
+      "The sales activity is '' pacing very close to where we were at this time three years ago '' when CBS last broadcast a Super Bowl , said JoAnn Ross , president for network sales at CBS in New York , part of the CBS Corporation . ''": {
+            "['JoAnn Ross', 'company', 'CBS']": [
+                  0.999999999999999,
+                  0.9887620771355907
+            ],
+            "['JoAnn Ross', 'company', 'CBS Corporation']": [
+                  0.9887620771355907,
+                  0.9999999999999967
+            ]
+      },
+      "In 1942 , he became headmaster at the Graham Eckes School in Palm Beach , Florida .": {
+            "['Florida', 'contains', 'Palm Beach']": [
+                  0.9743607926153155
+            ]
+      },
+      "American companies would be largely exempt from this rule because of a treaty with Thailand that dates to the Vietnam War , said Kitipong Urapeepatanapong , a partner at Baker & McKenzie in Bangkok . ''": {
+            "['Bangkok', 'country', 'Thailand']": [
+                  0.9796429919851968
+            ]
+      },
+      "Viswanathan Anand of India , poised to become the world 's top-ranked player and generally acknowledged as the best rapid player , has won or tied for first six times .": {
+            "['Viswanathan Anand', 'place lived', 'India']": [
+                  0.9717826107059846,
+                  0.9717826107059846
+            ],
+            "['Viswanathan Anand', 'nationality', 'India']": [
+                  1.0000000000000013,
+                  1.0000000000000013
+            ]
+      },
+      "A memorial service will be scheduled in Boca Raton , Florida .": {
+            "['Florida', 'contains', 'Boca Raton']": [
+                  0.9743353586022576
+            ]
+      },
+      "Mr. Lugovoi also said that Mr. Litvinenko , who made his name in part by stridently criticizing Mr. Putin and Russia 's intelligence services , had proposed a racket to secure asylum for Russians who would publicly criticize Russian authorities .": {
+            "['Russian', 'geographic distribution', 'Russia']": [
+                  0.9740994908561331
+            ]
+      },
+      "In '' Life Support , '' Queen Latifah and a first-rate cast -- including Anna Deavere Smith and two children of Diana Ross , Evan Ross and Tracee Ellis Ross -- collaborate on a glamorously produced neo-after-school special about the way the virus has hit women , many of them married and monogamous .": {
+            "['Diana Ross', 'children', 'Evan Ross']": [
+                  1.0
+            ]
+      },
+      "A Memorial Service will be held on Sunday , January 21 , at 3:00 pm at the Unitarian Church , 10 Lyons Plains Road , Westport , Connecticut .": {
+            "['Connecticut', 'contains', 'Westport']": [
+                  0.9745809282856157
+            ]
+      },
+      "Asked the odds of Hornish racing in the season-opening Daytona 500 next year , Penske Racing 's president , Don Miller , said , '' They 're better than 50-50 . ''": {
+            "['Don Miller', 'company', 'Penske Racing']": [
+                  0.9999999999999996
+            ]
+      },
+      "BAGGAGE THEFT AT HOUSTON -- Five baggage handlers were charged with stealing luggage at George Bush Intercontinental Airport in Houston over the Christmas holiday .": {
+            "['Houston', 'contains', 'George Bush Intercontinental Airport']": [
+                  0.9740721995627749
+            ]
+      },
+      "Lawrence Lessig , the founder of the Center for Internet and Society at the Stanford Law School , said that BostonNow 's business model was not unique . ''": {
+            "['Lawrence Lessig', 'company', 'Stanford Law School']": [
+                  0.9749799416395981
+            ]
+      },
+      "The future of '' Law & Order , '' one the most enduringly popular shows in television history , will be decided over the next few weeks as its network , NBC , and its creator , Dick Wolf , mull a wrenching decision : Is it finally time to shut down production of a series that has churned out almost 400 episodes , fueled ratings for several cable channels with its voluminous repeats and spawned two successful spinoffs , all the while generating enormous profits for both NBC and Mr. Wolf ?": {
+            "['Dick Wolf', 'company', 'NBC']": [
+                  0.9758957240279751
+            ]
+      },
+      "Baki Ilkin , the ambassador of Turkey , said , '' We just expressed our discomfort over the text 's making references to the Armenian issue and drawing parallels with the genocide in Rwanda . ''": {
+            "['Baki Ilkin', 'nationality', 'Turkey']": [
+                  0.9734039560203217,
+                  0.9734039560203217
+            ],
+            "['Baki Ilkin', 'place lived', 'Turkey']": [
+                  0.9681001461789577,
+                  0.9681001461789577
+            ]
+      },
+      "A preliminary design for a plant , to be located in Mount Pleasant and Greenburgh in Westchester County , already sits in a drawer ; the plant would cover an area larger than 15 football fields and be capable of filtering 2.4 billion gallons of water a day .": {
+            "['Westchester County', 'contains', 'Greenburgh']": [
+                  0.9740032380485385
+            ]
+      },
+      "Vladimir Kuznetsov , a former Russian diplomat who once headed the United Nations budget oversight committee , was convicted by a federal jury in Manhattan of having conspired with a United Nations purchasing officer to obtain $ 300,000 in illicit payments from foreign companies seeking contracts .": {
+            "['Vladimir Kuznetsov', 'nationality', 'Russian']": [
+                  1.0,
+                  1.0
+            ],
+            "['Vladimir Kuznetsov', 'company', 'United Nations']": [
+                  0.9448938544727048,
+                  0.9448938544727048
+            ],
+            "['Vladimir Kuznetsov', 'place lived', 'Russian']": [
+                  0.971762814894586,
+                  0.971762814894586
+            ]
+      },
+      "Likewise , in Mexico , you might start with chalupas and end with chiles rellenos , as did Joan Leach , a retired school administrator from Fort Worth , Tex. , when she and three friends headed to Puebla last September for what she calls '' serious hands-on cooking classes '' at the boutique hotel Mes\u00f3n Sacrist\u00eda de Capuchinas .": {
+            "['Mexico', 'contains', 'Puebla']": [
+                  0.9743810305164285,
+                  0.9743810305164285,
+                  0.9743810305164287
+            ],
+            "['Mexico', 'administrative divisions', 'Puebla']": [
+                  0.9683975866123452,
+                  0.9683975866123452,
+                  0.9683975866123464
+            ],
+            "['Puebla', 'country', 'Mexico']": [
+                  0.9792058246484573,
+                  0.9792058246484573,
+                  0.9792058246484572
+            ]
+      },
+      "Ms. Rice , shuttling between Jerusalem and the occupied West Bank , said she planned to continue to push a peace initiative between Israel and the Palestinian Authority president , Mahmoud Abbas , despite his recent agreement in principle to form a unity government between his Fatah faction and Hamas , which the United States and Israel view as a terrorist organization . ''": {
+            "['Israel', 'contains', 'Jerusalem']": [
+                  0.974742973433406
+            ]
+      },
+      "Mr. Samast was taken into custody at the main bus station in the Black Sea coast city of Samsun , apparently on his way to his hometown , Trabzon .": {
+            "['Black Sea', 'contains', 'Samsun']": [
+                  0.9738068913417999
+            ]
+      },
+      "This point was well put last month in an op-ed article in The New York Times by Denis Dutton , who teaches aesthetics at the University of Cambridge , analyzing the Hatto affair . ''": {
+            "['Denis Dutton', 'company', 'University of Cambridge']": [
+                  0.9715581438565442
+            ]
+      },
+      "Marissa Mayer , Google vice president , USA Today , May 11 These -LRB- online -RRB- games , like Phetch , employ a technique called '' human computation '' -- harnessing the human brain to collectively perform tasks that digital computers have yet to master It 's the same trick the fictional Tom Sawyer famously used to get his friends to whitewash a fence for him , only multiplied millions of times .": {
+            "['Marissa Mayer', 'company', 'Google']": [
+                  0.9761187212528051,
+                  0.9761187212528051
+            ],
+            "['Marissa Mayer', 'advisors', 'Google']": [
+                  0.977500210865214,
+                  0.977500210865214
+            ]
+      },
+      "Though they have dropped these charges , the prosecutors in Braunschweig , a town near Volkswagen 's headquarters , Wolfsburg , in northern Germany , will still pursue 44 charges of breach of trust , including accusations of payments to Klaus Volkert , the former head of the Volkswagen works council , and his lover .": {
+            "['Germany', 'contains', 'Wolfsburg']": [
+                  0.9742624125091903
+            ]
+      },
+      "IN 1925 Mart\u00edn Ram\u00edrez -LRB- 1895-1963 -RRB- , the great self-taught draftsman , left his small ranch in the Jalisco region of Mexico for work in the promised land of the United States .": {
+            "['Mexico', 'contains', 'Jalisco']": [
+                  0.9745504239712378
+            ],
+            "['Mexico', 'administrative divisions', 'Jalisco']": [
+                  0.9686371360643992
+            ],
+            "['Jalisco', 'country', 'Mexico']": [
+                  0.9793794895626435
+            ]
+      },
+      "David Eun , Google 's vice president for content partnerships , said that rather than dwell on what is being left behind , he preferred to take a more optimistic view . ''": {
+            "['David Eun', 'company', 'Google']": [
+                  0.9999999999999999
+            ]
+      },
+      "Frank K. Berry , a businessman from Oklahoma , has put up $ 50,000 to stage the contest in Stillwater , Okla. , from May 15 to 23 .": {
+            "['Oklahoma', 'contains', 'Stillwater']": [
+                  0.974709095294219
+            ]
+      },
+      "The 105-mile stage Saturday , to Santa Clarita from Santa Barbara , was won by Juan Jos\u00e9 Haedo , an Argentine sprinter for the CSC team , who won his second stage this week and his fourth in the California tour 's two years .": {
+            "['California', 'contains', 'Santa Clarita']": [
+                  0.974382550308084
+            ]
+      },
+      "Laure Manaudou of France won her latest gold medal in the women 's 400 freestyle , looking less than elated after she realized that she had failed to break her own world record .": {
+            "['Laure Manaudou', 'place lived', 'France']": [
+                  0.9717598375419287,
+                  0.9717598375419287
+            ],
+            "['Laure Manaudou', 'nationality', 'France']": [
+                  1.0000000000000009,
+                  1.0000000000000009
+            ]
+      },
+      "During a Middle East trip last month , Mr. Ban directed his own authority at Mr. Bashir in two meetings that lasted a total of three and a half hours during the Arab League summit meeting in Riyadh , Saudi Arabia .": {
+            "['Middle East', 'contains', 'Riyadh']": [
+                  0.9742813978812246
+            ]
+      },
+      "Riot police officers swarmed on a group of several dozen journalists and demonstrators on Saturday in Nizhny Novgorod , Russia 's third-largest city , cutting off a protest against the government of President Vladimir V. Putin .": {
+            "['Russia', 'administrative divisions', 'Nizhny Novgorod']": [
+                  0.9684899361279314,
+                  0.9684899361279314
+            ],
+            "['Russia', 'contains', 'Nizhny Novgorod']": [
+                  0.9743476173486992,
+                  0.9743476173486992
+            ]
+      },
+      "Along with the deals and intrigue , Mr. Cohan spends considerable time on human foibles , and recycling rumors of a sexual assignation involving Mr. Rohatyn in his office , Mr. Rattner 's real estate maneuverings in Martha 's Vineyard as well as the tax strategies of the current Lazard chief executive , Bruce Wasserstein .": {
+            "['Bruce Wasserstein', 'company', 'Lazard']": [
+                  0.9681400641722417
+            ]
+      },
+      "Roddick played through the injury and won his singles match against Fernando Verdasco on Friday to help the United States to a 4-1 victory against Spain and a berth in the semifinals against Sweden in September .": {
+            "['Fernando Verdasco', 'nationality', 'Spain']": [
+                  0.9803588600145874
+            ]
+      },
+      "With his former client sitting a few feet away , Michael C. Skakel 's former lawyer , Mickey Sherman , told a court on Thursday that he was not given information until after the 2002 murder trial that might have spared Mr. Skakel from being convicted in the 1975 killing of Martha Moxley in Greenwich .": {
+            "['Martha Moxley', 'place of death', 'Greenwich']": [
+                  0.9752572035402075
+            ]
+      },
+      "Dr. Dietz zeroed in on the San Andreas fault , the deep gash beneath California that spawned the devastating San Francisco earthquake of 1906 -- one among many -- and today also threatens the Los Angeles area .": {
+            "['California', 'contains', 'San Francisco']": [
+                  0.9746986895752424
+            ]
+      },
+      "A biography of Muhammad by a Muslim scholar who has been barred from the United States argues that Islam and Western democracy are compatible .": {
+            "['Muhammad', 'religion', 'Muslim']": [
+                  0.9999999999999992
+            ]
+      },
+      "The Rebels routinely double-teamed Wisconsin forward Alando Tucker , the Big 10 's player of the year , who averaged 20 points per game , and the Badgers struggled to find other scoring sources .": {
+            "['Alando Tucker', 'place lived', 'Wisconsin']": [
+                  0.9690795701604777
+            ]
+      },
+      "AS Stephen A. Schwarzman , the chairman of the Blackstone Group , strolled out of a panel , '' Is Bigger Better in Private Equity ?": {
+            "['Stephen A. Schwarzman', 'company', 'Blackstone Group']": [
+                  0.9999999999999996,
+                  0.9743627195385618
+            ],
+            "['Blackstone Group', 'advisors', 'Stephen A. Schwarzman']": [
+                  0.9743627195385618,
+                  1.0000000000000009
+            ]
+      },
+      "Larry Ellison , the chief executive of the software giant Oracle and the world 's 11th-richest man , according to Forbes magazine , recently bought the 21-room Casa Malibu Inn on Carbon Beach for $ 20 million .": {
+            "['Oracle', 'advisors', 'Larry Ellison']": [
+                  0.9778973347368558
+            ],
+            "['Larry Ellison', 'company', 'Oracle']": [
+                  0.9763929372909148
+            ]
+      },
+      "In the snow-covered mountains of Davos , Switzerland , top executives of Barclays , the British bank , and ABN Amro , a Dutch rival , ran into each other at the World Economic Forum in January .": {
+            "['Switzerland', 'contains', 'Davos']": [
+                  0.973991943213004,
+                  0.973991943213004
+            ],
+            "['Switzerland', 'administrative divisions', 'Davos']": [
+                  0.9679695749702877,
+                  0.9679695749702877
+            ]
+      },
+      "The NBC News anchor Brian Williams arrived in Baghdad yesterday , the first network news anchor to travel to Baghdad since Bob Woodruff , who was then the co-anchor of ABC News , was severely injured by a roadside bomb in January 2006 .": {
+            "['Bob Woodruff', 'company', 'ABC News']": [
+                  0.9724496156951823
+            ]
+      },
+      "Rabbi Abraham Cooper , associate dean of the Simon Wiesenthal Center , met with the author , Lee Won-bok , a professor of visual arts in South Korea , at the Seoul offices of his publisher , Gimm-Young .": {
+            "['South Korea', 'contains', 'Seoul']": [
+                  0.9749724682170834,
+                  0.9749724682170834,
+                  0.9749724682170828
+            ],
+            "['South Korea', 'administrative divisions', 'Seoul']": [
+                  0.9692010859720376,
+                  0.9692010859720376,
+                  0.9692010859720384
+            ],
+            "['Seoul', 'country', 'South Korea']": [
+                  0.9796924424516853,
+                  0.9796924424516853,
+                  0.979692442451686
+            ]
+      },
+      "Mr. Meier offers glimpses of a 1981 headquarters for Renault outside Paris , and a '' Memorial Square '' he designed for the former World Trade Center site in Manhattan in collaboration with Eisenman Architects , Gwathmey Siegel & Associates and Steven Holl Architects .": {
+            "['Renault', 'location', 'Paris']": [
+                  0.9999999999999984
+            ]
+      },
+      "The other suspects worked at three Florida companies that Mr. Soares said served as distributors , connecting Signature with customers in Albany County and across the country .": {
+            "['Florida', 'contains', 'Albany County']": [
+                  0.9737403376146707
+            ]
+      },
+      "But even with the falloff , preconstruction sales are continuing , however sluggishly , in places as varied as Telluride , Colo. ; Donnelly , Idaho ; the Hawaiian island of Kauai ; and Las Vegas , which has seen a huge growth in condominium development in recent years but is now in the midst of a slowdown .": {
+            "['Idaho', 'contains', 'Donnelly']": [
+                  0.9738765685528957
+            ]
+      },
+      "Nabih Berri , leader of the Shiite Amal party and speaker of Lebanon 's Parliament , said , '' What everyone should do now is halt the strife . ''": {
+            "['Nabih Berri', 'place lived', 'Lebanon']": [
+                  0.9721090123716365
+            ],
+            "['Nabih Berri', 'nationality', 'Lebanon']": [
+                  0.9999999999999991
+            ]
+      },
+      "8 P.M. -LRB- Speed -RRB- TWO ROADS TO BAJA -- Two teams -- the repeat champion Rod Millen and his factory-backed support system , and Kevin Necessary and his band of misfits -- prepare to drive Toyota FJ Cruisers in the Baja 1000 , an off-road race on Mexico 's Baja California Peninsula considered perhaps the world 's most demanding and dangerous motorsports event .": {
+            "['Mexico', 'contains', 'Baja California Peninsula']": [
+                  0.9742161470342435
+            ]
+      },
+      "An official video played to a small group of Iraqi and Western reporters more than 13 hours after the hanging showed Barzan Ibrahim al-Tikriti , former head of Mr. Hussein 's secret police , standing nervously on the trapdoor in a flame-orange jumpsuit of the kind used at the American detention center at Guant\u00e1namo Bay in Cuba , his head and mustache shaved .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "To the Editor : Regarding Joshua Kurlantzick 's '' Thailand : A Beach Resort That 's Quiet Enough for a King '' -LRB- Next Stop , May 6 -RRB- : Hua Hin is indeed a relaxed and accessible beach town that has avoided the excesses of other Thai beaches .": {
+            "['Thailand', 'contains', 'Hua Hin']": [
+                  0.9745794077061456
+            ]
+      },
+      "A group of investors led by John de Mol , one of the founders of Endemol , which pioneered reality television series like '' Big Brother '' and game shows like '' Deal or No Deal , '' agreed Monday to buy a controlling stake in the company from Telef\u00f3nica , the Spanish telecommunications company .": {
+            "['Endemol', 'founders', 'John de Mol']": [
+                  1.0000000000000018,
+                  1.0000000000000018
+            ],
+            "['John de Mol', 'company', 'Endemol']": [
+                  0.9760522960776203,
+                  0.9760522960776203
+            ]
+      },
+      "General Electric too expects a number of new reactors to be built within the next decade , says Ferdinando Beccalli-Falco , a GE manager .": {
+            "['Ferdinando Beccalli-Falco', 'company', 'General Electric']": [
+                  0.9999999999999997
+            ]
+      },
+      "Paul-Auguste Halley , a grocer in Cherbourg , France , also became inspired by the American fashion for supermarkets that spread through France after World War II .": {
+            "['France', 'contains', 'Cherbourg']": [
+                  0.974356454181001
+            ]
+      },
+      "WHITE STRIPES After playing Bonnaroo on June 24 , the White Stripes -- whose new album , '' Icky Thump '' -LRB- Warner Brothers -RRB- , will be released June 19 -- go on a pretty thorough tour of Canada -LRB- Moncton , New Brunswick ?": {
+            "['New Brunswick', 'contains', 'Canada']": [
+                  0.9745840769256303,
+                  0.9745840769256303,
+                  0.9745840769256311
+            ],
+            "['Canada', 'administrative divisions', 'New Brunswick']": [
+                  0.968721485115951,
+                  0.968721485115951,
+                  0.968721485115951
+            ],
+            "['New Brunswick', 'country', 'Canada']": [
+                  0.9794767708946016,
+                  0.9794767708946016,
+                  0.9794767708946005
+            ],
+            "['Canada', 'contains', 'New Brunswick']": [
+                  0.9745840769256303,
+                  0.9745840769256303,
+                  0.9745840769256311
+            ],
+            "['New Brunswick', 'administrative divisions', 'Canada']": [
+                  0.968721485115951,
+                  0.968721485115951,
+                  0.968721485115951
+            ]
+      },
+      "In the case of Andre Waters , Dr. Bennet Omalu , a neuropathologist at the University of Pittsburgh , concluded that the 44-year-old former safety 's brain tissue resembled that of an 85-year-old man .": {
+            "['Andre Waters', 'company', 'University of Pittsburgh']": [
+                  0.9756424091681946
+            ]
+      },
+      "There 's something striking about the laboratory of Michael F. Summers at the University of Maryland , Baltimore County .": {
+            "['Maryland', 'contains', 'Baltimore County']": [
+                  0.974739961867624
+            ]
+      },
+      "He was studying design in Copenhagen in 1938 when he was hired by Mr. Jacobsen and Erik Moller to design furniture for the town hall they were creating in Aarhus , Denmark .": {
+            "['Denmark', 'contains', 'Aarhus']": [
+                  0.9748104854198245
+            ]
+      },
+      "Chiang Mai , Thailand , 800-819-5053 ; www.fourseasons.com/chiangmai .": {
+            "['Chiang Mai', 'country', 'Thailand']": [
+                  0.9794407945313932,
+                  0.9794407945313932
+            ],
+            "['Thailand', 'contains', 'Chiang Mai']": [
+                  0.9746033048729884,
+                  0.9746033048729884
+            ]
+      },
+      "Three are in Paris -- Le Meurice in the H\u00f4tel Meurice , Le Pr\u00e9 Catelan in the Bois de Boulogne , and Astrance , a 25-seat Right Bank restaurant .": {
+            "['Paris', 'contains', 'Bois de Boulogne']": [
+                  0.9741824924728522
+            ]
+      },
+      "Mr. de Margerie , who was the senior vice president for the Middle East at the time that the Iran deal was signed , was elevated to the top job last month .": {
+            "['Middle East', 'contains', 'Iran']": [
+                  0.9999999999999991
+            ]
+      },
+      "Brownells , a company in Montezuma , Iowa , a big seller of firearms parts and accessories , says AR-15 gear has become its best-selling product category .": {
+            "['Iowa', 'contains', 'Montezuma']": [
+                  0.9739231054127078
+            ]
+      },
+      "Pedro Almod\u00f3var 's '' Volver , '' the tragicomic tale of a mother 's survival , won five awards , including best film , best director and best actress -LRB- Pen\u00e9lope Cruz -RRB- when the Goya awards , Spain 's counterpart of the Oscars , were bestowed in Madrid yesterday , Reuters reported .": {
+            "['Spain', 'contains', 'Madrid']": [
+                  0.9746632776756529,
+                  0.9741996024147545
+            ],
+            "['Madrid', 'country', 'Spain']": [
+                  0.9794391753219243,
+                  0.9999999999999982
+            ]
+      },
+      "In addition , Mr. Paulson 's deputy , Robert M. Kimmitt , discussed the matter on Friday with leading finance ministers from the Group of 8 who are meeting this weekend in Potsdam , Germany .": {
+            "['Germany', 'administrative divisions', 'Potsdam']": [
+                  0.9682413817835711,
+                  0.9682413817835711
+            ],
+            "['Germany', 'contains', 'Potsdam']": [
+                  0.9741748917027286,
+                  0.9741748917027286
+            ]
+      },
+      "Purdue controlled the game early thanks to the reserve guard Tarrance Crump , who blew by Florida guard Taurean Green for layups on three straight possessions to help Purdue build first-half leads as large as 7 points .": {
+            "['Taurean Green', 'place lived', 'Florida']": [
+                  0.9764483806264255
+            ]
+      },
+      "Donovan 's legacy at Florida will be a strong one , having transformed the Gators from a basketball afterthought to an elite program in 11 seasons .": {
+            "['Florida', 'place lived', 'Donovan']": [
+                  0.972558813970628
+            ]
+      },
+      "Schoolchildren to Dance With Berlin Philharmonic One hundred twenty New York City public-school children will dance with the Berlin Philharmonic when Simon Rattle , right , leads the orchestra in two performances of Stravinsky 's '' Rite of Spring '' in the fall at the United Palace Theater at Broadway and 175th Street in Washington Heights , Carnegie Hall said yesterday .": {
+            "['New York City', 'contains', 'Washington Heights']": [
+                  0.9743164159069752,
+                  0.9743164159069752
+            ],
+            "['Washington Heights', 'neighborhood of', 'New York City']": [
+                  0.9752709554885921,
+                  0.9752709554885921
+            ]
+      },
+      "A Requiem Eucharist celebrating her life will be held at 10:30 am on Saturday , May 5 , 2007 , at Christ Church , 254 East Putnam Avenue , in Greenwich , Connecticut .": {
+            "['Connecticut', 'contains', 'Greenwich']": [
+                  0.9745410384100552
+            ]
+      },
+      "Those around Mr. Olmert say that they , too , are concerned about how Israel and its will to defend its people are perceived -- not just by the militants of Gaza , but by the Syria of President Bashar al-Assad .": {
+            "['Bashar al-Assad', 'place lived', 'Syria']": [
+                  0.9744794963429355,
+                  0.9744794963429355
+            ],
+            "['Bashar al-Assad', 'nationality', 'Syria']": [
+                  0.9805849889948315,
+                  0.9805849889948315
+            ]
+      },
+      "MALENTENDU The News -- President Jacques Chirac of France told reporters that if Iran had one or two nuclear weapons , it would not pose a big danger , and added that a nuclear strike by Iran against a country like Israel would result in Tehran 's destruction .": {
+            "['Jacques Chirac', 'nationality', 'France']": [
+                  0.9999999999999977,
+                  0.9999999999999977
+            ],
+            "['Jacques Chirac', 'place lived', 'France']": [
+                  0.9720055670938667,
+                  0.9720055670938667
+            ]
+      },
+      "The jet , which has a range of 1,100 miles , flew to Friedrichshafen , Germany , last week for the AERO 2007 show , with stops in Canada , Greenland , Iceland and Britain .": {
+            "['Germany', 'contains', 'Friedrichshafen']": [
+                  0.9741795778634847
+            ]
+      },
+      "The two other semifinalists will be determined tonight when Pachuca of Mexico , leading after the first leg , 2-0 , plays Deportivo Marquense in Guatemala , and W. Connection of Trinidad and Tobago , leading by 2-1 , plays CD Guadalajara in Mexico City .": {
+            "['Mexico', 'administrative divisions', 'Mexico City']": [
+                  0.9690106439174333,
+                  0.9690106439174333,
+                  0.9590830819030882,
+                  0.9690106439174333
+            ],
+            "['Mexico', 'contains', 'Mexico City']": [
+                  0.9748760300251686,
+                  0.9748760300251686,
+                  0.9630889303417821,
+                  0.9748760300251686
+            ],
+            "['Mexico', 'contains', 'Guadalajara']": [
+                  0.9640551682661609,
+                  0.9640551682661609,
+                  0.9745350863576026,
+                  0.9640551682661609
+            ],
+            "['Mexico City', 'country', 'Mexico']": [
+                  0.9796368002994835,
+                  0.9796368002994835,
+                  0.9673037149021272,
+                  0.9796368002994835
+            ]
+      },
+      "The images of starvation and death in '' Blockade , '' Sergei Loznitsa 's compilation of archival news clips recording the siege of Leningrad during World War II , are so stark that a conventional soundtrack could only distract you from the harsh pictures of this city , Russia 's second-largest , in the throes of catastrophe .": {
+            "['Russia', 'contains', 'Leningrad']": [
+                  1.0000000000000022
+            ],
+            "['Russia', 'administrative divisions', 'Leningrad']": [
+                  0.9684413936536389
+            ]
+      },
+      "Unlike previous synthetic surfaces , which were basically heavy nylon carpeting over a pad , the new turf was not hard or abrasive , said Elliot Levine , president of Sprinturf , a manufacturer based in Wayne , Pa. '' My concerns for safety , as far as injuries , are drastically changed , '' said Dennis Robinson , the athletic director at Lakeland High School in Shrub Oak , N.Y. '' If a student falls , it 's a cushion . ''": {
+            "['Shrub Oak', 'contains', 'Lakeland High School']": [
+                  0.9734594367525691
+            ]
+      },
+      "Spread across 140 acres along a wooded ridge on the edge of the water some 11 miles from Aldona , Aldeia de Goa , a lavish gated community , bears little resemblance to the rest of India .": {
+            "['India', 'contains', 'Aldona']": [
+                  0.9737536215799598
+            ]
+      },
+      "Asked if he would use a scheduled visit to the White House next week to ask President Bush to close the United States detention center at Guant\u00e1namo Bay , Cuba , he said he agreed with his predecessor , Mr. Annan , that it should be shut down .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  1.0000000000000004
+            ]
+      },
+      "Peter A. Chernin , the president of the News Corporation , said the new site '' has absolutely no resemblance '' to YouTube and that Eric E. Schmidt , the chief executive of Google , is considering licensing the new venture 's fare just as other big Internet players have .": {
+            "['Eric E. Schmidt', 'company', 'Google']": [
+                  0.9746619368457581,
+                  0.9744721706371744
+            ],
+            "['Google', 'advisors', 'Eric E. Schmidt']": [
+                  0.9720317342480178,
+                  0.9729676997547396
+            ]
+      },
+      "An ancient spring training town in Florida , Lakeland is not on the way to North Carolina from New York .": {
+            "['Florida', 'contains', 'Lakeland']": [
+                  0.9742140214712364
+            ]
+      },
+      "A filmmaker I met in Bilbao , Spain , wandering through Mr. Serra 's sculptures there , likened the experience to movies .": {
+            "['Spain', 'contains', 'Bilbao']": [
+                  0.9745409109247589
+            ]
+      },
+      "He served in Washington DC and Germany , -LRB- Berlin , Frankfurt and Bonn -RRB- , Vienna , Geneva , New York , Moscow and Brasilia .": {
+            "['Berlin', 'country', 'Germany']": [
+                  0.9796412545583364,
+                  0.9796412545583364,
+                  0.9796412545583353
+            ],
+            "['Germany', 'contains', 'Berlin']": [
+                  0.9748544790006051,
+                  0.9748544790006051,
+                  0.9748544790006053
+            ],
+            "['Germany', 'administrative divisions', 'Berlin']": [
+                  0.9690103722981344,
+                  0.9690103722981344,
+                  0.9690103722981338
+            ]
+      },
+      "The Day Out column on Jan. 28 about Calcata , Italy , misstated the starting price in dollars for rooms offered there by I Sensi della Terra .": {
+            "['Italy', 'contains', 'Calcata']": [
+                  0.9744291548096458
+            ]
+      },
+      "Mr. Meridor , like many in Israel , including Prime Minister Ehud Olmert , has traveled a long road since 1967 to accept a Palestinian state on a large part of biblical Israel .": {
+            "['Ehud Olmert', 'nationality', 'Israel']": [
+                  0.9803889789699181
+            ],
+            "['Ehud Olmert', 'place lived', 'Israel']": [
+                  0.974216374368755
+            ]
+      },
+      "From Mamaroneck and New Rochelle in Westchester County to Bound Brook and Lodi in New Jersey , the New York City region took stock and mopped up on Tuesday from one of the rainiest April storms on record .": {
+            "['Westchester County', 'contains', 'New Rochelle']": [
+                  0.944795006765548
+            ],
+            "['Westchester County', 'contains', 'Mamaroneck']": [
+                  0.9195100244587452
+            ],
+            "['New York City', 'contains', 'New Rochelle']": [
+                  0.9742739839486342
+            ]
+      },
+      "The investigation was opened after Ana Gomes , a Portuguese member of the European Parliament , met with Portugal 's attorney general , Fernando Pinto Monteiro , in late January to present him with what she called evidence that dozens of C.I.A. planes had landed in Portugal , some flying to or from the American military prison at Guant\u00e1namo Bay , Cuba .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "An article on Jan. 14 about David Byrne and his song cycle based on the life of Imelda Marcos , the former first lady of the Philippines , misidentified the ethnicity of a singer in the production .": {
+            "['Imelda Marcos', 'place lived', 'Philippines']": [
+                  0.9719202702319987,
+                  0.9719202702319987
+            ],
+            "['Imelda Marcos', 'nationality', 'Philippines']": [
+                  0.9999999999999972,
+                  0.9999999999999972
+            ]
+      },
+      "In San Francisco , the Carlton Hotel , near Union Square and the new Westfield Shopping Center with the biggest Bloomingdale 's outside New York , is offering a '' Shop 'Til Ya Drop ! ''": {
+            "['San Francisco', 'contains', 'Carlton Hotel']": [
+                  0.9738714826631949
+            ]
+      },
+      "Last fall , she traveled to Lyon , France , for the day to see her newest work in a museum show , and she had already committed to purchasing one large painting .": {
+            "['France', 'administrative divisions', 'Lyon']": [
+                  0.9685684022767619,
+                  0.9685684022767619
+            ],
+            "['France', 'contains', 'Lyon']": [
+                  0.9745125739157259,
+                  0.9745125739157259
+            ]
+      },
+      "DEAL FOR ` NO DEAL ' CREATOR A group of investors led by John de Mol , one of the founders of Endemol , which pioneered reality television series like '' Big Brother '' and game shows like '' Deal or No Deal , '' agreed to buy a controlling stake in the company .": {
+            "['Endemol', 'founders', 'John de Mol']": [
+                  1.0000000000000018,
+                  1.0000000000000018,
+                  1.0000000000000013
+            ],
+            "['John de Mol', 'company', 'Endemol']": [
+                  0.9760522960776203,
+                  0.9760522960776203,
+                  0.9760522960776201
+            ],
+            "['Endemol', 'advisors', 'John de Mol']": [
+                  0.9774739092677787,
+                  0.9774739092677787,
+                  0.9774739092677791
+            ]
+      },
+      "Consumer spending in Ireland is less than 50 percent of gross domestic product , low by European standards , according to Dan McLaughlin , chief economist at Bank of Ireland .": {
+            "['Bank of Ireland', 'location', 'Ireland']": [
+                  0.9793448198710256
+            ]
+      },
+      "His novels are definitely the sort of thing I 'm interested in , '' says Robert Weil , executive editor of W. W. Norton . ''": {
+            "['Robert Weil', 'company', 'W. W. Norton']": [
+                  1.0
+            ]
+      },
+      "Under the leadership of his son Tyrrhenus , the emigrating Lydians built ships , loaded all the stores they needed , and sailed from Smyrna -LRB- now the Turkish port of Izmir -RRB- until reaching Umbria in Italy .": {
+            "['Umbria', 'country', 'Italy']": [
+                  0.9794571145233812,
+                  0.9794571145233812
+            ],
+            "['Italy', 'contains', 'Umbria']": [
+                  0.9745962320212505,
+                  0.9745962320212505
+            ],
+            "['Italy', 'administrative divisions', 'Umbria']": [
+                  0.9687892871798983,
+                  0.9687892871798983
+            ]
+      },
+      "In the past month , Ms. Rice has sought to reignite a peace initiative , even arranging a meeting between Prime Minister Ehud Olmert of Israel and Mahmoud Abbas , the Palestinian president , in Jerusalem on Feb. 19 .": {
+            "['Ehud Olmert', 'nationality', 'Israel']": [
+                  0.9803889789699181
+            ],
+            "['Ehud Olmert', 'place lived', 'Israel']": [
+                  0.974216374368755
+            ]
+      },
+      "Michael Smith Cynthiana , Ky. , Jan. 16 , 2007 To the Editor : In expressing support for a recent ordinance in Greenleaf , Idaho , that encourages residents to own guns , Glenn Reynolds argues that a heavily armed citizenry benefits society .": {
+            "['Idaho', 'contains', 'Greenleaf']": [
+                  1.0000000000000004
+            ]
+      },
+      "Dialogos performs '' Tondal 's Vision '' at the Houghton Memorial Chapel , Wellesley College , Wellesley , Mass. , today ; at the University of British Columbia , in Vancouver , on Thursday ; and at Grace and Holy Trinity Cathedral , Kansas City , Mo. , on Saturday .": {
+            "['Kansas City', 'contains', 'Holy Trinity Cathedral']": [
+                  0.9738493036539999
+            ]
+      },
+      "Next year he is planning to publish the poetry of Aeronwy Thomas , Dylan Thomas 's daughter , and to bring her to the United States for a book tour along with the Welsh poet and publisher Peter Thabit Jones .": {
+            "['Dylan Thomas', 'children', 'Aeronwy Thomas']": [
+                  0.9743274020151891
+            ]
+      },
+      "If it does n't pass there , that will be a pretty good sign to us that no legislative body will pass it , '' said Barbara Lee , the president of Compassion & Choices , a group based in Denver and Portland that supports assisted suicide .": {
+            "['Barbara Lee', 'place lived', 'Portland']": [
+                  0.9768045540285422
+            ]
+      },
+      "But Williams , in the latest surprising twist in her fiction-trumping life , has quickly gathered momentum and belief after beating two of the better players in the world : fifth-seeded Nadia Petrova of Russia and 11th-seeded Jelena Jankovic of Serbia .": {
+            "['Nadia Petrova', 'nationality', 'Russia']": [
+                  0.9999999999999989
+            ]
+      },
+      "The newspaper also said he was asked to select other potential recruits by luring them with '' money and women , '' and that he later moved to Canada where he converted to Christianity , changed his name to Joseph , obtained Canadian citizenship and got a job at a bank in Toronto with the help of two other Mossad agents .": {
+            "['Toronto', 'country', 'Canada']": [
+                  0.9797157714201081,
+                  0.9797157714201081
+            ],
+            "['Canada', 'administrative divisions', 'Toronto']": [
+                  0.969000114208805,
+                  0.969000114208805
+            ],
+            "['Canada', 'contains', 'Toronto']": [
+                  0.9748908693897507,
+                  0.9748908693897507
+            ]
+      },
+      "Prime Minister Bertie Ahern of Ireland called Sunday for a general election on May 24 .": {
+            "['Bertie Ahern', 'nationality', 'Ireland']": [
+                  0.9803744440985833
+            ],
+            "['Bertie Ahern', 'place lived', 'Ireland']": [
+                  0.9741778826923168
+            ]
+      },
+      "1 McCain Says ` No Plan B ' for Iraq In a discussion of how he would handle Iraq if elected president , Senator John McCain said that the buildup of American forces in the country represents the only viable option to avoid failure in Iraq and that he had yet to identify an effective fallback if the current strategy failed .": {
+            "['John McCain', 'ethnicity', 'American']": [
+                  0.9857982121622125
+            ]
+      },
+      "There has been much speculation that Carter would like to go to the Orlando Magic because he is from nearby Daytona Beach , Fla. .": {
+            "['Orlando Magic', 'location', 'Daytona Beach']": [
+                  1.000000000000001
+            ]
+      },
+      "The documents they prepared were approved by Prime Minister Levi Eshkol and the army 's chief of staff , Yitzhak Rabin , and therefore reflect Israel 's strategic thinking six months before the war .": {
+            "['Yitzhak Rabin', 'nationality', 'Israel']": [
+                  0.9690621396805589,
+                  0.9690621396805589
+            ],
+            "['Levi Eshkol', 'nationality', 'Israel']": [
+                  0.9551296759907091,
+                  0.9551296759907091
+            ],
+            "['Yitzhak Rabin', 'place lived', 'Israel']": [
+                  0.9673813273440516,
+                  0.9673813273440516
+            ]
+      },
+      "-LRB- A version of this concert , recorded in September at the Alhambra in Spain , is to be shown , naturally , on PBS . -RRB-": {
+            "['Spain', 'contains', 'Alhambra']": [
+                  0.9743718874515455,
+                  0.9743718874515455
+            ],
+            "['Spain', 'administrative divisions', 'Alhambra']": [
+                  0.9683889276235665,
+                  0.9683889276235665
+            ]
+      },
+      "A8 More Criticism for Evo Morales Political opponents of President Evo Morales of Bolivia have stepped up criticism of the country 's strengthening military relationship with Venezuela after that more than two dozen uniformed members of the Venezuelan military had recently entered the country without congressional approval .": {
+            "['Evo Morales', 'nationality', 'Bolivia']": [
+                  0.9804932926442469,
+                  0.9804932926442469
+            ],
+            "['Evo Morales', 'place lived', 'Bolivia']": [
+                  0.9743367474583238,
+                  0.9743367474583238
+            ]
+      },
+      "The talk among organizers of the Tour of California this week has been about trying to build on the success of this year 's race , which ends Sunday with a 77.5-mile circuit race in Long Beach .": {
+            "['California', 'contains', 'Long Beach']": [
+                  0.9742595161582444
+            ]
+      },
+      "But , happily , the dialogue is scheduled to continue with a meeting tentatively planned for Ravenna , Italy , in May .": {
+            "['Italy', 'administrative divisions', 'Ravenna']": [
+                  0.9686393165578431,
+                  0.9686393165578431
+            ],
+            "['Italy', 'contains', 'Ravenna']": [
+                  0.9744817673392672,
+                  0.9744817673392672
+            ]
+      },
+      "President Bush took his predecessor , Junichiro Koizumi , on a highprofile visit to Graceland in Memphis , where Mr. Koizumi put on Elvis 's shades and played air guitar while mugging for the camera .": {
+            "['Memphis', 'contains', 'Graceland']": [
+                  0.9742613766840494
+            ],
+            "['Graceland', 'location', 'Memphis']": [
+                  1.0000000000000004
+            ]
+      },
+      "The slowdown '' is temporary , as we are planting the seeds '' of future growth , said Toyota 's president , Katsuaki Watanabe , above .": {
+            "['Katsuaki Watanabe', 'company', 'Toyota']": [
+                  0.975910438742477
+            ]
+      },
+      "Meanwhile there was talk that in its independence war of 1948 Israel should have taken the historic , biblical parts of the land of Israel : Old Jerusalem , Hebron , Jericho , Gaza .": {
+            "['Israel', 'contains', 'Hebron']": [
+                  0.9999999999999984
+            ],
+            "['Israel', 'administrative divisions', 'Jerusalem']": [
+                  0.9553009321201194
+            ],
+            "['Israel', 'contains', 'Jerusalem']": [
+                  0.9868020903207448
+            ]
+      },
+      "At the Regent South Beach in Florida , which opened Dec. 1 , a butler delivers a basket containing five or six soaps to the room .": {
+            "['Florida', 'contains', 'South Beach']": [
+                  0.9743078888169733
+            ]
+      },
+      "Late Show With David Letterman , '' on CBS , is another challenge .": {
+            "['David Letterman', 'company', 'CBS']": [
+                  1.0
+            ]
+      },
+      "David Tang , the founder of the Shanghai Tang clothing chain and a leading arbiter of style among Hong Kong 's elite , said that feng shui advisers were losing their influence , especially among the young . ''": {
+            "['Shanghai Tang', 'founders', 'David Tang']": [
+                  1.0000000000000004,
+                  1.0000000000000004
+            ],
+            "['David Tang', 'company', 'Shanghai Tang']": [
+                  0.9764474250289934,
+                  0.9764474250289934
+            ]
+      },
+      "Ferrari also plans to use the track for extreme-temperature testing of vehicle prototypes , giving the company another facility to complement its Fiorano -LRB- at the factory -RRB- , Imola and Mugello circuits in Italy .": {
+            "['Italy', 'contains', 'Imola']": [
+                  0.9745386613350009
+            ]
+      },
+      "Roberto Gonz\u00e1lez Echevarr\u00eda , a professor of literature at Yale University and the author of '' The Pride of Havana : A History of Cuban Baseball , '' said he was informally advising Garagiola and had the impression that baseball officials wanted to work with Cuba .": {
+            "['Cuba', 'administrative divisions', 'Havana']": [
+                  0.9693551461361082,
+                  0.9693551461361082
+            ],
+            "['Havana', 'country', 'Cuba']": [
+                  0.9798128438653397,
+                  0.9798128438653397
+            ],
+            "['Cuba', 'contains', 'Havana']": [
+                  0.9751490381467598,
+                  0.9751490381467598
+            ]
+      },
+      "In New York City he rents 30,000 square feet -- about 80 rooms -- of former office space in the West Village , which houses 35 birds , tropical plants and wildly colored areas .": {
+            "['New York City', 'contains', 'West Village']": [
+                  0.9743041653113644
+            ]
+      },
+      "The History Baychester was largely marshland until a cucumber farm and pickle factory sprang up in the late 19th century , according to the Encyclopedia of New York City .": {
+            "['New York City', 'contains', 'Baychester']": [
+                  0.9742087359574101
+            ]
+      },
+      "A divided federal appeals court on Tuesday upheld a new law stripping federal judges of authority to review foreign prisoners ' challenges to their detention at Guant\u00e1namo Bay , Cuba .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "A6 NATIONAL A16-23 Court Asked to Limit Lawyers at Guant\u00e1namo The Justice Department has asked a federal appeals court to impose tight new restrictions on the hundreds of lawyers who represent detainees at Guant\u00e1namo Bay , Cuba , and the request has become a central issue in a new legal battle over the administration 's detention policies .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "But he appears to have an expansive sense of the possibilities : this is the governor , after all , who brought Prime Minister Tony Blair of Britain to the Port of Long Beach last year to sign an accord between California and Britain on global warming .": {
+            "['California', 'contains', 'Port of Long Beach']": [
+                  0.9740323141660534
+            ]
+      },
+      "This was so far below demand that , in April , a senior vice president of the testing service 's international division , Paul Ramsey , told reporters in Seoul that an additional 70,000 slots would be created for South Korea in 2007 .": {
+            "['South Korea', 'contains', 'Seoul']": [
+                  0.9749724682170834,
+                  0.9749724682170834
+            ],
+            "['South Korea', 'administrative divisions', 'Seoul']": [
+                  0.9692010859720376,
+                  0.9692010859720376
+            ]
+      },
+      "From 2000 to 2002 , he was a Peace Corps volunteer in Gyumri , Armenia , establishing a summer camp for village children .": {
+            "['Armenia', 'contains', 'Gyumri']": [
+                  0.9741039849487032
+            ]
+      },
+      "But the diplomat hero that Mr. Holbrooke highlighted in his remarks was Aristides de Sousa Mendes , an aristocratic Portuguese consul general in Bordeaux , France , from 1938 to July 1940 .": {
+            "['France', 'contains', 'Bordeaux']": [
+                  0.9746338177212515
+            ]
+      },
+      "Members of the art squad of the Carabinieri paramilitary police said more than 50 artifacts , including columns and mosaics , had been excavated from the site , above , near Crotone in southern Calabria , to decorate a nearby hotel complex .": {
+            "['Calabria', 'contains', 'Crotone']": [
+                  0.9742919179491794
+            ]
+      },
+      "Representative Charles B. Rangel used a meeting yesterday between the state 's Congressional and legislative leaders in Washington to criticize Gov. Eliot Spitzer 's conduct , citing the governor 's hostile relationship with labor and hospital groups .": {
+            "['Charles B. Rangel', 'place lived', 'Washington']": [
+                  0.9764406142235453
+            ]
+      },
+      "There will be more Amaranth Advisors -LRB- which was based in Greenwich , Conn. -RRB- -- funds that blow up because of bad and greedy bets .": {
+            "['Amaranth Advisors', 'location', 'Greenwich']": [
+                  0.9999999999999998
+            ]
+      },
+      "The issue of security was brought to the forefront of the presidential campaign last week after an eight-hour standoff between protesters and the police at the M\u00e9tro station at the Gare du Nord in Paris .": {
+            "['Paris', 'contains', 'Gare du Nord']": [
+                  0.9741349429440629
+            ]
+      },
+      "In fact , before thinking globally , both the Louvre and the Pompidou began building annexes in northern France , in Lens and Metz , to share their collections .": {
+            "['France', 'contains', 'Lens']": [
+                  0.9744800576623277,
+                  0.9765964115621865
+            ],
+            "['France', 'administrative divisions', 'Lens']": [
+                  0.9685146199469259,
+                  0.9718148964464339
+            ]
+      },
+      "A former Baltimore resident , who was transferred last fall from secret C.I.A. custody to detention in Guant\u00e1namo Bay , Cuba , denied to a military hearing that he was an extremist and asserted that he had been tortured while in government custody , according to a transcript the Pentagon released Tuesday . ''": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "It 's not that the Episcopalian John McCain is less comfortable with his faith ; it 's that his faith 's tradition no longer seems convincing to an American public whose expectations have shifted .": {
+            "['John McCain', 'ethnicity', 'American']": [
+                  0.9857982121622125
+            ]
+      },
+      "And while some say that hatred of Israel is caused by Israel 's occupation of the Golan Heights and West Bank , and the conflict in Lebanon , '' she says , '' others note that overt calls by Arab leaders for the destruction of the entire Jewish state were commonplace even before the occupation which began in 1967 . '' ''": {
+            "['Israel', 'contains', 'West Bank']": [
+                  0.976565675416692
+            ]
+      },
+      "All the research indicates that we are certain to find more gas in the Amazon , '' Eduardo Braga , the governor of Amazonas , said in an interview in Manaus , the state capital . ''": {
+            "['Amazonas', 'capital', 'Manaus']": [
+                  0.9768751959753423
+            ]
+      },
+      "To the Editor : It was truly remarkable to read that representatives of prestigious institutions like the Museum of the City of New York and Columbia University were not going to include Robert Caro in a present-day evaluation of Robert Moses ' impact on New York City .": {
+            "['Robert Moses', 'place lived', 'New York City']": [
+                  0.9707513184645614
+            ]
+      },
+      "Sofitel Baltimore Paris , 88 Bis Avenue Kleber ; Paris , France ; 331-4434-5454 ; www.sofitel.com .": {
+            "['Paris', 'country', 'France']": [
+                  0.979850198326095,
+                  0.979850198326095,
+                  0.9798501983260951
+            ],
+            "['France', 'administrative divisions', 'Paris']": [
+                  0.9691696174439287,
+                  0.9691696174439287,
+                  0.9691696174439285
+            ],
+            "['France', 'contains', 'Paris']": [
+                  0.9749827012767718,
+                  0.9749827012767718,
+                  0.9749827012767708
+            ]
+      },
+      "Ads by the Seiden Group in New York present Phoebe not as an old-school '' brand icon , '' said Kimberlee Burrows , director for marketing communications at Georgia-Pacific in Atlanta , but more as a modern '' brand ambassador . '' ''": {
+            "['Georgia-Pacific', 'location', 'Atlanta']": [
+                  1.0000000000000004
+            ]
+      },
+      "Another plane carrying Africans was headed to the ship 's last port of call , Conakry , Guinea , but unrest there obliged it to land in the Cape Verde islands .": {
+            "['Conakry', 'country', 'Guinea']": [
+                  0.9794691913268381
+            ],
+            "['Guinea', 'contains', 'Conakry']": [
+                  0.9746885659450322
+            ],
+            "['Guinea', 'administrative divisions', 'Conakry']": [
+                  0.9687518353830221
+            ]
+      },
+      "A1 No Cap to Ferry Claims A federal judge rejected New York City 's attempt to use an obscure 19th-century maritime law to cap its liability in the 2003 crash of a Staten Island ferry at $ 14 million .": {
+            "['New York City', 'contains', 'Staten Island']": [
+                  0.9744181915882435
+            ]
+      },
+      "In Lyon , France 's second-largest city , the police used tear gas on anti-Sarkozy protesters in the main square .": {
+            "['France', 'administrative divisions', 'Lyon']": [
+                  0.9685684022767619,
+                  0.9685684022767619
+            ],
+            "['France', 'contains', 'Lyon']": [
+                  0.9745125739157259,
+                  0.9745125739157259
+            ]
+      },
+      "By the late 19th century , tens of millions of American bison had been reduced to fewer than 1,000 , with two dozen or so in Yellowstone National Park , and another 250 in Wood Buffalo National Park in Canada .": {
+            "['Canada', 'contains', 'Wood Buffalo National Park']": [
+                  0.9999999999999997
+            ]
+      },
+      "Mr. Putin will continue his Middle Eastern trip Tuesday by traveling to Amman , Jordan , where he will meet with King Abdullah II to discuss economic and political cooperation , and meet with the president of the Palestinian Authority , Mahmoud Abbas .": {
+            "['Jordan', 'administrative divisions', 'Amman']": [
+                  0.9680089270576759,
+                  0.9680089270576759
+            ],
+            "['Jordan', 'contains', 'Amman']": [
+                  0.9740438130399315,
+                  0.9740438130399315
+            ]
+      },
+      "Last year , it opened offices in Warsaw and Bucharest , the capital of Romania . ''": {
+            "['Romania', 'capital', 'Bucharest']": [
+                  0.9751309024908881,
+                  1.0000000000000007,
+                  1.0000000000000002
+            ],
+            "['Romania', 'administrative divisions', 'Bucharest']": [
+                  0.9688574503968952,
+                  0.9688520390683137,
+                  0.968852039068313
+            ],
+            "['Romania', 'contains', 'Bucharest']": [
+                  0.9999999999999999,
+                  0.9751309024908881,
+                  0.9751309024908873
+            ],
+            "['Bucharest', 'country', 'Romania']": [
+                  0.9743306594413637,
+                  0.9773674184888484,
+                  0.9773674184888479
+            ]
+      },
+      "The Louvre in Paris withdrew a request to borrow the statue from the Cleveland museum for an exhibition after the Greek government threatened a boycott .": {
+            "['Paris', 'contains', 'Louvre']": [
+                  0.9745825259238172
+            ]
+      },
+      "Mr. Hicks , the judge read , agreed that he had '' never been illegally treated '' while in American captivity , including '' through the entire period of your detention by the United States at Guant\u00e1namo Bay , Cuba . ''": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "His age is at the center of a legal battle that is to begin tomorrow with an arraignment by a military judge at Guant\u00e1namo Bay , Cuba , of Mr. Khadr , whom a range of legal experts describe as the first child fighter in decades to face war-crimes charges .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "President Hamid Karzai said at a news conference in Kabul that the Afghan people could no longer tolerate such casualties . ''": {
+            "['Hamid Karzai', 'place lived', 'Kabul']": [
+                  0.9770490116601841
+            ]
+      },
+      "Whenever she had vacation time , she 'd fly somewhere , rent a car and simply drive around , indulging her love of American history everywhere from the Shenandoah Valley of Virginia to Sioux City , Iowa .": {
+            "['Iowa', 'contains', 'Sioux City']": [
+                  0.9745022315044529
+            ]
+      },
+      "Why was there no mud yesterday and why did n't CBS 's Jim Nantz and Phil Simms explain why during the Super Bowl ?": {
+            "['Jim Nantz', 'company', 'CBS']": [
+                  0.9739846590581661
+            ]
+      },
+      "A Diagnostic Challenge Elkhonon Goldberg , clinical professor of neurology at New York University and the author of three books on the human mind , says that some underlying neurological problem is the usual cause of amnesia .": {
+            "['Elkhonon Goldberg', 'company', 'New York University']": [
+                  0.9760423165073857
+            ]
+      },
+      "It is a motivational idea by Howie Dickenman , who has been the Blue Devils ' coach for the last 11 years after a long tenure as an assistant under Jim Calhoun at Connecticut .": {
+            "['Howie Dickenman', 'place lived', 'Connecticut']": [
+                  0.9669048254782528
+            ]
+      },
+      "Iran has said that it plans to install 3,000 of the machines at Natanz soon .": {
+            "['Iran', 'contains', 'Natanz']": [
+                  0.9742319664238568
+            ]
+      },
+      "Mr. Feldman was sent to meet quietly with Israeli leaders , particularly David Ben-Gurion and Golda Meir , about matters including arms sales , Palestinian refugees , and whether Israel was building a nuclear weapon .": {
+            "['David Ben-Gurion', 'place lived', 'Israel']": [
+                  0.9674144350367819
+            ],
+            "['David Ben-Gurion', 'nationality', 'Israel']": [
+                  0.9691376062965513
+            ]
+      },
+      "CULTURED TRAVELER LA PAZ , BOLIVIA Correction : June 3 , 2007 , Sunday The Cultured Traveler column last Sunday about La Paz , Bolivia , misstated the surname in some copies for Roberto Cazorla Guzman , the owner of the Costilla de Ad\u00e1n bar .": {
+            "['Bolivia', 'contains', 'La Paz']": [
+                  0.9746378959049985,
+                  0.9746378959049985
+            ],
+            "['Bolivia', 'administrative divisions', 'La Paz']": [
+                  0.9688472108401053,
+                  0.9688472108401053
+            ],
+            "['La Paz', 'country', 'Bolivia']": [
+                  0.9793811999869287,
+                  0.9793811999869287
+            ]
+      },
+      "Having so many operating systems makes it expensive to make software , said Faraz Hoodbhoy , the chief executive of PixSense , whose software helps users of camera phones save and share multimedia content . ''": {
+            "['Faraz Hoodbhoy', 'company', 'PixSense']": [
+                  0.9739914127609708,
+                  0.9739914127609708
+            ],
+            "['PixSense', 'advisors', 'Faraz Hoodbhoy']": [
+                  0.9713411405921488,
+                  0.9713411405921488
+            ]
+      },
+      "The decision to award the contract -- the supposed crime -- occurred in Madison , in the jurisdiction of Wisconsin 's other United States attorney .": {
+            "['Wisconsin', 'contains', 'Madison']": [
+                  0.9746566020334615
+            ]
+      },
+      "Michael D. Griffin , NASA 's administrator , did signal a thaw in relations when he visited China last fall .": {
+            "['Michael D. Griffin', 'company', 'NASA']": [
+                  0.9736848932664431
+            ]
+      },
+      "On the other hand , many older football fans in Indiana feel strong ties to the Bears because the team practiced at St. Joseph 's College in Rensselaer from 1944 to 1974 .": {
+            "['Indiana', 'contains', 'Rensselaer']": [
+                  0.9741628795153627
+            ]
+      },
+      "Zachary T. Fardon has joined the Chicago office of Latham & Watkins as a partner in the litigation department .": {
+            "['Latham & Watkins', 'location', 'Chicago']": [
+                  0.9999999999999989,
+                  0.9999999999999989
+            ],
+            "['Latham & Watkins', 'place lived', 'Chicago']": [
+                  0.9767329484349294,
+                  0.9767329484349294
+            ]
+      },
+      "BUSINESS ALONG THE BORDER -- Ju\u00e1rez , Mexico , has become one of North America 's fastest-growing markets for commercial real estate , as manufacturers build assembly plants for products like computers , appliances and medical devices .": {
+            "['Mexico', 'administrative divisions', 'Ju\u00e1rez']": [
+                  0.9684636850514647,
+                  0.9684636850514647,
+                  0.9684636850514645
+            ],
+            "['North America', 'contains', 'Mexico']": [
+                  0.9463986842543575,
+                  0.9463986842543575,
+                  0.9463986842543577
+            ],
+            "['Mexico', 'contains', 'Ju\u00e1rez']": [
+                  0.9743954592738485,
+                  0.9743954592738485,
+                  0.9743954592738484
+            ],
+            "['Ju\u00e1rez', 'country', 'Mexico']": [
+                  0.9792094905163127,
+                  0.9792094905163127,
+                  0.979209490516313
+            ]
+      },
+      "Walk down the streets of Hargeisa , the capital of Somaliland , and instead of gunmen you come across the thriving jewelry and financial market : scores of vendors , most of them women , are hawking millions of dollars worth of gold , precious stones and foreign currency out in the open air .": {
+            "['Somaliland', 'contains', 'Hargeisa']": [
+                  0.9745953374016578,
+                  0.9743058565368936
+            ],
+            "['Somaliland', 'administrative divisions', 'Hargeisa']": [
+                  0.9680540808442408,
+                  0.968375462563687
+            ],
+            "['Somaliland', 'capital', 'Hargeisa']": [
+                  1.0000000000000013,
+                  0.9765602994502343
+            ]
+      },
+      "On a recent Saturday , Dave Hardy , director of field programs for the Green Mountain Club , led a group of a dozen snowshoers on a two-hour trek up Willey Hill , a modest , thickly wooded summit about 10 miles from Stowe in central Vermont .": {
+            "['Vermont', 'contains', 'Stowe']": [
+                  0.9742040558209747
+            ]
+      },
+      "The second major event at the Spring North American Bridge Championships of the American Contract Bridge League here was the two-day Silodor Open Pairs , which ended Saturday night in a victory for Giorgio Duboin from Italy and Roy Welland of New York .": {
+            "['Giorgio Duboin', 'place of birth', 'Italy']": [
+                  0.9793949027000162
+            ]
+      },
+      "Seconds after his match ended Monday , Nikolay Davydenko of Russia wrapped himself in a fuzzy blue towel and ran off the court as the rain began to pour , yet again , at the French Open .": {
+            "['Nikolay Davydenko', 'place lived', 'Russia']": [
+                  0.9718745365416828,
+                  0.9718745365416828
+            ],
+            "['Nikolay Davydenko', 'nationality', 'Russia']": [
+                  1.0000000000000002,
+                  1.0000000000000002
+            ]
+      },
+      "The coming retirement of Mr. Wright , who has led NBC for nearly 20 years and is now 63 , and the appointment of Mr. Zucker , who is 41 , were both presaged in an interview given to The New York Times in November by Jeffrey R. Immelt , the chairman of G.E. '' Bob 's done his job extremely well for a long period of time , '' Mr. Immelt said , '' and he 's getting close to retirement . ''": {
+            "['Jeffrey R. Immelt', 'company', 'NBC']": [
+                  0.973760445590363
+            ]
+      },
+      "Abbott competed for Michigan , helped the United States win the 1988 Olympic gold medal in Seoul , South Korea , and later pitched a no-hitter for the Yankees .": {
+            "['South Korea', 'contains', 'Seoul']": [
+                  0.9749724682170834,
+                  0.9749724682170834,
+                  0.9749724682170828
+            ],
+            "['South Korea', 'administrative divisions', 'Seoul']": [
+                  0.9692010859720376,
+                  0.9692010859720376,
+                  0.9692010859720384
+            ],
+            "['Seoul', 'country', 'South Korea']": [
+                  0.9796924424516853,
+                  0.9796924424516853,
+                  0.979692442451686
+            ]
+      },
+      "Severe storms swept through Atlanta , grounding planes scheduled to leave Hartsfield-Jackson Atlanta International Airport and diverting and delaying inbound flights .": {
+            "['Atlanta', 'contains', 'Hartsfield-Jackson Atlanta International Airport']": [
+                  0.9742940540053574
+            ]
+      },
+      "The Socialist government of Spain will never again negotiate with the Basque separatist group ETA after a deadly attack on Madrid 's main airport terminal nine days ago , Interior Minister Alfredo P\u00e9rez Rubalcaba said Monday . ''": {
+            "['Spain', 'contains', 'Madrid']": [
+                  0.9746632776756529,
+                  0.9750268117553006
+            ],
+            "['Madrid', 'country', 'Spain']": [
+                  0.9794391753219243,
+                  0.9772122187016932
+            ]
+      },
+      "Waters herself tells us of the first day of her first visit to France in 1965 , when the heavy blue draperies of a Paris hotel and the good vegetable soup served there represented something of an awakening for her .": {
+            "['Paris', 'country', 'France']": [
+                  0.979850198326095,
+                  0.979850198326095
+            ],
+            "['France', 'contains', 'Paris']": [
+                  0.9749827012767718,
+                  0.9749827012767718
+            ]
+      },
+      "Mr. Hawass said he was also seeking the zodiac ceiling painting from the Dendera Temple , now in the Louvre ; the statue of Hemiunu in the Roemer and Pelizaeus Museum in Hildesheim , near Hanover , Germany ; and the bust of Anchhaf at the Museum of Fine Arts in Boston .": {
+            "['Hanover', 'contains', 'Hildesheim']": [
+                  0.9744211163746551,
+                  0.9500574370307276
+            ],
+            "['Hanover', 'country', 'Germany']": [
+                  0.950163431996097,
+                  0.9591508907592028
+            ],
+            "['Germany', 'contains', 'Hanover']": [
+                  0.9528889786662427,
+                  0.955315192002306
+            ],
+            "['Germany', 'contains', 'Hildesheim']": [
+                  0.9512883428638356,
+                  0.9743424227102995
+            ]
+      },
+      "Attributing the melting to the growing emission of greenhouse gases causing global warming , scientists say Bolivia 's skiing tradition could be extinguished when Chacaltaya 's modest ski run disappears forever in a few years . ''": {
+            "['Bolivia', 'contains', 'Chacaltaya']": [
+                  0.9741766919032124
+            ]
+      },
+      "Fred 's reputation was impugned by Apple , '' said Roger McNamee , a managing director at Elevation Partners , the venture capital firm where Mr. Anderson is a colleague . ''": {
+            "['Roger McNamee', 'company', 'Elevation Partners']": [
+                  0.9794739054391707,
+                  0.9782564188577946
+            ],
+            "['Elevation Partners', 'advisors', 'Roger McNamee']": [
+                  0.9738990872401272,
+                  0.9791020985161573
+            ]
+      },
+      "We want the war to end , '' said the author of one such bill , Jeanne Kohl-Welles , who represents Seattle in the Washington State Senate . ''": {
+            "['Washington', 'contains', 'Seattle']": [
+                  0.974838475761058
+            ]
+      },
+      "David Eun , a vice president for content partnerships at Google , said that his company had been `` very serious '' about the talks , but that the companies could not agree on financial terms .": {
+            "['David Eun', 'company', 'Google']": [
+                  0.9999999999999999
+            ]
+      },
+      "PAGE A21 HBO Chief Takes a Leave The chief executive of HBO , Chris Albrecht , said he would take a leave of absence after being charged with assaulting a girlfriend in Las Vegas on Sunday .": {
+            "['Chris Albrecht', 'company', 'HBO']": [
+                  1.0000000000000004
+            ]
+      },
+      "This was at St. Joseph 's College in Rensselaer , Ind. , right off Interstate 65 where Chicagoland meets Indiana , the epicenter of this year 's regional Super Bowl .": {
+            "['Indiana', 'contains', 'Rensselaer']": [
+                  0.9741628795153627
+            ]
+      },
+      "On May 10 the annual Royal Plowing Ceremony will be performed on the Sanam Luang parade ground near the Royal Palace in Bangkok .": {
+            "['Bangkok', 'contains', 'Sanam Luang']": [
+                  0.974382310593922
+            ]
+      },
+      "He went to Southeast Missouri State University in Cape Girardeau for about three years , majoring in marketing , before dropping out to join the Marine Corps Reserve .": {
+            "['Cape Girardeau', 'contains', 'Southeast Missouri State University']": [
+                  0.9741397952967701
+            ]
+      },
+      "A plan to introduce cars produced by the Chinese automaker Chery Automobile foundered , said David E. Cole , chairman of the Center for Automotive Research in Ann Arbor , Mich. '' When you look at what 's required to compete in terms of emissions and safety standards , it is incredibly difficult , '' Mr. Cole said . ''": {
+            "['Chery Automobile', 'location', 'Ann Arbor']": [
+                  0.9999999999999999
+            ]
+      },
+      "The top United States negotiator on North Korea 's nuclear weapons program , Christopher R. Hill , an assistant secretary of state , said in Seoul , South Korea , on Tuesday that it was still possible to meet the deadline . ''": {
+            "['South Korea', 'contains', 'Seoul']": [
+                  0.9749724682170834,
+                  0.9749724682170834,
+                  0.9749724682170828
+            ],
+            "['South Korea', 'administrative divisions', 'Seoul']": [
+                  0.9692010859720376,
+                  0.9692010859720376,
+                  0.9692010859720384
+            ],
+            "['Seoul', 'country', 'South Korea']": [
+                  0.9796924424516853,
+                  0.9796924424516853,
+                  0.979692442451686
+            ]
+      },
+      "This sparkling cove at Boulders Beach , less than an hour outside Cape Town , South Africa , is part of Table Mountain National Park , and one of the most protected places along False Bay for kids -- and birds -- to swim .": {
+            "['South Africa', 'administrative divisions', 'Cape Town']": [
+                  0.9687530587917821,
+                  0.9687530587917821
+            ],
+            "['South Africa', 'contains', 'Cape Town']": [
+                  0.9746733108397962,
+                  0.9746733108397962
+            ]
+      },
+      "Diplomats and Middle East analysts said that while Mr. Abbas could represent the Palestinians and initiate peace talks with Israel , he probably could not conclude those talks unless the entire Palestinian government recognized Israel .": {
+            "['Middle East', 'contains', 'Israel']": [
+                  0.9689720573385511
+            ]
+      },
+      "If I want to purchase a case of carrots , it 's much easier -LRB- and cheaper -RRB- to get them from the Salinas Valley , in California , than from the Hudson Valley that surrounds my restaurants .": {
+            "['California', 'contains', 'Salinas Valley']": [
+                  0.9745159949600334
+            ]
+      },
+      "Omar bin Sulaiman , governor of the Dubai financial center , is trying to establish a financial hub in the Middle East on a par with London , Hong Kong and New York .": {
+            "['Middle East', 'contains', 'Dubai']": [
+                  0.9744310339222072
+            ]
+      },
+      "The dispute stems from an investigation of Hewlett-Packard 's directors initiated under the company 's former chairwoman , Patricia C. Dunn .": {
+            "['Patricia C. Dunn', 'company', 'Hewlett-Packard']": [
+                  0.9759825072134425
+            ]
+      },
+      "The Democratic Unionist Party has said it will not even consider the so-called St. Andrews Agreement proposals , sponsored by Britain and Ireland , for a Protestant-Catholic local government to be set up in Belfast on March 26 unless Sinn Fein first indicates support for the police .": {
+            "['Ireland', 'contains', 'Belfast']": [
+                  0.974764182637962
+            ]
+      },
+      "France 's citoyennes were used in the streets of Paris as stooges and enforcers or idolized as keepers of the revolutionary home and heart , but when they drew attention to themselves as individuals rather than symbols , they were disdained , despised and sometimes , like Gouges , condemned to death .": {
+            "['Paris', 'country', 'France']": [
+                  0.979850198326095,
+                  0.979850198326095
+            ],
+            "['France', 'administrative divisions', 'Paris']": [
+                  0.9691696174439287,
+                  0.9691696174439287
+            ],
+            "['France', 'contains', 'Paris']": [
+                  0.9749827012767718,
+                  0.9749827012767718
+            ]
+      },
+      "According a source close to the campaign , the itinerary includes fund-raisers in Florida on Tuesday followed by more stops across the country before appearing as the keynote speaker at the California Republican Convention in Sacramento on Saturday .": {
+            "['California', 'contains', 'Sacramento']": [
+                  0.9746857516285679,
+                  0.9746857516285679
+            ],
+            "['California', 'capital', 'Sacramento']": [
+                  0.9769570851796984,
+                  0.9769570851796984
+            ]
+      },
+      "Mr. Williams became a prominent part of the European faction of the Fluxus movement when its first performance festival took place in Wiesbaden , Germany , in 1962 .": {
+            "['Germany', 'contains', 'Wiesbaden']": [
+                  0.9742803255936641
+            ]
+      },
+      "Mr. Hicks is the first detainee from the American base at Guant\u00e1namo Bay , Cuba , to be charged under the Military Commissions Act of 2006 .": {
+            "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
+                  0.9744293623757615
+            ]
+      },
+      "OFTEN mentioned as a candidate to receive the Nobel Peace Prize , or , perhaps less seriously , to run the World Bank , U2 's 46-year-old lead singer , Bono , has toured Africa with senior American officials to campaign against AIDS , and hobnobbed with financiers and policymakers while speaking out on global poverty issues at the World Economic Forum in Davos , Switzerland .": {
+            "['Switzerland', 'contains', 'Davos']": [
+                  0.973991943213004,
+                  0.973991943213004
+            ],
+            "['Switzerland', 'administrative divisions', 'Davos']": [
+                  0.9679695749702877,
+                  0.9679695749702877
+            ]
+      },
+      "In Louisiana , in the area of New Orleans , Metairie and Kenner , the average price fell by 11 percent .": {
+            "['Louisiana', 'contains', 'Kenner']": [
+                  0.9740942897629195,
+                  0.946465640526605
+            ],
+            "['Louisiana', 'contains', 'Metairie']": [
+                  0.9510072289179587,
+                  0.9746645359670935
+            ]
+      },
+      "And another boy , who was supposed to be flying to Taipei , Taiwan , via Tokyo , ended up in his seat .": {
+            "['Taiwan', 'contains', 'Taipei']": [
+                  0.9748636083912297
+            ]
+      },
+      "E1 OBITUARIES A13 Alice Coltrane The widow of the jazz saxophonist John Coltrane and the pianist in his later bands , who extended her musical searches into a vocation as a spiritual leader , she was 69 .": {
+            "['Alice Coltrane', 'children', 'John Coltrane']": [
+                  0.9579838964449475
+            ]
+      },
+      "Carrie Sheinberg -LRB- inducted in 2006 -RRB- , an Olympic skier who raced in Lillehammer , Norway , can be excused for leaving Port Washington .": {
+            "['Norway', 'contains', 'Lillehammer']": [
+                  0.9746366013963957,
+                  0.9746366013963957
+            ],
+            "['Norway', 'administrative divisions', 'Lillehammer']": [
+                  0.9688212522745454,
+                  0.9688212522745454
+            ]
+      },
+      "For years , he has been a regular at the Aspen Institute and the World Economic Forum in Davos , Switzerland . ''": {
+            "['Switzerland', 'contains', 'Davos']": [
+                  0.973991943213004,
+                  0.973991943213004
+            ],
+            "['Switzerland', 'administrative divisions', 'Davos']": [
+                  0.9679695749702877,
+                  0.9679695749702877
+            ]
+      },
+      "One of the State Department 's most experienced Middle East hands , Mr. Crocker , 57 , has already served as ambassador to Kuwait , Syria , Lebanon and Pakistan , with postings as well to Iran , Qatar , Egypt and Afghanistan .": {
+            "['Middle East', 'contains', 'Lebanon']": [
+                  0.9745235676666897,
+                  0.9590090279403117
+            ],
+            "['Middle East', 'contains', 'Qatar']": [
+                  0.9552436487346883,
+                  0.9743946286318914
+            ]
+      }
+}
