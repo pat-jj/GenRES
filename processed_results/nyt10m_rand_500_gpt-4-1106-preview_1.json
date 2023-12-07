@@ -68,8 +68,8 @@
             ],
             [
                   "Lie Down in Darkness",
-                  "is a",
-                  "publication"
+                  "is a publication",
+                  ""
             ],
             [
                   "Peter Matthiessen",
@@ -622,29 +622,19 @@
       ],
       "Peter Munk , founder and chairman of Barrick Gold in Toronto , has warned that an exodus of head offices to other countries will cause , among other things , lower levels of charitable donations and fewer opportunities for skilled workers .": [
             [
-                  "Peter Munk",
-                  "founder of",
-                  "Barrick Gold"
-            ],
-            [
-                  "Peter Munk",
-                  "chairman of",
-                  "Barrick Gold"
-            ],
-            [
                   "Barrick Gold",
                   "located in",
                   "Toronto"
             ],
             [
                   "Peter Munk",
-                  "based in",
-                  "Toronto"
+                  "has warned",
+                  "exodus of head offices will cause lower levels of charitable donations"
             ],
             [
                   "Peter Munk",
-                  "warned",
-                  "effects of exodus of head offices"
+                  "has warned",
+                  "exodus of head offices will cause fewer opportunities for skilled workers"
             ],
             [
                   "exodus of head offices",
@@ -655,6 +645,11 @@
                   "exodus of head offices",
                   "will cause",
                   "fewer opportunities for skilled workers"
+            ],
+            [
+                  "Peter Munk",
+                  "founder and chairman of",
+                  "Barrick Gold"
             ]
       ],
       "The sculpture was commissioned by Brian Maxwell , who created the PowerBar energy snack and donated it to Kennesaw . ''": [

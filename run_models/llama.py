@@ -1,7 +1,16 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm 
 import torch
+import random
+import numpy as np
 
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+        
 def model_name_wrapper(model_name_raw):
     model_name = ''
     if model_name_raw == 'mistral':
@@ -48,7 +57,8 @@ def model_name_wrapper(model_name_raw):
     return model_name
     
 
-def llama_model_init(model_name, cache_dir):
+def llama_model_init(model_name, cache_dir, seed=44):
+    set_seed(seed)
     tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_name, cache_dir=cache_dir,

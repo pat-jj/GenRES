@@ -84,29 +84,31 @@ def main():
             # 'vicuna-1.5-7b',
             # 'vicuna-1.3-33b', 
             # 'llama-2-7b',
-            # 'llama-2-70b',
+            'llama-2-70b',
             # 'wizardlm-70b',
             # 'text-davinci-003',
             # 'gpt-3.5-turbo-instruct',
             # 'gpt-3.5-turbo-1106',
             # 'gpt-4',
-            # 'gpt-4-1106-preview',
+            'gpt-4-1106-preview',
             # 'mistral',
             # 'zephyr-7b-beta',
             # 'galactica-30b',
-            # 'openchat',
-            'gpt-3.5_closed',
-            'gpt-3.5_semi',
+            'openchat',
+            # 'gpt-3.5_closed',
+            # 'gpt-3.5_semi',
             ]
         
         dataset_names = [
             # 'cdr_rand_200',
             # 'docred_rand_200',
-            'nyt10m_rand_500',
-            # 'wiki20m_rand_500',
+            # 'nyt10m_rand_500',
+            'wiki20m_rand_500',
             # 'tacred_rand_800',
             # 'wiki80_rand_800',
         ]
+        
+        seeds = [54, 64, 74, 84]
         
         if os.path.exists(f'./results/FS.json'):
             with open(f'./results/FS.json', 'r') as f:
@@ -114,29 +116,30 @@ def main():
             
         for model_name in model_names:
             for dataset_name in dataset_names:
-                if model_name in all_scores[dataset_name]:
-                    continue
-                try:
-                    file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{args.exp_id}.json'
-                    with open(file_to_evaluate, 'r') as f:
-                        data_to_evaluate = json.load(f)
-                    
-                    print(f"Calculating FS score for model {model_name} on dataset {dataset_name}...")
-                    fs_score, results = calculate_factualness_score(data_to_evaluate)
+                for seed in seeds:
+                    if f'{model_name}-{seed}' in all_scores[dataset_name]:
+                        continue
                     try:
-                        with open(f'./factualness/{dataset_name}_{model_name}_{args.exp_id}.json', 'w') as f:
-                            json.dump(results, f, indent=6)
+                        file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{seed}.json'
+                        with open(file_to_evaluate, 'r') as f:
+                            data_to_evaluate = json.load(f)
+                        
+                        print(f"Calculating FS score for model {model_name} on dataset {dataset_name}...")
+                        fs_score, results = calculate_factualness_score(data_to_evaluate)
+                        try:
+                            with open(f'./factualness/{dataset_name}_{model_name}_{seed}.json', 'w') as f:
+                                json.dump(results, f, indent=6)
+                        except Exception as e:
+                            print(f"Error saving results for model {model_name} on dataset {dataset_name}: {e}")
+                        print(f"FS score for model {model_name} on dataset {dataset_name}: {fs_score}")
+                        
+                        all_scores[dataset_name][f'{model_name}-{seed}'] = fs_score
                     except Exception as e:
-                        print(f"Error saving results for model {model_name} on dataset {dataset_name}: {e}")
-                    print(f"FS score for model {model_name} on dataset {dataset_name}: {fs_score}")
+                        print(f"Error calculating FS score for model {model_name} on dataset {dataset_name}: {e}")
+                        continue
                     
-                    all_scores[dataset_name][model_name] = fs_score
-                except Exception as e:
-                    print(f"Error calculating FS score for model {model_name} on dataset {dataset_name}: {e}")
-                    continue
-                
-                with open(f'./results/FS.json', 'w') as f:
-                    json.dump(all_scores, f, indent=6)
+                    with open(f'./results/FS.json', 'w') as f:
+                        json.dump(all_scores, f, indent=6)
             
     else:
         file_to_evaluate = f'../processed_results/{args.dataset}_{args.model_name}_{args.exp_id}.json'

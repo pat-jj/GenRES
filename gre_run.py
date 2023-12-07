@@ -81,7 +81,7 @@ def gpt_run_model(args, dataset_file, prompt_file, output_file):
         # try:
         source_text = source_texts[i]
         prompt = prompt_.replace('$TEXT$', source_text)
-        generation = gpt_func(args.model_name, prompt)
+        generation = gpt_func(args.model_name, prompt, args.seed)
         # relation_str = post_processing(args.model_name, generation)
         results[source_text] = generation
         if i % 20  == 0:
@@ -171,6 +171,7 @@ def construct_args():
     parser.add_argument('--dataset', type=str, default='nyt10m')
     parser.add_argument('--device', type=str, default='cuda')
     parser.add_argument('--type', type=str, default='open')
+    parser.add_argument('--seed', type=int, default=44)
     parser.add_argument('--exp_id', type=str, default='1')
     
     args = parser.parse_args()
@@ -180,11 +181,11 @@ def main():
     args = construct_args()
     dataset_file = f'./datasets/{args.dataset}.json'
     prompt_file = f'./prompts/{args.prompt}.txt'
-    output_file = f'./results/{args.dataset}_{args.model_name}_{args.exp_id}.json'
+    output_file = f'./results/{args.dataset}_{args.model_name}_{args.seed}.json'
     
     if args.model_family == 'llama':
         model_name = model_name_wrapper(args.model_name)
-        tokenizer, model = llama_model_init(model_name, args.model_cache_dir)
+        tokenizer, model = llama_model_init(model_name, args.model_cache_dir, args.seed)
         results = llama_run_model(args, tokenizer, model, dataset_file, prompt_file, output_file)
     
     elif args.model_family == 'gpt':

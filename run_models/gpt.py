@@ -5,7 +5,7 @@ with open('./run_models/openai_api.key', 'r') as f:
     api_key = f.read().strip()
     
     
-def gpt_instruct(model, prompt):
+def gpt_instruct(model, prompt, seed=44):
     client = OpenAI(api_key=api_key)
 
     response = client.completions.create(
@@ -13,12 +13,13 @@ def gpt_instruct(model, prompt):
     prompt=prompt,
     max_tokens=800,
     temperature=0.3,
+    seed=seed,
     )
     
     return response.choices[0].text
 
 
-def gpt_chat(model, prompt):
+def gpt_chat(model, prompt, seed=44):
     client = OpenAI(api_key=api_key)
 
     response = client.chat.completions.create(
@@ -29,6 +30,7 @@ def gpt_chat(model, prompt):
     ],
     max_tokens=800,
     temperature=0.3,
+    seed=seed,
     )
     
     return response.choices[0].message.content

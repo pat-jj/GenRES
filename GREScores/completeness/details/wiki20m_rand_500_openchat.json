@@ -19,6 +19,10 @@
             "['mysql cluster', 'said to be the same as', 'ndb']": [
                   0.9322659490443893,
                   0.9401041783218204
+            ],
+            "['ndb', 'said to be the same as', 'mysql cluster']": [
+                  0.9322659490443893,
+                  0.9401041783218204
             ]
       },
       "Shanty Run joins Quinn Run upstream of its mouth .": {
@@ -139,6 +143,14 @@
                   0.8898927322159631,
                   0.8913525887326825,
                   0.9425957455298078
+            ],
+            "['fr\u00e9mont', 'said to be the same as', 'fremont']": [
+                  0.9353038278802939,
+                  0.9401218211475121,
+                  0.8916983863061861,
+                  0.8898927322159631,
+                  0.8913525887326825,
+                  0.9425957455298078
             ]
       },
       "In 1995 , Griffin Dunne was nominated for an Academy Award for Best Live Action Short Film for \" Duke of Groove \" , which he directed and co - wrote .": {
@@ -159,6 +171,11 @@
       },
       "Priit \n\n Priit is an Estonian masculine given name , cognate to English Fred or Frederick and to German Friedrich .": {
             "['frederick', 'said to be the same as', 'friedrich']": [
+                  0.9273755359363847,
+                  0.932919610325132,
+                  0.8827690920176512
+            ],
+            "['friedrich', 'said to be the same as', 'frederick']": [
                   0.9273755359363847,
                   0.932919610325132,
                   0.8827690920176512
@@ -198,6 +215,19 @@
       },
       "Variations of the given name include : Paschal , Pasqual , Pasquale , Paskal , Pascoal , Pascale , Pascha , Paschalis , Pascual , Pascoe , and Pasco .": {
             "['pascual', 'said to be the same as', 'pasquale']": [
+                  0.9471062494168863,
+                  0.9582577622179842,
+                  0.9549953959556269,
+                  0.9400388087507547,
+                  0.9449216217927627,
+                  0.9338435783604441,
+                  0.9218242804701189,
+                  0.9557855689506283,
+                  0.9545491144955047,
+                  0.9240564991581931,
+                  0.9128987543007651
+            ],
+            "['pasquale', 'said to be the same as', 'pascual']": [
                   0.9471062494168863,
                   0.9582577622179842,
                   0.9549953959556269,
@@ -315,6 +345,10 @@
       },
       "Union flag ( disambiguation ) \n\n The Union Flag is the name of the flag of the United Kingdom , commonly called the Union Jack .": {
             "['union flag', 'said to be the same as', 'flag of the united kingdom']": [
+                  0.9453530650612553,
+                  0.9680613660071867
+            ],
+            "['flag of the united kingdom', 'said to be the same as', 'union flag']": [
                   0.9453530650612553,
                   0.9680613660071867
             ]
@@ -518,6 +552,13 @@
                   0.936617224235758,
                   0.9497965520097666,
                   0.9408632522972928
+            ],
+            "['kiril', 'said to be the same as', '\u043a\u0438\u0440\u0438\u043b\u043b']": [
+                  0.94320454445182,
+                  0.9391472374703933,
+                  0.936617224235758,
+                  0.9497965520097666,
+                  0.9408632522972928
             ]
       },
       "It was the started at time when there was no Department of Agriculture in the United States government , before Abraham Lincoln established an independent Department of Agriculture .": {
@@ -592,10 +633,19 @@
             "['jost', 'said to be the same as', 'yost']": [
                   0.9431165429711489,
                   0.9352989722235913
+            ],
+            "['yost', 'said to be the same as', 'jost']": [
+                  0.9431165429711489,
+                  0.9352989722235913
             ]
       },
       "On 7 July 1881 , Jacques Paul married Lucie ( Lucy ) Josephine Fehrenbach ( 19 December 1856 - ?": {
             "['lucie', 'said to be the same as', 'lucy']": [
+                  0.9044001761218203,
+                  0.9263416692815516,
+                  0.91191469044973
+            ],
+            "['lucy', 'said to be the same as', 'lucie']": [
                   0.9044001761218203,
                   0.9263416692815516,
                   0.91191469044973
@@ -831,6 +881,12 @@
                   0.9369603213129307,
                   0.9244109020531016,
                   0.9385997794659816
+            ],
+            "['lucy', 'said to be the same as', 'lucie']": [
+                  0.9335170884646503,
+                  0.9369603213129307,
+                  0.9244109020531016,
+                  0.9385997794659816
             ]
       },
       "Ekaterina Vilkova was born in Gorky , Russian SFSR , Soviet Union ( now Nizhny Novgorod , Russia ) .": {
@@ -851,6 +907,11 @@
       },
       "' \u201d \n\n The 17th century alchemist Eirenaeus Philalethes , also known as George Starkey , describes stibnite in his alchemical commentary \" An Exposition upon Sir George Ripley 's Epistle \" .": {
             "['george starkey', 'said to be the same as', 'eirenaeus philalethes']": [
+                  0.940584183601951,
+                  0.9326173173969277,
+                  0.9670823468298597
+            ],
+            "['eirenaeus philalethes', 'said to be the same as', 'george starkey']": [
                   0.940584183601951,
                   0.9326173173969277,
                   0.9670823468298597
@@ -898,6 +959,11 @@
       },
       "\" Cogan ( 2008 ) , p. 82 \n\n \" Yahweh \" ( \u05d9\u05d4\u05d5\u05d4 ) is the name of the Judeo - Christian God in both the Bible .": {
             "['yahweh', 'said to be the same as', 'christian god']": [
+                  0.9520709663561356,
+                  0.9360050736072351,
+                  0.9232058979328241
+            ],
+            "['christian god', 'said to be the same as', 'yahweh']": [
                   0.9520709663561356,
                   0.9360050736072351,
                   0.9232058979328241
@@ -1070,6 +1136,11 @@
                   0.9053705838638965,
                   0.9251773777542118,
                   0.9096921500483854
+            ],
+            "['nintendo entertainment system', 'said to be the same as', 'nes']": [
+                  0.9053705838638965,
+                  0.9251773777542118,
+                  0.9096921500483854
             ]
       },
       "Willys later produced the M38 Jeep for the U.S. Army , and continued the CJ series of civilian Jeeps .": {
@@ -1106,6 +1177,13 @@
       },
       "Rainier ( name ) \n\n The name Rainier ( or ; , a French form of Rainer ) may refer to \n\n Given name : \n\n Surname : \n\n Fiction :": {
             "['rainer', 'said to be the same as', 'rainier']": [
+                  0.958162876986345,
+                  0.937926314730777,
+                  0.9400171583234801,
+                  0.9313132695731178,
+                  0.9407033846483117
+            ],
+            "['rainier', 'said to be the same as', 'rainer']": [
                   0.958162876986345,
                   0.937926314730777,
                   0.9400171583234801,
@@ -1373,6 +1451,12 @@
                   0.9303547994090726,
                   0.9014824498138898,
                   0.9150807835356841
+            ],
+            "['l\u00e1szl\u00f3', 'said to be the same as', 'ladislav']": [
+                  0.9255248917103318,
+                  0.9303547994090726,
+                  0.9014824498138898,
+                  0.9150807835356841
             ]
       },
       "Old time and fiddle music are well represented by such Canadian exponents as Jerry Holland , Natalie MacMaster , Sierra Noble , The Rankin Family , and Ashley MacIsaac .": {
@@ -1445,6 +1529,11 @@
       },
       "Santa Luzia ( Funchal ) \n\n Santa Luzia ( Portuguese meaning Saint Lucia ) is a parish in the municipality of Funchal in the Madeira Islands .": {
             "['santa luzia', 'said to be the same as', 'saint lucia']": [
+                  0.9419820202616627,
+                  0.9500438143326606,
+                  0.9353032253675405
+            ],
+            "['saint lucia', 'said to be the same as', 'santa luzia']": [
                   0.9419820202616627,
                   0.9500438143326606,
                   0.9353032253675405
@@ -1570,6 +1659,12 @@
                   0.91845244101449,
                   0.9317044121452271,
                   0.9133272983981247
+            ],
+            "['chest', 'said to be the same as', 'thorax']": [
+                  0.9079962733062478,
+                  0.91845244101449,
+                  0.9317044121452271,
+                  0.9133272983981247
             ]
       },
       "Executive producer Jeff Pinkner and supervising producer Drew Goddard co - wrote \" The Glass Ballerina \" , while cinematographer Paul Edwards served as the director .": {
@@ -1654,6 +1749,11 @@
       },
       "Darion is a masculine name ; variants include Darian and Darien .": {
             "['darien', 'said to be the same as', 'darian']": [
+                  0.9524504629062771,
+                  0.9546392253223148,
+                  0.9326844059432559
+            ],
+            "['darian', 'said to be the same as', 'darien']": [
                   0.9524504629062771,
                   0.9546392253223148,
                   0.9326844059432559
@@ -1853,6 +1953,11 @@
       },
       "Gonsales \n\n The last name Gonsales or Gons\u00e1les is a Portuguese variation of Gonzalez and means \" \" son of Gonsalo \" \" ; some people who have or have used this last name include :": {
             "['gonsales', 'said to be the same as', 'gonzalez']": [
+                  0.941742885017393,
+                  0.9360068307658845,
+                  0.9421737020141463
+            ],
+            "['gonzalez', 'said to be the same as', 'gonsales']": [
                   0.941742885017393,
                   0.9360068307658845,
                   0.9421737020141463
@@ -2110,6 +2215,12 @@
                   0.9237207491440178,
                   0.946487920783796,
                   0.9101184779355918
+            ],
+            "['jan', 'said to be the same as', 'john']": [
+                  0.9311018378802627,
+                  0.9237207491440178,
+                  0.946487920783796,
+                  0.9101184779355918
             ]
       },
       "It is available for free on the iTunes App Store for iOS , Google Play for Android , and Steam for PC .": {
@@ -2132,6 +2243,10 @@
       },
       "It has been proposed by some biblical scholars that Mahalath is another name for Esau 's wife Basemath who is mentioned in Genesis 36 .": {
             "['mahalath', 'said to be the same as', 'basemath']": [
+                  0.911937893530957,
+                  0.9490960719027988
+            ],
+            "['basemath', 'said to be the same as', 'mahalath']": [
                   0.911937893530957,
                   0.9490960719027988
             ]
@@ -2421,6 +2536,11 @@
                   0.8956900335999347,
                   0.9277600910089827,
                   0.9368065886654166
+            ],
+            "['nintendo entertainment system', 'said to be the same as', 'nes']": [
+                  0.8956900335999347,
+                  0.9277600910089827,
+                  0.9368065886654166
             ]
       },
       "Halabjaee fled Iraqi Kurdistan after the Kurdistan Regional Government ( KRG ) allegedly refused to offer him any protection or to arrest those who threatened his life .": {
@@ -2488,6 +2608,11 @@
                   0.9370109705806313,
                   0.9077547058339666,
                   0.9377561887416161
+            ],
+            "['georgius', 'said to be the same as', 'juraj']": [
+                  0.9370109705806313,
+                  0.9077547058339666,
+                  0.9377561887416161
             ]
       },
       "The English language dailies include : \" The Times of India \" ( Kolhapur edition ) , \" The Indian Express \" , \" Business Standard \" and \" The Economic Times \" .": {
@@ -2552,6 +2677,12 @@
       },
       "Blytt was born in Kristiania ( now Oslo ) , Norway .": {
             "['kristiania', 'said to be the same as', 'oslo']": [
+                  0.9610512276596047,
+                  0.9413034461925922,
+                  0.9344682522067682,
+                  0.9458533159379582
+            ],
+            "['oslo', 'said to be the same as', 'kristiania']": [
                   0.9610512276596047,
                   0.9413034461925922,
                   0.9344682522067682,
@@ -2774,6 +2905,14 @@
                   0.9668435384953761,
                   0.9482103117986393,
                   0.9163580267389618
+            ],
+            "['dicotyledons', 'said to be the same as', 'magnoliopsida']": [
+                  0.9243140936568941,
+                  0.92764040443683,
+                  0.9633894073691064,
+                  0.9668435384953761,
+                  0.9482103117986393,
+                  0.9163580267389618
             ]
       },
       "Brendan Doran ( born March 17 , 1979 ) is an American former ski jumper who competed in the 1998 Winter Olympics and in the 2002 Winter Olympics .": {
@@ -2923,6 +3062,17 @@
                   0.9375338999753302,
                   0.9080292007297452,
                   0.9061666642199413
+            ],
+            "['andr\u00e1s', 'said to be the same as', 'andrej']": [
+                  0.9414931383030168,
+                  0.8867746671663235,
+                  0.9310060208473694,
+                  0.8755509824977475,
+                  0.9257748888249671,
+                  0.8949076158985072,
+                  0.9375338999753302,
+                  0.9080292007297452,
+                  0.9061666642199413
             ]
       },
       "The latter was already regarded as a palladium that had won battles and saved Constantinople from the Persian - Avar siege of 626 , when the Patriarch paraded it around the walls of the city .": {
@@ -2941,6 +3091,11 @@
       },
       "In mathematics , a linear approximation is an approximation of a general function using a linear function ( more precisely , an affine function ) .": {
             "['linear function', 'said to be the same as', 'affine function']": [
+                  0.950618044703367,
+                  0.9722767869083162,
+                  0.9395074337973663
+            ],
+            "['affine function', 'said to be the same as', 'linear function']": [
                   0.950618044703367,
                   0.9722767869083162,
                   0.9395074337973663
@@ -3227,6 +3382,11 @@
                   0.9508659968335667,
                   0.9474453222315218,
                   0.9061882456741752
+            ],
+            "['state', 'said to be the same as', 'country']": [
+                  0.9508659968335667,
+                  0.9474453222315218,
+                  0.9061882456741752
             ]
       },
       "Pjaca made his Juventus and Serie A debut on 27 August , coming on as a substitute for Paulo Dybala in the second half of a 1\u20130 away win over Lazio .": {
@@ -3495,6 +3655,10 @@
             "['imperial army', 'said to be the same as', 'kaiserliche armee']": [
                   0.9387529313336497,
                   0.9307254487417026
+            ],
+            "['kaiserliche armee', 'said to be the same as', 'imperial army']": [
+                  0.9387529313336497,
+                  0.9307254487417026
             ]
       },
       "On 26 August 2016 Sadiq Khan , Mayor of London , announced that the Jubilee line night tube would run with services starting on 7 October 2016 .": {
@@ -3545,6 +3709,12 @@
                   0.9387148239795149,
                   0.9265925616708145,
                   0.9098051197219262
+            ],
+            "['betsy', 'said to be the same as', 'elizabeth']": [
+                  0.9352749295342624,
+                  0.9387148239795149,
+                  0.9265925616708145,
+                  0.9098051197219262
             ]
       },
       "Major Frederick Augustus Griffiths ( d. 1869 ) was an officer of the British Army and military writer .": {
@@ -3581,6 +3751,11 @@
       },
       "Sickert has been named as the serial murderer \" Jack the Ripper \" by Patricia Cornwell and others .": {
             "['jack the ripper', 'said to be the same as', 'sickert']": [
+                  0.9651385705151243,
+                  0.9393325571748499,
+                  0.9513817566682956
+            ],
+            "['sickert', 'said to be the same as', 'jack the ripper']": [
                   0.9651385705151243,
                   0.9393325571748499,
                   0.9513817566682956
@@ -3702,6 +3877,14 @@
                   0.9448648052664004,
                   0.942002583773242,
                   0.923926889430461
+            ],
+            "['shepard', 'said to be the same as', 'sheppard']": [
+                  0.9234297385685878,
+                  0.9531030571246234,
+                  0.9542857644489955,
+                  0.9448648052664004,
+                  0.942002583773242,
+                  0.923926889430461
             ]
       },
       "Lucy argues that postmodernism should be distinguished from poststructuralism , and especially from deconstruction as associated with the work of Jacques Derrida .": {
@@ -3720,6 +3903,10 @@
       },
       "It is , along with variant \u0110ura\u0111 , the equivalent of English \" George \" .": {
             "['\u0111ura\u0111', 'said to be the same as', 'george']": [
+                  0.9383845062272227,
+                  0.9354481661905196
+            ],
+            "['george', 'said to be the same as', '\u0111ura\u0111']": [
                   0.9383845062272227,
                   0.9354481661905196
             ]
@@ -3840,6 +4027,12 @@
       },
       "Ma\u00f1ana es primavera \n\n Ma\u00f1ana es primavera ( English title : \" Tomorrow is spring \" ) is a Mexican telenovela produced by Silvia Pinal for Televisa in 1982 .": {
             "['tomorrow', 'said to be the same as', 'ma\u00f1ana']": [
+                  0.9089485341285535,
+                  0.9073994483451953,
+                  0.912652781937241,
+                  0.9162592612260576
+            ],
+            "['ma\u00f1ana', 'said to be the same as', 'tomorrow']": [
                   0.9089485341285535,
                   0.9073994483451953,
                   0.912652781937241,
@@ -4097,6 +4290,13 @@
                   0.9328458467078871,
                   0.9214091222360188,
                   0.904147457966245
+            ],
+            "['betsy', 'said to be the same as', 'elizabeth']": [
+                  0.9060489972724953,
+                  0.905964334831761,
+                  0.9328458467078871,
+                  0.9214091222360188,
+                  0.904147457966245
             ]
       },
       "The image may also allude to the Three Fates \u2014 the Moirai of Greek mythology and the Parcae of Roman .": {
@@ -4104,10 +4304,19 @@
                   0.9249081772503707,
                   0.9350318104481321,
                   0.9251934367619232
+            ],
+            "['parcae', 'said to be the same as', 'moirai']": [
+                  0.9249081772503707,
+                  0.9350318104481321,
+                  0.9251934367619232
             ]
       },
       "David Shepherd \n\n David Shepherd , Shepard , or Sheppard may refer to :": {
             "['sheppard', 'said to be the same as', 'shepard']": [
+                  0.9591170592145144,
+                  0.9591302650890104
+            ],
+            "['shepard', 'said to be the same as', 'sheppard']": [
                   0.9591170592145144,
                   0.9591302650890104
             ]
@@ -4141,6 +4350,15 @@
                   0.9238037721691834,
                   0.923699293493803,
                   0.9226114789858593
+            ],
+            "['bengt', 'said to be the same as', 'benedict']": [
+                  0.9431269960028522,
+                  0.9474414923263562,
+                  0.9265829171377811,
+                  0.9218864974432475,
+                  0.9238037721691834,
+                  0.923699293493803,
+                  0.9226114789858593
             ]
       },
       "Pe\u00f1a Labra \n\n Pe\u00f1a Labra is a high mountain located in the Sierra de H\u00edjar range , a part of the Cantabrian Mountains System .": {
@@ -4157,6 +4375,10 @@
       },
       "The history of the Unions is reflected in various stages of the Union Flag , which forms the flag of the United Kingdom .": {
             "['union flag', 'said to be the same as', 'flag of the united kingdom']": [
+                  0.9610442142170743,
+                  0.9222174189167178
+            ],
+            "['flag of the united kingdom', 'said to be the same as', 'union flag']": [
                   0.9610442142170743,
                   0.9222174189167178
             ]
@@ -4179,6 +4401,11 @@
       },
       "Gwilym ap Griffith \n\n Gwilym ap Griffith ( died 1431 ) , also known as Gwilym ap Gruffydd , was a Welsh landowner .": {
             "['griffith', 'said to be the same as', 'gruffydd']": [
+                  0.9270333248871752,
+                  0.9239309123886097,
+                  0.9468673093117084
+            ],
+            "['gruffydd', 'said to be the same as', 'griffith']": [
                   0.9270333248871752,
                   0.9239309123886097,
                   0.9468673093117084
@@ -4337,6 +4564,11 @@
                   0.944908501081967,
                   0.9417573075905881,
                   0.9514442257133937
+            ],
+            "['heinrich', 'said to be the same as', 'hinnerk']": [
+                  0.944908501081967,
+                  0.9417573075905881,
+                  0.9514442257133937
             ]
       },
       "Five associate justices , Clarence Thomas , Samuel Alito , Sonia Sotomayor , and Anthony Kennedy , are members of the Supreme Court , resulting in a Catholic majority on the court .": {
@@ -4441,6 +4673,12 @@
       },
       "This truck have a nickname Zakhar ( \u0417\u0430\u0445\u0430\u0440 , \" \u0437\u0430 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440 \" , on the character ) .": {
             "['zakhar', 'said to be the same as', '\u0437\u0430\u0445\u0430\u0440']": [
+                  0.9681721521103197,
+                  0.9462914460202999,
+                  0.936667276574175,
+                  0.9314434829594085
+            ],
+            "['\u0437\u0430\u0445\u0430\u0440', 'said to be the same as', 'zakhar']": [
                   0.9681721521103197,
                   0.9462914460202999,
                   0.936667276574175,
@@ -4878,6 +5116,13 @@
                   0.965608424521484,
                   0.9501599776169278,
                   0.9107272849697235
+            ],
+            "['doctor of science', 'said to be the same as', 'doktor nauk']": [
+                  0.9248111202044335,
+                  0.8948457420549125,
+                  0.965608424521484,
+                  0.9501599776169278,
+                  0.9107272849697235
             ]
       },
       "\" Beautiful Lie \" is a pop song recorded by American singer Jennifer Paige and Nick Carter .": {
@@ -4963,10 +5208,22 @@
                   0.968205309338115,
                   0.9266245800327204,
                   0.9271923305282354
+            ],
+            "['murdock', 'said to be the same as', 'murdoch']": [
+                  0.9324120756104791,
+                  0.9263157705854366,
+                  0.968205309338115,
+                  0.9266245800327204,
+                  0.9271923305282354
             ]
       },
       "Sachay \u2019s father Syed Yarwar Hussain was also a renowned religious poet and a number of elegy ( Marsia ) and Nauha are to his credit .": {
             "['marsia', 'said to be the same as', 'elegy']": [
+                  0.9163667177231574,
+                  0.9390168958722811,
+                  0.9069392295798739
+            ],
+            "['elegy', 'said to be the same as', 'marsia']": [
                   0.9163667177231574,
                   0.9390168958722811,
                   0.9069392295798739
@@ -5097,6 +5354,13 @@
                   0.9432541638039931,
                   0.9124306963658433,
                   0.9028836140512619
+            ],
+            "['l\u00e1szl\u00f3', 'said to be the same as', 'ladislav']": [
+                  0.8976997526977593,
+                  0.9180405445744091,
+                  0.9432541638039931,
+                  0.9124306963658433,
+                  0.9028836140512619
             ]
       },
       "The Agha Khan , Governor of Texas Rick Perry , Mayor of Sugar Land David Wallace , and other politicians of the State of Texas attended the opening ceremony . Vara , Richard .": {
@@ -5129,6 +5393,10 @@
       },
       "It is considered a pet form of the name Jane or Jean ( feminisations of John ) .": {
             "['jane', 'said to be the same as', 'jean']": [
+                  0.9403113489806524,
+                  0.9329544792659192
+            ],
+            "['jean', 'said to be the same as', 'jane']": [
                   0.9403113489806524,
                   0.9329544792659192
             ]
@@ -5176,10 +5444,19 @@
                   0.940840180845721,
                   0.9534596893962238,
                   0.9413306057922075
+            ],
+            "['church of san andr\u00e9s', 'said to be the same as', 'iglesia de san andr\u00e9s']": [
+                  0.940840180845721,
+                  0.9534596893962238,
+                  0.9413306057922075
             ]
       },
       "Kostis \n\n Kostis ( ) is a hypocorism of the Greek name Konstantinos ( Constantine ) .": {
             "['konstantinos', 'said to be the same as', 'constantine']": [
+                  0.9721512320291252,
+                  0.9449922930343051
+            ],
+            "['constantine', 'said to be the same as', 'konstantinos']": [
                   0.9721512320291252,
                   0.9449922930343051
             ]
@@ -5332,6 +5609,12 @@
                   0.937566937782172,
                   0.9299642999556796,
                   0.9654261856514189
+            ],
+            "['v\u00edctor', 'said to be the same as', 'victor']": [
+                  0.9629510624816082,
+                  0.937566937782172,
+                  0.9299642999556796,
+                  0.9654261856514189
             ]
       },
       "John , which in Croatian is Ivan and in Spanish is Juan ) all the respective names are celebrated .": {
@@ -5340,10 +5623,22 @@
                   0.9199302573711796,
                   0.9266179224980668,
                   0.9589295215066251
+            ],
+            "['john', 'said to be the same as', 'ivan']": [
+                  0.9537253332268008,
+                  0.9199302573711796,
+                  0.9266179224980668,
+                  0.9589295215066251
             ]
       },
       "In Richard Wagner 's cycle of music dramas , \" Der Ring des Nibelungen \" , the character Alberich is based in some part on Andvari , but more on the Frankish sorcerer Alberich .": {
             "['andvari', 'said to be the same as', 'alberich']": [
+                  0.9294553886965485,
+                  0.963306875207508,
+                  0.9381076446492367,
+                  0.9058513785544509
+            ],
+            "['alberich', 'said to be the same as', 'andvari']": [
                   0.9294553886965485,
                   0.963306875207508,
                   0.9381076446492367,
@@ -5694,6 +5989,10 @@
             "['pascual', 'said to be the same as', 'pasquale']": [
                   0.9401422162780155,
                   0.9555927620512472
+            ],
+            "['pasquale', 'said to be the same as', 'pascual']": [
+                  0.9401422162780155,
+                  0.9555927620512472
             ]
       },
       "Cherdonna Shinatra \n\n Cherdonna Shinatra is the stage name of Jody Kuehner ( born 1980 ) , a Seattle - based , American dancer , drag queen and performance artist .": {
@@ -6025,6 +6324,11 @@
                   0.9270333248871752,
                   0.9239309123886097,
                   0.9468673093117084
+            ],
+            "['gruffydd', 'said to be the same as', 'griffith']": [
+                  0.9270333248871752,
+                  0.9239309123886097,
+                  0.9468673093117084
             ]
       },
       "She was the daughter of King Henry II of France and Catherine de ' Medici and the sister of kings Francis II , Charles IX and Henry III .": {
@@ -6063,6 +6367,14 @@
                   0.9339327069301329,
                   0.9225194386585429,
                   0.9478611487503834
+            ],
+            "['ymir', 'said to be the same as', 'brimir']": [
+                  0.9341548058120958,
+                  0.9426800696306901,
+                  0.9221626285879834,
+                  0.9339327069301329,
+                  0.9225194386585429,
+                  0.9478611487503834
             ]
       },
       "The river Madon flows into the Moselle in the commune .": {
@@ -6077,6 +6389,10 @@
       },
       "Some scholars equate the Zabur with the biblical book of Psalms .": {
             "['book of psalms', 'said to be the same as', 'zabur']": [
+                  0.9421975748177319,
+                  0.9725096878228936
+            ],
+            "['zabur', 'said to be the same as', 'book of psalms']": [
                   0.9421975748177319,
                   0.9725096878228936
             ]
@@ -6263,6 +6579,10 @@
             "['sveinn', 'said to be the same as', 'svend']": [
                   0.9121372480788359,
                   0.9554602796721745
+            ],
+            "['svend', 'said to be the same as', 'sveinn']": [
+                  0.9121372480788359,
+                  0.9554602796721745
             ]
       },
       "Seven airports , in Yogyakarta , Surakarta , Surabaya , Malang , Semarang , Cilacap and Bandung , were closed .": {
@@ -6334,6 +6654,13 @@
                   0.9229475962983325,
                   0.8971594738997593,
                   0.9216542832059077
+            ],
+            "['harold', 'said to be the same as', 'harry']": [
+                  0.9238745654304819,
+                  0.9392411749883066,
+                  0.9229475962983325,
+                  0.8971594738997593,
+                  0.9216542832059077
             ]
       },
       "HD 217107 b is an extrasolar planet approximately 64 light - years away from Earth in the constellation of Pisces ( the Fish ) .": {
@@ -6388,6 +6715,11 @@
       },
       "In 1931 the German film \" Ariane \" was made , with an English - language version \" The Loves of Ariane \" and a French \" Ariane , jeune fille russe \" .": {
             "['the loves of ariane', 'said to be the same as', 'ariane, jeune fille russe']": [
+                  0.9262256876876327,
+                  0.929929794266938,
+                  0.8872948807950765
+            ],
+            "['ariane, jeune fille russe', 'said to be the same as', 'the loves of ariane']": [
                   0.9262256876876327,
                   0.929929794266938,
                   0.8872948807950765
@@ -6462,10 +6794,23 @@
                   0.9053751723714298,
                   0.9063044243147956,
                   0.9658679195764048
+            ],
+            "['holmgard', 'said to be the same as', 'novgorod']": [
+                  0.9267833308225488,
+                  0.9110342697121432,
+                  0.9053751723714298,
+                  0.9063044243147956,
+                  0.9658679195764048
             ]
       },
       "Agni Yoga is a spiritual teaching transmitted by the artist Nicholas Roerich and his wife Helena Roerich from 1920 .": {
             "['nicholas roerich', 'spouse', 'helena roerich']": [
+                  0.9382011603187488,
+                  0.8951045280494563,
+                  0.9727269214165659,
+                  0.9347917463742349
+            ],
+            "['helena roerich', 'spouse', 'nicholas roerich']": [
                   0.9382011603187488,
                   0.8951045280494563,
                   0.9727269214165659,
@@ -6784,6 +7129,12 @@
       },
       "The house now called Murdoch ( or , sometimes Murdock ) House in the middle of Cross Street was erected in the 1660s as a chapel and it afterwards became a prison .": {
             "['murdoch', 'said to be the same as', 'murdock']": [
+                  0.9184069951897311,
+                  0.9278585708766685,
+                  0.9301165876128374,
+                  0.9171237796508703
+            ],
+            "['murdock', 'said to be the same as', 'murdoch']": [
                   0.9184069951897311,
                   0.9278585708766685,
                   0.9301165876128374,

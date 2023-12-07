@@ -8,8 +8,8 @@ Granularity: 0
 Example 2:
 Triple: ["electric cars", "offer benefits like", "energy efficiency and environmental friendliness"]
 Sub-triples: 
-["electric cars", "offer", "energy efficiency"]
-["electric cars", "offer", "environmental friendliness"]
+["electric cars", "offer benefits like", "energy efficiency"]
+["electric cars", "offer benefits like", "environmental friendliness"]
 Granularity: 2
 
 Example 3:
@@ -31,7 +31,7 @@ Sub-triples: N/A (The term 'wellness' encompasses a broad range of aspects, whic
 Granularity: 0 
 
 Example 6:
-Triple: ["water", "exists in states such as", "solid, liquid, gas"]
+Triple: ["water", "exists as", "solid, liquid, gas"]
 Sub-triples: 
 ["water", "exists as", "solid"]
 ["water", "exists as", "liquid"]

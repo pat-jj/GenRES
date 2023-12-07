@@ -65,50 +65,53 @@ def main():
             # 'vicuna-1.5-7b',
             # 'vicuna-1.3-33b', 
             # 'llama-2-7b',
-            # 'llama-2-70b',
+            'llama-2-70b',
             # 'wizardlm-70b',
             # 'text-davinci-003',
             # 'gpt-3.5-turbo-instruct',
             # 'gpt-3.5-turbo-1106',
             # 'gpt-4',
-            # 'gpt-4-1106-preview',
+            'gpt-4-1106-preview',
             # 'mistral',
             # 'zephyr-7b-beta',
             # 'galactica-30b',
-            # 'openchat',
-            'gpt-3.5_closed',
-            'gpt-3.5_semi',
+            'openchat',
+            # 'gpt-3.5_closed',
+            # 'gpt-3.5_semi',
             ]
         
         dataset_names = [
-            'cdr_rand_200',
+            # 'cdr_rand_200',
             # 'docred_rand_200',
-            'nyt10m_rand_500',
-            # 'wiki20m_rand_500',
+            # 'nyt10m_rand_500',
+            'wiki20m_rand_500',
             # 'tacred_rand_800',
             # 'wiki80_rand_800',
         ]
         
+        seeds = [54, 64, 74, 84]
+        
         for model_name in model_names:
             for dataset_name in dataset_names:
-                try:
-                    file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{args.exp_id}.json'
-                    with open(file_to_evaluate, 'r') as f:
-                        data_to_evaluate = json.load(f)
-                    dataset = dataset_name.split('_')[0]
-                    dictionary = pickle.load(open(f'./topical_process/{dataset}_dictionary.pkl', 'rb'))
-                    lda_model = pickle.load(open(f'./topical_process/{dataset}_lda.pkl', 'rb'))
+                for seed in seeds:
+                    try:
+                        file_to_evaluate = f'../processed_results/{dataset_name}_{model_name}_{seed}.json'
+                        with open(file_to_evaluate, 'r') as f:
+                            data_to_evaluate = json.load(f)
+                        dataset = dataset_name.split('_')[0]
+                        dictionary = pickle.load(open(f'./topical_process/{dataset}_dictionary.pkl', 'rb'))
+                        lda_model = pickle.load(open(f'./topical_process/{dataset}_lda.pkl', 'rb'))
+                        
+                        print(f"Calculating TS score for model {model_name} on dataset {dataset}...")
+                        ts_score = calculate_ts_score(data_to_evaluate, dictionary, lda_model)
+                        print(f"TS score for model {model_name} on dataset {dataset}: {ts_score}")
+                        
+                        all_scores[dataset_name][f'{model_name}-{seed}'] = ts_score
+                    except:
+                        continue
                     
-                    print(f"Calculating TS score for model {model_name} on dataset {dataset}...")
-                    ts_score = calculate_ts_score(data_to_evaluate, dictionary, lda_model)
-                    print(f"TS score for model {model_name} on dataset {dataset}: {ts_score}")
-                    
-                    all_scores[dataset_name][model_name] = ts_score
-                except:
-                    continue
-                
-        with open(f'./results/TS.json', 'w') as f:
-            json.dump(all_scores, f, indent=6)
+                with open(f'./results/TS.json', 'w') as f:
+                    json.dump(all_scores, f, indent=6)
             
     else:
         file_to_evaluate = f'../processed_results/{args.dataset}_{args.model_name}_{args.exp_id}.json'

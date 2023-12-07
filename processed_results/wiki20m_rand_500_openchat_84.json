@@ -1,0 +1,29 @@
+{
+      "The official announcement was made during a press conference at East River Park in Manhattan by New York City Mayor Michael Bloomberg and National Lacrosse League Commissioner Jim Jennings .": [
+            [
+                  "press conference",
+                  "at",
+                  "East River Park"
+            ],
+            [
+                  "East River Park",
+                  "in",
+                  "Manhattan"
+            ],
+            [
+                  "press conference",
+                  "by",
+                  "New York City Mayor Michael Bloomberg"
+            ],
+            [
+                  "press conference",
+                  "by",
+                  "National Lacrosse League Commissioner Jim Jennings"
+            ],
+            [
+                  "official announcement",
+                  "made during",
+                  "press conference"
+            ]
+      ]
+}
