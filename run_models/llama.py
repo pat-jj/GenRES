@@ -197,7 +197,7 @@ def vicuna_model_inference(tokenizer, model, text, prompt, device='cuda'):
     # Set max_new_tokens to twice the number of tokens in the text
     max_new_tokens = 8 * num_tokens
 
-    generated_ids = model.generate(model_inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    generated_ids = model.generate(model_inputs, max_new_tokens=max_new_tokens, do_sample=True)
     decoded = tokenizer.batch_decode(generated_ids)
     
     return decoded[0]    
@@ -219,7 +219,7 @@ def openchat_model_inference(tokenizer, model, text, prompt, device='cuda'):
     # Set max_new_tokens to twice the number of tokens in the text
     max_new_tokens = 8 * num_tokens
 
-    generated_ids = model.generate(model_inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    generated_ids = model.generate(model_inputs, max_new_tokens=max_new_tokens, do_sample=True)
     decoded = tokenizer.batch_decode(generated_ids)
     
     return decoded[0]
@@ -241,7 +241,7 @@ def llama_model_inference(tokenizer, model, text, prompt, device='cuda'):
     # Set max_new_tokens to twice the number of tokens in the text
     max_new_tokens = 8 * num_tokens
 
-    generated_ids = model.generate(model_inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    generated_ids = model.generate(model_inputs, max_new_tokens=max_new_tokens, do_sample=True)
     decoded = tokenizer.batch_decode(generated_ids)
     
     return decoded[0]

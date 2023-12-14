@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the model names and datasets in arrays
-model_names=("gpt-4-1106-preview")
+model_names=("gpt-3.5-turbo-1106")
 seeds=(54 64 74 84)
 
 datasets=("wiki20m_rand_500")
