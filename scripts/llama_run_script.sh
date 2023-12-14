@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=3
+export CUDA_VISIBLE_DEVICES=6
 
 # Read arguments
 DATASET=$1

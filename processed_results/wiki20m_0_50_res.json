@@ -1,0 +1,4287 @@
+{
+      "0": {
+            "content": "The official announcement was made during a press conference at East River Park in Manhattan by New York City Mayor Michael Bloomberg and National Lacrosse League Commissioner Jim Jennings .",
+            "groundtruth": [
+                  [
+                        "michael bloomberg",
+                        "manhattan",
+                        "residence"
+                  ],
+                  [
+                        "new york city",
+                        "michael bloomberg",
+                        "head of government"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "press conference",
+                        "held at",
+                        "East River Park"
+                  ],
+                  [
+                        "East River Park",
+                        "located in",
+                        "Manhattan"
+                  ],
+                  [
+                        "Manhattan",
+                        "part of",
+                        "New York City"
+                  ],
+                  [
+                        "New York City",
+                        "mayor of",
+                        "Michael Bloomberg"
+                  ],
+                  [
+                        "Michael Bloomberg",
+                        "made announcement with",
+                        "Jim Jennings"
+                  ],
+                  [
+                        "Jim Jennings",
+                        "commissioner of",
+                        "National Lacrosse League"
+                  ],
+                  [
+                        "official announcement",
+                        "was made during",
+                        "press conference"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "press conference",
+                        "at",
+                        "East River Park"
+                  ],
+                  [
+                        "East River Park",
+                        "in",
+                        "Manhattan"
+                  ],
+                  [
+                        "press conference",
+                        "by",
+                        "New York City Mayor Michael Bloomberg"
+                  ],
+                  [
+                        "press conference",
+                        "by",
+                        "National Lacrosse League Commissioner Jim Jennings"
+                  ],
+                  [
+                        "official announcement",
+                        "made during",
+                        "press conference"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The official announcement",
+                        "was made in",
+                        "Manhattan"
+                  ],
+                  [
+                        "The official announcement",
+                        "was made by",
+                        "New York City Mayor"
+                  ],
+                  [
+                        "New York City Mayor",
+                        "is",
+                        "Michael Bloomberg"
+                  ],
+                  [
+                        "The official announcement",
+                        "was made by",
+                        "National Lacrosse League Commissioner"
+                  ],
+                  [
+                        "National Lacrosse League Commissioner",
+                        "is",
+                        "Jim Jennings"
+                  ],
+                  [
+                        "The official announcement",
+                        "was made at",
+                        "East River Park"
+                  ]
+            ]
+      },
+      "1": {
+            "content": "MySQL Cluster is implemented through the NDB or NDBCLUSTER storage engine for MySQL ( \" NDB \" stands for Network Database ) .",
+            "groundtruth": [
+                  [
+                        "mysql cluster",
+                        "ndb",
+                        "said to be the same as"
+                  ],
+                  [
+                        "ndb",
+                        "mysql cluster",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "MySQL Cluster",
+                        "implemented through",
+                        "NDB or NDBCLUSTER storage engine for MySQL"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "NDB",
+                        "stands for",
+                        "Network Database"
+                  ],
+                  [
+                        "MySQL Cluster",
+                        "implemented through",
+                        "NDB or NDBCLUSTER storage engine"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "NDB",
+                        "stands for",
+                        "Network Database"
+                  ],
+                  [
+                        "MySQL Cluster",
+                        "is implemented through",
+                        "NDB or NDBCLUSTER storage engine"
+                  ]
+            ]
+      },
+      "2": {
+            "content": "Shanty Run joins Quinn Run upstream of its mouth .",
+            "groundtruth": [
+                  [
+                        "quinn run",
+                        "shanty run",
+                        "tributary"
+                  ],
+                  [
+                        "shanty run",
+                        "quinn run",
+                        "mouth of the watercourse"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Shanty Run",
+                        "joins",
+                        "Quinn Run"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Shanty Run",
+                        "located upstream of",
+                        "its mouth"
+                  ],
+                  [
+                        "Shanty Run",
+                        "joins",
+                        "Quinn Run"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Shanty Run",
+                        "joins upstream of",
+                        "its mouth"
+                  ],
+                  [
+                        "Shanty Run",
+                        "joins",
+                        "Quinn Run"
+                  ]
+            ]
+      },
+      "3": {
+            "content": "Following the passage of a Genoa low the rivers Rhine , Moselle , Main , Danube , Weser , Werra , Unstrut , Elbe , Vltava and their tributaries inundated large areas .",
+            "groundtruth": [
+                  [
+                        "rhine",
+                        "moselle",
+                        "tributary"
+                  ],
+                  [
+                        "elbe",
+                        "vltava",
+                        "tributary"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Rhine",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Moselle",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Main",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Danube",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Weser",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Werra",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Unstrut",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Elbe",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "Vltava",
+                        "is a",
+                        "river"
+                  ],
+                  [
+                        "tributaries",
+                        "of",
+                        "rivers"
+                  ],
+                  [
+                        "Genoa low",
+                        "caused",
+                        "inundation"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Rhine",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Moselle",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Main",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Danube",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Weser",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Werra",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Unstrut",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Elbe",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "Vltava",
+                        "is",
+                        "river"
+                  ],
+                  [
+                        "tributaries",
+                        "are",
+                        "rivers"
+                  ],
+                  [
+                        "Genoa low",
+                        "causes",
+                        "rivers to inundate"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Rhine",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Moselle",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Main",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Danube",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Weser",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Werra",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Unstrut",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Elbe",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Vltava",
+                        "inundated",
+                        "large areas"
+                  ],
+                  [
+                        "Rhine",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Moselle",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Main",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Danube",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Weser",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Werra",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Unstrut",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Elbe",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Vltava",
+                        "has tributaries",
+                        "inundating areas"
+                  ],
+                  [
+                        "Genoa low",
+                        "followed by",
+                        "inundation of rivers"
+                  ]
+            ]
+      },
+      "4": {
+            "content": "Its architect was Gu\u00f0j\u00f3n Sam\u00faelsson , who also designed Hallgr\u00edmskirkja , a Reykjavik landmark , and Akureyrarkirkja in Akureyri , North Iceland .",
+            "groundtruth": [
+                  [
+                        "akureyrarkirkja",
+                        "gu\u00f0j\u00f3n sam\u00faelsson",
+                        "architect"
+                  ],
+                  [
+                        "hallgr\u00edmskirkja",
+                        "gu\u00f0j\u00f3n sam\u00faelsson",
+                        "architect"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson",
+                        "designed",
+                        "Hallgr\u00edmskirkja"
+                  ],
+                  [
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson",
+                        "designed",
+                        "Akureyrarkirkja"
+                  ],
+                  [
+                        "Hallgr\u00edmskirkja",
+                        "is a",
+                        "Reykjavik landmark"
+                  ],
+                  [
+                        "Akureyrarkirkja",
+                        "is located in",
+                        "Akureyri, North Iceland"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson",
+                        "designed",
+                        "Hallgr\u00edmskirkja"
+                  ],
+                  [
+                        "Hallgr\u00edmskirkja",
+                        "is",
+                        "Reykjavik landmark"
+                  ],
+                  [
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson",
+                        "designed",
+                        "Akureyrarkirkja"
+                  ],
+                  [
+                        "Akureyrarkirkja",
+                        "is in",
+                        "Akureyri"
+                  ],
+                  [
+                        "Akureyri",
+                        "is in",
+                        "North Iceland"
+                  ],
+                  [
+                        "Its architect",
+                        "is",
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson",
+                        "designed",
+                        "Hallgr\u00edmskirkja"
+                  ],
+                  [
+                        "Hallgr\u00edmskirkja",
+                        "is a",
+                        "Reykjavik landmark"
+                  ],
+                  [
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson",
+                        "designed",
+                        "Akureyrarkirkja"
+                  ],
+                  [
+                        "Akureyrarkirkja",
+                        "is in",
+                        "Akureyri, North Iceland"
+                  ],
+                  [
+                        "Its architect",
+                        "was",
+                        "Gu\u00f0j\u00f3n Sam\u00faelsson"
+                  ]
+            ]
+      },
+      "5": {
+            "content": "The April 1972 election of Jerry DeGrieck and Nancy Wechsler to the Ann Arbor city council on the Human Rights Party ticket would signal changes for LGBT rights in the state .",
+            "groundtruth": [
+                  [
+                        "nancy wechsler",
+                        "ann arbor",
+                        "residence"
+                  ],
+                  [
+                        "human rights party",
+                        "ann arbor",
+                        "headquarters location"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Nancy Wechsler",
+                        "elected in",
+                        "April 1972"
+                  ],
+                  [
+                        "Jerry DeGrieck",
+                        "elected on",
+                        "Human Rights Party ticket"
+                  ],
+                  [
+                        "Nancy Wechsler",
+                        "elected on",
+                        "Human Rights Party ticket"
+                  ],
+                  [
+                        "Human Rights Party ticket",
+                        "signals changes for",
+                        "LGBT rights in the state"
+                  ],
+                  [
+                        "Jerry DeGrieck",
+                        "elected in",
+                        "April 1972"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Nancy Wechsler",
+                        "elected in",
+                        "April 1972"
+                  ],
+                  [
+                        "Jerry DeGrieck",
+                        "elected with",
+                        "Nancy Wechsler"
+                  ],
+                  [
+                        "Ann Arbor city council",
+                        "elected Jerry DeGrieck and Nancy Wechsler to",
+                        "Human Rights Party ticket"
+                  ],
+                  [
+                        "Human Rights Party ticket",
+                        "signal changes for",
+                        "LGBT rights in the state"
+                  ],
+                  [
+                        "Jerry DeGrieck",
+                        "elected in",
+                        "April 1972"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Nancy Wechsler",
+                        "elected to",
+                        "Ann Arbor city council in April 1972"
+                  ],
+                  [
+                        "Jerry DeGrieck",
+                        "elected on",
+                        "Human Rights Party ticket"
+                  ],
+                  [
+                        "Nancy Wechsler",
+                        "elected on",
+                        "Human Rights Party ticket"
+                  ],
+                  [
+                        "Election of Jerry DeGrieck and Nancy Wechsler",
+                        "would signal changes for",
+                        "LGBT rights in the state"
+                  ],
+                  [
+                        "Jerry DeGrieck",
+                        "elected to",
+                        "Ann Arbor city council in April 1972"
+                  ]
+            ]
+      },
+      "6": {
+            "content": "In July 2006 it performed Leonard Bernstein 's comic operetta \" Candide \"   to much acclaim ) , while in July 2009 the company performed Stephen Sondheim 's Sweeney Todd .",
+            "groundtruth": [
+                  [
+                        "sweeney todd",
+                        "stephen sondheim",
+                        "screenwriter"
+                  ],
+                  [
+                        "leonard bernstein",
+                        "candide",
+                        "notable work"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Candide",
+                        "performed",
+                        "July 2006"
+                  ],
+                  [
+                        "Stephen Sondheim",
+                        "Sweeney Todd",
+                        "performed"
+                  ],
+                  [
+                        "July 2009",
+                        "performed",
+                        "Sweeney Todd"
+                  ],
+                  [
+                        "Leonard Bernstein",
+                        "comic operetta",
+                        "Candide"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "In July 2006",
+                        "performed",
+                        "Candide"
+                  ],
+                  [
+                        "In July 2006",
+                        "received",
+                        "much acclaim"
+                  ],
+                  [
+                        "In July 2009",
+                        "performed",
+                        "Stephen Sondheim 's Sweeney Todd"
+                  ],
+                  [
+                        "In July 2006",
+                        "performed",
+                        "Leonard Bernstein 's comic operetta"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Leonard Bernstein's comic operetta 'Candide'",
+                        "received",
+                        "much acclaim"
+                  ],
+                  [
+                        "The company",
+                        "performed",
+                        "Stephen Sondheim's Sweeney Todd"
+                  ],
+                  [
+                        "The performance of Stephen Sondheim's Sweeney Todd",
+                        "occurred in",
+                        "July 2009"
+                  ],
+                  [
+                        "It",
+                        "performed",
+                        "Leonard Bernstein's comic operetta 'Candide'"
+                  ]
+            ]
+      },
+      "7": {
+            "content": "Las Mercedes Airport is an airstrip serving San Javier , a town in the Maule Region of Chile .",
+            "groundtruth": [
+                  [
+                        "las mercedes airport",
+                        "san javier",
+                        "place served by transport hub"
+                  ],
+                  [
+                        "san javier",
+                        "chile",
+                        "country"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "San Javier",
+                        "located in",
+                        "Maule Region of Chile"
+                  ],
+                  [
+                        "Maule Region of Chile",
+                        "location of",
+                        "San Javier"
+                  ],
+                  [
+                        "Las Mercedes Airport",
+                        "serving",
+                        "San Javier"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "San Javier",
+                        "located in",
+                        "Maule Region"
+                  ],
+                  [
+                        "San Javier",
+                        "located in",
+                        "Chile"
+                  ],
+                  [
+                        "Las Mercedes Airport",
+                        "serving",
+                        "San Javier"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Las Mercedes Airport",
+                        "serving",
+                        "San Javier"
+                  ],
+                  [
+                        "San Javier",
+                        "is in",
+                        "Maule Region of Chile"
+                  ],
+                  [
+                        "Las Mercedes Airport",
+                        "is an",
+                        "airstrip"
+                  ]
+            ]
+      },
+      "8": {
+            "content": "In 1989 , Streisand began devoting most of her time towards directing the 1991 film adaptation of Pat Conroy 's 1986 novel \" The Prince of Tides \" .",
+            "groundtruth": [
+                  [
+                        "1991 film adaptation",
+                        "pat conroy",
+                        "after a work by"
+                  ],
+                  [
+                        "the prince of tides",
+                        "pat conroy",
+                        "after a work by"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "1991 film adaptation",
+                        "based on",
+                        "The Prince of Tides"
+                  ],
+                  [
+                        "The Prince of Tides",
+                        "written by",
+                        "Pat Conroy"
+                  ],
+                  [
+                        "Pat Conroy",
+                        "wrote",
+                        "The Prince of Tides"
+                  ],
+                  [
+                        "Streisand",
+                        "began devoting time",
+                        "1991 film adaptation"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "directing",
+                        "the",
+                        "1991 film adaptation"
+                  ],
+                  [
+                        "1991 film adaptation",
+                        "of",
+                        "Pat Conroy 's 1986 novel"
+                  ],
+                  [
+                        "Streisand",
+                        "began devoting most of her time towards",
+                        "directing"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The Prince of Tides",
+                        "is a film adaptation of",
+                        "Pat Conroy's 1986 novel"
+                  ],
+                  [
+                        "The Prince of Tides",
+                        "film adaptation year",
+                        "1991"
+                  ],
+                  [
+                        "Pat Conroy's 1986 novel",
+                        "title",
+                        "The Prince of Tides"
+                  ],
+                  [
+                        "Streisand",
+                        "began devoting time towards directing",
+                        "The Prince of Tides"
+                  ]
+            ]
+      },
+      "9": {
+            "content": "On 16 January 1847 , Commodore Stockton appointed Fr\u00e9mont military governor of California following the Treaty of Cahuenga signed by Fremont and Andr\u00e9s Pico which ended the Mexican \u2013 American War in California .",
+            "groundtruth": [
+                  [
+                        "fremont",
+                        "fr\u00e9mont",
+                        "said to be the same as"
+                  ],
+                  [
+                        "fr\u00e9mont",
+                        "fremont",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Fr\u00e9mont",
+                        "military governor of",
+                        "California"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "signed by",
+                        "Fremont and Andr\u00e9s Pico"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "ended",
+                        "Mexican \u2013 American War in California"
+                  ],
+                  [
+                        "Commodore Stockton",
+                        "appointed",
+                        "Fr\u00e9mont"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Fr\u00e9mont",
+                        "military governor of",
+                        "California"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "signed by",
+                        "Fremont"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "signed by",
+                        "Andr\u00e9s Pico"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "ended",
+                        "Mexican \u2013 American War in California"
+                  ],
+                  [
+                        "Mexican \u2013 American War in California",
+                        "ended by",
+                        "Treaty of Cahuenga"
+                  ],
+                  [
+                        "Commodore Stockton",
+                        "appointed",
+                        "Fr\u00e9mont"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Appointment",
+                        "occurred on",
+                        "16 January 1847"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "signed by",
+                        "Fr\u00e9mont"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "signed by",
+                        "Andr\u00e9s Pico"
+                  ],
+                  [
+                        "Treaty of Cahuenga",
+                        "ended",
+                        "Mexican \u2013 American War in California"
+                  ],
+                  [
+                        "Commodore Stockton",
+                        "appointed",
+                        "Fr\u00e9mont as military governor of California"
+                  ]
+            ]
+      },
+      "10": {
+            "content": "In 1995 , Griffin Dunne was nominated for an Academy Award for Best Live Action Short Film for \" Duke of Groove \" , which he directed and co - wrote .",
+            "groundtruth": [
+                  [
+                        "duke of groove",
+                        "academy award for best live action short film",
+                        "nominated for"
+                  ],
+                  [
+                        "griffin dunne",
+                        "academy award for best live action short film",
+                        "nominated for"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Griffin Dunne",
+                        "nominated for",
+                        "Academy Award"
+                  ],
+                  [
+                        "Griffin Dunne",
+                        "directed and co-wrote",
+                        "Duke of Groove"
+                  ],
+                  [
+                        "Duke of Groove",
+                        "nominated for",
+                        "Best Live Action Short Film"
+                  ],
+                  [
+                        "Academy Award",
+                        "nominated in",
+                        "1995"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Academy Award",
+                        "for",
+                        "Best Live Action Short Film"
+                  ],
+                  [
+                        "Best Live Action Short Film",
+                        "for",
+                        "Duke of Groove"
+                  ],
+                  [
+                        "Duke of Groove",
+                        "directed by",
+                        "Griffin Dunne"
+                  ],
+                  [
+                        "Duke of Groove",
+                        "co-written by",
+                        "Griffin Dunne"
+                  ],
+                  [
+                        "Griffin Dunne",
+                        "nominated for",
+                        "Academy Award"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Griffin Dunne",
+                        "directed",
+                        "Duke of Groove"
+                  ],
+                  [
+                        "Griffin Dunne",
+                        "co-wrote",
+                        "Duke of Groove"
+                  ],
+                  [
+                        "Duke of Groove",
+                        "was nominated for",
+                        "Academy Award for Best Live Action Short Film"
+                  ],
+                  [
+                        "Griffin Dunne",
+                        "was nominated for",
+                        "Academy Award for Best Live Action Short Film"
+                  ]
+            ]
+      },
+      "11": {
+            "content": "Priit \n\n Priit is an Estonian masculine given name , cognate to English Fred or Frederick and to German Friedrich .",
+            "groundtruth": [
+                  [
+                        "frederick",
+                        "friedrich",
+                        "said to be the same as"
+                  ],
+                  [
+                        "friedrich",
+                        "frederick",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Priit",
+                        "is",
+                        "Estonian masculine given name"
+                  ],
+                  [
+                        "Priit",
+                        "cognate to",
+                        "English Fred or Frederick"
+                  ],
+                  [
+                        "Priit",
+                        "cognate to",
+                        "German Friedrich"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Priit",
+                        "cognate to",
+                        "English Fred or Frederick"
+                  ],
+                  [
+                        "Priit",
+                        "cognate to",
+                        "German Friedrich"
+                  ],
+                  [
+                        "Priit",
+                        "is",
+                        "Estonian masculine given name"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Priit",
+                        "is cognate to",
+                        "English Fred"
+                  ],
+                  [
+                        "Priit",
+                        "is cognate to",
+                        "English Frederick"
+                  ],
+                  [
+                        "Priit",
+                        "is cognate to",
+                        "German Friedrich"
+                  ],
+                  [
+                        "Priit",
+                        "is a",
+                        "Estonian masculine given name"
+                  ]
+            ]
+      },
+      "12": {
+            "content": "The new quintet consists of saxophonist George Coleman , pianist Herbie Hancock , bassist Ron Carter and drummer Tony Williams .",
+            "groundtruth": [
+                  [
+                        "george coleman",
+                        "saxophonist",
+                        "instrument"
+                  ],
+                  [
+                        "tony williams",
+                        "drummer",
+                        "instrument"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Herbie Hancock",
+                        "member of",
+                        "new quintet"
+                  ],
+                  [
+                        "Ron Carter",
+                        "member of",
+                        "new quintet"
+                  ],
+                  [
+                        "Tony Williams",
+                        "member of",
+                        "new quintet"
+                  ],
+                  [
+                        "George Coleman",
+                        "member of",
+                        "new quintet"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "new quintet",
+                        "consists of",
+                        "pianist Herbie Hancock"
+                  ],
+                  [
+                        "new quintet",
+                        "consists of",
+                        "bassist Ron Carter"
+                  ],
+                  [
+                        "new quintet",
+                        "consists of",
+                        "drummer Tony Williams"
+                  ],
+                  [
+                        "new quintet",
+                        "consists of",
+                        "saxophonist George Coleman"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The new quintet",
+                        "consists of",
+                        "pianist Herbie Hancock"
+                  ],
+                  [
+                        "The new quintet",
+                        "consists of",
+                        "bassist Ron Carter"
+                  ],
+                  [
+                        "The new quintet",
+                        "consists of",
+                        "drummer Tony Williams"
+                  ],
+                  [
+                        "The new quintet",
+                        "consists of",
+                        "saxophonist George Coleman"
+                  ]
+            ]
+      },
+      "13": {
+            "content": "Daily Air is the only airline to offer flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island through its Lanyu Airport .",
+            "groundtruth": [
+                  [
+                        "lanyu airport",
+                        "orchid island",
+                        "place served by transport hub"
+                  ],
+                  [
+                        "taitung airport",
+                        "taitung city",
+                        "place served by transport hub"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Daily Air",
+                        "offers flights to",
+                        "Orchid Island"
+                  ],
+                  [
+                        "Taiwan Island",
+                        "has airport",
+                        "Taitung Airport"
+                  ],
+                  [
+                        "Orchid Island",
+                        "has airport",
+                        "Lanyu Airport"
+                  ],
+                  [
+                        "Daily Air",
+                        "offers flights from",
+                        "Taiwan Island"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Taiwan Island",
+                        "has airport in",
+                        "Taitung City"
+                  ],
+                  [
+                        "Taitung City",
+                        "has airport",
+                        "Taitung Airport"
+                  ],
+                  [
+                        "Daily Air",
+                        "offers flights to",
+                        "Orchid Island"
+                  ],
+                  [
+                        "Orchid Island",
+                        "has airport",
+                        "Lanyu Airport"
+                  ],
+                  [
+                        "Daily Air",
+                        "is",
+                        "only airline"
+                  ],
+                  [
+                        "Daily Air",
+                        "offers flights from",
+                        "Taiwan Island"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Daily Air",
+                        "is the only airline to offer",
+                        "flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island through its Lanyu Airport"
+                  ]
+            ]
+      },
+      "14": {
+            "content": "Variations of the given name include : Paschal , Pasqual , Pasquale , Paskal , Pascoal , Pascale , Pascha , Paschalis , Pascual , Pascoe , and Pasco .",
+            "groundtruth": [
+                  [
+                        "pascual",
+                        "pasquale",
+                        "said to be the same as"
+                  ],
+                  [
+                        "pasquale",
+                        "pascual",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Pasqual",
+                        "variant of",
+                        "Pasquale"
+                  ],
+                  [
+                        "Pasquale",
+                        "variant of",
+                        "Paskal"
+                  ],
+                  [
+                        "Paskal",
+                        "variant of",
+                        "Pascoal"
+                  ],
+                  [
+                        "Pascoal",
+                        "variant of",
+                        "Pascale"
+                  ],
+                  [
+                        "Pascale",
+                        "variant of",
+                        "Pascha"
+                  ],
+                  [
+                        "Pascha",
+                        "variant of",
+                        "Paschalis"
+                  ],
+                  [
+                        "Paschalis",
+                        "variant of",
+                        "Pascual"
+                  ],
+                  [
+                        "Pascual",
+                        "variant of",
+                        "Pascoe"
+                  ],
+                  [
+                        "Pascoe",
+                        "variant of",
+                        "Pasco"
+                  ],
+                  [
+                        "Paschal",
+                        "variant of",
+                        "Pasqual"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Paschal",
+                        "also known as",
+                        "Pasqual"
+                  ],
+                  [
+                        "Pasqual",
+                        "also known as",
+                        "Pasquale"
+                  ],
+                  [
+                        "Pasquale",
+                        "also known as",
+                        "Paskal"
+                  ],
+                  [
+                        "Paskal",
+                        "also known as",
+                        "Pascoal"
+                  ],
+                  [
+                        "Pascoal",
+                        "also known as",
+                        "Pascale"
+                  ],
+                  [
+                        "Pascale",
+                        "also known as",
+                        "Pascha"
+                  ],
+                  [
+                        "Pascha",
+                        "also known as",
+                        "Paschalis"
+                  ],
+                  [
+                        "Paschalis",
+                        "also known as",
+                        "Pascual"
+                  ],
+                  [
+                        "Pascual",
+                        "also known as",
+                        "Pascoe"
+                  ],
+                  [
+                        "Pascoe",
+                        "also known as",
+                        "Pasco"
+                  ],
+                  [
+                        "Variations",
+                        "include",
+                        "Paschal"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Pasqual",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Pasquale",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Paskal",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Pascoal",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Pascale",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Pascha",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Paschalis",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Pascual",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Pascoe",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Pasco",
+                        "is a variation of",
+                        "given name"
+                  ],
+                  [
+                        "Paschal",
+                        "is a variation of",
+                        "given name"
+                  ]
+            ]
+      },
+      "15": {
+            "content": "The stations involved in the transaction include CJAV , CKWV and CHWF in Nanaimo , CIBH and CHPQ in Parksville - Qualicum Beach and CKLR in Courtenay .",
+            "groundtruth": [
+                  [
+                        "cklr",
+                        "courtenay",
+                        "licensed to broadcast to"
+                  ],
+                  [
+                        "ckwv",
+                        "nanaimo",
+                        "licensed to broadcast to"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "CJAV",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CKWV",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CHWF",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CIBH",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CHPQ",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CKLR",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "Courtenay",
+                        "location of",
+                        "CKLR"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "CKWV",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CHWF",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CJAV",
+                        "located in",
+                        "Nanaimo"
+                  ],
+                  [
+                        "CKWV",
+                        "located in",
+                        "Nanaimo"
+                  ],
+                  [
+                        "CHWF",
+                        "located in",
+                        "Nanaimo"
+                  ],
+                  [
+                        "CIBH",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CHPQ",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CIBH",
+                        "located in",
+                        "Parksville - Qualicum Beach"
+                  ],
+                  [
+                        "CHPQ",
+                        "located in",
+                        "Parksville - Qualicum Beach"
+                  ],
+                  [
+                        "CKLR",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CKLR",
+                        "located in",
+                        "Courtenay"
+                  ],
+                  [
+                        "CJAV",
+                        "involved in",
+                        "transaction"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "CKWV",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CHWF",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CIBH",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CHPQ",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CKLR",
+                        "involved in",
+                        "transaction"
+                  ],
+                  [
+                        "CJAV",
+                        "located in",
+                        "Nanaimo"
+                  ],
+                  [
+                        "CKWV",
+                        "located in",
+                        "Nanaimo"
+                  ],
+                  [
+                        "CHWF",
+                        "located in",
+                        "Nanaimo"
+                  ],
+                  [
+                        "CIBH",
+                        "located in",
+                        "Parksville - Qualicum Beach"
+                  ],
+                  [
+                        "CHPQ",
+                        "located in",
+                        "Parksville - Qualicum Beach"
+                  ],
+                  [
+                        "CKLR",
+                        "located in",
+                        "Courtenay"
+                  ],
+                  [
+                        "CJAV",
+                        "involved in",
+                        "transaction"
+                  ]
+            ]
+      },
+      "16": {
+            "content": "Dynazty is a Swedish rock band from Stockholm , Sweden , and signed to the StormVox Records , StormVox Records - Dynazty   with license to SoFo Records .",
+            "groundtruth": [
+                  [
+                        "dynazty",
+                        "stockholm",
+                        "location of formation"
+                  ],
+                  [
+                        "dynazty",
+                        "sweden",
+                        "country of origin"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Dynazty",
+                        "from",
+                        "Stockholm"
+                  ],
+                  [
+                        "Dynazty",
+                        "signed to",
+                        "StormVox Records"
+                  ],
+                  [
+                        "StormVox Records",
+                        "license to",
+                        "SoFo Records"
+                  ],
+                  [
+                        "Dynazty",
+                        "is",
+                        "Swedish rock band"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Dynazty",
+                        "signed to",
+                        "StormVox Records"
+                  ],
+                  [
+                        "StormVox Records",
+                        "license to",
+                        "SoFo Records"
+                  ],
+                  [
+                        "Dynazty",
+                        "from",
+                        "Stockholm"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Dynazty",
+                        "from",
+                        "Stockholm"
+                  ],
+                  [
+                        "Dynazty",
+                        "based in",
+                        "Sweden"
+                  ],
+                  [
+                        "Dynazty",
+                        "signed to",
+                        "StormVox Records"
+                  ],
+                  [
+                        "StormVox Records",
+                        "has license to",
+                        "SoFo Records"
+                  ],
+                  [
+                        "Dynazty",
+                        "is a",
+                        "Swedish rock band"
+                  ]
+            ]
+      },
+      "17": {
+            "content": "3D Friends ( stylized as 3D FRIENDS ) is an American indie rock band from Austin , Texas .",
+            "groundtruth": [
+                  [
+                        "3d friends",
+                        "indie rock",
+                        "genre"
+                  ],
+                  [
+                        "3d friends",
+                        "austin",
+                        "location of formation"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "3D Friends",
+                        "from",
+                        "Austin, Texas"
+                  ],
+                  [
+                        "Austin, Texas",
+                        "is",
+                        "city in Texas"
+                  ],
+                  [
+                        "3D Friends",
+                        "is",
+                        "American indie rock band"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "3D Friends",
+                        "from",
+                        "Austin, Texas"
+                  ],
+                  [
+                        "3D Friends",
+                        "is",
+                        "American indie rock band"
+                  ],
+                  [
+                        "3D Friends",
+                        "stylized as",
+                        "3D FRIENDS"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "3D Friends",
+                        "from",
+                        "Austin, Texas"
+                  ],
+                  [
+                        "3D Friends",
+                        "is",
+                        "American indie rock band"
+                  ]
+            ]
+      },
+      "18": {
+            "content": "For both they also manufactured converters to play Famicom titles on the NES .",
+            "groundtruth": [
+                  [
+                        "nes",
+                        "nes",
+                        "said to be the same as"
+                  ],
+                  [
+                        "nes",
+                        "famicom",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Famicom",
+                        "manufactured converters to play on",
+                        "NES"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "manufactured",
+                        "converters",
+                        "Famicom titles"
+                  ],
+                  [
+                        "converters",
+                        "play",
+                        "NES"
+                  ],
+                  [
+                        "they",
+                        "also",
+                        "manufactured"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "converters",
+                        "to play",
+                        "Famicom titles"
+                  ],
+                  [
+                        "Famicom titles",
+                        "on",
+                        "NES"
+                  ],
+                  [
+                        "they",
+                        "manufactured",
+                        "converters"
+                  ]
+            ]
+      },
+      "19": {
+            "content": "However , in Defenders of the Earth , the Phantom was not the only playable character , as players were given the choice to control Mandrake the Magician and Flash Gordon as well .",
+            "groundtruth": [
+                  [
+                        "defenders of the earth",
+                        "mandrake the magician",
+                        "characters"
+                  ],
+                  [
+                        "defenders of the earth",
+                        "flash gordon",
+                        "characters"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Phantom",
+                        "not the only playable character",
+                        "Defenders of the Earth"
+                  ],
+                  [
+                        "Defenders of the Earth",
+                        "playable character",
+                        "Mandrake the Magician"
+                  ],
+                  [
+                        "Defenders of the Earth",
+                        "playable character",
+                        "Flash Gordon"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Phantom",
+                        "not the only playable character",
+                        "Defenders of the Earth"
+                  ],
+                  [
+                        "Defenders of the Earth",
+                        "includes",
+                        "Mandrake the Magician"
+                  ],
+                  [
+                        "Defenders of the Earth",
+                        "includes",
+                        "Flash Gordon"
+                  ],
+                  [
+                        "players",
+                        "given choice to control",
+                        "Mandrake the Magician"
+                  ],
+                  [
+                        "players",
+                        "given choice to control",
+                        "Flash Gordon"
+                  ],
+                  [
+                        "Defenders of the Earth",
+                        "includes",
+                        "Phantom"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Mandrake the Magician",
+                        "is a playable character in",
+                        "Defenders of the Earth"
+                  ],
+                  [
+                        "Flash Gordon",
+                        "is a playable character in",
+                        "Defenders of the Earth"
+                  ],
+                  [
+                        "players",
+                        "given the choice to control",
+                        "Mandrake the Magician"
+                  ],
+                  [
+                        "players",
+                        "given the choice to control",
+                        "Flash Gordon"
+                  ],
+                  [
+                        "the Phantom",
+                        "is a playable character in",
+                        "Defenders of the Earth"
+                  ]
+            ]
+      },
+      "20": {
+            "content": "Ruutu has appeared in six World Championships with Finland and has won silver medals in 1998 , 2001 and 2007 and a bronze medal in 2006 .",
+            "groundtruth": [
+                  [
+                        "1998",
+                        "world championships",
+                        "sports season of league or competition"
+                  ],
+                  [
+                        "2007",
+                        "world championships",
+                        "sports season of league or competition"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Finland",
+                        "has won",
+                        "silver medals"
+                  ],
+                  [
+                        "Finland",
+                        "has won",
+                        "bronze medal"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Ruutu",
+                        "represented",
+                        "Finland"
+                  ],
+                  [
+                        "Ruutu",
+                        "won silver medals in",
+                        "1998"
+                  ],
+                  [
+                        "Ruutu",
+                        "won silver medals in",
+                        "2001"
+                  ],
+                  [
+                        "Ruutu",
+                        "won silver medals in",
+                        "2007"
+                  ],
+                  [
+                        "Ruutu",
+                        "won bronze medal in",
+                        "2006"
+                  ],
+                  [
+                        "Ruutu",
+                        "appeared in",
+                        "six World Championships"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Ruutu",
+                        "has won",
+                        "silver medals"
+                  ],
+                  [
+                        "silver medals",
+                        "in years",
+                        "1998, 2001, 2007"
+                  ],
+                  [
+                        "Ruutu",
+                        "has won",
+                        "a bronze medal"
+                  ],
+                  [
+                        "bronze medal",
+                        "in year",
+                        "2006"
+                  ],
+                  [
+                        "Ruutu",
+                        "has appeared in",
+                        "World Championships with Finland"
+                  ]
+            ]
+      },
+      "21": {
+            "content": "Union flag ( disambiguation ) \n\n The Union Flag is the name of the flag of the United Kingdom , commonly called the Union Jack .",
+            "groundtruth": [
+                  [
+                        "union flag",
+                        "flag of the united kingdom",
+                        "said to be the same as"
+                  ],
+                  [
+                        "flag of the united kingdom",
+                        "union flag",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Union Flag",
+                        "name of",
+                        "flag of the United Kingdom"
+                  ],
+                  [
+                        "Union Flag",
+                        "commonly called",
+                        "Union Jack"
+                  ],
+                  [
+                        "flag of the United Kingdom",
+                        "name of",
+                        "Union Jack"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Union Flag",
+                        "commonly called",
+                        "Union Jack"
+                  ],
+                  [
+                        "Union Flag",
+                        "name of",
+                        "flag of the United Kingdom"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Union Flag",
+                        "commonly called",
+                        "Union Jack"
+                  ],
+                  [
+                        "Union Flag",
+                        "is the name of the flag of",
+                        "the United Kingdom"
+                  ]
+            ]
+      },
+      "22": {
+            "content": "Aktion National Airport is an airport serving Preveza and Lefkada in Greece .",
+            "groundtruth": [
+                  [
+                        "lefkada",
+                        "greece",
+                        "country"
+                  ],
+                  [
+                        "aktion national airport",
+                        "preveza",
+                        "place served by transport hub"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Aktion National Airport",
+                        "serving",
+                        "Preveza and Lefkada"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Aktion National Airport",
+                        "serving",
+                        "Lefkada"
+                  ],
+                  [
+                        "Aktion National Airport",
+                        "located in",
+                        "Greece"
+                  ],
+                  [
+                        "Aktion National Airport",
+                        "serving",
+                        "Preveza"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Aktion National Airport",
+                        "is an airport serving",
+                        "Lefkada"
+                  ],
+                  [
+                        "Aktion National Airport",
+                        "is located in",
+                        "Greece"
+                  ],
+                  [
+                        "Aktion National Airport",
+                        "is an airport serving",
+                        "Preveza"
+                  ]
+            ]
+      },
+      "23": {
+            "content": "Two celebrated Charles Dickens adaptations followed \u2013 \" Great Expectations \" ( 1946 ) and \" Oliver Twist \" ( 1948 ) .",
+            "groundtruth": [
+                  [
+                        "great expectations",
+                        "charles dickens",
+                        "after a work by"
+                  ],
+                  [
+                        "oliver twist",
+                        "charles dickens",
+                        "after a work by"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Oliver Twist",
+                        "adapted from",
+                        "Charles Dickens"
+                  ],
+                  [
+                        "1946",
+                        "year of release",
+                        "Great Expectations"
+                  ],
+                  [
+                        "1948",
+                        "year of release",
+                        "Oliver Twist"
+                  ],
+                  [
+                        "Great Expectations",
+                        "adapted from",
+                        "Charles Dickens"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Great Expectations (1946)",
+                        "and",
+                        "Oliver Twist (1948)"
+                  ],
+                  [
+                        "Oliver Twist (1948)",
+                        "followed by",
+                        "Two celebrated Charles Dickens adaptations"
+                  ],
+                  [
+                        "Two celebrated Charles Dickens adaptations",
+                        "followed by",
+                        "Great Expectations (1946)"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Great Expectations",
+                        "followed",
+                        "Oliver Twist"
+                  ],
+                  [
+                        "Oliver Twist",
+                        "is an adaptation of",
+                        "Charles Dickens"
+                  ],
+                  [
+                        "Great Expectations",
+                        "released in",
+                        "1946"
+                  ],
+                  [
+                        "Oliver Twist",
+                        "released in",
+                        "1948"
+                  ],
+                  [
+                        "Great Expectations",
+                        "is an adaptation of",
+                        "Charles Dickens"
+                  ]
+            ]
+      },
+      "24": {
+            "content": "and husband of Gorgophone , daughter of the famous Perseus .",
+            "groundtruth": [
+                  [
+                        "perseus",
+                        "gorgophone",
+                        "child"
+                  ],
+                  [
+                        "gorgophone",
+                        "perseus",
+                        "father"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Gorgophone",
+                        "daughter of",
+                        "Perseus"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Gorgophone",
+                        "husband of",
+                        "Gorgophone"
+                  ],
+                  [
+                        "Gorgophone",
+                        "daughter of",
+                        "Perseus"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Gorgophone",
+                        "daughter of",
+                        "Perseus"
+                  ],
+                  [
+                        "husband",
+                        "of",
+                        "Gorgophone"
+                  ]
+            ]
+      },
+      "25": {
+            "content": "The novel \" Zazie dans le M\u00e9tro \" is famously written in French that disregards almost all French spelling conventions .",
+            "groundtruth": [
+                  [
+                        "zazie dans le m\u00e9tro",
+                        "french",
+                        "language of work or name"
+                  ],
+                  [
+                        "zazie dans le m\u00e9tro",
+                        "french",
+                        "original language of film or TV show"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "French",
+                        "disregards",
+                        "French spelling conventions"
+                  ],
+                  [
+                        "Zazie dans le M\u00e9tro",
+                        "is written in",
+                        "French"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Zazie dans le M\u00e9tro",
+                        "disregards",
+                        "French spelling conventions"
+                  ],
+                  [
+                        "Zazie dans le M\u00e9tro",
+                        "written in",
+                        "French"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Zazie dans le M\u00e9tro",
+                        "disregards",
+                        "French spelling conventions"
+                  ],
+                  [
+                        "Zazie dans le M\u00e9tro",
+                        "is written in",
+                        "French"
+                  ]
+            ]
+      },
+      "26": {
+            "content": "After the battle Daniel Winter , James Wilson , and James Sloan changed the name of the Peep O ' Day Boys to the Orange Order devoted to maintaining the Protestant ascendency .",
+            "groundtruth": [
+                  [
+                        "james wilson",
+                        "orange order",
+                        "member of"
+                  ],
+                  [
+                        "orange order",
+                        "protestant",
+                        "religion"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Daniel Winter",
+                        "changed the name with",
+                        "James Wilson"
+                  ],
+                  [
+                        "Daniel Winter",
+                        "changed the name with",
+                        "James Sloan"
+                  ],
+                  [
+                        "Peep O ' Day Boys",
+                        "changed name to",
+                        "Orange Order"
+                  ],
+                  [
+                        "Orange Order",
+                        "devoted to",
+                        "maintaining Protestant ascendency"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "James Wilson",
+                        "changed the name of",
+                        "Peep O ' Day Boys"
+                  ],
+                  [
+                        "James Sloan",
+                        "changed the name of",
+                        "Peep O ' Day Boys"
+                  ],
+                  [
+                        "Peep O ' Day Boys",
+                        "renamed to",
+                        "Orange Order"
+                  ],
+                  [
+                        "Orange Order",
+                        "devoted to",
+                        "maintaining the Protestant ascendency"
+                  ],
+                  [
+                        "Daniel Winter",
+                        "changed the name of",
+                        "Peep O ' Day Boys"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "James Wilson",
+                        "changed name of",
+                        "Peep O' Day Boys"
+                  ],
+                  [
+                        "James Sloan",
+                        "changed name of",
+                        "Peep O' Day Boys"
+                  ],
+                  [
+                        "Peep O' Day Boys",
+                        "changed name to",
+                        "Orange Order"
+                  ],
+                  [
+                        "Orange Order",
+                        "devoted to",
+                        "maintaining the Protestant ascendency"
+                  ],
+                  [
+                        "Daniel Winter",
+                        "changed name of",
+                        "Peep O' Day Boys"
+                  ]
+            ]
+      },
+      "27": {
+            "content": "In 1988 , he was also appointed to a steering committee for the establishment of NSW \u2019s Independent Commission Against Corruption ( ICAC ) .",
+            "groundtruth": [
+                  [
+                        "independent commission against corruption",
+                        "nsw",
+                        "applies to jurisdiction"
+                  ],
+                  [
+                        "icac",
+                        "nsw",
+                        "applies to jurisdiction"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "he",
+                        "appointed to",
+                        "steering committee"
+                  ],
+                  [
+                        "steering committee",
+                        "for the establishment of",
+                        "NSW's Independent Commission Against Corruption (ICAC)"
+                  ],
+                  [
+                        "NSW's Independent Commission Against Corruption (ICAC)",
+                        "established in",
+                        "1988"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "steering committee",
+                        "for the establishment of",
+                        "NSW 's Independent Commission Against Corruption (ICAC)"
+                  ],
+                  [
+                        "1988",
+                        "year of appointment",
+                        "he"
+                  ],
+                  [
+                        "he",
+                        "was appointed to",
+                        "steering committee"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Steering committee",
+                        "for establishment of",
+                        "NSW\u2019s Independent Commission Against Corruption (ICAC)"
+                  ],
+                  [
+                        "NSW\u2019s Independent Commission Against Corruption (ICAC)",
+                        "established in",
+                        "1988"
+                  ],
+                  [
+                        "He",
+                        "was appointed to",
+                        "steering committee"
+                  ]
+            ]
+      },
+      "28": {
+            "content": "After two scoreless defeats at the inaugurational World Cup in 1930 , Belgium scored their first two World Cup goals in 1934 against Germany , by virtue of Bernard Voorhoof .",
+            "groundtruth": [
+                  [
+                        "bernard voorhoof",
+                        "inaugurational world cup",
+                        "participant of"
+                  ],
+                  [
+                        "1934",
+                        "germany",
+                        "participating team"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Belgium",
+                        "scoreless defeats",
+                        "World Cup"
+                  ],
+                  [
+                        "Belgium",
+                        "scored first two goals",
+                        "1934"
+                  ],
+                  [
+                        "Germany",
+                        "lost to",
+                        "Belgium"
+                  ],
+                  [
+                        "Bernard Voorhoof",
+                        "scored for",
+                        "Belgium"
+                  ],
+                  [
+                        "World Cup",
+                        "inaugurational",
+                        "1930"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Belgium",
+                        "scored",
+                        "first two World Cup goals"
+                  ],
+                  [
+                        "Belgium",
+                        "against",
+                        "Germany"
+                  ],
+                  [
+                        "1930",
+                        "World Cup",
+                        "inaugurational"
+                  ],
+                  [
+                        "1934",
+                        "World Cup",
+                        "Belgium scored"
+                  ],
+                  [
+                        "Bernard Voorhoof",
+                        "scored",
+                        "first two World Cup goals"
+                  ],
+                  [
+                        "Belgium",
+                        "defeated",
+                        "scoreless"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "two scoreless defeats",
+                        "at",
+                        "inaugurational World Cup in 1930"
+                  ],
+                  [
+                        "Belgium",
+                        "scored",
+                        "first two World Cup goals in 1934"
+                  ],
+                  [
+                        "Belgium",
+                        "scored against",
+                        "Germany"
+                  ],
+                  [
+                        "Bernard Voorhoof",
+                        "scored",
+                        "first two World Cup goals for Belgium"
+                  ],
+                  [
+                        "Belgium",
+                        "had",
+                        "two scoreless defeats"
+                  ]
+            ]
+      },
+      "29": {
+            "content": "\" NHL 2K3 \" was released on the Xbox , PlayStation 2 , and Nintendo GameCube .",
+            "groundtruth": [
+                  [
+                        "nhl 2k3",
+                        "playstation 2",
+                        "platform"
+                  ],
+                  [
+                        "nhl 2k3",
+                        "xbox",
+                        "platform"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "NHL 2K3",
+                        "released on",
+                        "Xbox"
+                  ],
+                  [
+                        "NHL 2K3",
+                        "released on",
+                        "PlayStation 2"
+                  ],
+                  [
+                        "NHL 2K3",
+                        "released on",
+                        "Nintendo GameCube"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "NHL 2K3",
+                        "released on",
+                        "PlayStation 2"
+                  ],
+                  [
+                        "NHL 2K3",
+                        "released on",
+                        "Nintendo GameCube"
+                  ],
+                  [
+                        "NHL 2K3",
+                        "released on",
+                        "Xbox"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "NHL 2K3",
+                        "was released on",
+                        "PlayStation 2"
+                  ],
+                  [
+                        "NHL 2K3",
+                        "was released on",
+                        "Nintendo GameCube"
+                  ],
+                  [
+                        "NHL 2K3",
+                        "was released on",
+                        "Xbox"
+                  ]
+            ]
+      },
+      "30": {
+            "content": "Biman should , therefore , not expect slot allocations at Heathrow for the summer of 2008 and should look to Stansted or Gatwick airports if it wished to continue serving London .",
+            "groundtruth": [
+                  [
+                        "stansted",
+                        "london",
+                        "place served by transport hub"
+                  ],
+                  [
+                        "heathrow",
+                        "london",
+                        "place served by transport hub"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Biman",
+                        "should not expect",
+                        "slot allocations at Heathrow"
+                  ],
+                  [
+                        "Heathrow",
+                        "is",
+                        "a London airport"
+                  ],
+                  [
+                        "Biman",
+                        "should look to",
+                        "Stansted or Gatwick airports"
+                  ],
+                  [
+                        "Stansted or Gatwick airports",
+                        "are",
+                        "alternative London airports"
+                  ],
+                  [
+                        "Biman",
+                        "wished to continue",
+                        "serving London"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Biman",
+                        "should look to",
+                        "Stansted or Gatwick airports"
+                  ],
+                  [
+                        "Stansted or Gatwick airports",
+                        "if it wished to",
+                        "continue serving London"
+                  ],
+                  [
+                        "Biman",
+                        "should not expect",
+                        "slot allocations at Heathrow for the summer of 2008"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Biman",
+                        "should look to",
+                        "Stansted or Gatwick airports"
+                  ],
+                  [
+                        "Biman",
+                        "wished to continue",
+                        "serving London"
+                  ],
+                  [
+                        "Biman",
+                        "should not expect",
+                        "slot allocations at Heathrow for the summer of 2008"
+                  ]
+            ]
+      },
+      "31": {
+            "content": "The Sord M5 is a home computer launched by Sord Computer Corporation in 1982 .",
+            "groundtruth": [
+                  [
+                        "sord m5",
+                        "sord computer corporation",
+                        "manufacturer"
+                  ],
+                  [
+                        "sord m5",
+                        "home computer",
+                        "instance of"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Sord Computer Corporation",
+                        "launched",
+                        "Sord M5"
+                  ],
+                  [
+                        "Sord M5",
+                        "is",
+                        "home computer"
+                  ],
+                  [
+                        "Sord M5",
+                        "launched by",
+                        "Sord Computer Corporation"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Sord M5",
+                        "launched in",
+                        "1982"
+                  ],
+                  [
+                        "Sord M5",
+                        "launched by",
+                        "Sord Computer Corporation"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The Sord M5",
+                        "launched by",
+                        "Sord Computer Corporation"
+                  ],
+                  [
+                        "The Sord M5",
+                        "launched in",
+                        "1982"
+                  ],
+                  [
+                        "The Sord M5",
+                        "is a",
+                        "home computer"
+                  ]
+            ]
+      },
+      "32": {
+            "content": "Oscar Fraley ( August 2 , 1914 \u2013 January 6 , 1994 ) was the co - author , with Eliot Ness , of the famous American memoir \" The Untouchables \" .",
+            "groundtruth": [
+                  [
+                        "eliot ness",
+                        "american",
+                        "country of citizenship"
+                  ],
+                  [
+                        "the untouchables",
+                        "oscar fraley",
+                        "after a work by"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Oscar Fraley",
+                        "co-author",
+                        "Eliot Ness"
+                  ],
+                  [
+                        "The Untouchables",
+                        "written by",
+                        "Oscar Fraley and Eliot Ness"
+                  ],
+                  [
+                        "Oscar Fraley",
+                        "born on",
+                        "August 2, 1914"
+                  ],
+                  [
+                        "Oscar Fraley",
+                        "died on",
+                        "January 6, 1994"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Oscar Fraley",
+                        "wrote",
+                        "The Untouchables"
+                  ],
+                  [
+                        "Eliot Ness",
+                        "co-author with",
+                        "Oscar Fraley"
+                  ],
+                  [
+                        "The Untouchables",
+                        "is",
+                        "famous American memoir"
+                  ],
+                  [
+                        "Oscar Fraley",
+                        "co-author with",
+                        "Eliot Ness"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Oscar Fraley",
+                        "died on",
+                        "January 6, 1994"
+                  ],
+                  [
+                        "Oscar Fraley",
+                        "was the co-author with",
+                        "Eliot Ness"
+                  ],
+                  [
+                        "Oscar Fraley",
+                        "co-authored",
+                        "The Untouchables"
+                  ],
+                  [
+                        "The Untouchables",
+                        "is a",
+                        "famous American memoir"
+                  ],
+                  [
+                        "Oscar Fraley",
+                        "born on",
+                        "August 2, 1914"
+                  ]
+            ]
+      },
+      "33": {
+            "content": "Lady Jessica is the concubine of Duke Leto Atreides and mother of Paul Atreides in \" Dune \" ( 1965 ) .",
+            "groundtruth": [
+                  [
+                        "dune",
+                        "lady jessica",
+                        "characters"
+                  ],
+                  [
+                        "dune",
+                        "paul atreides",
+                        "characters"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Lady Jessica",
+                        "mother of",
+                        "Paul Atreides"
+                  ],
+                  [
+                        "Duke Leto Atreides",
+                        "father of",
+                        "Paul Atreides"
+                  ],
+                  [
+                        "Dune",
+                        "published in",
+                        "1965"
+                  ],
+                  [
+                        "Lady Jessica",
+                        "concubine of",
+                        "Duke Leto Atreides"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Lady Jessica",
+                        "is",
+                        "mother of Paul Atreides"
+                  ],
+                  [
+                        "Dune",
+                        "published in",
+                        "1965"
+                  ],
+                  [
+                        "Lady Jessica",
+                        "is",
+                        "concubine of Duke Leto Atreides"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Lady Jessica",
+                        "is the mother of",
+                        "Paul Atreides"
+                  ],
+                  [
+                        "Paul Atreides",
+                        "is a character in",
+                        "Dune (1965)"
+                  ],
+                  [
+                        "Lady Jessica",
+                        "is the concubine of",
+                        "Duke Leto Atreides"
+                  ]
+            ]
+      },
+      "34": {
+            "content": "Cadence - lypso is a fusion of cadence rampa from Haiti and calypso from Trinidad and Tobago .",
+            "groundtruth": [
+                  [
+                        "calypso",
+                        "trinidad and tobago",
+                        "country of origin"
+                  ],
+                  [
+                        "cadence rampa",
+                        "haiti",
+                        "country of origin"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "lypso",
+                        "fusion of",
+                        "cadence rampa"
+                  ],
+                  [
+                        "lypso",
+                        "fusion of",
+                        "calypso"
+                  ],
+                  [
+                        "cadence rampa",
+                        "from",
+                        "Haiti"
+                  ],
+                  [
+                        "calypso",
+                        "from",
+                        "Trinidad and Tobago"
+                  ],
+                  [
+                        "Cadence",
+                        "fusion of",
+                        "lypso"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Cadence - lypso",
+                        "is a fusion of",
+                        "calypso from Trinidad and Tobago"
+                  ],
+                  [
+                        "Cadence rampa from Haiti",
+                        "is a part of",
+                        "Cadence - lypso"
+                  ],
+                  [
+                        "Calypso from Trinidad and Tobago",
+                        "is a part of",
+                        "Cadence - lypso"
+                  ],
+                  [
+                        "Cadence - lypso",
+                        "is a fusion of",
+                        "cadence rampa from Haiti"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Cadence-lypso",
+                        "is a fusion of",
+                        "calypso from Trinidad and Tobago"
+                  ],
+                  [
+                        "Cadence-lypso",
+                        "is a fusion of",
+                        "cadence rampa from Haiti"
+                  ]
+            ]
+      },
+      "35": {
+            "content": "He and Stephen Morehouse Avery were nominated for the Academy Award for Best Story for \" The Gay Deception \" ( 1935 ) .",
+            "groundtruth": [
+                  [
+                        "stephen morehouse avery",
+                        "academy award for best story",
+                        "nominated for"
+                  ],
+                  [
+                        "the gay deception",
+                        "stephen morehouse avery",
+                        "screenwriter"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Stephen Morehouse Avery",
+                        "nominated with",
+                        "He"
+                  ],
+                  [
+                        "The Gay Deception",
+                        "nominated for",
+                        "Academy Award for Best Story"
+                  ],
+                  [
+                        "Academy Award for Best Story",
+                        "nominated for",
+                        "The Gay Deception"
+                  ],
+                  [
+                        "He",
+                        "nominated with",
+                        "Stephen Morehouse Avery"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "He",
+                        "with",
+                        "Stephen Morehouse Avery"
+                  ],
+                  [
+                        "Stephen Morehouse Avery",
+                        "nominated for",
+                        "Academy Award for Best Story"
+                  ],
+                  [
+                        "The Gay Deception",
+                        "released in",
+                        "1935"
+                  ],
+                  [
+                        "He",
+                        "nominated for",
+                        "Academy Award for Best Story"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "He",
+                        "nominated for",
+                        "Academy Award for Best Story"
+                  ],
+                  [
+                        "Stephen Morehouse Avery",
+                        "nominated for",
+                        "Academy Award for Best Story"
+                  ],
+                  [
+                        "The Gay Deception",
+                        "is the subject of nomination for",
+                        "Academy Award for Best Story"
+                  ],
+                  [
+                        "The Gay Deception",
+                        "released in",
+                        "1935"
+                  ],
+                  [
+                        "He",
+                        "nominated with",
+                        "Stephen Morehouse Avery"
+                  ]
+            ]
+      },
+      "36": {
+            "content": "River \u02bbIfr\u012bn runs from north to south between Mount Simeon and Mount Kurd and then turns west to the Orontes valley , thus separating Mount Kurd from Mount \u1e24\u0101rim to the south .",
+            "groundtruth": [
+                  [
+                        "orontes",
+                        "river \u02bbifr\u012bn",
+                        "tributary"
+                  ],
+                  [
+                        "river \u02bbifr\u012bn",
+                        "orontes",
+                        "mouth of the watercourse"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "runs between",
+                        "Mount Simeon and Mount Kurd"
+                  ],
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "turns west to",
+                        "Orontes valley"
+                  ],
+                  [
+                        "Mount Kurd",
+                        "separated from",
+                        "Mount \u1e24\u0101rim"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "between",
+                        "Mount Simeon and Mount Kurd"
+                  ],
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "turns",
+                        "west to the Orontes valley"
+                  ],
+                  [
+                        "Mount Simeon",
+                        "separates",
+                        "Mount Kurd from Mount \u1e24\u0101rim to the south"
+                  ],
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "runs from",
+                        "north to south"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "runs between",
+                        "Mount Simeon and Mount Kurd"
+                  ],
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "turns",
+                        "west"
+                  ],
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "runs to",
+                        "Orontes valley"
+                  ],
+                  [
+                        "Mount Kurd",
+                        "is separated from",
+                        "Mount \u1e24\u0101rim by River \u02bbIfr\u012bn"
+                  ],
+                  [
+                        "Mount \u1e24\u0101rim",
+                        "is to the south of",
+                        "Mount Kurd"
+                  ],
+                  [
+                        "River \u02bbIfr\u012bn",
+                        "runs from",
+                        "north to south"
+                  ]
+            ]
+      },
+      "37": {
+            "content": "Kiril \n\n The male name Kiril ( or \u041a\u0438\u0440\u0438\u043b or \u041a\u0438\u0440\u0438\u043b\u043b ) is a common first name in the Slavonic world , in particular in Bulgaria , Macedonia , and Russia .",
+            "groundtruth": [
+                  [
+                        "\u043a\u0438\u0440\u0438\u043b\u043b",
+                        "kiril",
+                        "said to be the same as"
+                  ],
+                  [
+                        "kiril",
+                        "\u043a\u0438\u0440\u0438\u043b\u043b",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Kiril",
+                        "in",
+                        "Slavonic world"
+                  ],
+                  [
+                        "Kiril",
+                        "particularly in",
+                        "Bulgaria"
+                  ],
+                  [
+                        "Kiril",
+                        "particularly in",
+                        "Macedonia"
+                  ],
+                  [
+                        "Kiril",
+                        "particularly in",
+                        "Russia"
+                  ],
+                  [
+                        "Kiril",
+                        "is a",
+                        "common first name"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Kiril",
+                        "in",
+                        "Slavonic world"
+                  ],
+                  [
+                        "Kiril",
+                        "common in",
+                        "Bulgaria"
+                  ],
+                  [
+                        "Kiril",
+                        "common in",
+                        "Macedonia"
+                  ],
+                  [
+                        "Kiril",
+                        "common in",
+                        "Russia"
+                  ],
+                  [
+                        "Kiril",
+                        "is a",
+                        "male name"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Kiril",
+                        "is a common first name in",
+                        "Bulgaria"
+                  ],
+                  [
+                        "Kiril",
+                        "is a common first name in",
+                        "Macedonia"
+                  ],
+                  [
+                        "Kiril",
+                        "is a common first name in",
+                        "Russia"
+                  ],
+                  [
+                        "Kiril",
+                        "is a common first name in",
+                        "the Slavonic world"
+                  ]
+            ]
+      },
+      "38": {
+            "content": "It was the started at time when there was no Department of Agriculture in the United States government , before Abraham Lincoln established an independent Department of Agriculture .",
+            "groundtruth": [
+                  [
+                        "united states",
+                        "abraham lincoln",
+                        "head of government"
+                  ],
+                  [
+                        "department of agriculture",
+                        "united states",
+                        "applies to jurisdiction"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Abraham Lincoln",
+                        "established",
+                        "independent Department of Agriculture"
+                  ],
+                  [
+                        "Department of Agriculture",
+                        "was not existing",
+                        "United States government"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "started at time",
+                        "Abraham Lincoln",
+                        "established an independent Department of Agriculture"
+                  ],
+                  [
+                        "time",
+                        "when",
+                        "no Department of Agriculture in the United States government"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Abraham Lincoln",
+                        "established",
+                        "independent Department of Agriculture"
+                  ],
+                  [
+                        "Department of Agriculture",
+                        "started at time when there was no",
+                        "Department of Agriculture in the United States government"
+                  ]
+            ]
+      },
+      "39": {
+            "content": "Abstract expressionism also included anarchist artists such as Mark Rothko and painters such as Jackson Pollock , who had adopted radical ideas during his experience as a muralist for the Works Progress Administration .",
+            "groundtruth": [
+                  [
+                        "jackson pollock",
+                        "abstract expressionism",
+                        "movement"
+                  ],
+                  [
+                        "mark rothko",
+                        "abstract expressionism",
+                        "movement"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "anarchist artists",
+                        "such as",
+                        "Mark Rothko"
+                  ],
+                  [
+                        "Mark Rothko",
+                        "and",
+                        "painters"
+                  ],
+                  [
+                        "painters",
+                        "such as",
+                        "Jackson Pollock"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "adopted",
+                        "radical ideas"
+                  ],
+                  [
+                        "radical ideas",
+                        "during",
+                        "experience as a muralist"
+                  ],
+                  [
+                        "experience as a muralist",
+                        "for",
+                        "Works Progress Administration"
+                  ],
+                  [
+                        "anarchist artists",
+                        "such as",
+                        "Mark Rothko"
+                  ],
+                  [
+                        "Mark Rothko",
+                        "and",
+                        "painters"
+                  ],
+                  [
+                        "painters",
+                        "such as",
+                        "Jackson Pollock"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "adopted",
+                        "radical ideas"
+                  ],
+                  [
+                        "radical ideas",
+                        "during",
+                        "experience as a muralist"
+                  ],
+                  [
+                        "experience as a muralist",
+                        "for",
+                        "Works Progress Administration"
+                  ],
+                  [
+                        "Abstract expressionism",
+                        "included",
+                        "anarchist artists"
+                  ],
+                  [
+                        "anarchist artists",
+                        "such as",
+                        "Mark Rothko"
+                  ],
+                  [
+                        "Mark Rothko",
+                        "and",
+                        "painters"
+                  ],
+                  [
+                        "painters",
+                        "such as",
+                        "Jackson Pollock"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "adopted",
+                        "radical ideas"
+                  ],
+                  [
+                        "radical ideas",
+                        "during",
+                        "experience as a muralist"
+                  ],
+                  [
+                        "experience as a muralist",
+                        "for",
+                        "Works Progress Administration"
+                  ],
+                  [
+                        "anarchist artists",
+                        "such as",
+                        "Mark Rothko"
+                  ],
+                  [
+                        "Mark Rothko",
+                        "and",
+                        "painters"
+                  ],
+                  [
+                        "painters",
+                        "such as",
+                        "Jackson Pollock"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "adopted",
+                        "radical ideas"
+                  ],
+                  [
+                        "radical ideas",
+                        "during",
+                        "experience as a muralist"
+                  ],
+                  [
+                        "experience as a muralist",
+                        "for",
+                        "Works Progress Administration"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Abstract expressionism",
+                        "included",
+                        "painters"
+                  ],
+                  [
+                        "Mark Rothko",
+                        "is an",
+                        "anarchist artist"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "is a",
+                        "painter"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "had experience as",
+                        "muralist"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "experience was for",
+                        "Works Progress Administration"
+                  ],
+                  [
+                        "Abstract expressionism",
+                        "included",
+                        "anarchist artists"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Mark Rothko",
+                        "is an",
+                        "anarchist artist"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "is a",
+                        "painter"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "adopted",
+                        "radical ideas"
+                  ],
+                  [
+                        "Jackson Pollock",
+                        "had experience as",
+                        "muralist for the Works Progress Administration"
+                  ],
+                  [
+                        "Abstract expressionism",
+                        "included",
+                        "anarchist artists"
+                  ]
+            ]
+      },
+      "40": {
+            "content": "The Shoes of the Fisherman is a novel by the Australian writer Morris West first published in 1963 .",
+            "groundtruth": [
+                  [
+                        "the shoes of the fisherman",
+                        "morris west",
+                        "after a work by"
+                  ],
+                  [
+                        "morris west",
+                        "the shoes of the fisherman",
+                        "notable work"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Morris West",
+                        "is",
+                        "Australian writer"
+                  ],
+                  [
+                        "The Shoes of the Fisherman",
+                        "first published in",
+                        "1963"
+                  ],
+                  [
+                        "The Shoes of the Fisherman",
+                        "written by",
+                        "Morris West"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "The Shoes of the Fisherman",
+                        "published in",
+                        "1963"
+                  ],
+                  [
+                        "Morris West",
+                        "is",
+                        "Australian writer"
+                  ],
+                  [
+                        "The Shoes of the Fisherman",
+                        "written by",
+                        "Morris West"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The Shoes of the Fisherman",
+                        "written by",
+                        "Morris West"
+                  ],
+                  [
+                        "The Shoes of the Fisherman",
+                        "first published in",
+                        "1963"
+                  ],
+                  [
+                        "The Shoes of the Fisherman",
+                        "is a",
+                        "novel"
+                  ]
+            ]
+      },
+      "41": {
+            "content": "The game 's soundtrack was composed by Hirokazu Tanaka , the same composer who worked on the music for earlier Nintendo games such as \" Balloon Fight \" and \" Duck Hunt \" .",
+            "groundtruth": [
+                  [
+                        "duck hunt",
+                        "nintendo",
+                        "publisher"
+                  ],
+                  [
+                        "balloon fight",
+                        "nintendo",
+                        "publisher"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Hirokazu Tanaka",
+                        "worked on music for",
+                        "earlier Nintendo games"
+                  ],
+                  [
+                        "earlier Nintendo games",
+                        "include",
+                        "Balloon Fight"
+                  ],
+                  [
+                        "earlier Nintendo games",
+                        "include",
+                        "Duck Hunt"
+                  ],
+                  [
+                        "game",
+                        "soundtrack composed by",
+                        "Hirokazu Tanaka"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Hirokazu Tanaka",
+                        "also composed",
+                        "Balloon Fight"
+                  ],
+                  [
+                        "Hirokazu Tanaka",
+                        "also composed",
+                        "Duck Hunt"
+                  ],
+                  [
+                        "The game's soundtrack",
+                        "composed by",
+                        "Hirokazu Tanaka"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Hirokazu Tanaka",
+                        "worked on",
+                        "music for earlier Nintendo games"
+                  ],
+                  [
+                        "music for earlier Nintendo games",
+                        "includes",
+                        "Balloon Fight"
+                  ],
+                  [
+                        "music for earlier Nintendo games",
+                        "includes",
+                        "Duck Hunt"
+                  ],
+                  [
+                        "The game's soundtrack",
+                        "was composed by",
+                        "Hirokazu Tanaka"
+                  ]
+            ]
+      },
+      "42": {
+            "content": "His sons , Takahiro Moriuchi and Hiroki Moriuchi are vocalist of the rock bands ONE OK ROCK and MY FIRST STORY , respectively .",
+            "groundtruth": [
+                  [
+                        "hiroki moriuchi",
+                        "takahiro moriuchi",
+                        "sibling"
+                  ],
+                  [
+                        "takahiro moriuchi",
+                        "one ok rock",
+                        "member of"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Takahiro Moriuchi",
+                        "is vocalist of",
+                        "ONE OK ROCK"
+                  ],
+                  [
+                        "Hiroki Moriuchi",
+                        "is vocalist of",
+                        "MY FIRST STORY"
+                  ],
+                  [
+                        "Takahiro Moriuchi",
+                        "brother of",
+                        "Hiroki Moriuchi"
+                  ],
+                  [
+                        "Hiroki Moriuchi",
+                        "brother of",
+                        "Takahiro Moriuchi"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Hiroki Moriuchi",
+                        "is vocalist of",
+                        "MY FIRST STORY"
+                  ],
+                  [
+                        "Takahiro Moriuchi",
+                        "and",
+                        "Hiroki Moriuchi"
+                  ],
+                  [
+                        "Takahiro Moriuchi",
+                        "sons of",
+                        "His"
+                  ],
+                  [
+                        "Hiroki Moriuchi",
+                        "sons of",
+                        "His"
+                  ],
+                  [
+                        "Takahiro Moriuchi",
+                        "is vocalist of",
+                        "ONE OK ROCK"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Hiroki Moriuchi",
+                        "is vocalist of",
+                        "MY FIRST STORY"
+                  ],
+                  [
+                        "Takahiro Moriuchi",
+                        "is vocalist of",
+                        "ONE OK ROCK"
+                  ]
+            ]
+      },
+      "43": {
+            "content": "Yost is an Americanized spelling of Dutch surname \" Joost \" or German surname \" Jost \" .",
+            "groundtruth": [
+                  [
+                        "jost",
+                        "yost",
+                        "said to be the same as"
+                  ],
+                  [
+                        "yost",
+                        "jost",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Yost",
+                        "Americanized spelling of",
+                        "Dutch surname 'Joost' or German surname 'Jost'"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Yost",
+                        "Americanized spelling of",
+                        "German surname Jost"
+                  ],
+                  [
+                        "Yost",
+                        "Americanized spelling of",
+                        "Dutch surname Joost"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Yost",
+                        "is an Americanized spelling of",
+                        "German surname Jost"
+                  ],
+                  [
+                        "Yost",
+                        "is an Americanized spelling of",
+                        "Dutch surname Joost"
+                  ]
+            ]
+      },
+      "44": {
+            "content": "On 7 July 1881 , Jacques Paul married Lucie ( Lucy ) Josephine Fehrenbach ( 19 December 1856 - ?",
+            "groundtruth": [
+                  [
+                        "lucie",
+                        "lucy",
+                        "said to be the same as"
+                  ],
+                  [
+                        "lucy",
+                        "lucie",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Lucie (Lucy) Josephine Fehrenbach",
+                        "born on",
+                        "19 December 1856"
+                  ],
+                  [
+                        "Lucie (Lucy) Josephine Fehrenbach",
+                        "died on",
+                        "?"
+                  ],
+                  [
+                        "Jacques Paul",
+                        "married",
+                        "Lucie (Lucy) Josephine Fehrenbach"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Lucie ( Lucy ) Josephine Fehrenbach",
+                        "born on",
+                        "19 December 1856"
+                  ],
+                  [
+                        "Lucie ( Lucy ) Josephine Fehrenbach",
+                        "died on",
+                        "?"
+                  ],
+                  [
+                        "Jacques Paul",
+                        "married",
+                        "Lucie ( Lucy ) Josephine Fehrenbach"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Jacques Paul",
+                        "married to",
+                        "Lucie Josephine Fehrenbach"
+                  ],
+                  [
+                        "Lucie Josephine Fehrenbach",
+                        "born on",
+                        "19 December 1856"
+                  ],
+                  [
+                        "Jacques Paul",
+                        "married on",
+                        "7 July 1881"
+                  ]
+            ]
+      },
+      "45": {
+            "content": "France Info ( stylised as franceinfo : ) is a brand of news service participated by France T\u00e9l\u00e9visions , Radio France , France M\u00e9dias Monde and the Institut national de l'audiovisuel .",
+            "groundtruth": [
+                  [
+                        "france info",
+                        "radio france",
+                        "owned by"
+                  ],
+                  [
+                        "france info",
+                        "france m\u00e9dias monde",
+                        "owned by"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "France Info",
+                        "stylised as",
+                        "franceinfo :"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "France T\u00e9l\u00e9visions"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "Radio France"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "France M\u00e9dias Monde"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "Institut national de l'audiovisuel"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "France Info",
+                        "participated by",
+                        "Radio France"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "France M\u00e9dias Monde"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "Institut national de l'audiovisuel"
+                  ],
+                  [
+                        "France T\u00e9l\u00e9visions",
+                        "participated in",
+                        "France Info"
+                  ],
+                  [
+                        "Radio France",
+                        "participated in",
+                        "France Info"
+                  ],
+                  [
+                        "France M\u00e9dias Monde",
+                        "participated in",
+                        "France Info"
+                  ],
+                  [
+                        "Institut national de l'audiovisuel",
+                        "participated in",
+                        "France Info"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "France T\u00e9l\u00e9visions"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "France Info",
+                        "participated by",
+                        "France T\u00e9l\u00e9visions"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "Radio France"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "France M\u00e9dias Monde"
+                  ],
+                  [
+                        "France Info",
+                        "participated by",
+                        "Institut national de l'audiovisuel"
+                  ],
+                  [
+                        "France Info",
+                        "is a brand of",
+                        "news service"
+                  ]
+            ]
+      },
+      "46": {
+            "content": "The culture of Brij is presented in \" Krishna Tere Desh Main \" ( Hindi ) , \" Kanha Ki Braj Bhumi \" , Brij ki radha dwarika ke shyam and \" Bawre Nain . \"",
+            "groundtruth": [
+                  [
+                        "krishna tere desh main",
+                        "hindi",
+                        "original language of film or TV show"
+                  ],
+                  [
+                        "bawre nain",
+                        "hindi",
+                        "original language of film or TV show"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Kanha Ki Braj Bhumi",
+                        "presented in",
+                        "Brij"
+                  ],
+                  [
+                        "Brij",
+                        "associated with",
+                        "Radha"
+                  ],
+                  [
+                        "Brij",
+                        "associated with",
+                        "Dwarika"
+                  ],
+                  [
+                        "Bawre Nain",
+                        "associated with",
+                        "Brij"
+                  ],
+                  [
+                        "Krishna Tere Desh Main",
+                        "presented in",
+                        "Brij"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Krishna Tere Desh Main (Hindi)",
+                        "also known as",
+                        "Kanha Ki Braj Bhumi"
+                  ],
+                  [
+                        "The culture of Brij",
+                        "presented in",
+                        "Brij ki radha dwarika ke shyam"
+                  ],
+                  [
+                        "The culture of Brij",
+                        "presented in",
+                        "Bawre Nain"
+                  ],
+                  [
+                        "The culture of Brij",
+                        "presented in",
+                        "Krishna Tere Desh Main (Hindi)"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The culture of Brij",
+                        "is presented in",
+                        "Kanha Ki Braj Bhumi"
+                  ],
+                  [
+                        "The culture of Brij",
+                        "is presented in",
+                        "Brij ki radha dwarika ke shyam"
+                  ],
+                  [
+                        "The culture of Brij",
+                        "is presented in",
+                        "Bawre Nain"
+                  ],
+                  [
+                        "The culture of Brij",
+                        "is presented in",
+                        "Krishna Tere Desh Main"
+                  ]
+            ]
+      },
+      "47": {
+            "content": "After having been recognized for his efforts and budding into one of the French underground hip hop music scene \u2019s premier producers , DJ Mehdi henceforth pushed boundaries by mixing hip hop and electronic music .",
+            "groundtruth": [
+                  [
+                        "dj mehdi",
+                        "electronic music",
+                        "field of work"
+                  ],
+                  [
+                        "dj mehdi",
+                        "hip hop",
+                        "field of work"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "DJ Mehdi",
+                        "budding into",
+                        "French underground hip hop music scene"
+                  ],
+                  [
+                        "French underground hip hop music scene",
+                        "premier producers",
+                        "DJ Mehdi"
+                  ],
+                  [
+                        "DJ Mehdi",
+                        "pushed boundaries by",
+                        "mixing hip hop and electronic music"
+                  ],
+                  [
+                        "DJ Mehdi",
+                        "recognized for",
+                        "efforts"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "DJ Mehdi",
+                        "budding into",
+                        "French underground hip hop music scene"
+                  ],
+                  [
+                        "DJ Mehdi",
+                        "pushed boundaries by",
+                        "mixing hip hop and electronic music"
+                  ],
+                  [
+                        "French underground hip hop music scene",
+                        "premier producers",
+                        "DJ Mehdi"
+                  ],
+                  [
+                        "DJ Mehdi",
+                        "recognized for",
+                        "efforts"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "DJ Mehdi",
+                        "budded into",
+                        "one of the French underground hip hop music scene\u2019s premier producers"
+                  ],
+                  [
+                        "DJ Mehdi",
+                        "pushed boundaries by",
+                        "mixing hip hop and electronic music"
+                  ],
+                  [
+                        "DJ Mehdi",
+                        "recognized for",
+                        "his efforts"
+                  ]
+            ]
+      },
+      "48": {
+            "content": "In 1985 , Soundgarden was a recently formed three - piece band with Chris Cornell on vocals and drums , Kim Thayil on guitar , and Hiro Yamamoto on bass guitar .",
+            "groundtruth": [
+                  [
+                        "soundgarden",
+                        "chris cornell",
+                        "has part"
+                  ],
+                  [
+                        "soundgarden",
+                        "hiro yamamoto",
+                        "has part"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Soundgarden",
+                        "formed in",
+                        "1985"
+                  ],
+                  [
+                        "Soundgarden",
+                        "was a",
+                        "three-piece band"
+                  ],
+                  [
+                        "Chris Cornell",
+                        "on",
+                        "vocals and drums"
+                  ],
+                  [
+                        "Kim Thayil",
+                        "on",
+                        "guitar"
+                  ],
+                  [
+                        "Hiro Yamamoto",
+                        "on",
+                        "bass guitar"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Soundgarden",
+                        "consisted of",
+                        "Chris Cornell"
+                  ],
+                  [
+                        "Chris Cornell",
+                        "role",
+                        "vocals and drums"
+                  ],
+                  [
+                        "Soundgarden",
+                        "consisted of",
+                        "Kim Thayil"
+                  ],
+                  [
+                        "Kim Thayil",
+                        "role",
+                        "guitar"
+                  ],
+                  [
+                        "Soundgarden",
+                        "consisted of",
+                        "Hiro Yamamoto"
+                  ],
+                  [
+                        "Hiro Yamamoto",
+                        "role",
+                        "bass guitar"
+                  ],
+                  [
+                        "Soundgarden",
+                        "formed in",
+                        "1985"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Soundgarden",
+                        "was a",
+                        "three-piece band"
+                  ],
+                  [
+                        "Chris Cornell",
+                        "was on",
+                        "vocals"
+                  ],
+                  [
+                        "Chris Cornell",
+                        "played",
+                        "drums"
+                  ],
+                  [
+                        "Kim Thayil",
+                        "played",
+                        "guitar"
+                  ],
+                  [
+                        "Hiro Yamamoto",
+                        "played",
+                        "bass guitar"
+                  ],
+                  [
+                        "Soundgarden",
+                        "was formed in",
+                        "1985"
+                  ]
+            ]
+      },
+      "49": {
+            "content": "The missile becomes a cruise missile , and travels across the world , whereupon it finally crashes into the Opera House in Sydney , during an AC / DC concert .",
+            "groundtruth": [
+                  [
+                        "opera house",
+                        "sydney",
+                        "location"
+                  ],
+                  [
+                        "ac/dc",
+                        "sydney",
+                        "location of formation"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "cruise missile",
+                        "travels",
+                        "across the world"
+                  ],
+                  [
+                        "cruise missile",
+                        "crashes into",
+                        "Opera House in Sydney"
+                  ],
+                  [
+                        "Opera House in Sydney",
+                        "hosts",
+                        "AC/DC concert"
+                  ],
+                  [
+                        "missile",
+                        "becomes",
+                        "cruise missile"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "cruise missile",
+                        "travels across",
+                        "world"
+                  ],
+                  [
+                        "cruise missile",
+                        "crashes into",
+                        "Opera House"
+                  ],
+                  [
+                        "Opera House",
+                        "located in",
+                        "Sydney"
+                  ],
+                  [
+                        "cruise missile",
+                        "during",
+                        "AC/DC concert"
+                  ],
+                  [
+                        "missile",
+                        "becomes",
+                        "cruise missile"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The missile",
+                        "travels across",
+                        "the world"
+                  ],
+                  [
+                        "The missile",
+                        "crashes into",
+                        "the Opera House in Sydney"
+                  ],
+                  [
+                        "The crash",
+                        "occurs during",
+                        "an AC/DC concert"
+                  ],
+                  [
+                        "The missile",
+                        "becomes",
+                        "a cruise missile"
+                  ]
+            ]
+      }
+}

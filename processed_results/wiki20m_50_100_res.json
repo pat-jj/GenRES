@@ -1,0 +1,4331 @@
+{
+      "50": {
+            "content": "The Frederick Krause Mansion and Platte County Courthouse are listed on the National Register of Historic Places .",
+            "groundtruth": [
+                  [
+                        "platte county courthouse",
+                        "national register of historic places",
+                        "heritage designation"
+                  ],
+                  [
+                        "frederick krause mansion",
+                        "national register of historic places",
+                        "heritage designation"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Frederick Krause Mansion",
+                        "listed on",
+                        "National Register of Historic Places"
+                  ],
+                  [
+                        "Platte County Courthouse",
+                        "listed on",
+                        "National Register of Historic Places"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Frederick Krause Mansion",
+                        "Platte County Courthouse",
+                        "National Register of Historic Places"
+                  ],
+                  [
+                        "Frederick Krause Mansion",
+                        "Platte County Courthouse",
+                        "listed on"
+                  ],
+                  [
+                        "Frederick Krause Mansion",
+                        "and",
+                        "Platte County Courthouse"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Platte County Courthouse",
+                        "is listed on",
+                        "National Register of Historic Places"
+                  ],
+                  [
+                        "Frederick Krause Mansion",
+                        "is listed on",
+                        "National Register of Historic Places"
+                  ]
+            ]
+      },
+      "51": {
+            "content": "Dawn of Magic 2 , known in North America as Time of Shadows , is an action role - playing game for Microsoft Windows published by Kalypso Media .",
+            "groundtruth": [
+                  [
+                        "dawn of magic",
+                        "action role-playing game",
+                        "genre"
+                  ],
+                  [
+                        "dawn of magic",
+                        "microsoft windows",
+                        "platform"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Dawn of Magic 2",
+                        "is",
+                        "action role-playing game"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "published by",
+                        "Kalypso Media"
+                  ],
+                  [
+                        "Kalypso Media",
+                        "publisher of",
+                        "Dawn of Magic 2"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "known as",
+                        "Time of Shadows"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Dawn of Magic 2",
+                        "is",
+                        "action role-playing game"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "published by",
+                        "Kalypso Media"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "for",
+                        "Microsoft Windows"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "known as",
+                        "Time of Shadows (in North America)"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Dawn of Magic 2",
+                        "is an",
+                        "action role-playing game"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "for",
+                        "Microsoft Windows"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "published by",
+                        "Kalypso Media"
+                  ],
+                  [
+                        "Dawn of Magic 2",
+                        "known in North America as",
+                        "Time of Shadows"
+                  ]
+            ]
+      },
+      "52": {
+            "content": "Sorin T\u0103n\u0103sie ( born June 8 , 1980 in Craiova , Romania ) is a professional bantamweight boxer .",
+            "groundtruth": [
+                  [
+                        "sorin t\u0103n\u0103sie",
+                        "romania",
+                        "country of citizenship"
+                  ],
+                  [
+                        "craiova",
+                        "romania",
+                        "country"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "born in",
+                        "Craiova"
+                  ],
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "born on",
+                        "June 8, 1980"
+                  ],
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "is",
+                        "professional bantamweight boxer"
+                  ],
+                  [
+                        "Craiova",
+                        "is located in",
+                        "Romania"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "born in",
+                        "Craiova, Romania"
+                  ],
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "is",
+                        "professional bantamweight boxer"
+                  ],
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "born on",
+                        "June 8, 1980"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "born in",
+                        "Craiova, Romania"
+                  ],
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "is a",
+                        "professional bantamweight boxer"
+                  ],
+                  [
+                        "Sorin T\u0103n\u0103sie",
+                        "born on",
+                        "June 8, 1980"
+                  ]
+            ]
+      },
+      "53": {
+            "content": "In February 2016 , Alitalia announced that in late March 2016 it would cancel most of its routes from Pisa , including Moscow , Prague , Berlin , Catania and Tirana .",
+            "groundtruth": [
+                  [
+                        "tirana",
+                        "tirana",
+                        "place served by transport hub"
+                  ],
+                  [
+                        "moscow",
+                        "moscow",
+                        "place served by transport hub"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Alitalia",
+                        "cancel routes from",
+                        "Pisa"
+                  ],
+                  [
+                        "Pisa",
+                        "includes routes to",
+                        "Moscow"
+                  ],
+                  [
+                        "Pisa",
+                        "includes routes to",
+                        "Prague"
+                  ],
+                  [
+                        "Pisa",
+                        "includes routes to",
+                        "Berlin"
+                  ],
+                  [
+                        "Pisa",
+                        "includes routes to",
+                        "Catania"
+                  ],
+                  [
+                        "Pisa",
+                        "includes routes to",
+                        "Tirana"
+                  ],
+                  [
+                        "Alitalia",
+                        "announced in",
+                        "February 2016"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Alitalia",
+                        "would cancel",
+                        "late March 2016"
+                  ],
+                  [
+                        "Alitalia",
+                        "routes from",
+                        "Pisa"
+                  ],
+                  [
+                        "Pisa",
+                        "including",
+                        "Moscow"
+                  ],
+                  [
+                        "Pisa",
+                        "including",
+                        "Prague"
+                  ],
+                  [
+                        "Pisa",
+                        "including",
+                        "Berlin"
+                  ],
+                  [
+                        "Pisa",
+                        "including",
+                        "Catania"
+                  ],
+                  [
+                        "Pisa",
+                        "including",
+                        "Tirana"
+                  ],
+                  [
+                        "Alitalia",
+                        "announced",
+                        "February 2016"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Alitalia",
+                        "would cancel routes from",
+                        "Pisa"
+                  ],
+                  [
+                        "Alitalia",
+                        "would cancel route to",
+                        "Moscow"
+                  ],
+                  [
+                        "Alitalia",
+                        "would cancel route to",
+                        "Prague"
+                  ],
+                  [
+                        "Alitalia",
+                        "would cancel route to",
+                        "Berlin"
+                  ],
+                  [
+                        "Alitalia",
+                        "would cancel route to",
+                        "Catania"
+                  ],
+                  [
+                        "Alitalia",
+                        "would cancel route to",
+                        "Tirana"
+                  ],
+                  [
+                        "cancellation announcement",
+                        "made in",
+                        "February 2016"
+                  ],
+                  [
+                        "Alitalia",
+                        "announced cancellation date",
+                        "late March 2016"
+                  ]
+            ]
+      },
+      "54": {
+            "content": "Former San Francisco mayor Willie Brown has stated that Barack Obama declined to have his picture taken with Newsom at a fundraiser in 2004 .",
+            "groundtruth": [
+                  [
+                        "san francisco",
+                        "willie brown",
+                        "head of government"
+                  ],
+                  [
+                        "willie brown",
+                        "san francisco",
+                        "residence"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Barack Obama",
+                        "declined",
+                        "have picture taken with Newsom"
+                  ],
+                  [
+                        "Barack Obama",
+                        "attended",
+                        "fundraiser in 2004"
+                  ],
+                  [
+                        "Willie Brown",
+                        "stated",
+                        "Barack Obama"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Barack Obama",
+                        "declined to have his picture taken with",
+                        "Newsom"
+                  ],
+                  [
+                        "Newsom",
+                        "at a fundraiser in",
+                        "2004"
+                  ],
+                  [
+                        "Willie Brown",
+                        "stated that",
+                        "Barack Obama declined to have his picture taken with Newsom"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Barack Obama",
+                        "declined",
+                        "to have his picture taken with Newsom"
+                  ],
+                  [
+                        "The event",
+                        "was",
+                        "a fundraiser"
+                  ],
+                  [
+                        "The event",
+                        "occurred in",
+                        "2004"
+                  ],
+                  [
+                        "Willie Brown",
+                        "is former mayor of",
+                        "San Francisco"
+                  ]
+            ]
+      },
+      "55": {
+            "content": "He spoke on Wordsworth , with whose work and that of other Romantics , such as Coleridge , Byron , Shelley , and Keats he was well acquainted .",
+            "groundtruth": [
+                  [
+                        "shelley",
+                        "romantics",
+                        "movement"
+                  ],
+                  [
+                        "byron",
+                        "romantics",
+                        "movement"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Wordsworth",
+                        "work",
+                        "Romantics"
+                  ],
+                  [
+                        "Romantics",
+                        "include",
+                        "Coleridge"
+                  ],
+                  [
+                        "Romantics",
+                        "include",
+                        "Byron"
+                  ],
+                  [
+                        "Romantics",
+                        "include",
+                        "Shelley"
+                  ],
+                  [
+                        "Romantics",
+                        "include",
+                        "Keats"
+                  ],
+                  [
+                        "He",
+                        "well acquainted with",
+                        "Romantics"
+                  ],
+                  [
+                        "Wordsworth",
+                        "spoke on",
+                        "He"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Wordsworth",
+                        "work",
+                        "Romantics"
+                  ],
+                  [
+                        "Romantics",
+                        "include",
+                        "Coleridge"
+                  ],
+                  [
+                        "Coleridge",
+                        "with",
+                        "Byron"
+                  ],
+                  [
+                        "Byron",
+                        "with",
+                        "Shelley"
+                  ],
+                  [
+                        "Shelley",
+                        "with",
+                        "Keats"
+                  ],
+                  [
+                        "He",
+                        "acquainted with",
+                        "Coleridge"
+                  ],
+                  [
+                        "He",
+                        "acquainted with",
+                        "Byron"
+                  ],
+                  [
+                        "He",
+                        "acquainted with",
+                        "Shelley"
+                  ],
+                  [
+                        "He",
+                        "acquainted with",
+                        "Keats"
+                  ],
+                  [
+                        "He",
+                        "spoke on",
+                        "Wordsworth"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "He",
+                        "was well acquainted with",
+                        "Wordsworth"
+                  ],
+                  [
+                        "He",
+                        "was well acquainted with",
+                        "Coleridge"
+                  ],
+                  [
+                        "He",
+                        "was well acquainted with",
+                        "Byron"
+                  ],
+                  [
+                        "He",
+                        "was well acquainted with",
+                        "Shelley"
+                  ],
+                  [
+                        "He",
+                        "was well acquainted with",
+                        "Keats"
+                  ],
+                  [
+                        "He",
+                        "spoke on",
+                        "Wordsworth"
+                  ]
+            ]
+      },
+      "56": {
+            "content": "It was succeeded as Norwegian representative at the 1979 contest by Anita Skorgan ( who later married Teigen ) with \" Oliver \" .",
+            "groundtruth": [
+                  [
+                        "1979 contest",
+                        "anita skorgan",
+                        "participant"
+                  ],
+                  [
+                        "anita skorgan",
+                        "1979 contest",
+                        "participant of"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Anita Skorgan",
+                        "married",
+                        "Teigen"
+                  ],
+                  [
+                        "Anita Skorgan",
+                        "performed",
+                        "Oliver"
+                  ],
+                  [
+                        "Norwegian representative",
+                        "succeeded by",
+                        "Anita Skorgan"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Anita Skorgan",
+                        "married",
+                        "Teigen"
+                  ],
+                  [
+                        "Anita Skorgan",
+                        "with",
+                        "Oliver"
+                  ],
+                  [
+                        "It",
+                        "succeeded by",
+                        "Anita Skorgan"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Anita Skorgan",
+                        "married",
+                        "Teigen"
+                  ],
+                  [
+                        "Anita Skorgan",
+                        "performed",
+                        "Oliver at the 1979 contest"
+                  ],
+                  [
+                        "It",
+                        "was succeeded as Norwegian representative at",
+                        "the 1979 contest by Anita Skorgan"
+                  ]
+            ]
+      },
+      "57": {
+            "content": "Tiny Tower released on June 23 , 2011 for iOS devices and on November 16 , 2011 for Android devices .",
+            "groundtruth": [
+                  [
+                        "tiny tower",
+                        "android",
+                        "platform"
+                  ],
+                  [
+                        "tiny tower",
+                        "ios",
+                        "platform"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "November 16, 2011"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "available for",
+                        "iOS devices"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "available for",
+                        "Android devices"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "June 23, 2011"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "iOS devices"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "November 16, 2011"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "Android devices"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "June 23, 2011"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Tiny Tower",
+                        "for",
+                        "iOS devices"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "November 16, 2011"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "for",
+                        "Android devices"
+                  ],
+                  [
+                        "Tiny Tower",
+                        "released on",
+                        "June 23, 2011"
+                  ]
+            ]
+      },
+      "58": {
+            "content": "In Norse mythology , Loki accuses Freyr and Freyja of committing incest , in \" Lokasenna \" .",
+            "groundtruth": [
+                  [
+                        "lokasenna",
+                        "freyr",
+                        "characters"
+                  ],
+                  [
+                        "freyja",
+                        "norse mythology",
+                        "part of"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Freyr and Freyja",
+                        "committing incest",
+                        "Loki"
+                  ],
+                  [
+                        "Loki",
+                        "in",
+                        "Lokasenna"
+                  ],
+                  [
+                        "Loki",
+                        "accuses",
+                        "Freyr and Freyja"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Loki",
+                        "in",
+                        "Lokasenna"
+                  ],
+                  [
+                        "Freyr and Freyja",
+                        "committing",
+                        "incest"
+                  ],
+                  [
+                        "Norse mythology",
+                        "contains",
+                        "Lokasenna"
+                  ],
+                  [
+                        "Loki",
+                        "accuses",
+                        "Freyr and Freyja"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Loki",
+                        "accuses",
+                        "Freyja"
+                  ],
+                  [
+                        "Freyr",
+                        "committed",
+                        "incest"
+                  ],
+                  [
+                        "Freyja",
+                        "committed",
+                        "incest"
+                  ],
+                  [
+                        "Loki",
+                        "speaks in",
+                        "Lokasenna"
+                  ],
+                  [
+                        "Loki",
+                        "accuses",
+                        "Freyr"
+                  ]
+            ]
+      },
+      "59": {
+            "content": "Alternative spellings are : Lucy , Lucie , Luci , Luce .",
+            "groundtruth": [
+                  [
+                        "lucie",
+                        "lucy",
+                        "said to be the same as"
+                  ],
+                  [
+                        "lucy",
+                        "lucie",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Lucie",
+                        "alternative spelling of",
+                        "Lucy"
+                  ],
+                  [
+                        "Luci",
+                        "alternative spelling of",
+                        "Lucy"
+                  ],
+                  [
+                        "Luce",
+                        "alternative spelling of",
+                        "Lucy"
+                  ],
+                  [
+                        "Lucy",
+                        "alternative spelling of",
+                        "Lucie"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Alternative spellings",
+                        "are",
+                        "Lucie"
+                  ],
+                  [
+                        "Alternative spellings",
+                        "are",
+                        "Luci"
+                  ],
+                  [
+                        "Alternative spellings",
+                        "are",
+                        "Luce"
+                  ],
+                  [
+                        "Alternative spellings",
+                        "are",
+                        "Lucy"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Lucy",
+                        "alternative spelling",
+                        "Luci"
+                  ],
+                  [
+                        "Lucy",
+                        "alternative spelling",
+                        "Luce"
+                  ],
+                  [
+                        "Lucy",
+                        "alternative spelling",
+                        "Lucie"
+                  ]
+            ]
+      },
+      "60": {
+            "content": "Ekaterina Vilkova was born in Gorky , Russian SFSR , Soviet Union ( now Nizhny Novgorod , Russia ) .",
+            "groundtruth": [
+                  [
+                        "gorky",
+                        "gorky",
+                        "residence"
+                  ],
+                  [
+                        "gorky",
+                        "nizhny novgorod",
+                        "residence"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Ekaterina Vilkova",
+                        "born in",
+                        "Gorky"
+                  ],
+                  [
+                        "Gorky",
+                        "now",
+                        "Nizhny Novgorod"
+                  ],
+                  [
+                        "Ekaterina Vilkova",
+                        "born in",
+                        "Russian SFSR"
+                  ],
+                  [
+                        "Russian SFSR",
+                        "part of",
+                        "Soviet Union"
+                  ],
+                  [
+                        "Soviet Union",
+                        "now",
+                        "Russia"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Gorky",
+                        "located in",
+                        "Russian SFSR"
+                  ],
+                  [
+                        "Russian SFSR",
+                        "part of",
+                        "Soviet Union"
+                  ],
+                  [
+                        "Gorky",
+                        "now known as",
+                        "Nizhny Novgorod"
+                  ],
+                  [
+                        "Nizhny Novgorod",
+                        "located in",
+                        "Russia"
+                  ],
+                  [
+                        "Ekaterina Vilkova",
+                        "born in",
+                        "Gorky"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Gorky",
+                        "is now known as",
+                        "Nizhny Novgorod"
+                  ],
+                  [
+                        "Gorky",
+                        "was part of",
+                        "Russian SFSR"
+                  ],
+                  [
+                        "Russian SFSR",
+                        "was part of",
+                        "Soviet Union"
+                  ],
+                  [
+                        "Ekaterina Vilkova",
+                        "was born in",
+                        "Gorky"
+                  ]
+            ]
+      },
+      "61": {
+            "content": "' \u201d \n\n The 17th century alchemist Eirenaeus Philalethes , also known as George Starkey , describes stibnite in his alchemical commentary \" An Exposition upon Sir George Ripley 's Epistle \" .",
+            "groundtruth": [
+                  [
+                        "george starkey",
+                        "eirenaeus philalethes",
+                        "said to be the same as"
+                  ],
+                  [
+                        "eirenaeus philalethes",
+                        "george starkey",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Eirenaeus Philalethes",
+                        "describes",
+                        "stibnite"
+                  ],
+                  [
+                        "An Exposition upon Sir George Ripley's Epistle",
+                        "written by",
+                        "Eirenaeus Philalethes"
+                  ],
+                  [
+                        "Sir George Ripley",
+                        "mentioned in",
+                        "An Exposition upon Sir George Ripley's Epistle"
+                  ],
+                  [
+                        "Eirenaeus Philalethes",
+                        "also known as",
+                        "George Starkey"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Eirenaeus Philalethes",
+                        "describes",
+                        "stibnite"
+                  ],
+                  [
+                        "Eirenaeus Philalethes",
+                        "writes",
+                        "An Exposition upon Sir George Ripley 's Epistle"
+                  ],
+                  [
+                        "Eirenaeus Philalethes",
+                        "also known as",
+                        "George Starkey"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Eirenaeus Philalethes",
+                        "describes",
+                        "stibnite"
+                  ],
+                  [
+                        "Eirenaeus Philalethes",
+                        "author of",
+                        "An Exposition upon Sir George Ripley's Epistle"
+                  ],
+                  [
+                        "An Exposition upon Sir George Ripley's Epistle",
+                        "is a commentary on",
+                        "Sir George Ripley's Epistle"
+                  ],
+                  [
+                        "Eirenaeus Philalethes",
+                        "also known as",
+                        "George Starkey"
+                  ]
+            ]
+      },
+      "62": {
+            "content": "The relationship of all of these taxa \u2014 members of the family Auriscalpiaceae of the order Russulales \u2014 has been demonstrated through molecular phylogenetics .",
+            "groundtruth": [
+                  [
+                        "russulales",
+                        "order",
+                        "taxon rank"
+                  ],
+                  [
+                        "auriscalpiaceae",
+                        "family",
+                        "taxon rank"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "members",
+                        "of",
+                        "family Auriscalpiaceae"
+                  ],
+                  [
+                        "order Russulales",
+                        "demonstrated through",
+                        "molecular phylogenetics"
+                  ],
+                  [
+                        "family Auriscalpiaceae",
+                        "of",
+                        "order Russulales"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "taxa",
+                        "of",
+                        "order Russulales"
+                  ],
+                  [
+                        "relationship",
+                        "demonstrated through",
+                        "molecular phylogenetics"
+                  ],
+                  [
+                        "taxa",
+                        "members of",
+                        "family Auriscalpiaceae"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "family Auriscalpiaceae",
+                        "is of",
+                        "order Russulales"
+                  ],
+                  [
+                        "relationship of taxa",
+                        "has been demonstrated through",
+                        "molecular phylogenetics"
+                  ],
+                  [
+                        "taxa",
+                        "are members of",
+                        "family Auriscalpiaceae"
+                  ]
+            ]
+      },
+      "63": {
+            "content": "General Sir Hew Whitefoord Dalrymple , 1st Baronet ( 3 December 1750 \u2013 9 April 1830 ) was a British Army general and Governor of Gibraltar .",
+            "groundtruth": [
+                  [
+                        "hew whitefoord dalrymple",
+                        "general",
+                        "military rank"
+                  ],
+                  [
+                        "hew whitefoord dalrymple",
+                        "british army",
+                        "military branch"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "Governor of Gibraltar",
+                        "9 April 1830"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "1st Baronet",
+                        "3 December 1750"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "died on",
+                        "9 April 1830"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "occupation",
+                        "British Army general"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "title",
+                        "1st Baronet"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "position",
+                        "Governor of Gibraltar"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "born on",
+                        "3 December 1750"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "was",
+                        "Governor of Gibraltar"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "had title",
+                        "1st Baronet"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "born on",
+                        "3 December 1750"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "died on",
+                        "9 April 1830"
+                  ],
+                  [
+                        "General Sir Hew Whitefoord Dalrymple",
+                        "was",
+                        "British Army general"
+                  ]
+            ]
+      },
+      "64": {
+            "content": "Lieutenant - General Richard Stovin ( died 1825 ) was a British Army officer during the late eighteenth and early nineteenth centuries .",
+            "groundtruth": [
+                  [
+                        "richard stovin",
+                        "lieutenant-general",
+                        "military rank"
+                  ],
+                  [
+                        "richard stovin",
+                        "british army",
+                        "military branch"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Lieutenant - General Richard Stovin",
+                        "died in",
+                        "1825"
+                  ],
+                  [
+                        "Lieutenant - General Richard Stovin",
+                        "was a",
+                        "British Army officer"
+                  ],
+                  [
+                        "British Army officer",
+                        "served during",
+                        "late eighteenth and early nineteenth centuries"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Lieutenant - General Richard Stovin",
+                        "was a",
+                        "British Army officer"
+                  ],
+                  [
+                        "Lieutenant - General Richard Stovin",
+                        "during",
+                        "late eighteenth and early nineteenth centuries"
+                  ],
+                  [
+                        "Lieutenant - General Richard Stovin",
+                        "died",
+                        "1825"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Lieutenant-General Richard Stovin",
+                        "was",
+                        "British Army officer"
+                  ],
+                  [
+                        "Lieutenant-General Richard Stovin",
+                        "served during",
+                        "late eighteenth and early nineteenth centuries"
+                  ],
+                  [
+                        "Lieutenant-General Richard Stovin",
+                        "died in",
+                        "1825"
+                  ]
+            ]
+      },
+      "65": {
+            "content": "\" Cogan ( 2008 ) , p. 82 \n\n \" Yahweh \" ( \u05d9\u05d4\u05d5\u05d4 ) is the name of the Judeo - Christian God in both the Bible .",
+            "groundtruth": [
+                  [
+                        "yahweh",
+                        "christian god",
+                        "said to be the same as"
+                  ],
+                  [
+                        "christian god",
+                        "yahweh",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Yahweh",
+                        "name of",
+                        "Judeo-Christian God"
+                  ],
+                  [
+                        "Judeo-Christian God",
+                        "mentioned in",
+                        "Bible"
+                  ],
+                  [
+                        "Cogan",
+                        "author",
+                        "2008"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Yahweh (\u05d9\u05d4\u05d5\u05d4)",
+                        "is the name of",
+                        "Judeo-Christian God"
+                  ],
+                  [
+                        "Yahweh (\u05d9\u05d4\u05d5\u05d4)",
+                        "in",
+                        "Bible"
+                  ],
+                  [
+                        "Cogan (2008)",
+                        "cites",
+                        "Yahweh (\u05d9\u05d4\u05d5\u05d4)"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Yahweh",
+                        "is in",
+                        "the Bible"
+                  ],
+                  [
+                        "Yahweh",
+                        "is the name of",
+                        "the Judeo-Christian God"
+                  ]
+            ]
+      },
+      "66": {
+            "content": "British pop art painters David Hockney , Patrick Caulfield , Derek Boshier , Peter Phillips , Peter Blake ( best known for the cover - art for \" Sgt .",
+            "groundtruth": [
+                  [
+                        "patrick caulfield",
+                        "pop art",
+                        "movement"
+                  ],
+                  [
+                        "peter blake",
+                        "pop art",
+                        "movement"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Patrick Caulfield",
+                        "is a",
+                        "British pop art painter"
+                  ],
+                  [
+                        "Derek Boshier",
+                        "is a",
+                        "British pop art painter"
+                  ],
+                  [
+                        "Peter Phillips",
+                        "is a",
+                        "British pop art painter"
+                  ],
+                  [
+                        "Peter Blake",
+                        "is a",
+                        "British pop art painter"
+                  ],
+                  [
+                        "Peter Blake",
+                        "best known for",
+                        "cover art for 'Sgt. Pepper's Lonely Hearts Club Band'"
+                  ],
+                  [
+                        "David Hockney",
+                        "is a",
+                        "British pop art painter"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "British pop art painters",
+                        "includes",
+                        "Patrick Caulfield"
+                  ],
+                  [
+                        "British pop art painters",
+                        "includes",
+                        "Derek Boshier"
+                  ],
+                  [
+                        "British pop art painters",
+                        "includes",
+                        "Peter Phillips"
+                  ],
+                  [
+                        "British pop art painters",
+                        "includes",
+                        "Peter Blake"
+                  ],
+                  [
+                        "Peter Blake",
+                        "best known for",
+                        "cover - art for Sgt"
+                  ],
+                  [
+                        "British pop art painters",
+                        "includes",
+                        "David Hockney"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Patrick Caulfield",
+                        "is associated with",
+                        "British pop art"
+                  ],
+                  [
+                        "Derek Boshier",
+                        "is associated with",
+                        "British pop art"
+                  ],
+                  [
+                        "Peter Phillips",
+                        "is associated with",
+                        "British pop art"
+                  ],
+                  [
+                        "Peter Blake",
+                        "is associated with",
+                        "British pop art"
+                  ],
+                  [
+                        "Peter Blake",
+                        "best known for",
+                        "cover art for 'Sgt. Pepper's Lonely Hearts Club Band'"
+                  ],
+                  [
+                        "David Hockney",
+                        "is associated with",
+                        "British pop art"
+                  ]
+            ]
+      },
+      "67": {
+            "content": "He went on to receive Best Director and Best Picture nominations in 1995 for \" Quiz Show \" .",
+            "groundtruth": [
+                  [
+                        "quiz show",
+                        "best picture",
+                        "nominated for"
+                  ],
+                  [
+                        "quiz show",
+                        "best director",
+                        "nominated for"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "He",
+                        "went on to receive",
+                        "Best Picture nominations"
+                  ],
+                  [
+                        "Best Director nominations",
+                        "in",
+                        "1995"
+                  ],
+                  [
+                        "Best Picture nominations",
+                        "in",
+                        "1995"
+                  ],
+                  [
+                        "Quiz Show",
+                        "directed by",
+                        "He"
+                  ],
+                  [
+                        "He",
+                        "went on to receive",
+                        "Best Director nominations"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "He",
+                        "received",
+                        "Best Picture nomination"
+                  ],
+                  [
+                        "Best Director nomination",
+                        "in",
+                        "1995"
+                  ],
+                  [
+                        "Best Picture nomination",
+                        "in",
+                        "1995"
+                  ],
+                  [
+                        "Best Director nomination",
+                        "for",
+                        "Quiz Show"
+                  ],
+                  [
+                        "Best Picture nomination",
+                        "for",
+                        "Quiz Show"
+                  ],
+                  [
+                        "He",
+                        "received",
+                        "Best Director nomination"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "He",
+                        "received nomination for",
+                        "Best Picture"
+                  ],
+                  [
+                        "Best Director nomination",
+                        "in",
+                        "1995"
+                  ],
+                  [
+                        "Best Picture nomination",
+                        "in",
+                        "1995"
+                  ],
+                  [
+                        "Best Director nomination",
+                        "for",
+                        "Quiz Show"
+                  ],
+                  [
+                        "Best Picture nomination",
+                        "for",
+                        "Quiz Show"
+                  ],
+                  [
+                        "He",
+                        "received nomination for",
+                        "Best Director"
+                  ]
+            ]
+      },
+      "68": {
+            "content": "That same year , he worked under Hall again in the English language premiere of \" Waiting for Godot \" by Samuel Beckett at the Arts Theatre , London .",
+            "groundtruth": [
+                  [
+                        "waiting for godot",
+                        "english language",
+                        "language of work or name"
+                  ],
+                  [
+                        "waiting for godot",
+                        "samuel beckett",
+                        "after a work by"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Hall",
+                        "worked under",
+                        "he"
+                  ],
+                  [
+                        "English language premiere",
+                        "of",
+                        "Waiting for Godot"
+                  ],
+                  [
+                        "Waiting for Godot",
+                        "by",
+                        "Samuel Beckett"
+                  ],
+                  [
+                        "Arts Theatre",
+                        "located in",
+                        "London"
+                  ],
+                  [
+                        "same year",
+                        "referring to",
+                        "previous year"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "English language premiere",
+                        "of",
+                        "Waiting for Godot"
+                  ],
+                  [
+                        "Waiting for Godot",
+                        "by",
+                        "Samuel Beckett"
+                  ],
+                  [
+                        "Waiting for Godot",
+                        "at",
+                        "Arts Theatre"
+                  ],
+                  [
+                        "Arts Theatre",
+                        "in",
+                        "London"
+                  ],
+                  [
+                        "he",
+                        "worked under",
+                        "Hall"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "he",
+                        "participated in",
+                        "English language premiere"
+                  ],
+                  [
+                        "English language premiere",
+                        "of",
+                        "Waiting for Godot"
+                  ],
+                  [
+                        "Waiting for Godot",
+                        "written by",
+                        "Samuel Beckett"
+                  ],
+                  [
+                        "English language premiere",
+                        "at",
+                        "Arts Theatre"
+                  ],
+                  [
+                        "Arts Theatre",
+                        "located in",
+                        "London"
+                  ],
+                  [
+                        "he",
+                        "worked under",
+                        "Hall"
+                  ]
+            ]
+      },
+      "69": {
+            "content": "The Episode file system is the basis for the IBM z / OS POSIX - compatible file system called zFS .",
+            "groundtruth": [
+                  [
+                        "zfs",
+                        "file system",
+                        "instance of"
+                  ],
+                  [
+                        "zfs",
+                        "z/os",
+                        "operating system"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Episode file system",
+                        "basis for",
+                        "zFS"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Episode file system",
+                        "basis for",
+                        "IBM z / OS POSIX - compatible file system called zFS"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "IBM z / OS POSIX - compatible file system",
+                        "is called",
+                        "zFS"
+                  ],
+                  [
+                        "Episode file system",
+                        "is the basis for",
+                        "IBM z / OS POSIX - compatible file system"
+                  ]
+            ]
+      },
+      "70": {
+            "content": "Later also UC I , UB II and UC II series were constructed at AG Weser .",
+            "groundtruth": [
+                  [
+                        "uc ii",
+                        "ag weser",
+                        "manufacturer"
+                  ],
+                  [
+                        "ub ii",
+                        "ag weser",
+                        "manufacturer"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "UC I",
+                        "series",
+                        "AG Weser"
+                  ],
+                  [
+                        "AG Weser",
+                        "constructed",
+                        "UC II"
+                  ],
+                  [
+                        "UC II",
+                        "series",
+                        "AG Weser"
+                  ],
+                  [
+                        "UB II",
+                        "series",
+                        "AG Weser"
+                  ],
+                  [
+                        "Later",
+                        "also",
+                        "UC I"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Later",
+                        "also",
+                        "UB II"
+                  ],
+                  [
+                        "Later",
+                        "also",
+                        "UC II series"
+                  ],
+                  [
+                        "UC I",
+                        "series",
+                        "constructed"
+                  ],
+                  [
+                        "UB II",
+                        "series",
+                        "constructed"
+                  ],
+                  [
+                        "UC II series",
+                        "constructed",
+                        "at AG Weser"
+                  ],
+                  [
+                        "Later",
+                        "also",
+                        "UC I"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "UB II",
+                        "later also constructed at",
+                        "AG Weser"
+                  ],
+                  [
+                        "UC II",
+                        "later also constructed at",
+                        "AG Weser"
+                  ],
+                  [
+                        "UC I",
+                        "later also constructed at",
+                        "AG Weser"
+                  ]
+            ]
+      },
+      "71": {
+            "content": "Johanna Liebeneiner is a German stage , film and television actress . Goble p.428 She is the daughter of the actors Hilde Krahl and Wolfgang Liebeneiner .",
+            "groundtruth": [
+                  [
+                        "johanna liebeneiner",
+                        "wolfgang liebeneiner",
+                        "father"
+                  ],
+                  [
+                        "johanna liebeneiner",
+                        "hilde krahl",
+                        "mother"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Johanna Liebeneiner",
+                        "is",
+                        "German stage, film and television actress"
+                  ],
+                  [
+                        "Johanna Liebeneiner",
+                        "daughter of",
+                        "Hilde Krahl and Wolfgang Liebeneiner"
+                  ],
+                  [
+                        "Hilde Krahl",
+                        "mother of",
+                        "Johanna Liebeneiner"
+                  ],
+                  [
+                        "Wolfgang Liebeneiner",
+                        "father of",
+                        "Johanna Liebeneiner"
+                  ],
+                  [
+                        "Johanna Liebeneiner",
+                        "page number",
+                        "428"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Johanna Liebeneiner",
+                        "daughter of",
+                        "Hilde Krahl and Wolfgang Liebeneiner"
+                  ],
+                  [
+                        "Johanna Liebeneiner",
+                        "is",
+                        "German stage, film and television actress"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Johanna Liebeneiner",
+                        "is a",
+                        "film actress"
+                  ],
+                  [
+                        "Johanna Liebeneiner",
+                        "is a",
+                        "television actress"
+                  ],
+                  [
+                        "Johanna Liebeneiner",
+                        "is the daughter of",
+                        "Hilde Krahl"
+                  ],
+                  [
+                        "Johanna Liebeneiner",
+                        "is the daughter of",
+                        "Wolfgang Liebeneiner"
+                  ],
+                  [
+                        "Johanna Liebeneiner",
+                        "is a",
+                        "German stage actress"
+                  ]
+            ]
+      },
+      "72": {
+            "content": "Microsoft has made several changes to Internet Explorer Mobile that brings the browser experience closer in line with the experiences on Safari ( iOS ) and Chrome ( Android ) .",
+            "groundtruth": [
+                  [
+                        "chrome",
+                        "ios",
+                        "operating system"
+                  ],
+                  [
+                        "chrome",
+                        "android",
+                        "operating system"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Microsoft",
+                        "made changes to",
+                        "Internet Explorer Mobile"
+                  ],
+                  [
+                        "Internet Explorer Mobile",
+                        "brings experience closer to",
+                        "Safari (iOS)"
+                  ],
+                  [
+                        "Internet Explorer Mobile",
+                        "brings experience closer to",
+                        "Chrome (Android)"
+                  ],
+                  [
+                        "Safari (iOS)",
+                        "similar experience to",
+                        "Chrome (Android)"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Internet Explorer Mobile",
+                        "brings browser experience closer in line with",
+                        "Safari (iOS)"
+                  ],
+                  [
+                        "Internet Explorer Mobile",
+                        "brings browser experience closer in line with",
+                        "Chrome (Android)"
+                  ],
+                  [
+                        "Microsoft",
+                        "made changes to",
+                        "Internet Explorer Mobile"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Internet Explorer Mobile",
+                        "brings experience closer in line with",
+                        "Safari (iOS)"
+                  ],
+                  [
+                        "Internet Explorer Mobile",
+                        "brings experience closer in line with",
+                        "Chrome (Android)"
+                  ],
+                  [
+                        "Microsoft",
+                        "has made changes to",
+                        "Internet Explorer Mobile"
+                  ]
+            ]
+      },
+      "73": {
+            "content": "It is located on the banks of the Gods River where the Echoing River joins as a right tributary .",
+            "groundtruth": [
+                  [
+                        "gods river",
+                        "echoing river",
+                        "tributary"
+                  ],
+                  [
+                        "echoing river",
+                        "gods river",
+                        "mouth of the watercourse"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Echoing River",
+                        "joins as a right tributary",
+                        "Gods River"
+                  ],
+                  [
+                        "Gods River",
+                        "located on the banks of",
+                        "Echoing River"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Echoing River",
+                        "joins",
+                        "Gods River"
+                  ],
+                  [
+                        "Echoing River",
+                        "joins as",
+                        "right tributary"
+                  ],
+                  [
+                        "Gods River",
+                        "located at",
+                        "banks"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Echoing River",
+                        "joins as",
+                        "a right tributary"
+                  ],
+                  [
+                        "Echoing River",
+                        "joins",
+                        "Gods River"
+                  ],
+                  [
+                        "It",
+                        "is located on",
+                        "the banks of the Gods River"
+                  ]
+            ]
+      },
+      "74": {
+            "content": "The landscape of the district is flat and much of the district 's territory belongs to the basin of the Mologa River and its principal left tributaries , the Kobozha and the Chagodoshcha .",
+            "groundtruth": [
+                  [
+                        "mologa river",
+                        "kobozha",
+                        "tributary"
+                  ],
+                  [
+                        "chagodoshcha",
+                        "mologa river",
+                        "mouth of the watercourse"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "district",
+                        "owns territory",
+                        "basin of Mologa River"
+                  ],
+                  [
+                        "basin of Mologa River",
+                        "includes",
+                        "territory of district"
+                  ],
+                  [
+                        "Mologa River",
+                        "has tributary",
+                        "Kobozha"
+                  ],
+                  [
+                        "Mologa River",
+                        "has tributary",
+                        "Chagodoshcha"
+                  ],
+                  [
+                        "district",
+                        "has terrain",
+                        "flat"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "district's territory",
+                        "belongs to",
+                        "basin of the Mologa River"
+                  ],
+                  [
+                        "Mologa River",
+                        "principal left tributaries",
+                        "Kobozha and the Chagodoshcha"
+                  ],
+                  [
+                        "landscape of the district",
+                        "is",
+                        "flat"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Much of the district's territory",
+                        "belongs to",
+                        "the basin of the Mologa River"
+                  ],
+                  [
+                        "The Mologa River",
+                        "has tributaries",
+                        "the Kobozha"
+                  ],
+                  [
+                        "The Mologa River",
+                        "has tributaries",
+                        "the Chagodoshcha"
+                  ],
+                  [
+                        "The Kobozha",
+                        "is",
+                        "principal left tributary of the Mologa River"
+                  ],
+                  [
+                        "The Chagodoshcha",
+                        "is",
+                        "principal left tributary of the Mologa River"
+                  ],
+                  [
+                        "The landscape of the district",
+                        "is",
+                        "flat"
+                  ]
+            ]
+      },
+      "75": {
+            "content": "This result is sometimes called the FLP impossibility proof named after the authors Michael J. Fischer , Nancy Lynch , and Mike Paterson who were awarded a Dijkstra Prize for this significant work .",
+            "groundtruth": [
+                  [
+                        "dijkstra prize",
+                        "nancy lynch",
+                        "winner"
+                  ],
+                  [
+                        "dijkstra prize",
+                        "mike paterson",
+                        "winner"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "authors",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "Dijkstra Prize",
+                        "awarded for",
+                        "significant work"
+                  ],
+                  [
+                        "FLP impossibility proof",
+                        "named after",
+                        "authors"
+                  ],
+                  [
+                        "authors",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "Dijkstra Prize",
+                        "awarded for",
+                        "significant work"
+                  ],
+                  [
+                        "authors",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "Dijkstra Prize",
+                        "awarded for",
+                        "significant work"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "FLP impossibility proof",
+                        "named after",
+                        "Michael J. Fischer"
+                  ],
+                  [
+                        "Michael J. Fischer",
+                        "co-author with",
+                        "Nancy Lynch"
+                  ],
+                  [
+                        "Nancy Lynch",
+                        "co-author with",
+                        "Michael J. Fischer"
+                  ],
+                  [
+                        "Michael J. Fischer",
+                        "co-author with",
+                        "Mike Paterson"
+                  ],
+                  [
+                        "Mike Paterson",
+                        "co-author with",
+                        "Michael J. Fischer"
+                  ],
+                  [
+                        "Michael J. Fischer",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "Nancy Lynch",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "Mike Paterson",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "FLP impossibility proof",
+                        "significant work",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "This result",
+                        "called",
+                        "FLP impossibility proof"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "FLP impossibility proof",
+                        "is named after",
+                        "Nancy Lynch"
+                  ],
+                  [
+                        "FLP impossibility proof",
+                        "is named after",
+                        "Mike Paterson"
+                  ],
+                  [
+                        "Michael J. Fischer",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "Nancy Lynch",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "Mike Paterson",
+                        "awarded",
+                        "Dijkstra Prize"
+                  ],
+                  [
+                        "FLP impossibility proof",
+                        "is sometimes called",
+                        "result"
+                  ],
+                  [
+                        "Michael J. Fischer",
+                        "authored",
+                        "FLP impossibility proof"
+                  ],
+                  [
+                        "Nancy Lynch",
+                        "authored",
+                        "FLP impossibility proof"
+                  ],
+                  [
+                        "Mike Paterson",
+                        "authored",
+                        "FLP impossibility proof"
+                  ],
+                  [
+                        "FLP impossibility proof",
+                        "is named after",
+                        "Michael J. Fischer"
+                  ]
+            ]
+      },
+      "76": {
+            "content": "Rides are often held on public lands , such as Forest Service or BLM lands in the United States , but are also held on private property .",
+            "groundtruth": [
+                  [
+                        "blm",
+                        "united states",
+                        "applies to jurisdiction"
+                  ],
+                  [
+                        "forest service",
+                        "united states",
+                        "applies to jurisdiction"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "public lands",
+                        "such as",
+                        "Forest Service or BLM lands"
+                  ],
+                  [
+                        "Forest Service or BLM lands",
+                        "in",
+                        "United States"
+                  ],
+                  [
+                        "Rides",
+                        "held on",
+                        "private property"
+                  ],
+                  [
+                        "Rides",
+                        "held on",
+                        "public lands"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Public lands",
+                        "such as",
+                        "Forest Service or BLM lands"
+                  ],
+                  [
+                        "Public lands",
+                        "also held on",
+                        "private property"
+                  ],
+                  [
+                        "Rides",
+                        "often held on",
+                        "public lands"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Public lands",
+                        "include",
+                        "Forest Service lands"
+                  ],
+                  [
+                        "Public lands",
+                        "include",
+                        "BLM lands"
+                  ],
+                  [
+                        "BLM lands",
+                        "located in",
+                        "the United States"
+                  ],
+                  [
+                        "Rides",
+                        "also held on",
+                        "private property"
+                  ],
+                  [
+                        "Rides",
+                        "held on",
+                        "public lands"
+                  ]
+            ]
+      },
+      "77": {
+            "content": "Mega Man 6 \n\n Mega Man 6 , known in Japan as , is an action - video game developed by Capcom for the Nintendo Entertainment System ( NES ) .",
+            "groundtruth": [
+                  [
+                        "nes",
+                        "nintendo entertainment system",
+                        "said to be the same as"
+                  ],
+                  [
+                        "nintendo entertainment system",
+                        "nes",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Mega Man 6",
+                        "known as",
+                        "Rockman 6"
+                  ],
+                  [
+                        "Mega Man 6",
+                        "developed by",
+                        "Capcom"
+                  ],
+                  [
+                        "Mega Man 6",
+                        "released for",
+                        "Nintendo Entertainment System (NES)"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Mega Man 6",
+                        "developed by",
+                        "Capcom"
+                  ],
+                  [
+                        "Mega Man 6",
+                        "for",
+                        "Nintendo Entertainment System (NES)"
+                  ],
+                  [
+                        "Mega Man 6",
+                        "known in Japan as",
+                        "Capcom"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Mega Man 6",
+                        "is a type of",
+                        "action-video game"
+                  ],
+                  [
+                        "Mega Man 6",
+                        "developed by",
+                        "Capcom"
+                  ],
+                  [
+                        "Mega Man 6",
+                        "for",
+                        "Nintendo Entertainment System (NES)"
+                  ],
+                  [
+                        "Mega Man 6",
+                        "known in Japan as",
+                        "Rockman 6: Shij\u014d Saidai no Tatakai!!"
+                  ]
+            ]
+      },
+      "78": {
+            "content": "Willys later produced the M38 Jeep for the U.S. Army , and continued the CJ series of civilian Jeeps .",
+            "groundtruth": [
+                  [
+                        "cj series",
+                        "willys",
+                        "manufacturer"
+                  ],
+                  [
+                        "jeeps",
+                        "willys",
+                        "manufacturer"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "M38 Jeep",
+                        "for",
+                        "U.S. Army"
+                  ],
+                  [
+                        "Willys",
+                        "continued",
+                        "CJ series"
+                  ],
+                  [
+                        "CJ series",
+                        "of",
+                        "civilian Jeeps"
+                  ],
+                  [
+                        "Willys",
+                        "produced",
+                        "M38 Jeep"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "M38 Jeep",
+                        "for",
+                        "U.S. Army"
+                  ],
+                  [
+                        "Willys",
+                        "continued",
+                        "CJ series"
+                  ],
+                  [
+                        "CJ series",
+                        "of",
+                        "civilian Jeeps"
+                  ],
+                  [
+                        "Willys",
+                        "produced",
+                        "M38 Jeep"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "M38 Jeep",
+                        "for",
+                        "U.S. Army"
+                  ],
+                  [
+                        "Willys",
+                        "continued",
+                        "CJ series of civilian Jeeps"
+                  ],
+                  [
+                        "Willys",
+                        "produced",
+                        "M38 Jeep"
+                  ]
+            ]
+      },
+      "79": {
+            "content": "It runs well on 32bit and 64bit versions on Windows , Mac OS X and Linux using either .NET Framework or Mono .",
+            "groundtruth": [
+                  [
+                        "mono",
+                        "windows",
+                        "operating system"
+                  ],
+                  [
+                        "mono",
+                        "mac os x",
+                        "operating system"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Mono",
+                        "supported by",
+                        ".NET Framework"
+                  ],
+                  [
+                        "It",
+                        "runs well on",
+                        "32bit and 64bit versions"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "It",
+                        "on",
+                        "Windows"
+                  ],
+                  [
+                        "It",
+                        "on",
+                        "Mac OS X"
+                  ],
+                  [
+                        "It",
+                        "on",
+                        "Linux"
+                  ],
+                  [
+                        "It",
+                        "using",
+                        ".NET Framework"
+                  ],
+                  [
+                        "It",
+                        "using",
+                        "Mono"
+                  ],
+                  [
+                        "It",
+                        "runs well on",
+                        "32bit and 64bit versions"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "It",
+                        "runs on",
+                        "64bit versions on Windows"
+                  ],
+                  [
+                        "It",
+                        "runs on",
+                        "Mac OS X"
+                  ],
+                  [
+                        "It",
+                        "runs on",
+                        "Linux"
+                  ],
+                  [
+                        "It",
+                        "uses",
+                        ".NET Framework"
+                  ],
+                  [
+                        "It",
+                        "uses",
+                        "Mono"
+                  ],
+                  [
+                        "It",
+                        "runs on",
+                        "32bit versions on Windows"
+                  ]
+            ]
+      },
+      "80": {
+            "content": "Rainier ( name ) \n\n The name Rainier ( or ; , a French form of Rainer ) may refer to \n\n Given name : \n\n Surname : \n\n Fiction :",
+            "groundtruth": [
+                  [
+                        "rainer",
+                        "rainier",
+                        "said to be the same as"
+                  ],
+                  [
+                        "rainier",
+                        "rainer",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Rainier",
+                        "French form of",
+                        "Rainer"
+                  ],
+                  [
+                        "Rainier",
+                        "may refer to",
+                        "given name"
+                  ],
+                  [
+                        "Rainier",
+                        "may refer to",
+                        "surname"
+                  ],
+                  [
+                        "Rainier",
+                        "may refer to",
+                        "fiction"
+                  ],
+                  [
+                        "Rainier",
+                        "name",
+                        "Rainer"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Rainier",
+                        "French form of",
+                        "Rainer"
+                  ],
+                  [
+                        "Given name",
+                        "may refer to",
+                        "Rainier"
+                  ],
+                  [
+                        "Surname",
+                        "may refer to",
+                        "Rainier"
+                  ],
+                  [
+                        "Rainier",
+                        "used in",
+                        "Fiction"
+                  ],
+                  [
+                        "Rainier",
+                        "is a",
+                        "name"
+                  ]
+            ],
+            "gpt-4-1106-preview": []
+      },
+      "81": {
+            "content": "In 2013 , the airline announced its return to Abu Dhabi , Dammam and Riyadh , and launched new routes to Brisbane and Perth ( via Darwin ) , as well as Doha and Jeddah .",
+            "groundtruth": [
+                  [
+                        "brisbane",
+                        "brisbane",
+                        "place served by transport hub"
+                  ],
+                  [
+                        "jeddah",
+                        "jeddah",
+                        "place served by transport hub"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "airline",
+                        "announced return to",
+                        "Dammam"
+                  ],
+                  [
+                        "airline",
+                        "announced return to",
+                        "Riyadh"
+                  ],
+                  [
+                        "airline",
+                        "launched new routes to",
+                        "Brisbane"
+                  ],
+                  [
+                        "airline",
+                        "launched new routes to",
+                        "Perth"
+                  ],
+                  [
+                        "airline",
+                        "launched new routes to",
+                        "Doha"
+                  ],
+                  [
+                        "airline",
+                        "launched new routes to",
+                        "Jeddah"
+                  ],
+                  [
+                        "airline",
+                        "announced return to",
+                        "Abu Dhabi"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "airline",
+                        "announced its return to",
+                        "Dammam"
+                  ],
+                  [
+                        "airline",
+                        "announced its return to",
+                        "Riyadh"
+                  ],
+                  [
+                        "airline",
+                        "launched new routes to",
+                        "Brisbane"
+                  ],
+                  [
+                        "Brisbane",
+                        "connected via",
+                        "Darwin"
+                  ],
+                  [
+                        "airline",
+                        "launched new routes to",
+                        "Perth"
+                  ],
+                  [
+                        "Perth",
+                        "connected via",
+                        "Darwin"
+                  ],
+                  [
+                        "airline",
+                        "launched new routes to",
+                        "Doha"
+                  ],
+                  [
+                        "Doha",
+                        "connected via",
+                        "Jeddah"
+                  ],
+                  [
+                        "airline",
+                        "announced its return to",
+                        "Abu Dhabi"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "the airline",
+                        "announced return to",
+                        "Dammam"
+                  ],
+                  [
+                        "the airline",
+                        "announced return to",
+                        "Riyadh"
+                  ],
+                  [
+                        "the airline",
+                        "launched new routes to",
+                        "Brisbane"
+                  ],
+                  [
+                        "the airline",
+                        "launched new routes to",
+                        "Perth"
+                  ],
+                  [
+                        "the airline",
+                        "launched new routes to",
+                        "Doha"
+                  ],
+                  [
+                        "the airline",
+                        "launched new routes to",
+                        "Jeddah"
+                  ],
+                  [
+                        "Brisbane",
+                        "via",
+                        "Darwin"
+                  ],
+                  [
+                        "the airline",
+                        "announced return to",
+                        "Abu Dhabi"
+                  ]
+            ]
+      },
+      "82": {
+            "content": "Hasidic Judaism was founded by Israel ben Eliezer ( 1700\u20131760 ) , also known as the Baal Shem Tov .",
+            "groundtruth": [
+                  [
+                        "israel ben eliezer",
+                        "hasidic judaism",
+                        "religion"
+                  ],
+                  [
+                        "baal shem tov",
+                        "hasidic judaism",
+                        "religion"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Hasidic Judaism",
+                        "founded by",
+                        "Israel ben Eliezer (1700\u20131760)"
+                  ],
+                  [
+                        "Israel ben Eliezer (1700\u20131760)",
+                        "also known as",
+                        "Baal Shem Tov"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Israel ben Eliezer",
+                        "also known as",
+                        "Baal Shem Tov"
+                  ],
+                  [
+                        "Hasidic Judaism",
+                        "founded by",
+                        "Israel ben Eliezer"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Israel ben Eliezer",
+                        "also known as",
+                        "the Baal Shem Tov"
+                  ],
+                  [
+                        "Hasidic Judaism",
+                        "was founded by",
+                        "Israel ben Eliezer"
+                  ]
+            ]
+      },
+      "83": {
+            "content": "The NES version was not licensed by Nintendo .",
+            "groundtruth": [
+                  [
+                        "nes",
+                        "nes",
+                        "said to be the same as"
+                  ],
+                  [
+                        "nes",
+                        "nintendo",
+                        "manufacturer"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "NES version",
+                        "was not licensed by",
+                        "Nintendo"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "NES version",
+                        "not licensed by",
+                        "Nintendo"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The NES version",
+                        "was not licensed by",
+                        "Nintendo"
+                  ]
+            ]
+      },
+      "84": {
+            "content": "He was sired by Fair Trial , whose other offspring included Palestine , Festoon and Court Martial .",
+            "groundtruth": [
+                  [
+                        "palestine",
+                        "fair trial",
+                        "father"
+                  ],
+                  [
+                        "festoon",
+                        "fair trial",
+                        "father"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Fair Trial",
+                        "other offspring",
+                        "Palestine"
+                  ],
+                  [
+                        "Fair Trial",
+                        "other offspring",
+                        "Festoon"
+                  ],
+                  [
+                        "Fair Trial",
+                        "other offspring",
+                        "Court Martial"
+                  ],
+                  [
+                        "He",
+                        "sired by",
+                        "Fair Trial"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Fair Trial",
+                        "offspring included",
+                        "Palestine"
+                  ],
+                  [
+                        "Fair Trial",
+                        "offspring included",
+                        "Festoon"
+                  ],
+                  [
+                        "Fair Trial",
+                        "offspring included",
+                        "Court Martial"
+                  ],
+                  [
+                        "He",
+                        "sired by",
+                        "Fair Trial"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Fair Trial",
+                        "offspring included",
+                        "Palestine"
+                  ],
+                  [
+                        "Fair Trial",
+                        "offspring included",
+                        "Festoon"
+                  ],
+                  [
+                        "Fair Trial",
+                        "offspring included",
+                        "Court Martial"
+                  ],
+                  [
+                        "He",
+                        "sired by",
+                        "Fair Trial"
+                  ]
+            ]
+      },
+      "85": {
+            "content": "In Hesiod 's \" Theogony \" , the six children of Cronus and Rhea are Zeus , Hera , Poseidon , Hades , Demeter , and Hestia .",
+            "groundtruth": [
+                  [
+                        "theogony",
+                        "cronus",
+                        "characters"
+                  ],
+                  [
+                        "theogony",
+                        "rhea",
+                        "characters"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Cronus",
+                        "parents",
+                        "Hera"
+                  ],
+                  [
+                        "Cronus",
+                        "parents",
+                        "Poseidon"
+                  ],
+                  [
+                        "Cronus",
+                        "parents",
+                        "Hades"
+                  ],
+                  [
+                        "Cronus",
+                        "parents",
+                        "Demeter"
+                  ],
+                  [
+                        "Cronus",
+                        "parents",
+                        "Hestia"
+                  ],
+                  [
+                        "Zeus",
+                        "siblings",
+                        "Hera"
+                  ],
+                  [
+                        "Zeus",
+                        "siblings",
+                        "Poseidon"
+                  ],
+                  [
+                        "Zeus",
+                        "siblings",
+                        "Hades"
+                  ],
+                  [
+                        "Zeus",
+                        "siblings",
+                        "Demeter"
+                  ],
+                  [
+                        "Zeus",
+                        "siblings",
+                        "Hestia"
+                  ],
+                  [
+                        "Hera",
+                        "siblings",
+                        "Poseidon"
+                  ],
+                  [
+                        "Hera",
+                        "siblings",
+                        "Hades"
+                  ],
+                  [
+                        "Hera",
+                        "siblings",
+                        "Demeter"
+                  ],
+                  [
+                        "Hera",
+                        "siblings",
+                        "Hestia"
+                  ],
+                  [
+                        "Poseidon",
+                        "siblings",
+                        "Hades"
+                  ],
+                  [
+                        "Poseidon",
+                        "siblings",
+                        "Demeter"
+                  ],
+                  [
+                        "Poseidon",
+                        "siblings",
+                        "Hestia"
+                  ],
+                  [
+                        "Hades",
+                        "siblings",
+                        "Demeter"
+                  ],
+                  [
+                        "Hades",
+                        "siblings",
+                        "Hestia"
+                  ],
+                  [
+                        "Demeter",
+                        "siblings",
+                        "Hestia"
+                  ],
+                  [
+                        "Cronus",
+                        "parents",
+                        "Zeus"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Theogony",
+                        "contains",
+                        "six children of Cronus and Rhea"
+                  ],
+                  [
+                        "Cronus and Rhea",
+                        "parents of",
+                        "Zeus"
+                  ],
+                  [
+                        "Cronus and Rhea",
+                        "parents of",
+                        "Hera"
+                  ],
+                  [
+                        "Cronus and Rhea",
+                        "parents of",
+                        "Poseidon"
+                  ],
+                  [
+                        "Cronus and Rhea",
+                        "parents of",
+                        "Hades"
+                  ],
+                  [
+                        "Cronus and Rhea",
+                        "parents of",
+                        "Demeter"
+                  ],
+                  [
+                        "Cronus and Rhea",
+                        "parents of",
+                        "Hestia"
+                  ],
+                  [
+                        "Hesiod",
+                        "author of",
+                        "Theogony"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Rhea",
+                        "parent of",
+                        "Zeus"
+                  ],
+                  [
+                        "Cronus",
+                        "parent of",
+                        "Hera"
+                  ],
+                  [
+                        "Rhea",
+                        "parent of",
+                        "Hera"
+                  ],
+                  [
+                        "Cronus",
+                        "parent of",
+                        "Poseidon"
+                  ],
+                  [
+                        "Rhea",
+                        "parent of",
+                        "Poseidon"
+                  ],
+                  [
+                        "Cronus",
+                        "parent of",
+                        "Hades"
+                  ],
+                  [
+                        "Rhea",
+                        "parent of",
+                        "Hades"
+                  ],
+                  [
+                        "Cronus",
+                        "parent of",
+                        "Demeter"
+                  ],
+                  [
+                        "Rhea",
+                        "parent of",
+                        "Demeter"
+                  ],
+                  [
+                        "Cronus",
+                        "parent of",
+                        "Hestia"
+                  ],
+                  [
+                        "Rhea",
+                        "parent of",
+                        "Hestia"
+                  ],
+                  [
+                        "Cronus",
+                        "parent of",
+                        "Zeus"
+                  ]
+            ]
+      },
+      "86": {
+            "content": "In the 1995 General Election an alliance consisting of the PTR and MMM won the election , Dr. Navin Ramgoolam became Prime Minister of Mauritius .",
+            "groundtruth": [
+                  [
+                        "1995 general election",
+                        "navin ramgoolam",
+                        "successful candidate"
+                  ],
+                  [
+                        "navin ramgoolam",
+                        "ptr",
+                        "member of political party"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "PTR",
+                        "alliance with",
+                        "MMM"
+                  ],
+                  [
+                        "MMM",
+                        "alliance with",
+                        "PTR"
+                  ],
+                  [
+                        "alliance",
+                        "won the election",
+                        "1995 General Election"
+                  ],
+                  [
+                        "Dr. Navin Ramgoolam",
+                        "became",
+                        "Prime Minister of Mauritius"
+                  ],
+                  [
+                        "Prime Minister of Mauritius",
+                        "was",
+                        "Dr. Navin Ramgoolam"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "PTR",
+                        "part of",
+                        "alliance"
+                  ],
+                  [
+                        "MMM",
+                        "part of",
+                        "alliance"
+                  ],
+                  [
+                        "Dr. Navin Ramgoolam",
+                        "became",
+                        "Prime Minister of Mauritius"
+                  ],
+                  [
+                        "1995 General Election",
+                        "won by",
+                        "alliance consisting of PTR and MMM"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "an alliance",
+                        "won",
+                        "1995 General Election"
+                  ],
+                  [
+                        "Dr. Navin Ramgoolam",
+                        "became",
+                        "Prime Minister of Mauritius"
+                  ],
+                  [
+                        "an alliance",
+                        "consisting of",
+                        "PTR and MMM"
+                  ]
+            ]
+      },
+      "87": {
+            "content": "In 2014 , the Department of Biotechnology and Department of Science and Technology , under Ministry of Science and Technology , Government of India jointly announced their open access policy .",
+            "groundtruth": [
+                  [
+                        "ministry of science and technology",
+                        "department of biotechnology",
+                        "subsidiary"
+                  ],
+                  [
+                        "ministry of science and technology",
+                        "department of science and technology",
+                        "subsidiary"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Department of Biotechnology",
+                        "under",
+                        "Ministry of Science and Technology"
+                  ],
+                  [
+                        "Department of Science and Technology",
+                        "jointly announced",
+                        "Department of Biotechnology"
+                  ],
+                  [
+                        "Department of Science and Technology",
+                        "under",
+                        "Ministry of Science and Technology"
+                  ],
+                  [
+                        "Ministry of Science and Technology",
+                        "Government of India",
+                        "jointly announced"
+                  ],
+                  [
+                        "Ministry of Science and Technology",
+                        "Government of India",
+                        "under"
+                  ],
+                  [
+                        "Department of Biotechnology",
+                        "jointly announced",
+                        "Department of Science and Technology"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Department of Science and Technology",
+                        "under",
+                        "Ministry of Science and Technology"
+                  ],
+                  [
+                        "Department of Biotechnology",
+                        "jointly announced",
+                        "open access policy"
+                  ],
+                  [
+                        "Department of Science and Technology",
+                        "jointly announced",
+                        "open access policy"
+                  ],
+                  [
+                        "open access policy",
+                        "announced by",
+                        "Department of Biotechnology"
+                  ],
+                  [
+                        "open access policy",
+                        "announced by",
+                        "Department of Science and Technology"
+                  ],
+                  [
+                        "Department of Biotechnology",
+                        "under",
+                        "Ministry of Science and Technology"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Department of Science and Technology",
+                        "under",
+                        "Ministry of Science and Technology"
+                  ],
+                  [
+                        "Department of Biotechnology and Department of Science and Technology",
+                        "announced",
+                        "open access policy"
+                  ],
+                  [
+                        "open access policy",
+                        "announced in",
+                        "2014"
+                  ],
+                  [
+                        "open access policy",
+                        "by",
+                        "Government of India"
+                  ],
+                  [
+                        "Department of Biotechnology",
+                        "under",
+                        "Ministry of Science and Technology"
+                  ]
+            ]
+      },
+      "88": {
+            "content": "Genoa subsequently opted against exercising their option to sign him permanently and on 22 July 2016 he was loaned to Portuguese Primeira Liga side Estoril for the 2016 - 17 season .",
+            "groundtruth": [
+                  [
+                        "2016-17",
+                        "estoril",
+                        "participating team"
+                  ],
+                  [
+                        "estoril",
+                        "primeira liga",
+                        "league"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Genoa",
+                        "opted against",
+                        "exercising option"
+                  ],
+                  [
+                        "Genoa",
+                        "loaned",
+                        "him"
+                  ],
+                  [
+                        "him",
+                        "loaned to",
+                        "Estoril"
+                  ],
+                  [
+                        "Estoril",
+                        "Primeira Liga side",
+                        "Portuguese"
+                  ],
+                  [
+                        "2016-17 season",
+                        "loaned for",
+                        "Estoril"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Genoa",
+                        "loaned",
+                        "Estoril"
+                  ],
+                  [
+                        "Estoril",
+                        "part of",
+                        "Portuguese Primeira Liga"
+                  ],
+                  [
+                        "he",
+                        "loaned to",
+                        "Estoril"
+                  ],
+                  [
+                        "he",
+                        "for",
+                        "2016 - 17 season"
+                  ],
+                  [
+                        "22 July 2016",
+                        "date of",
+                        "loan"
+                  ],
+                  [
+                        "Genoa",
+                        "opted against",
+                        "exercising their option"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "He",
+                        "was loaned to",
+                        "Portuguese Primeira Liga side Estoril"
+                  ],
+                  [
+                        "Loan duration",
+                        "for",
+                        "the 2016 - 17 season"
+                  ],
+                  [
+                        "Genoa",
+                        "opted against",
+                        "exercising their option to sign him permanently"
+                  ]
+            ]
+      },
+      "89": {
+            "content": "Zeta Capricorni , Latinized from \u03b6 Capricorni , is a fourth - magnitude star in the constellation Capricornus .",
+            "groundtruth": [
+                  [
+                        "capricornus",
+                        "constellation",
+                        "instance of"
+                  ],
+                  [
+                        "zeta capricorni",
+                        "capricornus",
+                        "constellation"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Zeta Capricorni",
+                        "is",
+                        "fourth-magnitude star"
+                  ],
+                  [
+                        "Zeta Capricorni",
+                        "in",
+                        "constellation Capricornus"
+                  ],
+                  [
+                        "Zeta Capricorni",
+                        "Latinized from",
+                        "\u03b6 Capricorni"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Zeta Capricorni",
+                        "is",
+                        "fourth - magnitude star"
+                  ],
+                  [
+                        "Zeta Capricorni",
+                        "in",
+                        "constellation Capricornus"
+                  ],
+                  [
+                        "Zeta Capricorni",
+                        "Latinized from",
+                        "\u03b6 Capricorni"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Zeta Capricorni",
+                        "in the constellation",
+                        "Capricornus"
+                  ],
+                  [
+                        "Zeta Capricorni",
+                        "is a",
+                        "fourth-magnitude star"
+                  ]
+            ]
+      },
+      "90": {
+            "content": "He was commissioned by Pope John Paul II to assist Emmanuel Milingo , Archbishop Emeritus of Lusaka , Zambia , in returning to the Catholic Church in 2001 .",
+            "groundtruth": [
+                  [
+                        "emmanuel milingo",
+                        "catholic church",
+                        "religion"
+                  ],
+                  [
+                        "pope john paul ii",
+                        "catholic church",
+                        "religion"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Pope John Paul II",
+                        "commissioned",
+                        "He"
+                  ],
+                  [
+                        "He",
+                        "assist",
+                        "Emmanuel Milingo"
+                  ],
+                  [
+                        "Emmanuel Milingo",
+                        "Archbishop Emeritus of",
+                        "Lusaka"
+                  ],
+                  [
+                        "Lusaka",
+                        "location of",
+                        "Zambia"
+                  ],
+                  [
+                        "Zambia",
+                        "location of",
+                        "Lusaka"
+                  ],
+                  [
+                        "He",
+                        "commissioned by",
+                        "Pope John Paul II"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Pope John Paul II",
+                        "to assist",
+                        "Emmanuel Milingo"
+                  ],
+                  [
+                        "Emmanuel Milingo",
+                        "Archbishop Emeritus of",
+                        "Lusaka, Zambia"
+                  ],
+                  [
+                        "Emmanuel Milingo",
+                        "to return to",
+                        "Catholic Church"
+                  ],
+                  [
+                        "Emmanuel Milingo",
+                        "in",
+                        "2001"
+                  ],
+                  [
+                        "He",
+                        "commissioned by",
+                        "Pope John Paul II"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "He",
+                        "to assist",
+                        "Emmanuel Milingo"
+                  ],
+                  [
+                        "Emmanuel Milingo",
+                        "is",
+                        "Archbishop Emeritus of Lusaka"
+                  ],
+                  [
+                        "Emmanuel Milingo",
+                        "is from",
+                        "Zambia"
+                  ],
+                  [
+                        "He",
+                        "assisted in",
+                        "returning to the Catholic Church"
+                  ],
+                  [
+                        "Returning",
+                        "occurred in",
+                        "2001"
+                  ],
+                  [
+                        "He",
+                        "was commissioned by",
+                        "Pope John Paul II"
+                  ]
+            ]
+      },
+      "91": {
+            "content": "Cord is also known to science fiction enthusiasts for having portrayed Dylan Hunt in the failed 1973 television pilot , \" Genesis II , \" which was created by Gene Roddenberry .",
+            "groundtruth": [
+                  [
+                        "genesis ii",
+                        "gene roddenberry",
+                        "screenwriter"
+                  ],
+                  [
+                        "gene roddenberry",
+                        "dylan hunt",
+                        "notable work"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Cord",
+                        "known for",
+                        "portraying Dylan Hunt"
+                  ],
+                  [
+                        "Dylan Hunt",
+                        "portrayed in",
+                        "Genesis II"
+                  ],
+                  [
+                        "Genesis II",
+                        "created by",
+                        "Gene Roddenberry"
+                  ],
+                  [
+                        "Gene Roddenberry",
+                        "created",
+                        "Genesis II"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Dylan Hunt",
+                        "in",
+                        "Genesis II"
+                  ],
+                  [
+                        "Genesis II",
+                        "created by",
+                        "Gene Roddenberry"
+                  ],
+                  [
+                        "Cord",
+                        "also known to",
+                        "science fiction enthusiasts"
+                  ],
+                  [
+                        "Cord",
+                        "portrayed",
+                        "Dylan Hunt"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Cord",
+                        "portrayed",
+                        "Dylan Hunt"
+                  ],
+                  [
+                        "Dylan Hunt",
+                        "in",
+                        "Genesis II"
+                  ],
+                  [
+                        "Genesis II",
+                        "is a",
+                        "failed 1973 television pilot"
+                  ],
+                  [
+                        "Genesis II",
+                        "was created by",
+                        "Gene Roddenberry"
+                  ],
+                  [
+                        "Cord",
+                        "is known to",
+                        "science fiction enthusiasts"
+                  ]
+            ]
+      },
+      "92": {
+            "content": "The temple is dedicated to Chandraprabhu , the eighth Tirthankara of Jainism .",
+            "groundtruth": [
+                  [
+                        "chandraprabhu",
+                        "jainism",
+                        "religion"
+                  ],
+                  [
+                        "tirthankara",
+                        "jainism",
+                        "religion"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Chandraprabhu",
+                        "is",
+                        "eighth Tirthankara of Jainism"
+                  ],
+                  [
+                        "temple",
+                        "dedicated to",
+                        "Chandraprabhu"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Chandraprabhu",
+                        "is",
+                        "eighth Tirthankara of Jainism"
+                  ],
+                  [
+                        "The temple",
+                        "dedicated to",
+                        "Chandraprabhu"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Chandraprabhu",
+                        "is the",
+                        "eighth Tirthankara of Jainism"
+                  ],
+                  [
+                        "The temple",
+                        "is dedicated to",
+                        "Chandraprabhu"
+                  ]
+            ]
+      },
+      "93": {
+            "content": "London has hosted the Summer Olympics in 1908 at White City and 1948 at Wembley Stadium .",
+            "groundtruth": [
+                  [
+                        "1908",
+                        "white city",
+                        "location"
+                  ],
+                  [
+                        "white city",
+                        "1908",
+                        "occupant"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Summer Olympics",
+                        "held at",
+                        "White City"
+                  ],
+                  [
+                        "Summer Olympics",
+                        "held at",
+                        "Wembley Stadium"
+                  ],
+                  [
+                        "London",
+                        "hosted",
+                        "1908"
+                  ],
+                  [
+                        "London",
+                        "hosted",
+                        "1948"
+                  ],
+                  [
+                        "London",
+                        "hosted",
+                        "Summer Olympics"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Summer Olympics",
+                        "in",
+                        "1908"
+                  ],
+                  [
+                        "Summer Olympics",
+                        "in",
+                        "1948"
+                  ],
+                  [
+                        "1908 Summer Olympics",
+                        "at",
+                        "White City"
+                  ],
+                  [
+                        "1948 Summer Olympics",
+                        "at",
+                        "Wembley Stadium"
+                  ],
+                  [
+                        "London",
+                        "hosted",
+                        "Summer Olympics"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Summer Olympics 1908",
+                        "at",
+                        "White City"
+                  ],
+                  [
+                        "London",
+                        "hosted",
+                        "Summer Olympics 1948"
+                  ],
+                  [
+                        "Summer Olympics 1948",
+                        "at",
+                        "Wembley Stadium"
+                  ],
+                  [
+                        "London",
+                        "hosted",
+                        "Summer Olympics 1908"
+                  ]
+            ]
+      },
+      "94": {
+            "content": "Ray Nunatak is 1,630 m , located just north of Beiszer Nunatak and 5 nautical miles ( 9 \u00a0 km ) southwest of Dyrdal Peak in southern Forrestal Range , Pensacola Mountains .",
+            "groundtruth": [
+                  [
+                        "ray nunatak",
+                        "forrestal range",
+                        "mountain range"
+                  ],
+                  [
+                        "forrestal range",
+                        "pensacola mountains",
+                        "mountain range"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Ray Nunatak",
+                        "location",
+                        "just north of Beiszer Nunatak"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "location",
+                        "5 nautical miles (9 km) southwest of Dyrdal Peak"
+                  ],
+                  [
+                        "Dyrdal Peak",
+                        "location",
+                        "southern Forrestal Range, Pensacola Mountains"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "height",
+                        "1,630 m"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Ray Nunatak",
+                        "located at",
+                        "southwest of Dyrdal Peak"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "located in",
+                        "southern Forrestal Range"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "located in",
+                        "Pensacola Mountains"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "height",
+                        "1,630 m"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "located at",
+                        "north of Beiszer Nunatak"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Ray Nunatak",
+                        "located",
+                        "north of Beiszer Nunatak"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "located",
+                        "5 nautical miles southwest of Dyrdal Peak"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "located in",
+                        "southern Forrestal Range"
+                  ],
+                  [
+                        "southern Forrestal Range",
+                        "is part of",
+                        "Pensacola Mountains"
+                  ],
+                  [
+                        "Ray Nunatak",
+                        "is",
+                        "1,630 m"
+                  ]
+            ]
+      },
+      "95": {
+            "content": "The tracks \" Hard to Make a Stand \" , \" A Change Would Do You Good \" , and \" Home \" were released as the album 's last three singles .",
+            "groundtruth": [
+                  [
+                        "a change would do you good",
+                        "home",
+                        "followed by"
+                  ],
+                  [
+                        "home",
+                        "a change would do you good",
+                        "follows"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Hard to Make a Stand",
+                        "is one of",
+                        "tracks"
+                  ],
+                  [
+                        "A Change Would Do You Good",
+                        "is one of",
+                        "tracks"
+                  ],
+                  [
+                        "Home",
+                        "is one of",
+                        "tracks"
+                  ],
+                  [
+                        "album",
+                        "has",
+                        "last three singles"
+                  ],
+                  [
+                        "tracks",
+                        "released as",
+                        "album's last three singles"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "A Change Would Do You Good",
+                        "is a track on",
+                        "album"
+                  ],
+                  [
+                        "Home",
+                        "is a track on",
+                        "album"
+                  ],
+                  [
+                        "Hard to Make a Stand",
+                        "released as",
+                        "last three singles"
+                  ],
+                  [
+                        "A Change Would Do You Good",
+                        "released as",
+                        "last three singles"
+                  ],
+                  [
+                        "Home",
+                        "released as",
+                        "last three singles"
+                  ],
+                  [
+                        "Hard to Make a Stand",
+                        "is a track on",
+                        "album"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "A Change Would Do You Good",
+                        "released as",
+                        "album's second last single"
+                  ],
+                  [
+                        "Home",
+                        "released as",
+                        "album's third last single"
+                  ],
+                  [
+                        "Hard to Make a Stand",
+                        "released as",
+                        "album's last single"
+                  ]
+            ]
+      },
+      "96": {
+            "content": "By this time she also sang for other Hindi films such as \" Dum \" and \" Bunty Aur Babli \" .",
+            "groundtruth": [
+                  [
+                        "bunty aur babli",
+                        "hindi",
+                        "original language of film or TV show"
+                  ],
+                  [
+                        "dum",
+                        "hindi",
+                        "original language of film or TV show"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "she",
+                        "sang for",
+                        "other Hindi films"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Hindi films",
+                        "such as",
+                        "Dum"
+                  ],
+                  [
+                        "Hindi films",
+                        "such as",
+                        "Bunty Aur Babli"
+                  ],
+                  [
+                        "she",
+                        "sang for",
+                        "Hindi films"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Dum",
+                        "is one of",
+                        "other Hindi films"
+                  ],
+                  [
+                        "Bunty Aur Babli",
+                        "is one of",
+                        "other Hindi films"
+                  ],
+                  [
+                        "she",
+                        "sang for",
+                        "other Hindi films"
+                  ]
+            ]
+      },
+      "97": {
+            "content": "Masterson has recently appeared as Tara Chambler on the AMC series \" The Walking Dead \" , having debuted in the show 's fourth season .",
+            "groundtruth": [
+                  [
+                        "fourth season",
+                        "amc",
+                        "original network"
+                  ],
+                  [
+                        "fourth season",
+                        "the walking dead",
+                        "part of"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Tara Chambler",
+                        "is a character in",
+                        "The Walking Dead"
+                  ],
+                  [
+                        "The Walking Dead",
+                        "is a",
+                        "TV series"
+                  ],
+                  [
+                        "Masterson",
+                        "debuted in",
+                        "season 4"
+                  ],
+                  [
+                        "Masterson",
+                        "appeared as",
+                        "Tara Chambler"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Tara Chambler",
+                        "on",
+                        "AMC series"
+                  ],
+                  [
+                        "The Walking Dead",
+                        "debuted in",
+                        "fourth season"
+                  ],
+                  [
+                        "Masterson",
+                        "appeared as",
+                        "Tara Chambler"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Tara Chambler",
+                        "on",
+                        "The Walking Dead"
+                  ],
+                  [
+                        "Masterson",
+                        "debuted in",
+                        "show's fourth season"
+                  ],
+                  [
+                        "The Walking Dead",
+                        "has season",
+                        "fourth"
+                  ],
+                  [
+                        "Masterson",
+                        "appeared as",
+                        "Tara Chambler"
+                  ]
+            ]
+      },
+      "98": {
+            "content": "The buyer and his three sons , Vencel / Venceslav , Raszl\u00f3 / Vraslav and L\u00e1szl\u00f3 / Ladislav , now partially used the predicate of Pethenegh .",
+            "groundtruth": [
+                  [
+                        "ladislav",
+                        "l\u00e1szl\u00f3",
+                        "said to be the same as"
+                  ],
+                  [
+                        "l\u00e1szl\u00f3",
+                        "ladislav",
+                        "said to be the same as"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Vencel / Venceslav",
+                        "is",
+                        "son of buyer"
+                  ],
+                  [
+                        "Raszl\u00f3 / Vraslav",
+                        "is",
+                        "son of buyer"
+                  ],
+                  [
+                        "L\u00e1szl\u00f3 / Ladislav",
+                        "is",
+                        "son of buyer"
+                  ],
+                  [
+                        "buyer",
+                        "uses",
+                        "predicate of Pethenegh"
+                  ],
+                  [
+                        "buyer",
+                        "has",
+                        "three sons"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "buyer",
+                        "has sons",
+                        "Raszl\u00f3 / Vraslav"
+                  ],
+                  [
+                        "buyer",
+                        "has sons",
+                        "L\u00e1szl\u00f3 / Ladislav"
+                  ],
+                  [
+                        "buyer",
+                        "partially used",
+                        "predicate of Pethenegh"
+                  ],
+                  [
+                        "buyer",
+                        "has sons",
+                        "Vencel / Venceslav"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "The buyer",
+                        "has sons",
+                        "Raszl\u00f3 / Vraslav"
+                  ],
+                  [
+                        "The buyer",
+                        "has sons",
+                        "L\u00e1szl\u00f3 / Ladislav"
+                  ],
+                  [
+                        "The buyer and his three sons",
+                        "used",
+                        "the predicate of Pethenegh"
+                  ],
+                  [
+                        "The buyer",
+                        "has sons",
+                        "Vencel / Venceslav"
+                  ]
+            ]
+      },
+      "99": {
+            "content": "Old time and fiddle music are well represented by such Canadian exponents as Jerry Holland , Natalie MacMaster , Sierra Noble , The Rankin Family , and Ashley MacIsaac .",
+            "groundtruth": [
+                  [
+                        "natalie macmaster",
+                        "fiddle",
+                        "instrument"
+                  ],
+                  [
+                        "ashley macisaac",
+                        "fiddle",
+                        "instrument"
+                  ]
+            ],
+            "llama-2-70b": [
+                  [
+                        "Jerry Holland",
+                        "represented by",
+                        "old time and fiddle music"
+                  ],
+                  [
+                        "Natalie MacMaster",
+                        "represented by",
+                        "old time and fiddle music"
+                  ],
+                  [
+                        "Sierra Noble",
+                        "represented by",
+                        "old time and fiddle music"
+                  ],
+                  [
+                        "The Rankin Family",
+                        "represented by",
+                        "old time and fiddle music"
+                  ],
+                  [
+                        "Ashley MacIsaac",
+                        "represented by",
+                        "old time and fiddle music"
+                  ]
+            ],
+            "openchat": [
+                  [
+                        "Jerry Holland",
+                        "is",
+                        "Canadian exponent"
+                  ],
+                  [
+                        "Natalie MacMaster",
+                        "is",
+                        "Canadian exponent"
+                  ],
+                  [
+                        "Sierra Noble",
+                        "is",
+                        "Canadian exponent"
+                  ],
+                  [
+                        "The Rankin Family",
+                        "is",
+                        "Canadian exponent"
+                  ],
+                  [
+                        "Ashley MacIsaac",
+                        "is",
+                        "Canadian exponent"
+                  ],
+                  [
+                        "Old time and fiddle music",
+                        "well represented by",
+                        "Canadian exponents"
+                  ]
+            ],
+            "gpt-4-1106-preview": [
+                  [
+                        "Old time music",
+                        "represented by",
+                        "Natalie MacMaster"
+                  ],
+                  [
+                        "Old time music",
+                        "represented by",
+                        "Sierra Noble"
+                  ],
+                  [
+                        "Old time music",
+                        "represented by",
+                        "The Rankin Family"
+                  ],
+                  [
+                        "Old time music",
+                        "represented by",
+                        "Ashley MacIsaac"
+                  ],
+                  [
+                        "Fiddle music",
+                        "represented by",
+                        "Jerry Holland"
+                  ],
+                  [
+                        "Fiddle music",
+                        "represented by",
+                        "Natalie MacMaster"
+                  ],
+                  [
+                        "Fiddle music",
+                        "represented by",
+                        "Sierra Noble"
+                  ],
+                  [
+                        "Fiddle music",
+                        "represented by",
+                        "The Rankin Family"
+                  ],
+                  [
+                        "Fiddle music",
+                        "represented by",
+                        "Ashley MacIsaac"
+                  ],
+                  [
+                        "Old time music",
+                        "represented by",
+                        "Jerry Holland"
+                  ]
+            ]
+      }
+}
