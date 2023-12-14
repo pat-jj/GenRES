@@ -1,0 +1,5 @@
+         Model  Elo rating
+1     OpenChat        1070
+2   LLaMA2-70b        1052
+3  GPT-4-Turbo        1025
+4  Groundtruth         853
