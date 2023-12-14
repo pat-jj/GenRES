@@ -1,11 +1,12 @@
 {
       "The official announcement was made during a press conference at East River Park in Manhattan by New York City Mayor Michael Bloomberg and National Lacrosse League Commissioner Jim Jennings .": {
-            "score": 1.0,
+            "score": 0.625,
             "results": [
                   true,
+                  false,
                   true,
-                  true,
-                  true,
+                  false,
+                  false,
                   true,
                   true,
                   true
@@ -58,9 +59,13 @@
             ]
       },
       "In July 2006 it performed Leonard Bernstein 's comic operetta \" Candide \"   to much acclaim ) , while in July 2009 the company performed Stephen Sondheim 's Sweeney Todd .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
-                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true
@@ -76,14 +81,12 @@
                   true,
                   true,
                   true,
-                  true,
                   true
             ]
       },
       "In 1989 , Streisand began devoting most of her time towards directing the 1991 film adaptation of Pat Conroy 's 1986 novel \" The Prince of Tides \" .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true
@@ -95,28 +98,22 @@
                   true,
                   true,
                   true,
-                  true,
-                  true,
                   true
             ]
       },
       "In 1995 , Griffin Dunne was nominated for an Academy Award for Best Live Action Short Film for \" Duke of Groove \" , which he directed and co - wrote .": {
-            "score": 0.6,
-            "results": [
-                  true,
-                  true,
-                  true,
-                  false,
-                  false
-            ]
-      },
-      "Priit \n\n Priit is an Estonian masculine given name , cognate to English Fred or Frederick and to German Friedrich .": {
             "score": 1.0,
             "results": [
                   true,
                   true,
+                  true,
+                  true,
                   true
             ]
+      },
+      "Priit \n\n Priit is an Estonian masculine given name , cognate to English Fred or Frederick and to German Friedrich .": {
+            "score": 0,
+            "results": []
       },
       "The new quintet consists of saxophonist George Coleman , pianist Herbie Hancock , bassist Ron Carter and drummer Tony Williams .": {
             "score": 1.0,
@@ -130,6 +127,7 @@
       "Daily Air is the only airline to offer flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island through its Lanyu Airport .": {
             "score": 1.0,
             "results": [
+                  true,
                   true,
                   true,
                   true,
@@ -153,9 +151,10 @@
             ]
       },
       "The stations involved in the transaction include CJAV , CKWV and CHWF in Nanaimo , CIBH and CHPQ in Parksville - Qualicum Beach and CKLR in Courtenay .": {
-            "score": 0.8888888888888888,
+            "score": 1.0,
             "results": [
-                  false,
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -194,46 +193,45 @@
             "results": [
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Ruutu has appeared in six World Championships with Finland and has won silver medals in 1998 , 2001 and 2007 and a bronze medal in 2006 .": {
-            "score": 0.7142857142857143,
+            "score": 0.75,
             "results": [
                   true,
                   true,
                   true,
-                  true,
-                  true,
-                  false,
                   false
             ]
       },
       "Union flag ( disambiguation ) \n\n The Union Flag is the name of the flag of the United Kingdom , commonly called the Union Jack .": {
             "score": 1.0,
             "results": [
-                  true,
                   true
             ]
       },
       "Aktion National Airport is an airport serving Preveza and Lefkada in Greece .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
       "Two celebrated Charles Dickens adaptations followed \u2013 \" Great Expectations \" ( 1946 ) and \" Oliver Twist \" ( 1948 ) .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
-                  true,
-                  false,
-                  true,
                   true
             ]
       },
       "and husband of Gorgophone , daughter of the famous Perseus .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
                   true
             ]
       },
@@ -245,10 +243,9 @@
             ]
       },
       "After the battle Daniel Winter , James Wilson , and James Sloan changed the name of the Peep O ' Day Boys to the Orange Order devoted to maintaining the Protestant ascendency .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
                   true,
                   true
             ]
@@ -262,30 +259,33 @@
             ]
       },
       "After two scoreless defeats at the inaugurational World Cup in 1930 , Belgium scored their first two World Cup goals in 1934 against Germany , by virtue of Bernard Voorhoof .": {
-            "score": 0.8,
+            "score": 0.2222222222222222,
             "results": [
                   false,
+                  false,
+                  false,
+                  false,
                   true,
+                  false,
+                  false,
                   true,
-                  true,
-                  true
+                  false
             ]
       },
       "\" NHL 2K3 \" was released on the Xbox , PlayStation 2 , and Nintendo GameCube .": {
             "score": 1.0,
             "results": [
                   true,
-                  true,
                   true
             ]
       },
       "Biman should , therefore , not expect slot allocations at Heathrow for the summer of 2008 and should look to Stansted or Gatwick airports if it wished to continue serving London .": {
-            "score": 0.8,
+            "score": 0.6,
             "results": [
                   true,
                   true,
                   true,
-                  true,
+                  false,
                   false
             ]
       },
@@ -294,12 +294,17 @@
             "results": [
                   true,
                   true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
       "Oscar Fraley ( August 2 , 1914 \u2013 January 6 , 1994 ) was the co - author , with Eliot Ness , of the famous American memoir \" The Untouchables \" .": {
             "score": 1.0,
             "results": [
+                  true,
                   true,
                   true,
                   true,
@@ -316,18 +321,30 @@
             ]
       },
       "Cadence - lypso is a fusion of cadence rampa from Haiti and calypso from Trinidad and Tobago .": {
-            "score": 1.0,
+            "score": 0.8,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  true
+                  false
             ]
       },
       "He and Stephen Morehouse Avery were nominated for the Academy Award for Best Story for \" The Gay Deception \" ( 1935 ) .": {
-            "score": 1.0,
+            "score": 0.9411764705882353,
             "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -338,6 +355,7 @@
       "River \u02bbIfr\u012bn runs from north to south between Mount Simeon and Mount Kurd and then turns west to the Orontes valley , thus separating Mount Kurd from Mount \u1e24\u0101rim to the south .": {
             "score": 1.0,
             "results": [
+                  true,
                   true,
                   true,
                   true
@@ -361,34 +379,23 @@
             ]
       },
       "Abstract expressionism also included anarchist artists such as Mark Rothko and painters such as Jackson Pollock , who had adopted radical ideas during his experience as a muralist for the Works Progress Administration .": {
-            "score": 0.8571428571428571,
-            "results": [
-                  true,
-                  false,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true
-            ]
+            "score": 0,
+            "results": []
       },
       "The Shoes of the Fisherman is a novel by the Australian writer Morris West first published in 1963 .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
                   true
             ]
       },
       "The game 's soundtrack was composed by Hirokazu Tanaka , the same composer who worked on the music for earlier Nintendo games such as \" Balloon Fight \" and \" Duck Hunt \" .": {
-            "score": 1.0,
+            "score": 0.6666666666666666,
             "results": [
                   true,
                   true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true
+                  false
             ]
       },
       "His sons , Takahiro Moriuchi and Hiroki Moriuchi are vocalist of the rock bands ONE OK ROCK and MY FIRST STORY , respectively .": {
@@ -423,8 +430,9 @@
             ]
       },
       "The culture of Brij is presented in \" Krishna Tere Desh Main \" ( Hindi ) , \" Kanha Ki Braj Bhumi \" , Brij ki radha dwarika ke shyam and \" Bawre Nain . \"": {
-            "score": 0.6,
+            "score": 0.6666666666666666,
             "results": [
+                  true,
                   true,
                   false,
                   false,
@@ -433,8 +441,9 @@
             ]
       },
       "After having been recognized for his efforts and budding into one of the French underground hip hop music scene \u2019s premier producers , DJ Mehdi henceforth pushed boundaries by mixing hip hop and electronic music .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
+                  false,
                   true,
                   true,
                   true
@@ -446,19 +455,15 @@
                   true,
                   true,
                   true,
-                  true,
-                  true,
-                  true,
-                  true,
                   true
             ]
       },
       "The missile becomes a cruise missile , and travels across the world , whereupon it finally crashes into the Opera House in Sydney , during an AC / DC concert .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
                   true,
-                  true,
+                  false,
                   true
             ]
       },
@@ -472,7 +477,6 @@
       "Dawn of Magic 2 , known in North America as Time of Shadows , is an action role - playing game for Microsoft Windows published by Kalypso Media .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true
@@ -499,32 +503,39 @@
             ]
       },
       "Former San Francisco mayor Willie Brown has stated that Barack Obama declined to have his picture taken with Newsom at a fundraiser in 2004 .": {
-            "score": 0.6666666666666666,
+            "score": 0.75,
             "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  true,
+                  false,
+                  true,
                   true,
                   false,
                   true
             ]
       },
       "He spoke on Wordsworth , with whose work and that of other Romantics , such as Coleridge , Byron , Shelley , and Keats he was well acquainted .": {
-            "score": 0.7142857142857143,
+            "score": 0.6666666666666666,
             "results": [
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
                   false,
+                  true,
+                  true,
+                  true,
+                  true,
                   false
             ]
       },
       "It was succeeded as Norwegian representative at the 1979 contest by Anita Skorgan ( who later married Teigen ) with \" Oliver \" .": {
-            "score": 0.75,
+            "score": 0.6666666666666666,
             "results": [
                   true,
                   true,
-                  false,
-                  true
+                  false
             ]
       },
       "Tiny Tower released on June 23 , 2011 for iOS devices and on November 16 , 2011 for Android devices .": {
@@ -539,6 +550,8 @@
       "In Norse mythology , Loki accuses Freyr and Freyja of committing incest , in \" Lokasenna \" .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
                   true,
                   true,
                   true
@@ -560,12 +573,14 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "' \u201d \n\n The 17th century alchemist Eirenaeus Philalethes , also known as George Starkey , describes stibnite in his alchemical commentary \" An Exposition upon Sir George Ripley 's Epistle \" .": {
             "score": 1.0,
             "results": [
+                  true,
                   true,
                   true,
                   true
@@ -575,14 +590,13 @@
             "score": 1.0,
             "results": [
                   true,
-                  true,
                   true
             ]
       },
       "General Sir Hew Whitefoord Dalrymple , 1st Baronet ( 3 December 1750 \u2013 9 April 1830 ) was a British Army general and Governor of Gibraltar .": {
-            "score": 0.5,
+            "score": 0.0,
             "results": [
-                  true,
+                  false,
                   false
             ]
       },
@@ -595,11 +609,11 @@
             ]
       },
       "\" Cogan ( 2008 ) , p. 82 \n\n \" Yahweh \" ( \u05d9\u05d4\u05d5\u05d4 ) is the name of the Judeo - Christian God in both the Bible .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  false
+                  true
             ]
       },
       "British pop art painters David Hockney , Patrick Caulfield , Derek Boshier , Peter Phillips , Peter Blake ( best known for the cover - art for \" Sgt .": {
@@ -623,27 +637,28 @@
             ]
       },
       "That same year , he worked under Hall again in the English language premiere of \" Waiting for Godot \" by Samuel Beckett at the Arts Theatre , London .": {
-            "score": 0.8,
+            "score": 0.75,
             "results": [
+                  false,
                   true,
                   true,
-                  true,
-                  true,
-                  false
+                  true
             ]
       },
       "The Episode file system is the basis for the IBM z / OS POSIX - compatible file system called zFS .": {
             "score": 1.0,
             "results": [
+                  true,
                   true
             ]
       },
       "Later also UC I , UB II and UC II series were constructed at AG Weser .": {
-            "score": 1.0,
+            "score": 0.5,
             "results": [
+                  false,
                   true,
                   true,
-                  true
+                  false
             ]
       },
       "Johanna Liebeneiner is a German stage , film and television actress . Goble p.428 She is the daughter of the actors Hilde Krahl and Wolfgang Liebeneiner .": {
@@ -656,8 +671,9 @@
             ]
       },
       "Microsoft has made several changes to Internet Explorer Mobile that brings the browser experience closer in line with the experiences on Safari ( iOS ) and Chrome ( Android ) .": {
-            "score": 0.6666666666666666,
+            "score": 0.75,
             "results": [
+                  true,
                   true,
                   true,
                   false
@@ -673,8 +689,6 @@
       "The landscape of the district is flat and much of the district 's territory belongs to the basin of the Mologa River and its principal left tributaries , the Kobozha and the Chagodoshcha .": {
             "score": 1.0,
             "results": [
-                  true,
-                  true,
                   true,
                   true,
                   true
@@ -725,37 +739,30 @@
             ]
       },
       "Rainier ( name ) \n\n The name Rainier ( or ; , a French form of Rainer ) may refer to \n\n Given name : \n\n Surname : \n\n Fiction :": {
-            "score": 0.5,
+            "score": 0.75,
             "results": [
                   true,
                   true,
-                  false,
+                  true,
                   false
             ]
       },
       "In 2013 , the airline announced its return to Abu Dhabi , Dammam and Riyadh , and launched new routes to Brisbane and Perth ( via Darwin ) , as well as Doha and Jeddah .": {
-            "score": 0.8571428571428571,
-            "results": [
-                  false,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true
-            ]
+            "score": 0,
+            "results": []
       },
       "Hasidic Judaism was founded by Israel ben Eliezer ( 1700\u20131760 ) , also known as the Baal Shem Tov .": {
             "score": 1.0,
             "results": [
                   true,
+                  true,
                   true
             ]
       },
       "The NES version was not licensed by Nintendo .": {
-            "score": 1.0,
+            "score": 0.0,
             "results": [
-                  true
+                  false
             ]
       },
       "He was sired by Fair Trial , whose other offspring included Palestine , Festoon and Court Martial .": {
@@ -781,17 +788,23 @@
                   true,
                   true,
                   true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
       "In the 1995 General Election an alliance consisting of the PTR and MMM won the election , Dr. Navin Ramgoolam became Prime Minister of Mauritius .": {
-            "score": 0.8333333333333334,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  true,
-                  true,
-                  false,
                   true
             ]
       },
@@ -806,10 +819,10 @@
             ]
       },
       "Genoa subsequently opted against exercising their option to sign him permanently and on 22 July 2016 he was loaned to Portuguese Primeira Liga side Estoril for the 2016 - 17 season .": {
-            "score": 1.0,
+            "score": 0.8,
             "results": [
                   true,
-                  true,
+                  false,
                   true,
                   true,
                   true
@@ -824,16 +837,14 @@
             ]
       },
       "He was commissioned by Pope John Paul II to assist Emmanuel Milingo , Archbishop Emeritus of Lusaka , Zambia , in returning to the Catholic Church in 2001 .": {
-            "score": 0.75,
+            "score": 0.6666666666666666,
             "results": [
-                  false,
-                  true,
                   true,
                   true,
                   true,
                   true,
                   false,
-                  true
+                  false
             ]
       },
       "Cord is also known to science fiction enthusiasts for having portrayed Dylan Hunt in the failed 1973 television pilot , \" Genesis II , \" which was created by Gene Roddenberry .": {
@@ -853,21 +864,20 @@
             ]
       },
       "London has hosted the Summer Olympics in 1908 at White City and 1948 at Wembley Stadium .": {
-            "score": 1.0,
+            "score": 0.8,
             "results": [
                   true,
                   true,
                   true,
-                  true,
+                  false,
                   true
             ]
       },
       "Ray Nunatak is 1,630 m , located just north of Beiszer Nunatak and 5 nautical miles ( 9 \u00a0 km ) southwest of Dyrdal Peak in southern Forrestal Range , Pensacola Mountains .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
-                  false,
+                  true,
                   true,
                   true,
                   true,
@@ -890,8 +900,6 @@
             "results": [
                   true,
                   true,
-                  true,
-                  true,
                   true
             ]
       },
@@ -907,22 +915,18 @@
       "The buyer and his three sons , Vencel / Venceslav , Raszl\u00f3 / Vraslav and L\u00e1szl\u00f3 / Ladislav , now partially used the predicate of Pethenegh .": {
             "score": 1.0,
             "results": [
+                  true
+            ]
+      },
+      "Old time and fiddle music are well represented by such Canadian exponents as Jerry Holland , Natalie MacMaster , Sierra Noble , The Rankin Family , and Ashley MacIsaac .": {
+            "score": 1.0,
+            "results": [
                   true,
                   true,
                   true,
                   true,
                   true,
                   true
-            ]
-      },
-      "Old time and fiddle music are well represented by such Canadian exponents as Jerry Holland , Natalie MacMaster , Sierra Noble , The Rankin Family , and Ashley MacIsaac .": {
-            "score": 0.8,
-            "results": [
-                  true,
-                  true,
-                  true,
-                  true,
-                  false
             ]
       },
       "Al Hoceima 's Cherif Al Idrissi Airport and Tetouan 's Sania Ramel Airport also receive commercial flights .": {
@@ -944,9 +948,9 @@
             ]
       },
       "At the end of \" Twilight \" , he employed Jacob to persuade Bella to break up with Edward Cullen .": {
-            "score": 0.5,
+            "score": 0.25,
             "results": [
-                  true,
+                  false,
                   true,
                   false,
                   false
@@ -958,15 +962,16 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Santa Luzia ( Funchal ) \n\n Santa Luzia ( Portuguese meaning Saint Lucia ) is a parish in the municipality of Funchal in the Madeira Islands .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  false
+                  true
             ]
       },
       "Upon arriving at Luis Mu\u00f1oz Mar\u00edn International Airport ( then known as Isla Verde Airport ) in San Juan , police officers noticed that Torres was nervous .": {
@@ -981,10 +986,19 @@
             "score": 1.0,
             "results": [
                   true,
+                  true,
                   true
             ]
       },
       "Pheasant Hills ( provincial electoral district ) \n\n Pheasant Hills was a provincial electoral district for the Legislative Assembly of the province of Saskatchewan , Canada , centered just north of the town of Grenfell .": {
+            "score": 1.0,
+            "results": [
+                  true,
+                  true,
+                  true
+            ]
+      },
+      "It was written from the composers theme from the 1979 TV mini - series \" Martin Eden \" , based on the Jack London novel of the same name , directed by Giacomo Battiato .": {
             "score": 0.75,
             "results": [
                   true,
@@ -993,26 +1007,12 @@
                   false
             ]
       },
-      "It was written from the composers theme from the 1979 TV mini - series \" Martin Eden \" , based on the Jack London novel of the same name , directed by Giacomo Battiato .": {
-            "score": 0.3333333333333333,
-            "results": [
-                  true,
-                  false,
-                  false,
-                  true,
-                  false,
-                  false,
-                  true,
-                  false,
-                  false
-            ]
-      },
       "OsmAnd \n\n OsmAnd ( OpenStreetMap Automated Navigation Directions ) is a map and navigation app for Android and iOS .": {
-            "score": 1.0,
+            "score": 0.6666666666666666,
             "results": [
                   true,
                   true,
-                  true
+                  false
             ]
       },
       "Estevan ( former electoral district ) \n\n Estevan is a former provincial electoral district for the Legislative Assembly of the province of Saskatchewan , Canada .": {
@@ -1074,9 +1074,10 @@
             ]
       },
       "She was the only daughter of King Tarabya of Ava and Queen Min Hla Myat of Ava and sister of King Min Nyo of Ava . Hmannan Vol .": {
-            "score": 0.8,
+            "score": 0.6666666666666666,
             "results": [
                   true,
+                  false,
                   true,
                   true,
                   true,
@@ -1104,6 +1105,8 @@
       "Darion is a masculine name ; variants include Darian and Darien .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
                   true
             ]
       },
@@ -1114,12 +1117,13 @@
             ]
       },
       "The APG III system of 2009 , like the earlier APG II system of 2003 , left the Dilleniaceae unplaced as to order , while noting that the name Dilleniales was available .": {
-            "score": 1.0,
+            "score": 0.8333333333333334,
             "results": [
                   true,
                   true,
                   true,
                   true,
+                  false,
                   true
             ]
       },
@@ -1134,12 +1138,12 @@
             ]
       },
       "Also notable is \" Public Enemies \" , a 2009 American biographical - crime film directed by Michael Mann and written by Mann , Ronan Bennett and Ann Biderman .": {
-            "score": 0.7142857142857143,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
                   true,
-                  false,
+                  true,
+                  true,
                   true,
                   true,
                   true
@@ -1155,13 +1159,12 @@
             ]
       },
       "Stafford Glacier \n\n Stafford Glacier ( ) is a glacier 5 nautical miles ( 9 \u00a0 km ) east of Rudolph Glacier , flowing north into Trafalgar Glacier in the Victory Mountains , Victoria Land .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
                   true,
                   true,
-                  true,
-                  true
+                  false
             ]
       },
       "This River Blackwater should not be confused with the River Blackwater in north - east Hampshire , which is a tributary of the River Loddon and ( indirectly ) of the River Thames .": {
@@ -1178,17 +1181,20 @@
                   true,
                   true,
                   true,
-                  true,
                   true
             ]
       },
       "Louis Cennamo then briefly replaced Tony Reeves on bass , but was replaced in turn by Mark Clarke within a month .": {
-            "score": 0.75,
+            "score": 0.625,
             "results": [
+                  true,
+                  true,
+                  false,
+                  true,
                   false,
                   true,
                   true,
-                  true
+                  false
             ]
       },
       "Calycoceras asiaticum \n\n Calycoceras asiaticum is an extinct cephalopod species belonging to the subclass Ammonoidea and family Acanthoceratidae .": {
@@ -1200,42 +1206,51 @@
             ]
       },
       "Louisiana was won by incumbent United States President Ronald Reagan of California , who was running against former Vice President Walter Mondale of Minnesota .": {
-            "score": 1.0,
+            "score": 0.8333333333333334,
             "results": [
                   true,
+                  true,
+                  false,
                   true,
                   true,
                   true
             ]
       },
       "This was the first publicly available jailbreak for the iPhone 4 , able to jailbreak iOS 3.1.2 through 4.0.1 on the iPhone , iPod Touch , and iPad models then current .": {
+            "score": 0.6666666666666666,
+            "results": [
+                  true,
+                  false,
+                  true,
+                  true,
+                  false,
+                  true
+            ]
+      },
+      "Jillian Skinner \n\n Jillian Gell Skinner ( born 5 August 1944 in Melbourne ) , an Australian politician , was the New South Wales Minister for Health in the Baird government .": {
             "score": 1.0,
             "results": [
+                  true,
                   true,
                   true,
                   true
             ]
       },
-      "Jillian Skinner \n\n Jillian Gell Skinner ( born 5 August 1944 in Melbourne ) , an Australian politician , was the New South Wales Minister for Health in the Baird government .": {
-            "score": 0.8,
+      "Gonsales \n\n The last name Gonsales or Gons\u00e1les is a Portuguese variation of Gonzalez and means \" \" son of Gonsalo \" \" ; some people who have or have used this last name include :": {
+            "score": 0.6666666666666666,
             "results": [
-                  true,
-                  true,
                   true,
                   true,
                   false
             ]
       },
-      "Gonsales \n\n The last name Gonsales or Gons\u00e1les is a Portuguese variation of Gonzalez and means \" \" son of Gonsalo \" \" ; some people who have or have used this last name include :": {
-            "score": 1.0,
-            "results": [
-                  true
-            ]
-      },
       "From January 17 to February 6 , it fought in the Don \u2013 Manych operation , crossing the Manych River and capturing the surrounding area .": {
-            "score": 1.0,
+            "score": 0.8333333333333334,
             "results": [
                   true,
+                  true,
+                  true,
+                  false,
                   true,
                   true
             ]
@@ -1243,6 +1258,13 @@
       "This recognised the major groupings that would later be transferred to Amaryllidaceae as subfamilies Allioideae and Agapanthoideae , with Gilliesieae as a tribe within the Allioideae .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true
@@ -1258,19 +1280,19 @@
             ]
       },
       "Two adaptations of Agatha Christie stories \" Murder on the Orient Express \" ( 1974 ) and \" Death on the Nile \" ( 1978 ) were critically acclaimed .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
                   true,
-                  true,
+                  false,
                   true
             ]
       },
       "Cuomo was defeated for a fourth term as governor by George Pataki in the \" Republican Revolution \" of 1994 , and he subsequently retired from politics .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
-                  true,
+                  false,
                   true,
                   true
             ]
@@ -1278,15 +1300,14 @@
       "While there , his niece , Eleanor of Provence , gave birth to Edward .": {
             "score": 1.0,
             "results": [
-                  true,
                   true
             ]
       },
       "Mola de Colldejou \n\n Mola de Colldejou is a mountain chain in Catalonia , Spain located north of the Serra de Llaberia in the Catalan Pre - Coastal Range .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
+                  true,
                   true
             ]
       },
@@ -1308,10 +1329,11 @@
             ]
       },
       "Flight 410 was a regular scheduled domestic passenger flight from C\u00facuta - Camilo Daza International Airport ( CUC ) to Cartagena de Indias - Rafael N\u00fa\u00f1ez International Airport ( CTG ) .": {
-            "score": 0.75,
+            "score": 0.8,
             "results": [
                   true,
                   false,
+                  true,
                   true,
                   true
             ]
@@ -1327,12 +1349,11 @@
             ]
       },
       "Among the greatest painters of the Baroque period are Vel\u00e1zquez , Caravaggio , Rembrandt , Gombrich , p. 420 .": {
-            "score": 0.6,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  false,
-                  false,
+                  true,
                   true
             ]
       },
@@ -1345,9 +1366,10 @@
             ]
       },
       "The Madiba shirt was designed by Desr\u00e9 Buirski and first worn by the then newly elected president at the dress rehearsal of the opening of South Africa 's first democratic Parliament in May 1994 .": {
-            "score": 0.75,
+            "score": 0.6,
             "results": [
                   true,
+                  false,
                   false,
                   true,
                   true
@@ -1378,15 +1400,17 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "It is available for free on the iTunes App Store for iOS , Google Play for Android , and Steam for PC .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
                   true,
-                  true
+                  true,
+                  false
             ]
       },
       "It has been proposed by some biblical scholars that Mahalath is another name for Esau 's wife Basemath who is mentioned in Genesis 36 .": {
@@ -1412,6 +1436,11 @@
             "results": [
                   true,
                   true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
@@ -1426,25 +1455,15 @@
             ]
       },
       "Is\u00e1bena ( river ) \n\n The Is\u00e1bena is the principal tributary of the river \u00c9sera , itself a tributary of the Cinca , which flows into the Ebro and thence to the Mediterranean Sea .": {
-            "score": 0.8333333333333334,
+            "score": 1.0,
             "results": [
                   true,
-                  true,
-                  false,
                   true,
                   true,
                   true
             ]
       },
       "In its fourth and fifth season , AMC 's post - apocalypctic drama \" The Walking Dead \" used nonlinear narrative extensively .": {
-            "score": 1.0,
-            "results": [
-                  true,
-                  true,
-                  true
-            ]
-      },
-      "Notukeu ( electoral district ) \n\n Notukeu was a provincial electoral division for the Legislative Assembly of the province of Saskatchewan , Canada , located south of Old Wives Lake .": {
             "score": 0.75,
             "results": [
                   true,
@@ -1453,25 +1472,29 @@
                   true
             ]
       },
-      "Since 1990 Babelsberg Palace with the surrounding park laid out by Peter Joseph Lenn\u00e9 and Hermann von P\u00fcckler - Muskau is part of the UNESCO Palaces and Parks of Potsdam and Berlin World Heritage Site .": {
+      "Notukeu ( electoral district ) \n\n Notukeu was a provincial electoral division for the Legislative Assembly of the province of Saskatchewan , Canada , located south of Old Wives Lake .": {
             "score": 1.0,
             "results": [
                   true,
                   true,
-                  true,
+                  true
+            ]
+      },
+      "Since 1990 Babelsberg Palace with the surrounding park laid out by Peter Joseph Lenn\u00e9 and Hermann von P\u00fcckler - Muskau is part of the UNESCO Palaces and Parks of Potsdam and Berlin World Heritage Site .": {
+            "score": 1.0,
+            "results": [
                   true,
                   true,
                   true
             ]
       },
       ": The European Commission 's Power over the Council of Ministers European Union Politics \" ( 2000 ) 1 \" EUP \" 37 .": {
-            "score": 0.8333333333333334,
+            "score": 0.4,
             "results": [
                   true,
-                  true,
                   false,
-                  true,
-                  true,
+                  false,
+                  false,
                   true
             ]
       },
@@ -1482,10 +1505,17 @@
             ]
       },
       "It was the 15th Japan Series and featured the Pacific League champions , the Nankai Hawks , against the Central League champions , the Hanshin Tigers .": {
-            "score": 0.3333333333333333,
+            "score": 0.8,
             "results": [
+                  true,
                   false,
                   false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
@@ -1504,15 +1534,25 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "23761 , 1967 \n The 1898 Columbia Southern Railway Passenger Station and Freight Warehouse in Wasco and the 1902 Columbia Southern Hotel in Shaniko have been listed on the National Register of Historic Places .": {
-            "score": 0.75,
+            "score": 0.6153846153846154,
             "results": [
                   false,
                   true,
                   true,
+                  false,
+                  false,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  true,
+                  false,
                   true
             ]
       },
@@ -1535,25 +1575,33 @@
             ]
       },
       "After an intense fight , Kirby is able to knock out King Dedede and frees him of his brainwashing .": {
-            "score": 0.5,
+            "score": 0.75,
             "results": [
                   true,
                   false,
                   true,
-                  false
+                  true
             ]
       },
       "It contains significant paintings by Michelangelo Merisi da Caravaggio and Annibale Carracci , two of the most important masters of Baroque art , dating from 1600 - 1601 .": {
-            "score": 0.6,
+            "score": 1.0,
             "results": [
-                  false,
                   true,
+                  true,
+                  true,
+                  true,
+                  true
+            ]
+      },
+      "Rocks was initially based on the Red Hat Linux distribution , however modern versions of Rocks were based on CentOS , with a modified Anaconda installer that simplifies mass installation onto many computers .": {
+            "score": 0.6666666666666666,
+            "results": [
                   true,
                   true,
                   false
             ]
       },
-      "Rocks was initially based on the Red Hat Linux distribution , however modern versions of Rocks were based on CentOS , with a modified Anaconda installer that simplifies mass installation onto many computers .": {
+      "His father 's early death led to Prabhavatigupta ruling as regent for an extended period of time as their sons Divakarasena , Damodarasena , and Pravarasena were all minors .": {
             "score": 1.0,
             "results": [
                   true,
@@ -1562,32 +1610,20 @@
                   true
             ]
       },
-      "His father 's early death led to Prabhavatigupta ruling as regent for an extended period of time as their sons Divakarasena , Damodarasena , and Pravarasena were all minors .": {
-            "score": 0.5714285714285714,
+      "Because of limited resolution and memory constraints inherent to the Nintendo Entertainment System ( NES ) , a lot of detour game objects and interactions as well as some critical ones were removed .": {
+            "score": 1.0,
             "results": [
-                  false,
-                  false,
                   true,
                   true,
                   true,
-                  false,
+                  true,
                   true
             ]
       },
-      "Because of limited resolution and memory constraints inherent to the Nintendo Entertainment System ( NES ) , a lot of detour game objects and interactions as well as some critical ones were removed .": {
-            "score": 0.8333333333333334,
-            "results": [
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  false
-            ]
-      },
       "Halabjaee fled Iraqi Kurdistan after the Kurdistan Regional Government ( KRG ) allegedly refused to offer him any protection or to arrest those who threatened his life .": {
-            "score": 0.3333333333333333,
+            "score": 0.5,
             "results": [
+                  true,
                   true,
                   false,
                   false
@@ -1596,7 +1632,6 @@
       "It is a tributary of Flint Creek , which flows to the Illinois River , which in turn flows to the Arkansas River and thus is part of the Mississippi River watershed .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true,
@@ -1613,13 +1648,14 @@
             ]
       },
       "Aerol\u00edneas Argentinas also operated from Rome , Madrid , or Barcelona to Auckland and Sydney via Buenos Aires until 2013 .": {
-            "score": 0.6666666666666666,
+            "score": 0.42857142857142855,
             "results": [
+                  true,
+                  false,
+                  false,
                   false,
                   true,
                   false,
-                  true,
-                  true,
                   true
             ]
       },
@@ -1632,12 +1668,9 @@
             ]
       },
       "The English language dailies include : \" The Times of India \" ( Kolhapur edition ) , \" The Indian Express \" , \" Business Standard \" and \" The Economic Times \" .": {
-            "score": 1.0,
+            "score": 0.0,
             "results": [
-                  true,
-                  true,
-                  true,
-                  true
+                  false
             ]
       },
       "In 1140 Engelbert had married Matilda , youngest daughter of the Bavarian count Berengar II of Sulzbach .": {
@@ -1649,18 +1682,17 @@
             ]
       },
       "He was Levadia 's top goalscorer in the league for three consecutive seasons from 2005 to 2007 , and won four consecutive Meistriliiga titles in 2006 , 2007 , 2008 , and 2009 .": {
-            "score": 0.4,
+            "score": 0.5555555555555556,
             "results": [
                   true,
-                  false,
-                  true,
-                  false,
-                  false,
-                  false,
-                  false,
                   true,
                   true,
-                  false
+                  false,
+                  false,
+                  false,
+                  false,
+                  true,
+                  true
             ]
       },
       "Elisabeth Sch\u00e4rtel ( 6 October 1919 \u2013 24 August 2012 ) was a German operatic mezzo - soprano and contralto .": {
@@ -1681,8 +1713,8 @@
             "results": [
                   true,
                   true,
-                  true,
-                  false
+                  false,
+                  true
             ]
       },
       "TrackMania Turbo will also have a split screen multiplayer mode for up to 4 players which makes it the first racing game with such gameplay for the consoles PlayStation 4 and Xbox One .": {
@@ -1706,8 +1738,10 @@
             ]
       },
       "He scored his first goal for APOEL on 15 October 2016 , netting the opening goal in his team 's 4\u20131 away victory against AEZ Zakakiou for the Cypriot First Division .": {
-            "score": 0.2,
+            "score": 0.2857142857142857,
             "results": [
+                  true,
+                  false,
                   true,
                   false,
                   false,
@@ -1745,33 +1779,31 @@
             ]
       },
       "There have been members of the House of Commons also holding seats in the devolved bodies in Scotland , Wales and Northern Ireland .": {
-            "score": 0.4,
-            "results": [
-                  true,
-                  false,
-                  false,
-                  false,
-                  true
-            ]
-      },
-      "The Chechen Head Ramzan Kadyrov denied not only the occurrence of any persecution but also the existence of gay men in Chechnya , adding that such people would be killed by their own families .": {
             "score": 1.0,
             "results": [
                   true,
                   true,
+                  true,
+                  true,
+                  true,
                   true
             ]
+      },
+      "The Chechen Head Ramzan Kadyrov denied not only the occurrence of any persecution but also the existence of gay men in Chechnya , adding that such people would be killed by their own families .": {
+            "score": 0,
+            "results": []
       },
       "Varna railway station ( ) serves the Black Sea city and municipality of Varna , the third most populous city in Bulgaria .": {
             "score": 1.0,
             "results": [
-                  true,
                   true
             ]
       },
       "Theatrically , he is perhaps best known for originating two roles in Samuel Beckett 's most famous plays : Lucky in \" Waiting for Godot \" , and Clov in \" Endgame \" .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -1792,14 +1824,15 @@
             "results": [
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Major English language newspapers which are published and sold are The Times of India , Hindustan Times & The Hindu .": {
             "score": 0.6666666666666666,
             "results": [
-                  false,
                   true,
+                  false,
                   true
             ]
       },
@@ -1814,22 +1847,19 @@
             ]
       },
       "Brendan Doran ( born March 17 , 1979 ) is an American former ski jumper who competed in the 1998 Winter Olympics and in the 2002 Winter Olympics .": {
-            "score": 0.8333333333333334,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  true,
-                  false,
                   true,
                   true
             ]
       },
       "The award in 2010 was presented by Rotterdam mayor Ahmed Aboutaleb after introductory comments by Prof . H.W.": {
-            "score": 0.75,
+            "score": 0.6666666666666666,
             "results": [
                   true,
                   false,
-                  true,
                   true
             ]
       },
@@ -1838,31 +1868,26 @@
             "results": [
                   true,
                   true,
-                  true,
-                  true,
-                  true,
                   true
             ]
       },
       "In \" Dune \" , Paul Atreides and his mother Lady Jessica flee a Harkonnen attack and find refuge among the Fremen of Sietch Tabr .": {
-            "score": 0.8333333333333334,
+            "score": 0.6,
             "results": [
                   true,
-                  true,
-                  true,
+                  false,
                   true,
                   true,
                   false
             ]
       },
       "Via the Rock , Big Sioux and Missouri rivers , it is part of the watershed of the Mississippi River .": {
-            "score": 0.6,
+            "score": 0.75,
             "results": [
                   false,
                   true,
                   true,
-                  true,
-                  false
+                  true
             ]
       },
       "Caietain also published the works of La Pl\u00e9iade , including Pierre de Ronsard , Jean - Antoine de Baif and Joachim Du Bellay , and also Jean Bertaut , Philippe Desportes and Amadis Jamyn .": {
@@ -1890,42 +1915,30 @@
                   true,
                   true,
                   true,
-                  true,
                   true
             ]
       },
       "The film was a success at the box office and nominated for two Academy Awards \u2014 Best Music for Herbert Stothart and Best Cinematography .": {
-            "score": 0.7647058823529411,
+            "score": 0.875,
             "results": [
                   true,
                   true,
                   true,
-                  false,
-                  true,
-                  true,
-                  true,
-                  false,
-                  true,
-                  true,
                   true,
                   true,
                   false,
                   true,
-                  true,
-                  true,
-                  false
+                  true
             ]
       },
       "His parents were Andr\u00e1s ( Andrej ) Rudnay , M\u00e1ria Vyv\u00edjalov\u00e1 , \" Alexander Rudnay v kontexte slovensk\u00e9ho n\u00e1rodnoobrodensk\u00e9ho hnutia \" a servants ' judge (; ) and Anna D\u0151ryMark\u00f3 2006 , p. 325 .": {
-            "score": 0.42857142857142855,
+            "score": 0.4,
             "results": [
                   true,
-                  true,
                   false,
                   false,
                   false,
-                  true,
-                  false
+                  true
             ]
       },
       "The latter was already regarded as a palladium that had won battles and saved Constantinople from the Persian - Avar siege of 626 , when the Patriarch paraded it around the walls of the city .": {
@@ -1955,22 +1968,21 @@
             ]
       },
       "Through her father 's patronage of the Pre - Raphaelite Brotherhood , she became known to the artists Dante Gabriel Rossetti and Edward Burne - Jones .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
+                  true,
                   true
             ]
       },
       "( German : Albrecht - D\u00fcrer - Haus ) is a Nuremberg \" Fachwerkhaus \" that was the home of German Renaissance artist Albrecht D\u00fcrer from 1509 to his death in 1528 .": {
-            "score": 0.8333333333333334,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  true,
-                  false
+                  true
             ]
       },
       "\" Syriana \" was nominated for Best Actor in a Supporting Role ( George Clooney ) and Best Original Screenplay .": {
@@ -2014,15 +2026,16 @@
             "results": [
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Gnash has been ported to Windows and the plugin works best with Firefox 1.0.4 or newer , and should work in any Mozilla - based browser .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
                   true,
-                  true,
+                  false,
                   true
             ]
       },
@@ -2045,18 +2058,23 @@
             ]
       },
       "It is in the Stour valley and both the River Stour and the Staffordshire and Worcestershire Canal pass through the parish before joining the River Severn at Stourport .": {
-            "score": 1.0,
+            "score": 0.8,
             "results": [
                   true,
                   true,
                   true,
-                  true,
+                  false,
                   true
             ]
       },
       "Ursula had four older brothers , Henry Pole , 1st Baron Montagu , Reginald Pole , Cardinal and last Roman Catholic Archbishop of Canterbury , Sir Geoffrey Pole , and Sir Arthur Pole .": {
-            "score": 1.0,
+            "score": 0.9090909090909091,
             "results": [
+                  true,
+                  false,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -2095,12 +2113,13 @@
             ]
       },
       "It is only available on a Windows platform , and runs through Internet Explorer by default , with an optional plug - in for Firefox and Chrome . UltraSurf , \u201c Your Security \u201d .": {
-            "score": 0.25,
+            "score": 0.6,
             "results": [
-                  false,
                   true,
                   false,
-                  false
+                  false,
+                  true,
+                  true
             ]
       },
       "Lady Franklinfjorden \n\n Lady Franklinfjorden is a fjord in Gustav V Land at Nordaustlandet , Svalbard .": {
@@ -2122,8 +2141,9 @@
             ]
       },
       "Pjaca made his Juventus and Serie A debut on 27 August , coming on as a substitute for Paulo Dybala in the second half of a 1\u20130 away win over Lazio .": {
-            "score": 0.5,
+            "score": 0.6,
             "results": [
+                  true,
                   true,
                   false,
                   false,
@@ -2131,12 +2151,12 @@
             ]
       },
       "Most of these studies were in the area of French organ music with Marie - Claire Alain and Jean Langlais .": {
-            "score": 0.5,
+            "score": 1.0,
             "results": [
-                  false,
                   true,
                   true,
-                  false
+                  true,
+                  true
             ]
       },
       "Wallback is an unincorporated community in Clay and Roane counties , West Virginia , United States .": {
@@ -2151,16 +2171,15 @@
             "score": 1.0,
             "results": [
                   true,
-                  true,
                   true
             ]
       },
       "Under the captaincy of 1996 European Footballer of the Year Matthias Sammer , Borussia Dortmund won back - to - back Bundesliga titles in 1995 and 1996 .": {
-            "score": 0.8,
+            "score": 0.6,
             "results": [
                   true,
                   true,
-                  true,
+                  false,
                   false,
                   true
             ]
@@ -2183,18 +2202,21 @@
             ]
       },
       "California Assemblyman Willie Brown and San Francisco sheriff Richard Hongisto campaigned respectively for Miami 's black community and law enforcement .": {
-            "score": 0.5,
+            "score": 1.0,
             "results": [
-                  false,
+                  true,
+                  true,
                   true
             ]
       },
       "Circular letters provide advice and guidance on specific topics . Welsh Government | Policy and guidance \n\n The Wales Spatial Plan http://wales.gov.uk/dpsp/40382121/wsp-101104-pt1-e.pdf?lang=en was published by the Welsh Assembly in 2004 .": {
-            "score": 0.3333333333333333,
+            "score": 0.6,
             "results": [
-                  true,
                   false,
-                  false
+                  false,
+                  true,
+                  true,
+                  true
             ]
       },
       "Skype Click to Call ( formerly called the \" Skype Web Toolbar \" ) recognizes phone and Skype Numbers , and is available for Internet Explorer , Google Chrome , and Mozilla Firefox on Windows .": {
@@ -2209,10 +2231,10 @@
             ]
       },
       "In May 2015 , Vienna hosted the Eurovision Song Contest following Austria 's victory in the 2014 contest .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
+                  true,
                   true
             ]
       },
@@ -2240,9 +2262,6 @@
                   true,
                   true,
                   true,
-                  true,
-                  true,
-                  true,
                   true
             ]
       },
@@ -2255,17 +2274,19 @@
       "NGC 133 is an open cluster in the constellation Cassiopeia .": {
             "score": 1.0,
             "results": [
-                  true,
                   true
             ]
       },
       "The current Governor of Maine is Paul LePage , a Republican , elected in the 2010 elections , \n and was re - elected in 2014 .": {
-            "score": 1.0,
+            "score": 0.8571428571428571,
             "results": [
                   true,
                   true,
                   true,
-                  true
+                  true,
+                  true,
+                  true,
+                  false
             ]
       },
       "Sheikh Mohammed is the first cousin of the current ruler of Dubai Sheikh Mohammed bin Rashid Al Maktoum and the head of the Dubai Land Department , the land registrar of the Emirate of Dubai .": {
@@ -2285,14 +2306,13 @@
             ]
       },
       "RT\u00c9 Stands For Raidi\u00f3 Teilif\u00eds \u00c9ireann \n\n\n Proposed Channels \n\n With the launch of digital terrestrial television in the Republic of Ireland , Saorview will give RT\u00c9 the opportunity to offer viewers greater choice .": {
-            "score": 0.8333333333333334,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  true,
-                  false
+                  true
             ]
       },
       "It must not be confused with the Imperial Army ( \" Kaiserliche Armee \" ) of the Emperor .": {
@@ -2311,27 +2331,30 @@
             ]
       },
       "The John McLoughlin Bridge is a tied - arch bridge that spans the Clackamas River between Oregon City and Gladstone , Oregon , in the northwest United States .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
-                  true,
-                  true,
+                  false,
                   true,
                   true
             ]
       },
       "Alabama was won by incumbent United States President Ronald Reagan of California , who was running against former Vice President Walter Mondale of Minnesota .": {
-            "score": 1.0,
-            "results": [
-                  true,
-                  true,
-                  true,
-                  true
-            ]
+            "score": 0,
+            "results": []
       },
       "At that time , he took charge of a small school in Cooperstown , New York , where he was assisted by Elizabeth or Betsy ( sources differ ) W. Spafford for three years .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -2348,20 +2371,18 @@
             ]
       },
       "Cecil was drafted in 1984 by the Denver Nuggets , and later settled in Australia where he played in the National Basketball League for the North Melbourne Giants , Melbourne Tigers and Geelong Supercats .": {
-            "score": 1.0,
-            "results": [
-                  true,
-                  true,
-                  true,
-                  true,
-                  true
-            ]
+            "score": 0,
+            "results": []
       },
       "Sickert has been named as the serial murderer \" Jack the Ripper \" by Patricia Cornwell and others .": {
-            "score": 0.6666666666666666,
+            "score": 0.7142857142857143,
             "results": [
+                  true,
+                  true,
+                  true,
                   false,
                   true,
+                  false,
                   true
             ]
       },
@@ -2384,12 +2405,6 @@
             "results": [
                   true,
                   true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
                   true
             ]
       },
@@ -2406,17 +2421,38 @@
             "results": [
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Released in 2008 , in the United States and Japan , \" My Freedom \" is the third single off the album \" Make Some Noise \" by Krystal Meyers .": {
-            "score": 1.0,
+            "score": 0.84,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  true
+                  true,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false
             ]
       },
       "The modern art styled cathedral of Brasilia designed by Oscar Niemeyer is dedicated to Our Lady Aparecida , as Brasilia is the national capital and she is invoked as Brazil 's special protector .": {
@@ -2448,60 +2484,74 @@
                   true,
                   true,
                   true,
+                  true,
+                  true,
                   true
             ]
       },
       "It is , along with variant \u0110ura\u0111 , the equivalent of English \" George \" .": {
             "score": 1.0,
             "results": [
+                  true
+            ]
+      },
+      "22 January 1979 : After four draws , the FA Cup third round tie between Arsenal and Third Division Sheffield Wednesday is finally resolved when the Gunners win the fourth replay 2\u20130 .": {
+            "score": 0.8571428571428571,
+            "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false
+            ]
+      },
+      "Hydro - Qu\u00e9bec and the Bourassa government had a much harder time circumventing the next hurdle in northern Quebec .": {
+            "score": 0.3333333333333333,
+            "results": [
+                  false,
+                  false,
+                  true
+            ]
+      },
+      "Uruguay held the title until the Copa Am\u00e9rica Centenario , where they lost it in their first game , a 3\u20131 loss to Mexico on 5 June 2016 .": {
+            "score": 1.0,
+            "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true
             ]
       },
-      "22 January 1979 : After four draws , the FA Cup third round tie between Arsenal and Third Division Sheffield Wednesday is finally resolved when the Gunners win the fourth replay 2\u20130 .": {
+      "In 1968 Lima was elected to the Chamber of Deputies ( Italian : Camera dei Deputati ) , suddenly surpassing established politicians in Sicily .": {
+            "score": 0.75,
+            "results": [
+                  true,
+                  false,
+                  true,
+                  true
+            ]
+      },
+      "( Fictional references include the \" Hound of the Baskervilles \" by Sir Arthur Conan Doyle and William of Baskerville in \" The Name of the Rose \" by Umberto Eco . )": {
             "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
                   true
-            ]
-      },
-      "Hydro - Qu\u00e9bec and the Bourassa government had a much harder time circumventing the next hurdle in northern Quebec .": {
-            "score": 0.0,
-            "results": [
-                  false
-            ]
-      },
-      "Uruguay held the title until the Copa Am\u00e9rica Centenario , where they lost it in their first game , a 3\u20131 loss to Mexico on 5 June 2016 .": {
-            "score": 0.6,
-            "results": [
-                  false,
-                  true,
-                  true,
-                  false,
-                  true
-            ]
-      },
-      "In 1968 Lima was elected to the Chamber of Deputies ( Italian : Camera dei Deputati ) , suddenly surpassing established politicians in Sicily .": {
-            "score": 0.6666666666666666,
-            "results": [
-                  true,
-                  false,
-                  true,
-                  true,
-                  true,
-                  false
-            ]
-      },
-      "( Fictional references include the \" Hound of the Baskervilles \" by Sir Arthur Conan Doyle and William of Baskerville in \" The Name of the Rose \" by Umberto Eco . )": {
-            "score": 0.75,
-            "results": [
-                  true,
-                  true,
-                  true,
-                  false
             ]
       },
       "1 \" , featuring Ben Keith on pedal steel guitar , Tim Drummond on bass guitar , Kenny Buttrey on drums , and Linda Ronstadt and James Taylor on background vocals .": {
@@ -2515,16 +2565,16 @@
             ]
       },
       "He was nominated for the Academy Award for Best Picture for \" Amour \" along with Margaret Menegoz , Stefan Arndt and Veit Heiduschka in 2013 .": {
-            "score": 0.5,
+            "score": 0.25,
             "results": [
                   true,
                   true,
                   false,
-                  true,
                   false,
                   false,
                   false,
-                  true
+                  false,
+                  false
             ]
       },
       "Esther Hwang \n\n Esther Hwang is a Korean - American supermodel , former Miss Asian America , and former scheduling secretary for San Francisco mayor Willie Brown .": {
@@ -2532,16 +2582,23 @@
             "results": [
                   true,
                   true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
       "Ma\u00f1ana es primavera \n\n Ma\u00f1ana es primavera ( English title : \" Tomorrow is spring \" ) is a Mexican telenovela produced by Silvia Pinal for Televisa in 1982 .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
-                  false
+                  true,
+                  true
             ]
       },
       "In June 1255 Albert married Margaret of Sicily , the daughter of Emperor Frederick II , who was also King of Sicily , and Isabella of England .": {
@@ -2554,31 +2611,32 @@
             ]
       },
       "As the music to \" Wuthering Heights \" began , Bush sprang up through the fog , costumed as the ghost of Catherine Earnshaw from Emily Bront\u00eb 's novel of the same name .": {
-            "score": 0.6923076923076923,
+            "score": 0.6428571428571429,
             "results": [
                   false,
                   true,
                   true,
                   true,
                   false,
+                  true,
+                  true,
                   false,
                   true,
                   true,
-                  true,
                   false,
-                  true,
+                  false,
                   true,
                   true
             ]
       },
       "His last selection was for New Zealand against Australia in the ANZAC Test on 20 April 2007 as a replacement for the injured David Kidwell .": {
-            "score": 1.0,
+            "score": 0.8,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  true
+                  false
             ]
       },
       "Nichols Ridge \n\n Nichols Ridge ( ) is a rock ridge between Denton Glacier and Decker Glacier in east Asgard Range , Victoria Land .": {
@@ -2601,7 +2659,6 @@
       "In 1849 , the Bloomington Ferry began operation across the Minnesota River , providing service until the first Bloomington Ferry Bridge was built in 1889 at the site of the current Bloomington Ferry Trail Bridge .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true,
@@ -2641,17 +2698,17 @@
             ]
       },
       "Since 2009 Widmann - Mauz has been serving as Parliamentary State Secretary in Chancellor Angela Merkel 's second and third cabinet .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
+                  true,
+                  true,
                   true
             ]
       },
       "Ma Yibo (; born August 8 , 1980 in Dalian , Liaoning ) is a Chinese field hockey player who competed at the 2004 , 2008 and 2012 Summer Olympics .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true,
@@ -2664,21 +2721,20 @@
             "score": 1.0,
             "results": [
                   true,
-                  true,
                   true
             ]
       },
       "Major Greek newspapers such as \" To Vima \" and \" Kathimerini \" have criticized the documentary as a work of political propaganda .": {
             "score": 1.0,
             "results": [
-                  true,
-                  true,
                   true
             ]
       },
       "The Hardey River has two tributaries ; the Beasley River and Hope Creek .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -2708,18 +2764,20 @@
             ]
       },
       "Moscow Mayor Sergey Sobyanin released a statement in response to her death saying , \" An actress of great talent who had a considerable impact on the history of the national film art .": {
-            "score": 0.5,
+            "score": 0.42857142857142855,
             "results": [
                   false,
                   true,
+                  true,
+                  false,
+                  false,
                   true,
                   false
             ]
       },
       "In 1958 he graduated 9th in his class of 356.http://dela.state.va.us/dela/Membios.nsf/94f6e9b9c9b5678f85256b1b00732227/7f2e3d48514cd62785256d33004e7db5?OpenDocument&Highlight;=0,reynolds \n\n He married the former Elizabeth ( Betsy ) Weir Veeneman of Louisville , Kentucky .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
-                  false,
                   true,
                   true
             ]
@@ -2733,11 +2791,9 @@
             ]
       },
       "David Shepherd \n\n David Shepherd , Shepard , or Sheppard may refer to :": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
-                  true,
-                  false,
                   true
             ]
       },
@@ -2748,23 +2804,18 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Ben \n\n Ben is frequently used as a shortened version of the given name Benjamin ( as well as Benedict , Bengt , Bennett , Benoit , Benvolio or Ebenezer , among other names ) .": {
-            "score": 0.42857142857142855,
+            "score": 0.5,
             "results": [
                   true,
                   true,
-                  true,
-                  true,
-                  true,
                   false,
                   true,
-                  false,
-                  false,
-                  false,
-                  false,
+                  true,
                   false,
                   false,
                   false
@@ -2826,20 +2877,20 @@
             ]
       },
       "The car was moved to the White House in Washington , DC in 1993 when Bill Clinton became the President of the United States , where it mostly parked on the south grounds .": {
-            "score": 1.0,
+            "score": 0.8571428571428571,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  true
+                  true,
+                  true,
+                  false
             ]
       },
       "This was followed in December by the first U.S. module , \" Unity \" also called Node 1 , built by Boeing in facilities at MSFC .": {
             "score": 1.0,
             "results": [
-                  true,
-                  true,
                   true,
                   true,
                   true,
@@ -2862,29 +2913,41 @@
                   true,
                   true,
                   true,
+                  true,
+                  true,
                   true
             ]
       },
       "Kwun Y\u00f3tasi Range \n\n The Kwun Y\u00f3tasi Range is a small subrange of the Swannell Ranges of the Omineca Mountains , located north of Tchentlo Lake and Nation Lakes in northern British Columbia , Canada .": {
-            "score": 0.8333333333333334,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  false,
                   true
             ]
       },
       "On June 19 , 2000 , Microsoft acquired Bungie Studios and \" Halo : Combat Evolved \" became a launch title for the Xbox video game console .": {
-            "score": 0.6666666666666666,
+            "score": 0.8823529411764706,
             "results": [
                   false,
                   true,
                   true,
                   true,
                   true,
-                  false
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
             ]
       },
       "The Dadu River receives the Qingyu River tributary and meets the Min at Leshan .": {
@@ -2904,6 +2967,16 @@
             ]
       },
       "Five associate justices , Clarence Thomas , Samuel Alito , Sonia Sotomayor , and Anthony Kennedy , are members of the Supreme Court , resulting in a Catholic majority on the court .": {
+            "score": 1.0,
+            "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+            ]
+      },
+      "They built a house of worship on Carmine Street , designed by Town & Davis in Greek Revival style , of brick plastered to resemble white stone .": {
             "score": 0.8571428571428571,
             "results": [
                   true,
@@ -2912,43 +2985,39 @@
                   true,
                   true,
                   true,
-                  false
-            ]
-      },
-      "They built a house of worship on Carmine Street , designed by Town & Davis in Greek Revival style , of brick plastered to resemble white stone .": {
-            "score": 1.0,
-            "results": [
                   true,
+                  false,
+                  true,
+                  true,
+                  false,
                   true,
                   true,
                   true
             ]
       },
       "\" Sonic CD \" was ported to Windows as part of the Sega PC brand in 1996 , distributed by SoftKey in North America on July 8 and in Japan on August 9 .": {
-            "score": 0.5714285714285714,
+            "score": 0.8571428571428571,
             "results": [
                   true,
                   true,
                   true,
                   true,
                   false,
-                  false,
-                  false
+                  true,
+                  true
             ]
       },
       "After the IOC decision was announced , Ramzan Kadyrov , the Head of Chechnya , announced that no Chechen athletes would participate under a neutral flag .": {
-            "score": 0.7692307692307693,
+            "score": 0.8181818181818182,
             "results": [
                   true,
-                  true,
-                  false,
-                  true,
-                  true,
                   false,
                   true,
                   true,
                   true,
+                  true,
                   false,
+                  true,
                   true,
                   true,
                   true
@@ -2963,18 +3032,21 @@
             ]
       },
       "The other sons were Edmund , Dillwyn and Ronald ; his younger sister was Winifred Peck .": {
-            "score": 0.4,
+            "score": 0.16666666666666666,
             "results": [
                   false,
-                  true,
+                  false,
+                  false,
                   false,
                   false,
                   true
             ]
       },
       "This truck have a nickname Zakhar ( \u0417\u0430\u0445\u0430\u0440 , \" \u0437\u0430 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440 \" , on the character ) .": {
-            "score": 1.0,
+            "score": 0.6666666666666666,
             "results": [
+                  true,
+                  false,
                   true
             ]
       },
@@ -2989,27 +3061,15 @@
       "Navy Unit Commendation \n\n The Navy Unit Commendation ( NUC ) is a United States Navy unit award that was established by order of the Secretary of the Navy James Forrestal on 18 December 1944 .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
       "His work on the 2014 film \" Whiplash \" earned him and fellow producers Jason Blum and Helen Estabrook a nomination for Best Picture at the 87th Academy Awards .": {
-            "score": 0.7142857142857143,
+            "score": 0.6666666666666666,
             "results": [
-                  true,
-                  true,
-                  true,
-                  true,
-                  false,
-                  true,
-                  true,
-                  false,
-                  true,
-                  false,
-                  false,
-                  true,
-                  true,
-                  true,
-                  true,
                   false,
                   true,
                   true,
@@ -3019,26 +3079,28 @@
             ]
       },
       "Otto Nicolai composed the role of Falstaff in his \" Die lustigen Weiber von Windsor \" for Formes , though he did not sing it until 1853 in Hamburg .": {
-            "score": 0.75,
+            "score": 0.8,
             "results": [
                   true,
                   true,
                   true,
-                  false
+                  false,
+                  true
             ]
       },
       "Beaux - Arts architect Daniel Burnham is responsible for the Washington Union Station ( 1908 ) , with its inscription program developed by Harvard president Charles William Eliot .": {
-            "score": 0.6666666666666666,
+            "score": 0.75,
             "results": [
                   true,
+                  false,
                   true,
-                  false
+                  true
             ]
       },
       "At the 2011 World Amateur Boxing Championships he beat Artur Beterbiev and Teymur Mammadov to win the Heavyweight title and qualify for the Olympics .": {
-            "score": 0.0,
+            "score": 0.3333333333333333,
             "results": [
-                  false,
+                  true,
                   false,
                   false
             ]
@@ -3050,11 +3112,11 @@
             ]
       },
       "Sommer was a member of the Glenn Branca Ensemble , and played alongside Sonic Youth 's Thurston Moore in the New York City punk rock band Even Worse .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  false,
+                  true,
                   true
             ]
       },
@@ -3065,17 +3127,15 @@
                   true,
                   true,
                   true,
-                  true,
                   true
             ]
       },
       "The plateau lies within and takes its name from the historical region of Transylvania , and is almost entirely surrounded by the Eastern , Southern and Romanian Western branches of the Carpathian Mountains .": {
-            "score": 0.8,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
-                  false,
                   true
             ]
       },
@@ -3094,22 +3154,13 @@
             ]
       },
       "In San Francisco , he worked for former Supervisor Susan Leal , served as a Senior Advisor for Mayor Willie Brown and as Director of Neighborhood Services .": {
-            "score": 0.8125,
+            "score": 0.7142857142857143,
             "results": [
-                  true,
-                  false,
-                  true,
                   false,
                   true,
                   true,
                   true,
-                  true,
-                  true,
                   false,
-                  true,
-                  true,
-                  true,
-                  true,
                   true,
                   true
             ]
@@ -3117,8 +3168,6 @@
       "The islands of Haida Gwaii are separated from the British Columbia mainland to the east by Hecate Strait .": {
             "score": 1.0,
             "results": [
-                  true,
-                  true,
                   true
             ]
       },
@@ -3167,29 +3216,33 @@
             ]
       },
       "In addition to works by Lundstr\u00f8m , the Linien artists , Richard Mortensen and Robert Jacobsen , there are paintings by Asger Jorn , Ejler Bille , Ernest Mancoba and other COBRA artists .": {
-            "score": 0.875,
+            "score": 0.6666666666666666,
             "results": [
                   true,
                   true,
                   true,
-                  true,
-                  true,
-                  true,
+                  false,
                   true,
                   false
             ]
       },
       "The region includes the valleys along the Bormida and Belbo rivers as they flow into the Tanaro .": {
-            "score": 1.0,
+            "score": 0.6666666666666666,
             "results": [
                   true,
                   true,
-                  true
+                  false
             ]
       },
       "The Egyptian architect Naoum Shebib designed the Cairo tower with a revolving restaurant at its top , which opened in April 1961 .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true
@@ -3207,17 +3260,18 @@
             "results": [
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Lead story developer for \" Jade Empire \" and \" Dragon Age \" creative director Mike Laidlaw announced his departure from BioWare in October 2017 after 14 years with the company .": {
-            "score": 0.875,
+            "score": 0.75,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  true,
+                  false,
                   true,
                   true,
                   false
@@ -3246,22 +3300,21 @@
                   true,
                   true,
                   true,
-                  true,
                   true
             ]
       },
       "In 2006 , Fa'alogo made his international d\u00e9but for New Zealand against Australia in the ANZAC Test .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  false,
                   true
             ]
       },
       "In 1954 he defended at the MSU his doctoral dissertation \" Studies of the Polaron Theory \" and obtained the degree of Doktor nauk ( \" Doctor of Science \" , similar to Habilitation ) .": {
-            "score": 0.75,
+            "score": 0.8,
             "results": [
+                  true,
                   true,
                   true,
                   true,
@@ -3269,10 +3322,11 @@
             ]
       },
       "\" Beautiful Lie \" is a pop song recorded by American singer Jennifer Paige and Nick Carter .": {
-            "score": 0.3333333333333333,
+            "score": 1.0,
             "results": [
-                  false,
-                  false,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
@@ -3282,13 +3336,13 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "He was called up for the senior national team for the first time on 25 August 2015 to face Latvia and Kazakhstan in the UEFA Euro 2016 qualifying round .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true
@@ -3308,12 +3362,14 @@
             "results": [
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Murdoch , Ohio \n\n Murdoch ( sometimes spelled Murdock ) is an unincorporated community in southern Hamilton Township , Warren County , Ohio , United States .": {
             "score": 1.0,
             "results": [
+                  true,
                   true,
                   true,
                   true,
@@ -3363,7 +3419,6 @@
             "results": [
                   true,
                   true,
-                  true,
                   true
             ]
       },
@@ -3372,18 +3427,16 @@
             "results": [
                   true,
                   true,
-                  true,
-                  true,
                   true
             ]
       },
       "Studer has played as an interpreter of 20th - century classical music compositions by Charles Ives , Steve Reich , John Cage , and Edgard Varese in the percussion ensemble of Robyn Schulkowsky .": {
-            "score": 0.8333333333333334,
+            "score": 0.5,
             "results": [
                   true,
                   false,
-                  true,
-                  true,
+                  false,
+                  false,
                   true,
                   true
             ]
@@ -3391,7 +3444,6 @@
       "Bayerische Oberlandbahn \n\n The Bayerische Oberlandbahn GmbH ( BOB ) is a private railway company based in Holzkirchen , Germany , and owned by Transdev Germany ( formerly known as \" Veolia Verkehr \" ) .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true
@@ -3416,12 +3468,11 @@
             ]
       },
       "The Agha Khan , Governor of Texas Rick Perry , Mayor of Sugar Land David Wallace , and other politicians of the State of Texas attended the opening ceremony . Vara , Richard .": {
-            "score": 0.6,
+            "score": 0.75,
             "results": [
                   true,
                   true,
                   true,
-                  false,
                   false
             ]
       },
@@ -3443,10 +3494,9 @@
             ]
       },
       "Her granddaughter , Katrina Young , participated at the 2016 Summer Olympics in the diving competition representing the United States .": {
-            "score": 0.5,
+            "score": 0.6666666666666666,
             "results": [
                   true,
-                  false,
                   true,
                   false
             ]
@@ -3497,22 +3547,23 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Irwin was elected as a Republican to the Sixty - ninth , Seventieth , and Seventy - first Congresses ( March 4 , 1925-March 3 , 1931 ) .": {
-            "score": 0.5,
+            "score": 0.7,
             "results": [
                   true,
                   true,
                   true,
-                  false,
+                  true,
                   true,
                   false,
                   false,
-                  true,
                   false,
-                  false
+                  true,
+                  true
             ]
       },
       "He is played by Ed Harris in the 1995 film \" Apollo 13 \" , who received an Oscar nomination for Best Performance by an Actor in a Supporting Role .": {
@@ -3524,15 +3575,14 @@
             ]
       },
       "On November 10 , George Papandreou formally resigned as Prime Minister of Greece , and the new coalition cabinet and Prime Minister Lucas Papademos formally sworn in on 11 November 2011 .": {
-            "score": 1.0,
+            "score": 0.8333333333333334,
             "results": [
                   true,
                   true,
                   true,
                   true,
                   true,
-                  true,
-                  true
+                  false
             ]
       },
       "Jackpot Airport , also known as Hayden Field , is a county owned , public use airport located east of Jackpot , in Elko County , Nevada , United States .": {
@@ -3548,9 +3598,8 @@
             ]
       },
       "This glacier is named after Midgard , one of the Nine Worlds in Norse mythology .": {
-            "score": 0.5,
+            "score": 0.0,
             "results": [
-                  true,
                   false
             ]
       },
@@ -3558,17 +3607,17 @@
             "score": 0.6666666666666666,
             "results": [
                   true,
-                  false,
-                  true
+                  true,
+                  false
             ]
       },
       "She was the eldest of the \" Travancore Sisters \" \u2013 Lalitha , Padmini , and Ragini .": {
-            "score": 0.25,
+            "score": 0.75,
             "results": [
-                  false,
-                  false,
-                  false,
-                  true
+                  true,
+                  true,
+                  true,
+                  false
             ]
       },
       "V\u00edtor \n\n V\u00edtor is a Portuguese and Brazilian masculine given name , equivalent to Victor in English and V\u00edctor in Spanish .": {
@@ -3580,9 +3629,8 @@
             ]
       },
       "John , which in Croatian is Ivan and in Spanish is Juan ) all the respective names are celebrated .": {
-            "score": 0.6,
+            "score": 0.75,
             "results": [
-                  false,
                   true,
                   true,
                   true,
@@ -3590,10 +3638,10 @@
             ]
       },
       "In Richard Wagner 's cycle of music dramas , \" Der Ring des Nibelungen \" , the character Alberich is based in some part on Andvari , but more on the Frankish sorcerer Alberich .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
+                  true,
                   true,
                   true
             ]
@@ -3615,31 +3663,27 @@
             ]
       },
       "The Typing of the Dead 2 is an action video game for Microsoft Windows , the sequel to \" The Typing of the Dead \" .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  false,
                   true
             ]
       },
       "Goddard wrote the film adaptation of Andy Weir 's debut novel \" The Martian \" , initially planning to direct it himself for 20th Century Fox .": {
-            "score": 0.875,
+            "score": 0.6923076923076923,
             "results": [
                   true,
                   true,
+                  false,
                   true,
                   true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
+                  false,
                   true,
                   true,
                   true,
                   false,
+                  true,
                   true,
                   false
             ]
@@ -3668,7 +3712,7 @@
             ]
       },
       "Ebling took over the office of mayor on 18 April 2012.Monika Nellessen : \" OB - Wahl in Mainz : Michael Ebling ( SPD ) besiegt G\u00fcnter Beck ( Gr\u00fcne ) in der Stichwahl \" .": {
-            "score": 0.42857142857142855,
+            "score": 0.5833333333333334,
             "results": [
                   true,
                   true,
@@ -3676,23 +3720,29 @@
                   false,
                   false,
                   false,
-                  false
+                  false,
+                  false,
+                  true,
+                  true,
+                  true,
+                  true
             ]
       },
       "First Booklet ( , 1838 ) is a collection of three fairy tales by Hans Christian Andersen published in Copenhagen , Denmark by C. A. Reitzel on 2 \u00a0 October 1838 .": {
-            "score": 0.75,
+            "score": 0.6,
             "results": [
                   true,
                   true,
+                  false,
                   false,
                   true
             ]
       },
       "He was a second for Magnus Carlsen for World Chess Championship 2016 . https://www.chess.com/news/magnus-carlsen-i-was-calm-i-was-confident-7465": {
-            "score": 1.0,
+            "score": 0.0,
             "results": [
-                  true,
-                  true
+                  false,
+                  false
             ]
       },
       "The shrine is considered to be particularly important as the handprint of the founder of Sikhism , Guru Nanak , is believed to be imprinted on a boulder at the gurdwara .": {
@@ -3718,16 +3768,17 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Three major Wyoming rivers , the Salt River , the Greys River and the Snake River meet near Alpine Junction at Palisades Reservoir .": {
-            "score": 0.75,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
-                  false
+                  true
             ]
       },
       "Archeological Sites 12T59 and 12T530 , Cairo Skywatch Tower , and Indiana State Soldiers Home Historic District are listed on the National Register of Historic Places .": {
@@ -3742,7 +3793,6 @@
       "Champ de Mars is a ghost station along line 8 of the Paris M\u00e9tro , between the stations la Motte - Picquet - Grenelle and \u00c9cole Militaire .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true,
@@ -3765,18 +3815,17 @@
                   true,
                   true,
                   true,
-                  true,
                   true
             ]
       },
       "Then Parti Qu\u00e9b\u00e9cois leader Pauline Marois said that Quebec should assume all control over its immigration , not the 60 % that it has now under a bilateral agreement with the government of Canada .": {
-            "score": 0.8333333333333334,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  false,
+                  true,
                   true
             ]
       },
@@ -3790,8 +3839,6 @@
       "The Kurds of Turkey are 30 % Alevi out of a population of approximately 15 - 22 million Kurds and 68 % follow Sunni Islam .": {
             "score": 1.0,
             "results": [
-                  true,
-                  true,
                   true,
                   true,
                   true
@@ -3808,16 +3855,10 @@
             ]
       },
       "In addition to the Famicom version of \" Golf \" , there were two other Nintendo published golf - based video games released in Japan .": {
-            "score": 0.7,
+            "score": 1.0,
             "results": [
-                  false,
                   true,
                   true,
-                  true,
-                  false,
-                  true,
-                  true,
-                  false,
                   true,
                   true
             ]
@@ -3840,10 +3881,20 @@
             ]
       },
       "Pasqual \n\n Pasqual ( , ) is the Catalan equivalent of the Spanish given name Pascual , and a Venetian variant of Italian given name Pasquale .": {
-            "score": 1.0,
+            "score": 0.7142857142857143,
             "results": [
                   true,
+                  false,
                   true,
+                  true,
+                  true,
+                  true,
+                  false,
+                  true,
+                  false,
+                  true,
+                  true,
+                  false,
                   true,
                   true
             ]
@@ -3861,11 +3912,11 @@
             ]
       },
       "Skype was previously available on selected Symbian , BlackBerry OS and BlackBerry 10 devices .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
                   true,
-                  false
+                  true
             ]
       },
       "The Ministry of Finance of Finland has two Ministers in the Council of State : Minister of Finance Petteri Orpo and Minister of Local Government and Public Reforms Anu Vehvil\u00e4inen .": {
@@ -3899,6 +3950,8 @@
             "results": [
                   true,
                   true,
+                  true,
+                  true,
                   true
             ]
       },
@@ -3922,28 +3975,28 @@
             ]
       },
       "In 2008 , Fawell endorsed his home state 's junior United States Senator Barack Obama for President of the United States , against his party 's nominee , Arizona senator John McCain .": {
-            "score": 0.6666666666666666,
+            "score": 0.8333333333333334,
             "results": [
                   true,
                   true,
                   true,
-                  false,
-                  false,
-                  true
-            ]
-      },
-      "By the early twentieth century these attitudes formally coalesced into a coherent philosophy , through the work of Bloomsbury Group members Roger Fry and Clive Bell .": {
-            "score": 0.6,
-            "results": [
                   true,
                   true,
-                  true,
-                  false,
                   false
             ]
       },
+      "By the early twentieth century these attitudes formally coalesced into a coherent philosophy , through the work of Bloomsbury Group members Roger Fry and Clive Bell .": {
+            "score": 1.0,
+            "results": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+            ]
+      },
       "V\u00e1gar has three large villages : Mi\u00f0v\u00e1gur , Sandav\u00e1gur and S\u00f8rv\u00e1gur and three small ones : G\u00e1sadalur , B\u00f8ur and Vatnsoyrar .": {
-            "score": 0.875,
+            "score": 0.8947368421052632,
             "results": [
                   true,
                   true,
@@ -3951,22 +4004,34 @@
                   false,
                   true,
                   true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  false,
                   true,
                   true
             ]
       },
       "This prediction seemed to foreshadow FitzGerald 's decision to challenge John Kasich 's re - election bid for Governor of Ohio in 2014 .": {
-            "score": 0.5,
+            "score": 0.6666666666666666,
             "results": [
-                  false,
                   true,
                   false,
                   true
             ]
       },
       "The Waikakaho River is a river of the Marlborough Region of New Zealand 's South Island .": {
-            "score": 1.0,
+            "score": 0.6666666666666666,
             "results": [
+                  true,
+                  false,
                   true
             ]
       },
@@ -3994,6 +4059,16 @@
             "results": [
                   true,
                   true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
@@ -4016,19 +4091,19 @@
             ]
       },
       "The bill has found support from such public figures as Senator Hillary Clinton and New York City Mayor Michael Bloomberg .": {
+            "score": 0.5,
+            "results": [
+                  true,
+                  false,
+                  true,
+                  false
+            ]
+      },
+      "Similar dark rifts can be seen in many edge - on galaxies , such as NGC 891 in Andromeda and NGC 4565 ( the Needle Galaxy ) in Coma Berenices .": {
             "score": 1.0,
             "results": [
                   true,
                   true,
-                  true,
-                  true
-            ]
-      },
-      "Similar dark rifts can be seen in many edge - on galaxies , such as NGC 891 in Andromeda and NGC 4565 ( the Needle Galaxy ) in Coma Berenices .": {
-            "score": 0.75,
-            "results": [
-                  true,
-                  false,
                   true,
                   true
             ]
@@ -4044,6 +4119,10 @@
       "According to the \" Library \" , Orseis married Hellen , son of Deucalion and Pyrrha and brother of Pandora , the legendary eponymous ancestor of the Greeks .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -4076,9 +4155,9 @@
             ]
       },
       "Brimir and Blain are usually held to be proper names that refer to Ymir , as in Bellows 's translation .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
-                  false,
+                  true,
                   true,
                   true
             ]
@@ -4104,10 +4183,11 @@
             ]
       },
       "WZAK 's only competition in the Cleveland market came from WXEN which also featured ethnic programming for a portion of its schedule .": {
-            "score": 0.6666666666666666,
+            "score": 0.5,
             "results": [
                   true,
                   true,
+                  false,
                   false
             ]
       },
@@ -4142,24 +4222,24 @@
             ]
       },
       "It was founded in 1924 by Hugo Boss and is headquartered in Metzingen , Germany .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
                   true,
-                  false,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
       "Honda NSR500V \n\n The Honda NSR500V is a race motorcycle from the Honda NSR series .": {
             "score": 1.0,
             "results": [
-                  true,
                   true
             ]
       },
       "Runtime Revolution changed the name of Revolution to LiveCode and then changed their name to LiveCode , Ltd. as well .": {
-            "score": 0.6666666666666666,
+            "score": 1.0,
             "results": [
-                  false,
                   true,
                   true
             ]
@@ -4167,6 +4247,7 @@
       "Son of Hans ( 1459\u20131530 ) and Margarethe Luder , n\u00e9e Lindemann ( 1459\u20131531 ) , Martin Luther was born on November 10 , 1483 in the Central German city of Eisleben .": {
             "score": 1.0,
             "results": [
+                  true,
                   true,
                   true,
                   true,
@@ -4178,13 +4259,13 @@
             "results": [
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Sony Xperia M5 \n\n The Sony Xperia M5 is a water & dust resistant high - range Android smartphone manufactured by Sony and it serves as the successor of the Xperia M4 Aqua .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true
@@ -4207,14 +4288,14 @@
             ]
       },
       "Seven airports , in Yogyakarta , Surakarta , Surabaya , Malang , Semarang , Cilacap and Bandung , were closed .": {
-            "score": 0.0,
+            "score": 0.125,
             "results": [
                   false,
                   false,
                   false,
                   false,
                   false,
-                  false,
+                  true,
                   false,
                   false
             ]
@@ -4231,7 +4312,6 @@
       "In 1972 , Wade got into an open dispute with Democratic State Representative Dorothy Mae Taylor of New Orleans , the first African - American female to serve in the Louisiana legislature .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true,
                   true
@@ -4252,6 +4332,7 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
@@ -4264,16 +4345,12 @@
             ]
       },
       "He has cited Paul McCartney , Geezer Butler , John Entwistle , and Gene Simmons as the fundamental influences of his bass playing .": {
-            "score": 0.5,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
-                  true,
-                  false,
-                  false,
-                  false,
-                  false
+                  true
             ]
       },
       "Bamangachhi is about away from the Netaji Subhas Chandra Bose International Airport , Kolkata and from Sealdah Railway Station .": {
@@ -4286,13 +4363,12 @@
             ]
       },
       "Ramzan Kadyrov , the Head of Chechnya , said that other Chechen businessmen are planning to invest into Crimea as well .": {
-            "score": 0.8,
+            "score": 0.75,
             "results": [
                   true,
                   true,
-                  true,
-                  true,
-                  false
+                  false,
+                  true
             ]
       },
       "In 1931 the German film \" Ariane \" was made , with an English - language version \" The Loves of Ariane \" and a French \" Ariane , jeune fille russe \" .": {
@@ -4309,11 +4385,13 @@
                   true,
                   true,
                   true,
+                  true,
+                  true,
                   true
             ]
       },
       "Townsquare Media also owns KLXX 1270 ( Talk ) , KKCT 97.5 ( CHR ) , KACL 98.7 ( Oldies ) , and KUSB 103.3 ( Country ) in the Bismarck - Mandan area .": {
-            "score": 1.0,
+            "score": 0.8888888888888888,
             "results": [
                   true,
                   true,
@@ -4322,6 +4400,7 @@
                   true,
                   true,
                   true,
+                  false,
                   true
             ]
       },
@@ -4352,16 +4431,18 @@
             ]
       },
       "Sima Ai was Emperor Wu 's sixth son , born of the same mother as Sima Wei the Prince of Chu .": {
-            "score": 1.0,
+            "score": 0.6666666666666666,
             "results": [
                   true,
                   true,
-                  true
+                  false
             ]
       },
       "Not all Sikhs are of Punjabi origin however ; a small minority include locals whose ancestors adopted Sikhism during Guru Nanak 's 15th century expeditions to Kabul .": {
             "score": 1.0,
             "results": [
+                  true,
+                  true,
                   true,
                   true,
                   true,
@@ -4399,24 +4480,24 @@
                   true,
                   true,
                   true,
+                  true,
                   true
             ]
       },
       "Team17 then went on to develop further Amiga games , including the \" Alien Breed \" and \" Body Blows \" series .": {
-            "score": 0.75,
-            "results": [
-                  true,
-                  true,
-                  false,
-                  true
-            ]
-      },
-      "\" Hullu y\u00f6 \" ( \" A crazy night \" ) was the Finnish entry in the Eurovision Song Contest 1991 , performed in Finnish by Kaija .": {
             "score": 1.0,
             "results": [
                   true,
                   true,
                   true
+            ]
+      },
+      "\" Hullu y\u00f6 \" ( \" A crazy night \" ) was the Finnish entry in the Eurovision Song Contest 1991 , performed in Finnish by Kaija .": {
+            "score": 0.6666666666666666,
+            "results": [
+                  true,
+                  true,
+                  false
             ]
       },
       "In John Ford 's film classic \" The Grapes of Wrath \" ( 1940 ) , based on John Steinbeck 's book , Mitchell played the friendly caretaker of a migrant campground .": {
@@ -4446,8 +4527,10 @@
             ]
       },
       "He wrote three Sanskrit plays \u2013 \" Nagananda \" , \" Ratnavali \" and \" Priyadarsika \" .": {
-            "score": 1.0,
+            "score": 0.6666666666666666,
             "results": [
+                  false,
+                  true,
                   true
             ]
       },
@@ -4468,15 +4551,12 @@
             ]
       },
       "One of her best remembered roles was that of Hayley Mills 's shrewish mother in the film version of Bill Naughton 's play \" The Family Way \" ( 1966 ) .": {
-            "score": 0.7142857142857143,
+            "score": 0.75,
             "results": [
-                  false,
                   true,
                   true,
                   true,
-                  false,
-                  true,
-                  true
+                  false
             ]
       },
       "The Thirteenth Government of the Republic of Croatia ( ) was the Croatian Government cabinet led by Prime Minister Tihomir Ore\u0161kovi\u0107 .": {
@@ -4511,37 +4591,42 @@
       "To the north lies Moel yr Henfaes and Moel Fferna , which top the north end of the Berwyn range .": {
             "score": 1.0,
             "results": [
-                  true,
-                  true,
                   true
             ]
       },
       "County voters preferred Barack Obama in 2008 and 2012 , and Hillary Clinton in 2016 .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
                   true,
                   true,
+                  false,
                   true
             ]
       },
       "The house now called Murdoch ( or , sometimes Murdock ) House in the middle of Cross Street was erected in the 1660s as a chapel and it afterwards became a prison .": {
-            "score": 1.0,
+            "score": 0.75,
             "results": [
+                  false,
                   true,
                   true,
                   true
             ]
       },
       "He received an Academy Award nomination for the film for Best Picture at the 88th Academy Awards along with Simon Kinberg , Scott , and Mark Huffam .": {
-            "score": 0.7142857142857143,
+            "score": 1.0,
             "results": [
                   true,
                   true,
                   true,
-                  false,
                   true,
                   true,
-                  false
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
             ]
       },
       "According to Shaivite philosophies , \" Parashiva \" or Parameshwara is the ultimate Reality or Parabrahman , \" the one form where everything emerges .": {
@@ -4549,17 +4634,22 @@
             "results": [
                   true,
                   true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
                   true
             ]
       },
       "The incident is fictionalized in Robert Kaplow 's novel \" Me and Orson Welles \" ( 2003 ) and its 2008 film adaptation .": {
-            "score": 0.46153846153846156,
+            "score": 0.5,
             "results": [
                   true,
                   false,
                   true,
                   true,
-                  false,
                   false,
                   true,
                   true,
@@ -4571,8 +4661,11 @@
             ]
       },
       "It was succeeded as Greek representative at the 2003 Contest by Mando with Never Let You Go .": {
-            "score": 1.0,
+            "score": 0.5,
             "results": [
+                  false,
+                  false,
+                  true,
                   true
             ]
       },
@@ -4585,29 +4678,23 @@
             ]
       },
       "In North America , all versions of the game were published by Atari , while publishing in Europe for the PlayStation 2 , PlayStation Portable and PlayStation 3 versions was handled by Sony Computer Entertainment .": {
-            "score": 0.8571428571428571,
+            "score": 0.8888888888888888,
             "results": [
                   true,
                   true,
                   true,
                   true,
-                  false,
                   true,
-                  true
+                  true,
+                  true,
+                  true,
+                  false
             ]
       },
       "In 2015 , she was nominated once again for the Academy Award for Best Picture for producing \" Selma \" alongside fellow producers Oprah Winfrey , Jeremy Kleiner , and Christian Colson .": {
-            "score": 0.9230769230769231,
+            "score": 1.0,
             "results": [
                   true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  true,
-                  false,
                   true,
                   true,
                   true,
@@ -4615,23 +4702,21 @@
             ]
       },
       "The Crows recorded two dominant wins in the finals series , defeating Greater Western Sydney by 36 points in the qualifying final and then overwhelming Geelong to win the preliminary final by 61 points .": {
-            "score": 0.5555555555555556,
+            "score": 0.875,
             "results": [
                   true,
                   true,
-                  false,
-                  false,
-                  true,
                   true,
                   true,
                   false,
-                  false
+                  true,
+                  true,
+                  true
             ]
       },
       "Internally , the Microsoft Edge user agent on Windows 10 Mobile still contains a reference to \" Windows Phone 10 \" .": {
             "score": 1.0,
             "results": [
-                  true,
                   true,
                   true
             ]

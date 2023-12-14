@@ -28,6 +28,8 @@ for dataset in ['cdr', 'docred', 'nyt10m', 'wiki20m', 'tacred', 'wiki80']:
             triple_str = str(triple)
             entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
             triple_emb = np.add(np.array(entity_emb), np.array(ELE_EMB_DICT[triple[1]]))
+            # emb_ = np.concatenate([ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[1]]])
+            # triple_emb = np.concatenate([emb_, ELE_EMB_DICT[triple[2]]])
             gt_triple_emb_store[triple_str] = triple_emb.tolist()
             gt_relation_emb_store[triple_str] = ELE_EMB_DICT[triple[1]]
             
@@ -69,6 +71,8 @@ def calculate_completeness_score(data_to_evaluate, dataset, model_name=None, thr
             try:
                 entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
                 triple_emb = np.add(entity_emb, ELE_EMB_DICT[triple[1]])
+                # emb_ = np.concatenate([ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[1]]])
+                # triple_emb = np.concatenate([emb_, ELE_EMB_DICT[triple[2]]])
                 extracted_triple_embeddings.append(triple_emb.tolist())
                 extracted_relation_embeddings.append(ELE_EMB_DICT[triple[1]])
             except:
@@ -119,38 +123,41 @@ def main():
         all_scores = defaultdict(dict)
         
         model_names = [
-            # 'gpt-3.5_closed',
-            # 'gpt-3.5_semi',            
-            # 'vicuna-1.5-7b',
-            # 'vicuna-1.3-33b', 
-            # 'llama-2-7b',
+            'vicuna-1.5-7b',
+            'vicuna-1.3-33b', 
+            'llama-2-7b',
             'llama-2-70b',
-            # 'wizardlm-70b',
-            # 'text-davinci-003',
-            # 'gpt-3.5-turbo-instruct',
-            # 'gpt-3.5-turbo-1106',
-            # 'gpt-4',
+            'wizardlm-70b',
+            'text-davinci-003',
+            'gpt-3.5-turbo-instruct',
+            'gpt-3.5-turbo-1106',
+            'gpt-4',
             'gpt-4-1106-preview',
-            # 'mistral',
-            # 'zephyr-7b-beta',
-            # 'galactica-30b',
+            'mistral',
+            'zephyr-7b-beta',
+            'galactica-30b',
             'openchat',
+            'gpt-3.5_closed',
+            'gpt-3.5_semi',
+            'groundtruth'
             ]
         
         dataset_names = [
             # 'cdr_rand_200',
             # 'docred_rand_200',
             # 'nyt10m_rand_500',
-            'wiki20m_rand_500',
+            # 'wiki20m_rand_500',
             # 'tacred_rand_800',
             # 'wiki80_rand_800',
+            'wiki20m_rand_100',
         ]
         
-        seeds = [54, 64, 74, 84]
+        # seeds = [54, 64, 74, 84]
+        seeds=[1]
         
-        if os.path.exists(f'./results/CS.json'):
-            with open(f'./results/CS.json', 'r') as f:
-                all_scores = json.load(f)
+        # if os.path.exists(f'./results/CS.json'):
+        #     with open(f'./results/CS.json', 'r') as f:
+        #         all_scores = json.load(f)
                             
         for model_name in model_names:
             for dataset_name in dataset_names:
@@ -177,7 +184,7 @@ def main():
                     with open(f'./completeness/details/{dataset_name}_{model_name}.json', 'w') as f:
                         json.dump(details, f, indent=6)
                     
-                    with open(f'./results/CS.json', 'w') as f:
+                    with open(f'./results_new/CS.json', 'w') as f:
                         json.dump(all_scores, f, indent=6)
             
     else:

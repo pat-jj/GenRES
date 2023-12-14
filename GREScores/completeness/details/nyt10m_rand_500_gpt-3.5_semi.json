@@ -1,1705 +1,3216 @@
 {
+      "BUSINESS DAY , PAGE C1 Castro Missing on May Day The throngs were out in the streets of Havana as they always are on May Day , but Cuba 's holiday honoring workers came and went without Fidel Castro .": {
+            "['Fidel Castro', 'nationality', 'Cuba']": [
+                  0.913015100126709
+            ],
+            "['Havana', 'country', 'Cuba']": [
+                  0.8730522689859932
+            ],
+            "['Cuba', 'contains', 'Havana']": [
+                  0.8916867036876452
+            ],
+            "['Cuba', 'administrative divisions', 'Havana']": [
+                  0.8785292689857508
+            ]
+      },
       "You know , the Arab world thinks that Israel wants to conquer the Middle East , '' he says inside the production van . ''": {
             "['Middle East', 'contains', 'Israel']": [
-                  0.9718741226259233,
-                  0.9586856422531255
+                  0.8118523489490937,
+                  0.895502977079617
             ]
       },
       "Saudi Arabia and Iran have expressed alarm at the sectarian violence in Iraq , worrying that it could fuel similar tensions throughout the Middle East .": {
             "['Middle East', 'contains', 'Iran']": [
-                  0.9868608604093919
+                  0.7745444798679163,
+                  0.8854696115024536,
+                  0.8000851705110271
+            ]
+      },
+      "We try to inspire people to understand that they do not just have to work for Paramount or Sony -- that does not necessarily validate their lives , '' said Lloyd Kaufman , the longtime president of Troma Entertainment , whose book-and-DVD combination program , '' Make Your Own Damn Movie , '' offers lessons on everything from script conferences to presentations to potential investors to creating inexpensive yet realistic special effects .": {
+            "['Lloyd Kaufman', 'company', 'Troma Entertainment']": [
+                  0.7910172898874652,
+                  0.9383509717563752
             ]
       },
       "Lima goes to Nicaragua , and disappears there ; two years later he has returned to Mexico City , and is glimpsed by the secretary of Octavio Paz .": {
             "['Octavio Paz', 'place lived', 'Mexico City']": [
-                  0.8996173478705622,
-                  0.9441776960819603
+                  0.9213075809987153,
+                  0.885029148667797,
+                  0.8867393089393267,
+                  0.8859668672920127,
+                  0.7887114924512695,
+                  0.7934898735404061,
+                  0.8681867662305123
+            ]
+      },
+      "Consider , for instance , the two northern California violinists : Jenny Scheinman -LRB- whose roots are there , though she now lives in Brooklyn -RRB- and Carla Kihlstedt -LRB- who lives in Oakland -RRB- .": {
+            "['California', 'contains', 'Oakland']": [
+                  0.8514197601948497,
+                  0.7945542660264698
             ]
       },
       "The Australian foreign minister said Sunday that his government had reached a deal to allow David Hicks , who has been held at the American military base in Guant\u00e1namo Bay , Cuba , for more than five years without trial , to return to Australia by the end of the year .": {
             "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
-                  0.9781431778023824,
-                  0.9723186113488707
+                  0.7759175808221249,
+                  0.9438327065819014,
+                  0.8950970235175779,
+                  0.7805091481434614
             ]
       },
       "For about a year , Mr. Kaplan had been helping Robert De Niro , Craig Hatkoff and Jane Rosenthal of Tribeca Productions , founders of the Tribeca Film Festival , to put together a bid .": {
             "['Craig Hatkoff', 'company', 'Tribeca Film Festival']": [
-                  0.9434393794897973,
-                  0.926849616210262,
-                  0.9513116318036462,
-                  0.9513116318036462,
-                  0.9513116318036462,
-                  0.9513116318036462,
-                  0.925470243612208,
-                  0.9513116318036462,
-                  0.9513116318036473,
-                  0.9513116318036473,
-                  0.9513116318036462
+                  0.7970223480434887,
+                  0.8003237928154124,
+                  0.8630163604595585,
+                  0.8630163604595585,
+                  0.8630163604595585,
+                  0.8630163604595585,
+                  0.8100361336034975,
+                  0.8630163604595585,
+                  0.8630163604595592,
+                  0.8630163604595592,
+                  0.8630163604595585
+            ]
+      },
+      "Mary Tew was born March 25 , 1921 , in San Remo , Italy .": {
+            "['Italy', 'administrative divisions', 'San Remo']": [
+                  0.8312871801448947
+            ],
+            "['Italy', 'contains', 'San Remo']": [
+                  0.8379175920308667
             ]
       },
       "Peter Munk , founder and chairman of Barrick Gold in Toronto , has warned that an exodus of head offices to other countries will cause , among other things , lower levels of charitable donations and fewer opportunities for skilled workers .": {
             "['Peter Munk', 'place lived', 'Toronto']": [
-                  0.9454811365198684,
-                  0.9491061600809821,
-                  0.9416611357515459
+                  0.8569534861360155,
+                  0.8726309694261,
+                  0.8471245065093256,
+                  0.7794232865003623,
+                  0.7596150578881502,
+                  0.7627941813832396,
+                  0.8580289911493402
             ],
             "['Barrick Gold', 'advisors', 'Peter Munk']": [
-                  0.9780226793059473,
-                  0.9367045079595371,
-                  0.9741076156538622
+                  0.807387866335435,
+                  0.849482788687708,
+                  0.7971363484702043,
+                  0.7632898383322522,
+                  0.7505217179159432,
+                  0.7533778283760915,
+                  0.7975976045915927
             ],
             "['Barrick Gold', 'location', 'Toronto']": [
-                  0.9410127180681451,
-                  0.9999999999999998,
-                  0.9345788961691077
+                  0.7923059776515127,
+                  0.9999999999999971,
+                  0.7866005353998116,
+                  0.8426741371067805,
+                  0.7716111608728126,
+                  0.7747902842947584,
+                  0.7873272818229636
             ],
             "['Barrick Gold', 'company', 'Peter Munk']": [
-                  0.9823006307815324,
-                  0.9433884148391288,
-                  0.977881587949364
+                  0.8180947171847978,
+                  0.8651549870184477,
+                  0.7916945444311152,
+                  0.7789620390334644,
+                  0.7699974118948798,
+                  0.7728535222472253,
+                  0.8067972503128912
             ],
             "['Barrick Gold', 'founders', 'Peter Munk']": [
-                  0.97818904226339,
-                  0.9346913816450497,
-                  0.9940752190699799
+                  0.8076017789884421,
+                  0.8541532419997806,
+                  0.7818014389489216,
+                  0.7679602936472795,
+                  0.7639070583013116,
+                  0.7667631686700904,
+                  0.8487626854040178
             ],
             "['Peter Munk', 'company', 'Barrick Gold']": [
-                  0.9823006307815324,
-                  0.9433884148391288,
-                  0.977881587949364
+                  0.9540533692198736,
+                  0.7959108739385196,
+                  0.8550477907641113,
+                  0.7777105687662743,
+                  0.7739788806036708,
+                  0.7778488457211856,
+                  0.9427559010624027
             ],
             "['Barrick Gold', 'place lived', 'Toronto']": [
-                  0.9444011333982802,
-                  0.9765114539168923,
-                  0.9403387690507081
+                  0.788974160209109,
+                  0.9406102975328634,
+                  0.7791451789484505,
+                  0.7832844314793429,
+                  0.7549889772794165,
+                  0.7581681007718701,
+                  0.7900496658609631
             ]
       },
       "The sculpture was commissioned by Brian Maxwell , who created the PowerBar energy snack and donated it to Kennesaw . ''": {
             "['PowerBar', 'founders', 'Brian Maxwell']": [
-                  0.9383691106021519,
-                  1.0000000000000009
+                  0.8471413251758828,
+                  0.864791933960998
+            ]
+      },
+      "Alfred Blumstein , a criminologist at Carnegie Mellon University , called the Connecticut situation '' mind-boggling . '' ''": {
+            "['Alfred Blumstein', 'company', 'Carnegie Mellon University']": [
+                  0.9383509688089464
             ]
       },
       "INTERNATIONAL A3-11 Poverty Stricken Iraqis Turn to Selling Sex in Syria For anyone living in Damascus , the fact that some Iraqi refugees are selling sex or working in sex clubs is difficult to ignore .": {
             "['Syria', 'contains', 'Damascus']": [
-                  0.914330412059249,
-                  0.9698264988290203
+                  0.8041923751710764,
+                  0.8854382569068024,
+                  0.8687864738252217
             ],
             "['Syria', 'administrative divisions', 'Damascus']": [
-                  0.9146375632967058,
-                  0.9405071767301828
+                  0.7975745323369258,
+                  0.8042113596579773,
+                  0.8556290398997667
             ],
             "['Damascus', 'country', 'Syria']": [
-                  0.915468505482261,
-                  0.9402664839726744
+                  0.8033199864943287,
+                  0.8543386815036306,
+                  0.8220426576234992
             ]
       },
       "This week , during a Congressional spring break , the presidential candidates whose day jobs normally are on Capitol Hill have been given a reprieve from flying back to Washington to cast votes .": {
             "['Washington', 'contains', 'Capitol Hill']": [
-                  1.0000000000000016,
-                  0.9713420068161511,
-                  0.9457156669452558
+                  0.8542512990420718,
+                  0.888109848170974,
+                  0.9259940926834662,
+                  0.8631484017075212
             ]
       },
       "Over time , could this predominantly Sunni country change its religious orientation -- solidifying its ties to Iran and creating strong repercussions throughout the Middle East ?": {
             "['Middle East', 'contains', 'Iran']": [
-                  0.951048749346413
+                  0.7932728537263162,
+                  0.8702047953327059
             ]
       },
       "It will also include two nights of Mr. Byrne 's work : a performance of music from '' The Knee Plays , '' his 1985 theatrical collaboration with Robert Wilson , and a preview of '' Here Lies Love , '' his new multimedia song cycle based on the life and reign of Imelda Marcos , the former first lady of the Philippines .": {
             "['Imelda Marcos', 'place lived', 'Philippines']": [
-                  0.9719202702319987
+                  0.7714564999026345,
+                  0.7703457532337963,
+                  0.9273460824800936,
+                  0.946822560281614,
+                  0.9485327194739884,
+                  0.765297385116953
             ],
             "['Imelda Marcos', 'nationality', 'Philippines']": [
-                  0.999999999999998
+                  0.7553178833199004,
+                  0.7677771836289307,
+                  0.9999999999999991,
+                  0.9440552945894626,
+                  0.9250108437179533,
+                  0.7491587696498905
             ]
       },
       "The Greenburgh supervisor , Paul J. Feiner , said he was disappointed that a deal he considered good for everyone would have to be reworked . ''": {
             "['Paul J. Feiner', 'company', 'Greenburgh']": [
-                  0.9611719920536083
+                  0.9101132367229582,
+                  0.9280293365411628
             ],
             "['Paul J. Feiner', 'place lived', 'Greenburgh']": [
-                  0.9514733819037505
+                  0.8931493721309689,
+                  0.9126205153836087
             ]
       },
       "Government employees who resell the passes are committing fraud , according to a report by the Government Accountability Office , scheduled to be released Tuesday by Senator Norm Coleman , Republican of Minnesota .": {
             "['Norm Coleman', 'place lived', 'Minnesota']": [
-                  0.9630249970872777,
-                  0.9354889863622199
+                  0.9073833846120919,
+                  0.7666110063259693
+            ]
+      },
+      "It 's even better when you can just roll out of bed each morning and tackle a different menu , spending one day on Neapolitan-style pizza and perhaps returning on another for pasta , as you can at the Sorrento Cooking School at the Esperidi Resort on the Amalfi Coast in Italy .": {
+            "['Italy', 'contains', 'Amalfi Coast']": [
+                  0.8517059162683901,
+                  0.7987334531171142,
+                  0.8014734326183323
+            ]
+      },
+      "Investors include the Bill & Melinda Gates Foundation , which granted the Institute for OneWorld Health $ 42.6 million to finance Amyris 's antimalarial drug , and two princes of Silicon Valley venture capital , John Doerr of Kleiner Perkins Caufield & Byers , and Vinod Khosla of Khosla Ventures , who , with the private equity group of Texas Pacific Group Ventures , invested $ 20 million .": {
+            "['Khosla Ventures', 'advisors', 'Vinod Khosla']": [
+                  0.8055193533923724,
+                  0.8758795288622211,
+                  0.8130888494784547,
+                  0.7973767594945983
+            ],
+            "['Vinod Khosla', 'company', 'Khosla Ventures']": [
+                  0.8229534694412166,
+                  0.9433900897183712,
+                  0.8025155453633944,
+                  0.8008906406243487
             ]
       },
       "In 1942 , he became headmaster at the Graham Eckes School in Palm Beach , Florida .": {
             "['Florida', 'contains', 'Palm Beach']": [
-                  0.9433471418789651,
-                  0.9687267537969303
+                  0.7998023229732396,
+                  0.9202590084854584
             ]
       },
       "DODGE -- Cleveland E. -LRB- Clee -RRB- Jr. , on Sunday , January 28 , in Bennington , Vermont , after a long struggle with prostate cancer .": {
             "['Vermont', 'contains', 'Bennington']": [
-                  0.8796368876353549
+                  0.7466490185475282,
+                  0.8357547797814707
             ]
       },
       "American companies would be largely exempt from this rule because of a treaty with Thailand that dates to the Vietnam War , said Kitipong Urapeepatanapong , a partner at Baker & McKenzie in Bangkok . ''": {
             "['Bangkok', 'country', 'Thailand']": [
-                  0.9415413609439975,
-                  0.901869103562555,
-                  0.8938157045436371,
-                  0.9483158046574331,
-                  0.8730917856776947
+                  0.8487271695962239,
+                  0.7857619237648007,
+                  0.7931866853021252,
+                  0.85481466257692,
+                  0.7539639150117022
             ]
       },
       "Viswanathan Anand of India , poised to become the world 's top-ranked player and generally acknowledged as the best rapid player , has won or tied for first six times .": {
             "['Viswanathan Anand', 'place lived', 'India']": [
-                  0.9717826107059859
+                  0.8790692657881223,
+                  0.8377974162429889,
+                  0.8203384571617655,
+                  0.9831009903729677,
+                  0.9468225633860047,
+                  0.9485327224785436,
+                  0.9273460867214811
             ],
             "['Viswanathan Anand', 'nationality', 'India']": [
-                  1.0000000000000004
+                  0.8629306517075301,
+                  0.8438507389526204,
+                  0.8263917796964548,
+                  0.9309724109658377,
+                  0.9440552978553991,
+                  0.9250108480956666,
+                  1.0
             ]
       },
       "A memorial service will be scheduled in Boca Raton , Florida .": {
             "['Florida', 'contains', 'Boca Raton']": [
-                  0.9743353586022576
+                  0.8203241243930403
             ]
       },
       "Mr. Hosseini said that Iran was surprised that European leaders had ignored comments by Israel 's prime minister , Ehud Olmert , recently that seemed to confirm that Israel possessed nuclear weapons .": {
             "['Ehud Olmert', 'nationality', 'Israel']": [
-                  0.9068667888561156,
-                  0.9447421094629629
+                  0.7896865961710212,
+                  0.8203047927886216,
+                  0.8017052191266433,
+                  0.8283130094193099
             ],
             "['Ehud Olmert', 'place lived', 'Israel']": [
-                  0.9098357680258751,
-                  0.9432329330940207
+                  0.7919844909415373,
+                  0.8104110666355882,
+                  0.8162376651683734,
+                  0.8804415952972559
             ]
       },
       "Bangkok Garden is the life 's work of an extended family from central Thailand , about 100 miles northwest of Bangkok .": {
             "['Thailand', 'contains', 'Bangkok']": [
-                  0.9835379367684431,
-                  0.9910993527981438,
-                  0.9835379367684431,
-                  0.9785273334610265,
-                  0.9835379367684429,
-                  0.9835379367684429
+                  0.9568348256768436,
+                  0.9312545423233459,
+                  0.873437950811698,
+                  0.8787123763832722,
+                  0.9568348256768436,
+                  0.9252354502316688,
+                  0.9568348256768436,
+                  0.9568348256768436
             ]
       },
       "I just want to convey to you how upset many of us are who have defended this program and have believed it is necessary to the protection of our country , '' Representative Dan Lungren , Republican of California , told Valerie E. Caproni , the bureau 's general counsel .": {
             "['Dan Lungren', 'place lived', 'California']": [
-                  0.9445185372771593,
-                  0.9716952467257898,
-                  0.9715475282142938,
-                  0.9433521288143435,
-                  0.9327361068627936
+                  0.785830323306062,
+                  0.79743849952925,
+                  0.927346082173773,
+                  0.8553916152926082,
+                  0.8390361002235966
+            ]
+      },
+      "Lipton wonders again , this time looking for answers in her vexed relationship with her father , an alluring '' dreamer and fantasist '' who , without ever having traveled to France himself , urged his young daughter : '' Darling , go to Paris .": {
+            "['Paris', 'country', 'France']": [
+                  0.8563604879585887,
+                  0.8569659746392131,
+                  0.8226781665627746,
+                  0.8523667311275991,
+                  0.8180789234820581,
+                  0.8527452272537188,
+                  0.8184574194834362,
+                  0.8523678348731145,
+                  0.8180800269866245,
+                  0.8563604879585887,
+                  0.8220726813514074,
+                  0.8569659746392131,
+                  0.8226781665627746,
+                  0.8523667311275991,
+                  0.8180789234820581,
+                  0.8527452272537188,
+                  0.8184574194834362,
+                  0.8523678348731145,
+                  0.8180800269866245,
+                  0.8563604879585887,
+                  0.8220726813514074,
+                  0.8569659746392131,
+                  0.8226781665627746,
+                  0.8523667311275991,
+                  0.8180789234820581,
+                  0.8527452272537188,
+                  0.8184574194834362,
+                  0.8523678348731145,
+                  0.8180800269866245,
+                  0.8563604879585887,
+                  0.8220726813514074,
+                  0.8569659746392131,
+                  0.8226781665627746,
+                  0.8523667311275991,
+                  0.8180789234820581,
+                  0.8527452272537188,
+                  0.8184574194834362,
+                  0.8523678348731145,
+                  0.8180800269866245,
+                  0.8563604879585887,
+                  0.8220726813514074,
+                  0.8569659746392131,
+                  0.8226781665627746,
+                  0.8523667311275991,
+                  0.8180789234820581
+            ],
+            "['France', 'contains', 'Paris']": [
+                  0.8155194668412563,
+                  0.8057420343362716,
+                  0.8400298316492981,
+                  0.8053023923963043,
+                  0.839590189110005,
+                  0.8066420804904255,
+                  0.8409298773863,
+                  0.810066235951694,
+                  0.844354033065615,
+                  0.8155194668412563,
+                  0.8498072629915989,
+                  0.8057420343362716,
+                  0.8400298316492981,
+                  0.8053023923963043,
+                  0.839590189110005,
+                  0.8066420804904255,
+                  0.8409298773863,
+                  0.810066235951694,
+                  0.844354033065615,
+                  0.8155194668412563,
+                  0.8498072629915989,
+                  0.8057420343362716,
+                  0.8400298316492981,
+                  0.8053023923963043,
+                  0.839590189110005,
+                  0.8066420804904255,
+                  0.8409298773863,
+                  0.810066235951694,
+                  0.844354033065615,
+                  0.8155194668412563,
+                  0.8498072629915989,
+                  0.8057420343362716,
+                  0.8400298316492981,
+                  0.8053023923963043,
+                  0.839590189110005,
+                  0.8066420804904255,
+                  0.8409298773863,
+                  0.810066235951694,
+                  0.844354033065615,
+                  0.8155194668412563,
+                  0.8498072629915989,
+                  0.8057420343362716,
+                  0.8400298316492981,
+                  0.8053023923963043,
+                  0.839590189110005
+            ]
+      },
+      "A Memorial Service will be held on Sunday , January 21 , at 3:00 pm at the Unitarian Church , 10 Lyons Plains Road , Westport , Connecticut .": {
+            "['Connecticut', 'contains', 'Westport']": [
+                  0.7731397141793012,
+                  0.8411740422082505,
+                  0.7714004138529902
             ]
       },
       "Asked the odds of Hornish racing in the season-opening Daytona 500 next year , Penske Racing 's president , Don Miller , said , '' They 're better than 50-50 . ''": {
             "['Don Miller', 'company', 'Penske Racing']": [
-                  0.9764026193818776,
-                  0.9999999999999999
+                  0.7890713636063402,
+                  0.9999999999999984,
+                  0.7968820947162634
+            ]
+      },
+      "BAGGAGE THEFT AT HOUSTON -- Five baggage handlers were charged with stealing luggage at George Bush Intercontinental Airport in Houston over the Christmas holiday .": {
+            "['Houston', 'contains', 'George Bush Intercontinental Airport']": [
+                  0.7807615488377012,
+                  0.7847777967511559,
+                  0.7576472288263143,
+                  0.7745829929228877
             ]
       },
       "In 2002 , a government investigation found that Jack B. Grubman , then an analyst with Citigroup , had bragged in an e-mail message that his boss , Sanford I. Weill , had helped get his twins into the Y 's nursery school after Mr. Grubman upgraded his rating on a stock as a favor to Mr. Weill .": {
             "['Citigroup', 'advisors', 'Sanford I. Weill']": [
-                  0.9023431852840518,
-                  0.9741757404965667,
-                  0.9291137086950431,
-                  0.9773026628379096
+                  0.7674284286226827,
+                  0.8689344642923689,
+                  0.7808223900075507,
+                  0.7792081680987264,
+                  0.7773732469069755,
+                  0.780442310234092,
+                  0.805034652645011,
+                  0.7857524542251605,
+                  0.7841382325703073,
+                  0.7823033113397415,
+                  0.7853723747405028,
+                  0.8673840410859871
             ]
       },
       "Republicans were stung by the defection of Senator Chuck Hagel of Nebraska , who has not supported a timetable for withdrawal before although he is his party 's most outspoken critic of the war in Congress . ''": {
             "['Chuck Hagel', 'place lived', 'Nebraska']": [
-                  0.9367002489091554
+                  0.8513965834942698,
+                  0.9831009898865123
+            ]
+      },
+      "Every few weeks , Newark 's mayor , Cory Booker , goes to a school or some other meeting place and talks with anyone who shows up .": {
+            "['Cory Booker', 'place lived', 'Newark']": [
+                  0.7879181999422129
             ]
       },
       "A preliminary design for a plant , to be located in Mount Pleasant and Greenburgh in Westchester County , already sits in a drawer ; the plant would cover an area larger than 15 football fields and be capable of filtering 2.4 billion gallons of water a day .": {
             "['Westchester County', 'contains', 'Greenburgh']": [
-                  0.965881279444111,
-                  0.9744869079561238,
-                  0.9999999999999982,
-                  0.9442585431875783,
-                  0.9063503112031245,
-                  0.9372229357148305,
-                  0.9343133591300868
+                  0.868375645909683,
+                  0.9353571579062343,
+                  1.0000000000000013,
+                  0.7789449542878153,
+                  0.787126135339696,
+                  0.7821001455079287,
+                  0.8467429840616897,
+                  0.854130161160599
             ]
       },
       "Vladimir Kuznetsov , a former Russian diplomat who once headed the United Nations budget oversight committee , was convicted by a federal jury in Manhattan of having conspired with a United Nations purchasing officer to obtain $ 300,000 in illicit payments from foreign companies seeking contracts .": {
             "['Vladimir Kuznetsov', 'nationality', 'Russian']": [
-                  0.9376968274327812,
-                  0.9374043644416677
+                  0.852047602745328,
+                  0.8443267507415604,
+                  0.8491865985490801,
+                  0.8397846688336701,
+                  0.843113309012011,
+                  0.8249701491646749,
+                  0.916010320545031
             ],
             "['Vladimir Kuznetsov', 'company', 'United Nations']": [
-                  0.958770028938325,
-                  0.9437734665827013
+                  0.9417747890558565,
+                  0.8989629014832197,
+                  0.8641927537718483,
+                  0.8989586044640543,
+                  0.8426299573381105,
+                  0.83884217368422,
+                  0.8621286437121628
             ],
             "['Vladimir Kuznetsov', 'place lived', 'Russian']": [
-                  0.9390848729566535,
-                  0.9446847308469788
+                  0.864346424692219,
+                  0.8478252034973083,
+                  0.8522318431493424,
+                  0.8449460942589638,
+                  0.8429215359065677,
+                  0.831833921087931,
+                  0.9681389043130867
             ]
       },
       "Ms. Rice , shuttling between Jerusalem and the occupied West Bank , said she planned to continue to push a peace initiative between Israel and the Palestinian Authority president , Mahmoud Abbas , despite his recent agreement in principle to form a unity government between his Fatah faction and Hamas , which the United States and Israel view as a terrorist organization . ''": {
             "['Israel', 'contains', 'Jerusalem']": [
-                  0.8919165673188568,
-                  0.9383085539140643,
-                  0.9043481317078483,
-                  0.9034992609217143,
-                  0.8998772842973849,
-                  0.9024701678266268,
-                  0.9111066569318784,
-                  0.9124048893339138,
-                  0.940779572993515,
-                  0.899542488277443
+                  0.7936459857266265,
+                  0.7731620434918888,
+                  0.7861547533063485,
+                  0.8014632716581227,
+                  0.8144559812730459,
+                  0.7886068611914543,
+                  0.8015995702118037,
+                  0.7876863286034542,
+                  0.8006790381752233,
+                  0.7855700065375251,
+                  0.7999752898145097,
+                  0.8088520299264158,
+                  0.7945437699231587,
+                  0.8140848337145864,
+                  0.7841508558486445,
+                  0.8430647418173454
             ]
       },
       "Although the announcement of the new Dubai arrangement took many by surprise , Halliburton said that the move was part of a strategy announced in mid-2006 to concentrate its efforts in the Middle East and surrounding areas , where state-owned oil companies represent a growing source of business .": {
             "['Middle East', 'contains', 'Dubai']": [
-                  0.9420983055756719,
-                  0.9323698594691481,
-                  1.0000000000000013
+                  0.8045352982409198,
+                  0.7808768445394209,
+                  0.9002751308159604
+            ]
+      },
+      "Marissa Mayer , Google vice president , USA Today , May 11 These -LRB- online -RRB- games , like Phetch , employ a technique called '' human computation '' -- harnessing the human brain to collectively perform tasks that digital computers have yet to master It 's the same trick the fictional Tom Sawyer famously used to get his friends to whitewash a fence for him , only multiplied millions of times .": {
+            "['Marissa Mayer', 'company', 'Google']": [
+                  0.7980336954018292,
+                  0.7870942778060713,
+                  0.7746368083188018,
+                  0.7858425164696741,
+                  0.9383509724345374
+            ],
+            "['Marissa Mayer', 'advisors', 'Google']": [
+                  0.7911566296684513,
+                  0.7740378224231533,
+                  0.767759741996098,
+                  0.7675139222878876,
+                  0.9200223819385647
             ]
       },
       "Though they have dropped these charges , the prosecutors in Braunschweig , a town near Volkswagen 's headquarters , Wolfsburg , in northern Germany , will still pursue 44 charges of breach of trust , including accusations of payments to Klaus Volkert , the former head of the Volkswagen works council , and his lover .": {
             "['Germany', 'contains', 'Wolfsburg']": [
-                  0.9748168374881845,
-                  0.9502901536194821,
-                  0.9478950379453595,
-                  0.9321558859160355,
-                  0.9508314363641142,
-                  0.9378953386545228,
-                  0.9357295784730404,
-                  0.9229438277925892,
-                  0.9399022150658991,
-                  0.9271018135426643,
-                  0.9242497649591448,
-                  0.9351747963683529,
-                  0.9521648614168468,
-                  0.9390451128590548,
-                  0.9369210789198402,
-                  0.9287819269973348,
-                  0.9291396747326099,
-                  0.9357295784730404,
-                  0.9242497649591448,
-                  0.9369210789198402,
-                  0.9281666396101638,
-                  0.9292643588880235,
-                  0.9378953386545228
+                  0.9347856872994337,
+                  0.8010127882652939,
+                  0.8022418455397605,
+                  0.8276900104847951,
+                  0.8629871852976542,
+                  0.7964026162905335,
+                  0.795962974500849,
+                  0.8026324868677608,
+                  0.7997411126957237,
+                  0.8376167400848131,
+                  0.8729139168059887,
+                  0.8163587256263025,
+                  0.8259949571545266,
+                  0.8278148270219371,
+                  0.8631120040299668,
+                  0.8065568129702894,
+                  0.8161930439057147,
+                  0.8220924652270069,
+                  0.857389642883906,
+                  0.8008344511229545,
+                  0.81047068184373,
+                  0.8385774549840458,
+                  0.8738746310653632,
+                  0.8173194408540856,
+                  0.8269556722734027,
+                  0.8062907951269548,
+                  0.8058511531559536,
+                  0.8125206657286271,
+                  0.8096292917234562,
+                  0.8259949571545266,
+                  0.8161930439057147,
+                  0.81047068184373,
+                  0.8269556722734027,
+                  0.7966545650294987,
+                  0.7962149232519731,
+                  0.8028844353695895,
+                  0.7999930613121504,
+                  0.8163587256263025,
+                  0.8065568129702892
             ]
       },
       "IN 1925 Mart\u00edn Ram\u00edrez -LRB- 1895-1963 -RRB- , the great self-taught draftsman , left his small ranch in the Jalisco region of Mexico for work in the promised land of the United States .": {
             "['Mexico', 'contains', 'Jalisco']": [
-                  0.9409673319426313
+                  0.7662766046144479,
+                  0.7640535868015559,
+                  0.8010981533076678,
+                  0.7788913060286324,
+                  0.8530346001402471
             ],
             "['Mexico', 'administrative divisions', 'Jalisco']": [
-                  0.9410519299535173
+                  0.7596461934559595,
+                  0.7575943430837919,
+                  0.8025526269611595,
+                  0.7712430478849414,
+                  0.8398771664397634
             ],
             "['Jalisco', 'country', 'Mexico']": [
-                  0.9517121774986089
+                  0.7909609725369965,
+                  0.7842028630210992,
+                  0.8791078441432406,
+                  0.8024347064791906,
+                  0.816962414298917
+            ]
+      },
+      "The 105-mile stage Saturday , to Santa Clarita from Santa Barbara , was won by Juan Jos\u00e9 Haedo , an Argentine sprinter for the CSC team , who won his second stage this week and his fourth in the California tour 's two years .": {
+            "['California', 'contains', 'Santa Clarita']": [
+                  0.783709200430198,
+                  0.763142596681866,
+                  0.7755812796019446
             ]
       },
       "While Donovan , 42 , had maintained that he was happy at Florida , he never ruled out going to the N.B.A. He said in an interview with The New York Times in February 2006 that he would like to become an N.B.A. assistant for a year to learn the nuances of the professional game before becoming a head coach .": {
             "['Florida', 'company', 'Donovan']": [
-                  0.9449120021752357,
-                  0.9718382205671867,
-                  0.9431127007138712,
-                  0.9462807260025488,
-                  0.9454102141174241,
-                  0.9455457279190252,
-                  0.9517880101604765,
-                  0.9482637613546137
+                  0.7844780543464466,
+                  0.7839506254229036,
+                  0.7922678129651071,
+                  0.7877246538579895,
+                  0.8550041056938001,
+                  0.780827433914631,
+                  0.798394197475487,
+                  0.7830174625214915,
+                  0.7749305541524467,
+                  0.7930082050964593,
+                  0.7864263028924816,
+                  0.7898444459112895,
+                  0.7801671406921888,
+                  0.7824803732652749,
+                  0.770634599919658,
+                  0.7982564673833338,
+                  0.7903606389830603,
+                  0.7840196223816377
+            ]
+      },
+      "She was born in Ontario , Canada and also lived in Brazil , Italy , Spain and France , moving to Greenwich , CT in 1983 .": {
+            "['Canada', 'administrative divisions', 'Ontario']": [
+                  0.7748695352975188,
+                  0.7812368769115863,
+                  0.771787846325798,
+                  0.7762614808744557,
+                  0.7736438969075904,
+                  0.7681811778963782,
+                  0.7735203109128556,
+                  0.83810102483616
+            ],
+            "['Ontario', 'country', 'Canada']": [
+                  0.807491324365257,
+                  0.8069658441447423,
+                  0.7991474108654553,
+                  0.8111596708782132,
+                  0.7815875780808638,
+                  0.7887890845945995,
+                  0.7828198547990805,
+                  0.8163353844995841
+            ],
+            "['Canada', 'contains', 'Ontario']": [
+                  0.7880269699264568,
+                  0.7943943115935436,
+                  0.7849452807364687,
+                  0.7894189152645416,
+                  0.7868013318063608,
+                  0.7813386125696324,
+                  0.7866777455623692,
+                  0.8447314363827757
             ]
       },
       "When Julian Resuello , the mayor of San Carlos City in the northern Philippines , was killed by gunmen at a campaign rally on April 28 , his brother quickly stepped into his shoes .": {
             "['San Carlos City', 'contains', 'Philippines']": [
-                  0.9121769239472642
+                  0.8403943962431318,
+                  0.7697368834384797,
+                  0.7666874653993373,
+                  0.792213725918187,
+                  0.7849199229979221
             ],
             "['Philippines', 'contains', 'San Carlos City']": [
-                  0.9121769239472642
+                  0.8019951598075349,
+                  0.76098400702803,
+                  0.7647581495179011,
+                  0.7793351319436178,
+                  0.8472498363255084
             ],
             "['Philippines', 'administrative divisions', 'San Carlos City']": [
-                  0.9000160179567864
+                  0.7888377254988483,
+                  0.7545247630277391,
+                  0.7582989056913872,
+                  0.7615934101145199,
+                  0.840790592494889
             ]
       },
       "Laure Manaudou of France won her latest gold medal in the women 's 400 freestyle , looking less than elated after she realized that she had failed to break her own world record .": {
             "['Laure Manaudou', 'place lived', 'France']": [
-                  0.9714304189707192,
-                  0.9690986447222005
+                  0.8486005051570947,
+                  0.8416760248351896,
+                  0.9468225638981014,
+                  0.9485327229741721,
+                  0.9477602816385351,
+                  0.926665783321141,
+                  0.9212043320196555,
+                  0.9831009905357049
             ],
             "['Laure Manaudou', 'nationality', 'France']": [
-                  0.9784613986653867,
-                  0.9856308529524727
+                  0.8324618916021916,
+                  0.8477293473291746,
+                  0.9440552983941458,
+                  0.9250108488178097,
+                  0.9233318663173162,
+                  0.9446471649508534,
+                  0.9632356422923458,
+                  0.9309724116305715
             ]
       },
       "Opposing Israel 's settlement of the West Bank or treatment of Palestinians '' is , in itself , not anti-Semitic , '' he writes ; it is questioning Israel 's right to exist that crosses the line .": {
             "['Israel', 'contains', 'West Bank']": [
-                  0.9554299287224423,
-                  0.9425163808764061,
-                  0.9707015039115174
+                  0.8835258101652285,
+                  0.8441654823641769,
+                  0.9237826008072503
             ]
       },
       "Along with the deals and intrigue , Mr. Cohan spends considerable time on human foibles , and recycling rumors of a sexual assignation involving Mr. Rohatyn in his office , Mr. Rattner 's real estate maneuverings in Martha 's Vineyard as well as the tax strategies of the current Lazard chief executive , Bruce Wasserstein .": {
             "['Bruce Wasserstein', 'company', 'Lazard']": [
-                  0.9512681121758971,
-                  0.9070194734447607
+                  0.7981811382047854,
+                  0.7824502087734999,
+                  0.767382908180657,
+                  0.7645935025592134
+            ]
+      },
+      "Henri Antoine Grou\u00e8s was born on Aug. 5 , 1912 , in Lyon , France , where his father was a wealthy silk merchant who devoted his Sundays to helping the poor .": {
+            "['France', 'contains', 'Lyon']": [
+                  0.81088516922982,
+                  0.8006680949164562,
+                  0.8568661620952862,
+                  0.8564265192913193,
+                  0.8011077367664817,
+                  0.8006680949164562,
+                  0.8666435922081117,
+                  0.81088516922982,
+                  0.8568661620952862,
+                  0.8564265192913193,
+                  0.8011077367664817,
+                  0.8006680949164562,
+                  0.8666435922081117,
+                  0.81088516922982,
+                  0.8568661620952862,
+                  0.8564265192913193,
+                  0.8011077367664817,
+                  0.8006680949164562,
+                  0.8666435922081117,
+                  0.81088516922982,
+                  0.8568661620952862,
+                  0.8564265192913193,
+                  0.8011077367664817,
+                  0.8006680949164562,
+                  0.8666435922081117,
+                  0.81088516922982,
+                  0.8568661620952862,
+                  0.8564265192913193,
+                  0.8011077367664817,
+                  0.8006680949164562,
+                  0.8666435922081117,
+                  0.81088516922982,
+                  0.8568661620952862,
+                  0.8564265192913193,
+                  0.8011077367664817,
+                  0.8006680949164562,
+                  0.866643592208111,
+                  0.8108851692298199
             ]
       },
       "A biography of Muhammad by a Muslim scholar who has been barred from the United States argues that Islam and Western democracy are compatible .": {
             "['Muhammad', 'religion', 'Muslim']": [
-                  0.962964167053404
+                  0.8175605462746593,
+                  0.8101747702142299,
+                  0.9074748504542046
             ]
       },
       "In 2004 , the bank sold its majority stake in the Bank of Asia , based in Thailand , for 442 million euros -LRB- $ 600 million -RRB- .": {
             "['Asia', 'contains', 'Thailand']": [
-                  0.9512737614018971,
-                  0.9049435546864821,
-                  0.8653843114484981,
-                  0.9047526227902383
+                  0.8852427666644378,
+                  0.7813901884152912,
+                  0.7574137071999357,
+                  0.7878258295857655
             ]
       },
       "And two Democrats , Ben Nelson of Nebraska and Mark Pryor of Arkansas , sided with Republicans .": {
             "['Mark Pryor', 'place lived', 'Arkansas']": [
-                  0.9193793115607553,
-                  0.9712964534015411
+                  0.848438727090115,
+                  0.8139956754780628,
+                  0.9257591145725367,
+                  0.7811749596187432
             ],
             "['Ben Nelson', 'place lived', 'Nebraska']": [
-                  0.9712727805010414,
-                  0.923378630138587
+                  0.778570143567351,
+                  0.9257591143052744,
+                  0.8139956754780628,
+                  0.8458339030206523
             ]
       },
       "Larry Ellison , the chief executive of the software giant Oracle and the world 's 11th-richest man , according to Forbes magazine , recently bought the 21-room Casa Malibu Inn on Carbon Beach for $ 20 million .": {
             "['Oracle', 'advisors', 'Larry Ellison']": [
-                  0.9315429085249831,
-                  0.9323276931293503,
-                  0.9307106142309477
+                  0.789702023520186,
+                  0.7816975073360352,
+                  0.7801622894480711,
+                  0.7862972422427636,
+                  0.8185084523716543
             ],
             "['Larry Ellison', 'company', 'Oracle']": [
-                  0.9354806540214824,
-                  0.9379715243254246,
-                  0.9354650344755355
+                  0.8495911789391519,
+                  0.8500326016632901,
+                  0.849814095900749,
+                  0.8481986570139365,
+                  0.9278972034611976
             ]
       },
       "A1 A Move Toward 2008 Race Former Gov. Mike Huckabee of Arkansas is forming a presidential exploratory committee , mounting an underdog campaign for the Republican nomination .": {
             "['Mike Huckabee', 'place lived', 'Arkansas']": [
-                  0.9420979418722812
+                  0.8703257598509039,
+                  0.8599983248750788,
+                  0.8798735329846644,
+                  0.8794473593057639,
+                  0.8802086243696234,
+                  0.8762013328279359,
+                  0.8808112516500017,
+                  0.8678771859657937,
+                  0.8786749176572404,
+                  0.8794361827018092,
+                  0.8754288911551908,
+                  0.8804125218295014,
+                  0.9477602779313656,
+                  0.9831009893364734
+            ]
+      },
+      "A. Revivalism arrived in the city with the English missionary George Whitefield , according to The Encyclopedia of New York City .": {
+            "['George Whitefield', 'place lived', 'New York City']": [
+                  0.8356409639423178,
+                  0.8294341931680996
             ]
       },
       "Rabbi Abraham Cooper , associate dean of the Simon Wiesenthal Center , met with the author , Lee Won-bok , a professor of visual arts in South Korea , at the Seoul offices of his publisher , Gimm-Young .": {
             "['South Korea', 'contains', 'Seoul']": [
-                  0.914632558310845,
-                  0.873677558664427
+                  0.8398873122992012,
+                  0.8594443965090205,
+                  0.809714647834393,
+                  0.7614646359238616
             ],
             "['South Korea', 'administrative divisions', 'Seoul']": [
-                  0.9100395844009725,
-                  0.8832571803317933
+                  0.826729877244347,
+                  0.8517961372166967,
+                  0.8030968041604392,
+                  0.7782777558043835
             ],
             "['Seoul', 'country', 'South Korea']": [
-                  0.9111431630371108,
-                  0.8668124223182913
+                  0.8702747055699686,
+                  0.8412717302754051,
+                  0.8250229295303096,
+                  0.7655689913189809
+            ]
+      },
+      "Mr. Meier offers glimpses of a 1981 headquarters for Renault outside Paris , and a '' Memorial Square '' he designed for the former World Trade Center site in Manhattan in collaboration with Eisenman Architects , Gwathmey Siegel & Associates and Steven Holl Architects .": {
+            "['Renault', 'location', 'Paris']": [
+                  0.7893631680550445,
+                  0.7800325679818675,
+                  0.7987600881664205,
+                  0.8023236486452915,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132562,
+                  0.8551472253518507,
+                  0.8587107869132565,
+                  0.8551472253518513,
+                  0.858710786913256
             ]
       },
       "The issue , Mr. Marissen suggests , is not one of anti-Semitism per se but one of triumphalism , a rejoicing in the misfortune of the Jews , specifically with the destruction of the Second Temple in Jerusalem by the Romans in A.D. 70 .": {
             "['Jerusalem', 'contains', 'Second Temple']": [
-                  0.901145419684199,
-                  0.914540610370689
+                  0.788418352493694,
+                  0.7850968381586477,
+                  0.7759713468547063,
+                  0.7954977254938024,
+                  0.8333392091718361,
+                  0.8160595938731293,
+                  0.8031681215293817,
+                  0.8010650829634569
+            ]
+      },
+      "He prides himself on having predicted events like the 1996 earthquakes in Turkey , the 1997 death of Princess Diana and the 2005 assassination of Rafik Hariri , a former prime minister of Lebanon .": {
+            "['Rafik Hariri', 'nationality', 'Lebanon']": [
+                  0.768490168388754,
+                  0.8169447010593931,
+                  0.9250108411632776,
+                  0.7772209689821973
+            ],
+            "['Rafik Hariri', 'place lived', 'Lebanon']": [
+                  0.768164884923802,
+                  0.8166194171323817,
+                  0.9485327177206402,
+                  0.7730480134515679
             ]
       },
       "Crawford Mills , a former classmate of Michael C. Skakel 's , testified on Wednesday that he tried to give lawyers information he thinks might have prevented Mr. Skakel 's 2002 conviction for the 1975 murder of Martha Moxley in Greenwich .": {
             "['Martha Moxley', 'place of death', 'Greenwich']": [
-                  0.9199450851295462,
-                  0.9195831813088973,
-                  0.9030422028110864,
-                  0.9097581654849,
-                  0.9434219639675886,
-                  0.9165088578188527
+                  0.7893861291762729,
+                  0.7795425402841307,
+                  0.7740045852646246,
+                  0.7804055102948743,
+                  0.799876747776188,
+                  0.7745712180205289
             ]
       },
       "Nabih Berri , leader of the Shiite Amal party and speaker of Lebanon 's Parliament , said , '' What everyone should do now is halt the strife . ''": {
             "['Nabih Berri', 'place lived', 'Lebanon']": [
-                  0.971182955166184,
-                  0.9405190200733662,
-                  0.9440145938379023
+                  0.9251544926728354,
+                  0.8528849762298444,
+                  0.8631547556676468
             ],
             "['Nabih Berri', 'nationality', 'Lebanon']": [
-                  0.9713175203290852,
-                  0.9399427350869687,
-                  0.9416200127558544
+                  0.925183386533853,
+                  0.847947869106909,
+                  0.8576825063460589
+            ]
+      },
+      "We were a little surprised by the results , '' said Sandy Praeger , Kansas ' insurance commissioner and the president-elect of the association .": {
+            "['Sandy Praeger', 'place lived', 'Kansas']": [
+                  0.8603414092603138,
+                  0.9242493184810807
             ]
       },
       "The family was German , probably stemming originally from the town of Buxtehude , but Buxtehude 's father was an organist first in Helsingborg and then in Elsinore , Denmark , where Dieterich was raised .": {
             "['Denmark', 'contains', 'Elsinore']": [
-                  0.9130253230934183
+                  0.8126153250461586,
+                  0.8595280428693816,
+                  0.7773954014031186,
+                  0.772097334011783,
+                  0.7818747679851035,
+                  0.7771914239527025,
+                  0.7869688575774869,
+                  0.7771914239527025
             ]
       },
       "Watching the game on television , with conflicting emotions , was Nate Robinson , the Knicks guard and Seattle native .": {
             "['Nate Robinson', 'place lived', 'Seattle']": [
-                  0.9392521175643397
+                  0.8540328825799778,
+                  0.9831009888563546
             ],
             "['Nate Robinson', 'place of birth', 'Seattle']": [
-                  0.9396921176787136
+                  0.85348419236794,
+                  0.9517698223541683
             ]
       },
       "An official video played to a small group of Iraqi and Western reporters more than 13 hours after the hanging showed Barzan Ibrahim al-Tikriti , former head of Mr. Hussein 's secret police , standing nervously on the trapdoor in a flame-orange jumpsuit of the kind used at the American detention center at Guant\u00e1namo Bay in Cuba , his head and mustache shaved .": {
             "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
-                  0.9072768868202673
+                  0.854983962560068,
+                  0.7672848662433389,
+                  0.7825024417078932,
+                  0.7772263149723351
             ]
       },
       "A group of investors led by John de Mol , one of the founders of Endemol , which pioneered reality television series like '' Big Brother '' and game shows like '' Deal or No Deal , '' agreed Monday to buy a controlling stake in the company from Telef\u00f3nica , the Spanish telecommunications company .": {
             "['Endemol', 'founders', 'John de Mol']": [
-                  1.0000000000000004
+                  0.8628959865806262,
+                  0.8685838245447438
             ],
             "['John de Mol', 'company', 'Endemol']": [
-                  0.9760522960776203
+                  0.7992677370165099,
+                  0.938004092929344
             ]
       },
       "Paul-Auguste Halley , a grocer in Cherbourg , France , also became inspired by the American fashion for supermarkets that spread through France after World War II .": {
             "['France', 'contains', 'Cherbourg']": [
-                  0.948349235443991
+                  0.8057347704630132,
+                  0.782029446212286,
+                  0.7846794069122032,
+                  0.805207224298331,
+                  0.7863545303002464,
+                  0.8568925181165751
             ]
       },
       "Ali , whose family comes from the Black Sea port of Rize , is the son of a local Neuk\u00c3 lln imam .": {
             "['Black Sea', 'contains', 'Rize']": [
-                  0.9092395161327522,
-                  0.9460362059438151
+                  0.7633398798648164,
+                  0.7990565233504108
+            ]
+      },
+      "In the case of Andre Waters , Dr. Bennet Omalu , a neuropathologist at the University of Pittsburgh , concluded that the 44-year-old former safety 's brain tissue resembled that of an 85-year-old man .": {
+            "['Andre Waters', 'company', 'University of Pittsburgh']": [
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783944,
+                  0.9248337573052708,
+                  0.9239042357426798,
+                  0.9247647640639923,
+                  0.9252921953783946,
+                  0.9248337573052706
+            ]
+      },
+      "Another opponent of the bill , Conrad Goode , who has worked with sex offenders as a parole officer and is now a coordinator at a Salvation Army halfway house in Dayton , said : '' They 've done their time .": {
+            "['Conrad Goode', 'place lived', 'Dayton']": [
+                  0.9794999726243849,
+                  0.9477040182225062,
+                  0.8489335375123985
             ]
       },
       "Closer to home , before the New York City police locked the place up , he transformed a ghostly turn-of-the-century industrial shed on Pier 52 , near Gansevoort Street in Greenwich Village -LRB- where he grew up -RRB- , into a temporary cathedral of light .": {
             "['New York City', 'contains', 'Greenwich Village']": [
-                  0.9749576492773133,
-                  0.9737669924194643,
-                  0.9514713671113408,
-                  0.9785222409474104,
-                  0.9802263317789539,
-                  0.9450960496329719
+                  0.8614938171256759,
+                  0.8635024821197238,
+                  0.8758553412342286,
+                  0.8043865937965813,
+                  0.8488133928061337,
+                  0.8483737501025252,
+                  0.9331610358163334,
+                  0.7989333621722193,
+                  0.7955092065168067,
+                  0.8857936627889097,
+                  0.8723272536235842,
+                  0.8922254669001667,
+                  0.8132113664583794,
+                  0.8651835195008074,
+                  0.8647438765285955,
+                  0.9495311604824369,
+                  0.8077581352593942,
+                  0.8043339796592416,
+                  0.8572455144566494
             ]
       },
       "Mr. McCain has four books to his name ; former Mayor Rudolph W. Giuliani of New York , former Gov. Mitt Romney of Massachusetts , former Gov. Mike Huckabee of Arkansas , Senator Sam Brownback of Kansas and Representative Tom Tancredo of Colorado have one each .": {
             "['Mike Huckabee', 'place lived', 'Arkansas']": [
-                  0.9244155208562117,
-                  0.9333580632613712,
-                  0.9718077917138436,
-                  0.9322524179517409,
-                  0.9122793620193103,
-                  0.9159410640096995
+                  0.8325684304178921,
+                  0.8482320682491141,
+                  0.924860782001282,
+                  0.8501425963480451,
+                  0.8182484164063895,
+                  0.8049753668841801
+            ]
+      },
+      "There 's something striking about the laboratory of Michael F. Summers at the University of Maryland , Baltimore County .": {
+            "['Maryland', 'contains', 'Baltimore County']": [
+                  0.9643097792106217,
+                  0.804609571195886
             ]
       },
       "DREXLER -- Beatrice C. , who ran Candy Mountain Day Camp in New City , Rockland County , New York for more than 30 years before her retirement , died April 16 , at the age of 92 , Her husband , the late Elias J. Drexler , was the senior vice president in the U.S. of FujFilm .": {
             "['Rockland County', 'contains', 'New City']": [
-                  0.9432384559112473,
-                  0.9579677039023233,
-                  0.8943393284135659,
-                  0.8973386962482659,
-                  0.8942598988009015,
-                  0.9091302687192065,
-                  0.9079940047171693
+                  0.8529654098932465,
+                  0.7733316513570636,
+                  0.8927703966377892,
+                  0.7666869100314767,
+                  0.7717617518928315,
+                  0.7582200230459124,
+                  0.7779813076809805,
+                  0.7593746803292505
             ]
       },
       "Brahms certainly did hear the work with an ensemble similar in size to that of St. Luke 's -LRB- a 49-member orchestra performed during the premiere of the work in 1885 at Meiningen , Germany -RRB- , although the piece is now usually associated with mammoth orchestras .": {
             "['Germany', 'contains', 'Meiningen']": [
-                  0.9737843920943492
+                  0.8307618954515407,
+                  0.7606982172865655,
+                  0.8420592457482479,
+                  0.8132579127788616,
+                  0.8550416718909145
             ]
       },
       "Chiang Mai , Thailand , 800-819-5053 ; www.fourseasons.com/chiangmai .": {
             "['Chiang Mai', 'country', 'Thailand']": [
-                  0.9331119846994337,
-                  0.9481028755016494,
-                  0.9741612376681225
+                  0.8447140630481157,
+                  0.8753744647612135,
+                  0.931752361026214
             ],
             "['Thailand', 'contains', 'Chiang Mai']": [
-                  0.9658649890867397,
-                  0.9782201810123831,
-                  1.0000000000000002
+                  0.8699378190091119,
+                  0.9311034740449038,
+                  0.9265172397841589
             ]
       },
       "Pedro Almod\u00f3var 's '' Volver , '' the tragicomic tale of a mother 's survival , won five awards , including best film , best director and best actress -LRB- Pen\u00e9lope Cruz -RRB- when the Goya awards , Spain 's counterpart of the Oscars , were bestowed in Madrid yesterday , Reuters reported .": {
             "['Spain', 'contains', 'Madrid']": [
-                  0.9002122989552958,
-                  0.9392303860313123,
-                  0.9163530618378155
+                  0.7791921003824686,
+                  0.8618548088193642,
+                  0.8221954775911335,
+                  0.8148844164258899,
+                  0.7842082187333133
             ],
             "['Madrid', 'country', 'Spain']": [
-                  0.9005818308761806,
-                  0.9310955073366209,
-                  0.9110710212423759
+                  0.775053128824556,
+                  0.8127520177595743,
+                  0.8588336429070658,
+                  0.8056689694237138,
+                  0.790078383025702
             ]
       },
       "Spain , said Mariano Rajoy , the president of the Popular Party , '' is a ship drifting without a rudder . ''": {
             "['Mariano Rajoy', 'nationality', 'Spain']": [
-                  0.9400221669301458,
-                  0.9686980667784713
+                  0.8481393912939095,
+                  0.814269761054991
+            ]
+      },
+      "And a spate of recent deaths of Russian whistle-blowers -- most recently the murder of the journalist Anna Politkovskaya in Moscow and the polonium 210 poisoning of the former spy Alexander Litvinenko in London -- shows that the Soviet back story is n't entirely buried .": {
+            "['Anna Politkovskaya', 'place lived', 'Russian']": [
+                  0.8494555394304314,
+                  0.9003473590763352
             ]
       },
       "In addition , Mr. Paulson 's deputy , Robert M. Kimmitt , discussed the matter on Friday with leading finance ministers from the Group of 8 who are meeting this weekend in Potsdam , Germany .": {
             "['Germany', 'administrative divisions', 'Potsdam']": [
-                  0.9374800287556166,
-                  0.8979445164467078
+                  0.8298532810782175,
+                  0.7688886658909166,
+                  0.7908443576974686
             ],
             "['Germany', 'contains', 'Potsdam']": [
-                  0.9417555087803667,
-                  0.8922082869160256
+                  0.8448680681246151,
+                  0.7815572029593869,
+                  0.77403123892688
             ]
       },
       "That measure , by Senators Chuck Hagel , Republican of Nebraska , and Joseph R. Biden Jr. of Delaware and Carl Levin of Michigan , both Democrats , is scheduled to be considered by the Foreign Relations Committee on Wednesday .": {
             "['Chuck Hagel', 'place lived', 'Nebraska']": [
-                  0.9392620924955242,
-                  0.9404525112019133,
-                  0.9067184960296089,
-                  0.9225020192678584,
-                  0.9436986767353891,
-                  0.9156177033059996,
-                  0.9223246558318066,
-                  0.9333138552726752
+                  0.8441626278498914,
+                  0.9126205147515686,
+                  0.7967478552353291,
+                  0.8039298635244572,
+                  0.856858034685674,
+                  0.7902268865739085,
+                  0.7996452592875325,
+                  0.9004756789576316,
+                  0.7956075652695469,
+                  0.8019288179350341,
+                  0.858523089653424,
+                  0.7922850374452484,
+                  0.8017034101433728,
+                  0.8337712081140821
             ]
       },
       "Schoolchildren to Dance With Berlin Philharmonic One hundred twenty New York City public-school children will dance with the Berlin Philharmonic when Simon Rattle , right , leads the orchestra in two performances of Stravinsky 's '' Rite of Spring '' in the fall at the United Palace Theater at Broadway and 175th Street in Washington Heights , Carnegie Hall said yesterday .": {
             "['New York City', 'contains', 'Washington Heights']": [
-                  0.8982807876457544,
-                  0.8907665140278176,
-                  0.9173521122417541,
-                  0.9064342148114525
+                  0.7864600928336034,
+                  0.7777227098990878,
+                  0.8013757473710326,
+                  0.8275985955855067,
+                  0.8812342623196224,
+                  0.7985346127685238,
+                  0.7798559257136457
             ],
             "['Washington Heights', 'neighborhood of', 'New York City']": [
-                  0.8826418377716367,
-                  0.8785619330355721,
-                  0.9033938218700434,
-                  0.8981115655821074
+                  0.7744676933866426,
+                  0.7742071434778113,
+                  0.81092734536821,
+                  0.8061898400692001,
+                  0.8199005619276934,
+                  0.7851016538404687,
+                  0.7828075949523157
             ]
       },
       "The lecture series in California was started seven years ago by Clair G. Martin , the Huntington 's rose curator , to introduce Americans to a wider selection of roses .": {
             "['California', 'contains', 'Huntington']": [
-                  0.9731612254444277,
-                  0.897441405833215
+                  0.8547295675685921,
+                  0.7704488046589082
             ]
       },
       "Sikh men often wear turbans in keeping with their faith , which is not based in the Middle East , but in the Punjab in northern India .": {
             "['India', 'administrative divisions', 'Punjab']": [
-                  0.9411364561647214,
-                  0.9700905395377795,
-                  0.9081012083477218
+                  0.8557263385234778,
+                  0.8182601131326128,
+                  0.7829433706290096
             ],
             "['India', 'contains', 'Punjab']": [
-                  0.9501588663004126,
-                  0.9740910032682368,
-                  0.9141630663083771
+                  0.8707411257994498,
+                  0.828657718710595,
+                  0.783795638113927
             ],
             "['Punjab', 'country', 'India']": [
-                  0.9485983922152562,
-                  0.9999999999999984,
-                  0.9108126787684265
+                  0.8154576068320897,
+                  1.0000000000000007,
+                  0.826069264643442
             ]
       },
       "The images of starvation and death in '' Blockade , '' Sergei Loznitsa 's compilation of archival news clips recording the siege of Leningrad during World War II , are so stark that a conventional soundtrack could only distract you from the harsh pictures of this city , Russia 's second-largest , in the throes of catastrophe .": {
             "['Russia', 'contains', 'Leningrad']": [
-                  0.9418130303304048,
-                  0.9259333142053383,
-                  0.950848582323512,
-                  0.9327153155511188,
-                  0.9459877390234258,
-                  1.000000000000002,
-                  0.944997343007214,
-                  0.937269864161162
+                  0.8564168011985304,
+                  0.8067813267496214,
+                  0.8179366704934681,
+                  0.8233899015288643,
+                  0.8673781845621316,
+                  0.8504926413433398,
+                  0.8743195174745987,
+                  1.0,
+                  0.9255546074065044,
+                  0.8552822773736488,
+                  0.8682444152483252
             ],
             "['Russia', 'administrative divisions', 'Leningrad']": [
-                  0.9078780532635331,
-                  0.9246932794430643,
-                  0.9467418191866626,
-                  0.898854922990369,
-                  0.9372070329241352,
-                  0.968441393653639,
-                  0.9376254706471904,
-                  0.9059058042135956
+                  0.7751898999176602,
+                  0.7983018397529633,
+                  0.8102884112471513,
+                  0.810232466197986,
+                  0.8523633964155097,
+                  0.7692657370388307,
+                  0.8593047291022688,
+                  0.9187730928678527,
+                  0.9240757173416475,
+                  0.840267489160319,
+                  0.7870175103527679
+            ]
+      },
+      "A1 OBITUARIES A15 Mstislav Rostropovich A cellist and conductor who was renowned as one of the great instrumentalists of the 20th century and an outspoken champion of artistic freedom in the Soviet Union during the last decades of the cold war , he was 80 and lived in Paris .": {
+            "['Mstislav Rostropovich', 'place lived', 'Paris']": [
+                  0.9831009885766921
             ]
       },
       "A spokesman for Mississippi 's governor , Haley Barbour , declined to confirm if the scheduled announcement was linked to Toyota .": {
             "['Haley Barbour', 'place lived', 'Mississippi']": [
-                  0.9298389081986577,
-                  0.9692155688000474
+                  0.8364105192754754,
+                  0.7944654645903342
             ]
       },
       "Unlike previous synthetic surfaces , which were basically heavy nylon carpeting over a pad , the new turf was not hard or abrasive , said Elliot Levine , president of Sprinturf , a manufacturer based in Wayne , Pa. '' My concerns for safety , as far as injuries , are drastically changed , '' said Dennis Robinson , the athletic director at Lakeland High School in Shrub Oak , N.Y. '' If a student falls , it 's a cushion . ''": {
             "['Shrub Oak', 'contains', 'Lakeland High School']": [
-                  0.9262909045666975,
-                  0.9067739847508789
+                  0.8325346367806861,
+                  0.7617842641287853,
+                  0.7574892934942169
             ]
       },
       "Spread across 140 acres along a wooded ridge on the edge of the water some 11 miles from Aldona , Aldeia de Goa , a lavish gated community , bears little resemblance to the rest of India .": {
             "['India', 'contains', 'Aldona']": [
-                  0.9462234713870764,
-                  0.973697393801898
+                  0.7836218910187125,
+                  0.9336157033622572
             ]
       },
       "The foundation of the fortune that allows the Westons to fraternize with royalty is the Loblaw Companies , Canada 's largest grocery chain and once one of North America 's most innovative retailers .": {
             "['North America', 'contains', 'Canada']": [
-                  0.9506154094761229,
-                  0.9535732936434831,
-                  0.9036951722846869
+                  0.8525154836888632,
+                  0.8114879030076763,
+                  0.7965604052157901
+            ]
+      },
+      "Then , on Sunday , The Star-Ledger of Newark reported that Christopher J. Christie , the United States attorney for New Jersey , had issued a broad subpoena to the state 's Office of Legislative Services , which functions as the Legislature 's counsel and administrative arm , seeking records related to millions of dollars in state grants .": {
+            "['Christopher J. Christie', 'place lived', 'Newark']": [
+                  0.8434681937898014,
+                  0.8757239662661314,
+                  0.8739485556933136,
+                  0.8662570276312456,
+                  0.8408631610462645,
+                  0.7676110584664545,
+                  0.817358721391254,
+                  0.769691546225457,
+                  0.8718571560783611
             ]
       },
       "When James Dimon took over at Bank One in March 2000 , he signed a contract that gave him a guaranteed $ 9.5 million bonus in cash and stock for at least his first five years at the helm .": {
             "['James Dimon', 'company', 'Bank']": [
-                  0.9412992805790575,
-                  0.9369073768608217,
-                  0.9447784229136986
+                  0.8637440402555852,
+                  0.8674075792979611,
+                  0.8600065172757876,
+                  0.8691208310458792,
+                  0.9088185966491215
             ]
       },
       "He served in Washington DC and Germany , -LRB- Berlin , Frankfurt and Bonn -RRB- , Vienna , Geneva , New York , Moscow and Brasilia .": {
             "['Berlin', 'country', 'Germany']": [
-                  0.975423417720247,
-                  0.9533762620825355,
-                  0.9484244397121377,
-                  0.9093018370042625,
-                  0.907064699767856,
-                  0.9010382514634996,
-                  0.9137667804555281,
-                  0.9141872419805362,
-                  0.9495108499158834
+                  0.9343253017886607,
+                  0.8839481528534588,
+                  0.8782808119559706,
+                  0.833072351803824,
+                  0.8163380014344995,
+                  0.8116035699692573,
+                  0.8330265141280729,
+                  0.8307497578535734,
+                  0.8716085176674512
             ],
             "['Germany', 'contains', 'Berlin']": [
-                  0.9749071533478465,
-                  0.9535582200199714,
-                  0.9496845419845045,
-                  0.9076021968593231,
-                  0.9073876552651567,
-                  0.9010606082479407,
-                  0.913345452701929,
-                  0.9141751381387815,
-                  0.9484394705910797
+                  0.8571235440879661,
+                  0.8447737372534133,
+                  0.8349969071889181,
+                  0.8090161947755419,
+                  0.7993382775861585,
+                  0.7940692861506092,
+                  0.8086507069309352,
+                  0.8150820139861142,
+                  0.8217980246835916
             ],
             "['Germany', 'administrative divisions', 'Berlin']": [
-                  0.9712218816388637,
-                  0.9507107225742865,
-                  0.9462613677286644,
-                  0.9090515083458804,
-                  0.905605016381611,
-                  0.9022544994376913,
-                  0.9115052122380174,
-                  0.9129807951570342,
-                  0.947148965272181
+                  0.8478297223274128,
+                  0.8354799153542288,
+                  0.8257030853434135,
+                  0.7997223725632268,
+                  0.7900444558790701,
+                  0.7847754647353069,
+                  0.7993568849176276,
+                  0.8057881920894512,
+                  0.8125042024222402
             ]
       },
       "The Day Out column on Jan. 28 about Calcata , Italy , misstated the starting price in dollars for rooms offered there by I Sensi della Terra .": {
             "['Italy', 'contains', 'Calcata']": [
-                  0.977113200003292
+                  0.7802908188358725,
+                  0.8776079268557231
             ]
       },
       "A government-appointed committee examining Israel 's failures during the war in Lebanon last summer says it will publish an interim report in mid - to late April apportioning responsibility to top officials , heightening uncertainty about the future of the beleaguered prime minister , Ehud Olmert , and his government .": {
             "['Ehud Olmert', 'nationality', 'Israel']": [
-                  0.9244544569123001,
-                  0.8955396015364099,
-                  0.8762348245449885,
-                  0.892401328588859,
-                  0.8959642810697414,
-                  0.9204727700152998,
-                  0.9402569848086451
+                  0.8046488216731028,
+                  0.8061572728268025,
+                  0.7854697165859701,
+                  0.7472287202469448,
+                  0.7622315032632501,
+                  0.7780219215884875,
+                  0.7742380096857535,
+                  0.8127814293024216,
+                  0.8532958313385492
             ],
             "['Ehud Olmert', 'place lived', 'Israel']": [
-                  0.9246512897614548,
-                  0.9035978098269646,
-                  0.8845730744383924,
-                  0.8930265116006166,
-                  0.8909695081620562,
-                  0.9198690925792796,
-                  0.9338444944004343
+                  0.8029086751118059,
+                  0.8019843166571857,
+                  0.7880365377028831,
+                  0.7467560671829314,
+                  0.7539855541757524,
+                  0.7710040908577088,
+                  0.7740678256006037,
+                  0.8172605741693317,
+                  0.8487829347284503
+            ]
+      },
+      "Marco Polo 's adventures were not over when , after an absence of 24 years , he returned to Italy .": {
+            "['Marco Polo', 'place lived', 'Italy']": [
+                  0.9831009897422756
+            ],
+            "['Marco Polo', 'nationality', 'Italy']": [
+                  0.930972408389645
             ]
       },
       "The investigation was opened after Ana Gomes , a Portuguese member of the European Parliament , met with Portugal 's attorney general , Fernando Pinto Monteiro , in late January to present him with what she called evidence that dozens of C.I.A. planes had landed in Portugal , some flying to or from the American military prison at Guant\u00e1namo Bay , Cuba .": {
             "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
-                  0.8942241454210454,
-                  0.9079040928426744,
-                  0.9106716603326225,
-                  0.9758315326355467,
-                  0.8965293435688124
+                  0.7878614176600863,
+                  0.7905702883844022,
+                  0.7960541918277048,
+                  0.7962985002523222,
+                  0.8669713282947406,
+                  0.8395867329827114,
+                  0.7884461760545365
             ]
       },
       "In San Francisco , the Carlton Hotel , near Union Square and the new Westfield Shopping Center with the biggest Bloomingdale 's outside New York , is offering a '' Shop 'Til Ya Drop ! ''": {
             "['San Francisco', 'contains', 'Carlton Hotel']": [
-                  0.9735364212627337,
-                  0.9721787639997985,
-                  0.9999999999999996
+                  0.9326116511054005,
+                  0.9298556733161751,
+                  0.8598556265226681,
+                  0.7661689671822326,
+                  1.000000000000003
             ]
       },
       "Certainly , you hear that voice and you know you have heard it before , '' said Representative Shelley Moore Capito , Republican of West Virginia .": {
             "['Shelley Moore Capito', 'place lived', 'West Virginia']": [
-                  0.9418121752643104
+                  0.8618606771879556,
+                  0.9831009889212583
+            ]
+      },
+      "Consumer spending in Ireland is less than 50 percent of gross domestic product , low by European standards , according to Dan McLaughlin , chief economist at Bank of Ireland .": {
+            "['Bank of Ireland', 'location', 'Ireland']": [
+                  0.8007256748370005,
+                  0.8149819566067783
             ]
       },
       "Under the leadership of his son Tyrrhenus , the emigrating Lydians built ships , loaded all the stores they needed , and sailed from Smyrna -LRB- now the Turkish port of Izmir -RRB- until reaching Umbria in Italy .": {
             "['Umbria', 'country', 'Italy']": [
-                  0.8900793871006298,
-                  0.8865179499586426,
-                  0.8988001998051722,
-                  0.8993540994348139,
-                  0.9435693940813619,
-                  0.9761685648216621,
-                  0.8945228864284644
+                  0.7903441428273045,
+                  0.779045439549385,
+                  0.7763975588549702,
+                  0.7988431405468257,
+                  0.8149349901513285,
+                  0.9365712167628749,
+                  0.7906480402832495
             ],
             "['Italy', 'contains', 'Umbria']": [
-                  0.9015643884383098,
-                  0.9030045833248513,
-                  0.9107639748195769,
-                  0.9023255770223308,
-                  0.9493743213649641,
-                  0.9784072436721036,
-                  0.9040830646305787
+                  0.7781168757275507,
+                  0.7934253875079771,
+                  0.78347452876027,
+                  0.787707410242793,
+                  0.8741313355288455,
+                  0.8535203167371999,
+                  0.7884494739419736
             ],
             "['Italy', 'administrative divisions', 'Umbria']": [
-                  0.8916800163056489,
-                  0.8856111531727042,
-                  0.8978726746347312,
-                  0.896150170933109,
-                  0.9463284978964432,
-                  0.9704867793493983,
-                  0.8939443192989776
+                  0.7617901891102298,
+                  0.7686604891240895,
+                  0.7701565378955127,
+                  0.7772642518690551,
+                  0.8619295695668684,
+                  0.8328613096961174,
+                  0.7685952913853442
             ]
       },
       "Persuading North Korea 's leader , Kim Jong-il , to abandon his nuclear ambitions has seemed an increasingly hopeless exercise since October , when North Korea tested a nuclear device and declared itself a nuclear state .": {
             "['Kim Jong-il', 'nationality', 'North Korea']": [
-                  0.9506587632968599,
-                  0.8988496352903594,
-                  0.9486284443225099,
-                  0.9730295383649146
+                  0.8693851713324583,
+                  0.7808682058017727,
+                  0.832781805594975,
+                  0.8613353149141308
             ]
       },
       "Other films that made the cut include a portrait of Richard N. Perle , the former Bush administration adviser and Iraq war advocate , who narrates a documentary in which he confronts his critics , as well as a '' Frontline '' co-production that takes a critical look at the effort to train Iraqi forces ; a profile of the Muslim dissident Irshad Manji ; and an examination of Islam in Indonesia , produced by New York Times Television .": {
             "['Irshad Manji', 'religion', 'Muslim']": [
-                  0.9026438405893357,
-                  0.8911437707748034,
-                  0.8924881420245435
+                  0.7769282918840512,
+                  0.7727008468324729,
+                  0.7733401918754478,
+                  0.7622555553170168,
+                  0.9621396183399642,
+                  0.7588598128630009,
+                  0.7706942688973668
+            ]
+      },
+      "A pulsating , dynamic new India is emerging , '' Amitabh Bachchan , a Bollywood actor , says in a television ad for The Times of India . ''": {
+            "['Amitabh Bachchan', 'place lived', 'India']": [
+                  0.98310099052991,
+                  0.8181679280226444,
+                  0.924258288250805,
+                  0.8770106333451758
+            ],
+            "['Amitabh Bachchan', 'nationality', 'India']": [
+                  0.9309724116069011,
+                  0.8020293133797106,
+                  0.8721297080375531,
+                  0.860872019503352
             ]
       },
       "Dialogos performs '' Tondal 's Vision '' at the Houghton Memorial Chapel , Wellesley College , Wellesley , Mass. , today ; at the University of British Columbia , in Vancouver , on Thursday ; and at Grace and Holy Trinity Cathedral , Kansas City , Mo. , on Saturday .": {
             "['Kansas City', 'contains', 'Holy Trinity Cathedral']": [
-                  0.9210268079135809,
-                  0.9131722768916091,
-                  0.915178705338527,
-                  0.9083835354435328,
-                  0.9103353310904035,
-                  0.9185203617535371,
-                  0.9338994899911316,
-                  0.9405837307039961,
-                  0.9119032124353423
+                  0.796078793425998,
+                  0.7809899314050485,
+                  0.7820222712459909,
+                  0.7729099008896458,
+                  0.7741839361230703,
+                  0.780622494233839,
+                  0.8372395859582786,
+                  0.7780464379089943,
+                  0.7702359570177304,
+                  0.7806865855085865
             ]
       },
       "The newspaper also said he was asked to select other potential recruits by luring them with '' money and women , '' and that he later moved to Canada where he converted to Christianity , changed his name to Joseph , obtained Canadian citizenship and got a job at a bank in Toronto with the help of two other Mossad agents .": {
             "['Toronto', 'country', 'Canada']": [
-                  0.948732526727672,
-                  0.8717003269571307,
-                  0.9080571247935412,
-                  0.911371090685515,
-                  0.8839317389637891,
-                  0.8941815412647831
+                  0.8616296602279827,
+                  0.7839841305609434,
+                  0.8062151520510714,
+                  0.8008376370935739,
+                  0.7763409124652253,
+                  0.7873570932521478
             ],
             "['Canada', 'administrative divisions', 'Toronto']": [
-                  0.941353902133872,
-                  0.86940086002333,
-                  0.9099182380977359,
-                  0.9165742504723963,
-                  0.8902201250162923,
-                  0.8950133316846581
+                  0.8110751963072029,
+                  0.7737483277210598,
+                  0.7766179906410278,
+                  0.8007539819560379,
+                  0.76657843919804,
+                  0.7657727186806056
             ],
             "['Canada', 'contains', 'Toronto']": [
-                  0.9483325195241505,
-                  0.8787188428977925,
-                  0.9150202807843673,
-                  0.919661447583049,
-                  0.8953846781319468,
-                  0.9037051905442014
+                  0.8238663364339036,
+                  0.7869691169191381,
+                  0.794685925854814,
+                  0.8107605575639215,
+                  0.779987758339846,
+                  0.7826543850588286
             ]
       },
       "1 McCain Says ` No Plan B ' for Iraq In a discussion of how he would handle Iraq if elected president , Senator John McCain said that the buildup of American forces in the country represents the only viable option to avoid failure in Iraq and that he had yet to identify an effective fallback if the current strategy failed .": {
             "['John McCain', 'ethnicity', 'American']": [
-                  0.9528377764725968,
-                  0.9460421065882918,
-                  0.9526284910544456,
-                  0.9763894148485196,
-                  0.9462098325934734,
-                  0.949065653844502,
-                  0.9484243885588166,
-                  0.9485247132197792,
-                  0.9530734286962618,
-                  0.9460421065882918,
-                  0.951114485070542,
-                  0.9489623197697284,
-                  0.9366556515158135,
-                  0.9460421065882916,
-                  0.9460421065882918
+                  0.8740063564181421,
+                  0.8711775212822633,
+                  0.8664686905565614,
+                  0.8553625287638135,
+                  0.8892979083179162,
+                  0.855588911538861,
+                  0.856549760963324,
+                  0.8676009534296388,
+                  0.8532661679126324,
+                  0.9408453187330001,
+                  0.8571617596819266,
+                  0.8697317489625552,
+                  0.8660368959880115,
+                  0.855532380965024,
+                  0.8688586623344129,
+                  0.8667518973212138,
+                  0.8623761852415158,
+                  0.8784706174741429,
+                  0.8758153687404938,
+                  0.8573828044161946,
+                  0.8711775212822633,
+                  0.8797744876195667,
+                  0.8691622122044328,
+                  0.8412952364760494,
+                  0.8711775212822633,
+                  0.8711775212822633
+            ]
+      },
+      "There has been much speculation that Carter would like to go to the Orlando Magic because he is from nearby Daytona Beach , Fla. .": {
+            "['Orlando Magic', 'location', 'Daytona Beach']": [
+                  0.8633808478910912,
+                  0.8598172864460452,
+                  0.7920992295478931,
+                  0.8623223077842022
             ]
       },
       "The talk among organizers of the Tour of California this week has been about trying to build on the success of this year 's race , which ends Sunday with a 77.5-mile circuit race in Long Beach .": {
             "['California', 'contains', 'Long Beach']": [
-                  0.983101572569683
+                  0.9569064615060594
             ]
       },
       "But , happily , the dialogue is scheduled to continue with a meeting tentatively planned for Ravenna , Italy , in May .": {
             "['Italy', 'administrative divisions', 'Ravenna']": [
-                  0.9418645149518893,
-                  0.900765143392031,
-                  0.9470727649172803
+                  0.8006677482929505,
+                  0.7733772351207342,
+                  0.8538904725927272
             ],
             "['Italy', 'contains', 'Ravenna']": [
-                  0.9490570183125966,
-                  0.9119801640285599,
-                  0.951866591703096
+                  0.8127989202706256,
+                  0.7815559951985702,
+                  0.866021644275011
             ]
       },
       "The Serbian entity of the government of Bosnia and Herzegovina , the Republika Srpska , officially apologized to victims of the 1992-1995 civil war , two days after international judges in The Hague ruled that Bosnian Serb forces had committed genocide in the killing of nearly 8,000 Muslims in Srebrenica in 1995 . ''": {
             "['Herzegovina', 'country', 'Republika Srpska']": [
-                  0.9634284204396866,
-                  0.9118239756055045,
-                  0.9169944035001459,
-                  0.946901615987314
+                  0.8582762944525729,
+                  0.8048350956871321,
+                  0.7831077683681361,
+                  0.819990903414406,
+                  0.7704760087337396,
+                  0.8203069558465661,
+                  0.8534505457479964
             ],
             "['Herzegovina', 'contains', 'Srebrenica']": [
-                  0.9449629317175658,
-                  0.933365927043896,
-                  0.9473519127861071,
-                  0.9451227268183777
+                  0.8500339544067812,
+                  0.8233262592267768,
+                  0.8042474229791873,
+                  0.8403518128226384,
+                  0.7783079905680131,
+                  0.8339606795430035,
+                  0.8452082059538778
             ]
       },
       "The new Warner proposal and the resolution introduced last week by Senators Joseph R. Biden Jr. of Delaware , and Carl Levin of Michigan , both Democrats , and Chuck Hagel , Republican of Nebraska , are similar in many respects .": {
             "['Chuck Hagel', 'place lived', 'Nebraska']": [
-                  0.9098906547477275,
-                  0.9206125577433536,
-                  0.9422615870443151,
-                  0.8877784474538891
+                  0.8759973722871162,
+                  0.8744103430189726,
+                  0.9831009898865121,
+                  0.7996762245450741,
+                  0.8003255601980697,
+                  0.8575383370491615,
+                  0.7642047568364542
             ]
       },
       "Forward James Gist was Maryland 's most effective player in the first half , leading the team with 9 points at intermission .": {
             "['James Gist', 'place lived', 'Maryland']": [
-                  0.9690603521627613,
-                  0.9767972286819648,
-                  0.973874997277673,
-                  0.9715929442397906,
-                  0.9697579986053999,
-                  0.971339102057976,
-                  0.9707199462798894,
-                  0.9669693999987338
+                  0.9309128459532461,
+                  0.9141657614808476,
+                  0.9468225621104166,
+                  0.948532721243978,
+                  0.9477602798823733,
+                  0.9212043293707541,
+                  0.9502088539470386,
+                  0.9406102978698703,
+                  0.9415785345921119,
+                  0.9329163253185436,
+                  0.9114322588007966,
+                  0.9233559233124906,
+                  0.9272427563217837,
+                  0.922701128228448,
+                  0.9266268168973515,
+                  0.9266657808558384,
+                  0.9250819896294278,
+                  0.9157566821226629,
+                  0.9171376697020965,
+                  0.983100989967604
             ]
       },
       "It is known as the heart of Paisley Protestant country , the town that started the long political career of the Rev. Ian Paisley , the hard-line Northern Ireland Protestant leader once nicknamed '' Dr. No. '' But a day after Mr. Paisley did the once-unthinkable by agreeing with his Catholic republican archenemy Gerry Adams to form a joint administration for the province , many shoppers and workers in Ballymena , a busy market town 27 miles northwest of Belfast , said their leader had done the right thing by finally saying '' Yes . ''": {
             "['Ian Paisley', 'place lived', 'Northern Ireland']": [
-                  0.9225991606982344,
-                  0.9605325899106092,
-                  0.9194753586815413
+                  0.8766637884948503,
+                  0.8732774959701107,
+                  0.8749876563329306,
+                  0.8327880562418905,
+                  0.8938008767389986,
+                  0.8148191368952743,
+                  0.8706260379645809,
+                  0.8812917235982904,
+                  0.868033467918271,
+                  0.8479658167460458,
+                  0.9080333262380785,
+                  0.8942262487315417,
+                  0.8689420672050576,
+                  0.840110607397872,
+                  0.8403076629071601,
+                  0.8311545937870599,
+                  0.8357757202653541,
+                  0.8304263349758373,
+                  0.8273935019570985,
+                  0.8303419827458858,
+                  0.8307762785080814,
+                  0.8293454158242966,
+                  0.8309768784839591,
+                  0.8305019633498857,
+                  0.8261798888460464,
+                  0.824194986347848,
+                  0.8277054240117485,
+                  0.8265044781831324,
+                  0.832606978078299,
+                  0.8352445472191636,
+                  0.829441359410887,
+                  0.8277230905626506,
+                  0.832777427755327,
+                  0.8325665803860082,
+                  0.8265118736130521,
+                  0.8321508334593981,
+                  0.8270726992644436,
+                  0.8279631384345066,
+                  0.8317851003832742,
+                  0.8254896265735174,
+                  0.8294950029994562,
+                  0.820568344503965,
+                  0.8286561037051869
             ],
             "['Northern Ireland', 'contains', 'Belfast']": [
-                  0.9085752901677813,
-                  0.9465595725848074,
-                  0.8996038622611432
+                  0.8294435141709336,
+                  0.8251193129336306,
+                  0.8246796706819656,
+                  0.7984179982740907,
+                  0.8321817474938538,
+                  0.7970836869711139,
+                  0.8588540082510784,
+                  0.8671724758334498,
+                  0.8367069328810982,
+                  0.808839714605212,
+                  0.8404308709940029,
+                  0.8324593715151042,
+                  0.8170592572629443,
+                  0.7981274710500028,
+                  0.7967716934826916,
+                  0.7898978705727124,
+                  0.7956063107167768,
+                  0.7895885412755065,
+                  0.7896081077374972,
+                  0.7906331840987758,
+                  0.7919670554576044,
+                  0.7897388549192477,
+                  0.7906350834336366,
+                  0.7899652409157755,
+                  0.7844332514749282,
+                  0.7813145764427468,
+                  0.787573060712618,
+                  0.7859648094995522,
+                  0.7909238405993773,
+                  0.7984174577237654,
+                  0.7900435327985749,
+                  0.7883396191838532,
+                  0.7927278056377858,
+                  0.7925307781390231,
+                  0.7865488970631415,
+                  0.7931154176416445,
+                  0.7914330278989048,
+                  0.7889106899703577,
+                  0.7941157853411077,
+                  0.7857911487288727,
+                  0.7913056954231839,
+                  0.7818405447898386,
+                  0.7873790325360605
+            ]
+      },
+      "Mexico 's national team , led by its new coach , Hugo S\u00e1nchez , will play five games in the United States this year , in addition to next month 's match against the United States on Feb. 7 in Glendale , Ariz. .": {
+            "['Hugo S\u00e1nchez', 'place lived', 'Mexico']": [
+                  0.9200204341475551,
+                  0.7815906488240283
             ]
       },
       "The slowdown '' is temporary , as we are planting the seeds '' of future growth , said Toyota 's president , Katsuaki Watanabe , above .": {
             "['Katsuaki Watanabe', 'company', 'Toyota']": [
-                  0.9765700813147591
+                  0.8115218749555031,
+                  0.7961328326260713
             ]
       },
       "Most also agree that Branford 's neighborhoods , like Stony Creek , while insular , are critical organizationally . ''": {
             "['Branford', 'contains', 'Stony Creek']": [
-                  1.0000000000000007
+                  1.000000000000001
             ]
       },
       "During a hearing Tuesday of the Senate Intelligence Committee , Mr. McConnell was asked by Senator Russ Feingold , Democrat of Wisconsin , whether he could promise that the administration would no longer sidestep the court when seeking warrants . ''": {
             "['Russ Feingold', 'place lived', 'Wisconsin']": [
-                  0.899035496043838,
-                  0.9102142638017039
+                  0.8567319253484185,
+                  0.8127448648058029,
+                  0.7760654517706801,
+                  0.7932237980058694
             ]
       },
       "At the Regent South Beach in Florida , which opened Dec. 1 , a butler delivers a basket containing five or six soaps to the room .": {
             "['Florida', 'contains', 'South Beach']": [
-                  0.9335921065466719,
-                  0.9291443083220003,
-                  0.9616024804460476,
-                  0.9329070408314255,
-                  0.9884738546232382
+                  0.796339578242233,
+                  0.793119641024958,
+                  0.8604354272753864,
+                  0.8481124052097144,
+                  0.873666127690062
             ]
       },
       "Late Show With David Letterman , '' on CBS , is another challenge .": {
             "['David Letterman', 'company', 'CBS']": [
-                  0.9705434070429753
+                  0.9213774032860997
             ]
       },
       "David Tang , the founder of the Shanghai Tang clothing chain and a leading arbiter of style among Hong Kong 's elite , said that feng shui advisers were losing their influence , especially among the young . ''": {
             "['Shanghai Tang', 'founders', 'David Tang']": [
-                  0.994188238296051
+                  0.8254067156601101,
+                  0.8025882331402358,
+                  0.9096999803202434
             ],
             "['David Tang', 'company', 'Shanghai Tang']": [
-                  0.9782884562657496
+                  0.864092474460778,
+                  0.8387840295880209,
+                  0.9427559003614194
+            ]
+      },
+      "Julia Mancuso , who took silver behind Paerson in the women 's super-combined , was at home in California taking a long-planned break before rejoining the World Cup circuit next week in Spain .": {
+            "['Julia Mancuso', 'place lived', 'California']": [
+                  0.8956278038618242,
+                  0.9831009899303178
             ]
       },
       "In New York City he rents 30,000 square feet -- about 80 rooms -- of former office space in the West Village , which houses 35 birds , tropical plants and wildly colored areas .": {
             "['New York City', 'contains', 'West Village']": [
-                  0.9705919342936442,
-                  0.9312132675665445,
-                  0.9698960465566173,
-                  0.9653142849660746,
-                  0.9723274428648545,
-                  0.9999999999999999
+                  0.8737511830280517,
+                  0.8554065613882036,
+                  0.864852866376926,
+                  0.8598519802255211,
+                  0.8710746225517265,
+                  0.9999999999999991
             ]
       },
       "Having spent a lot of time in California , the caliber of women you get in the Hollywood community -- these are models , actresses -- they 're airheads , essentially , '' he said . ''": {
             "['California', 'contains', 'Hollywood']": [
-                  0.9720184223423716,
-                  0.9690310807366147,
-                  0.969242991535355
+                  0.8709919429868445,
+                  0.8890693553868867,
+                  0.8637025109645776,
+                  0.9254297914063805
             ],
             "['Hollywood', 'neighborhood of', 'California']": [
-                  0.9426806021817575,
-                  0.9427082361059975,
-                  0.9410309057355215
+                  0.8550481760705639,
+                  0.8471634272015534,
+                  0.8483183431934522,
+                  0.8242409606096235
             ]
       },
       "A divided federal appeals court on Tuesday upheld a new law stripping federal judges of authority to review foreign prisoners ' challenges to their detention at Guant\u00e1namo Bay , Cuba .": {
             "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
-                  0.9172774606982496,
-                  0.8879639367533059,
-                  0.9500841672783263,
-                  0.9739414451616328
+                  0.8406630785901031,
+                  0.770139460047716,
+                  0.867423575345479,
+                  0.8342810004174747,
+                  0.7482560928762522
             ]
       },
       "As Maritza Corrales , a Cuban historian who lives in Havana and the author of '' The Chosen Island : Jews in Cuba , '' remarked , '' To be Cuban and Jewish is to be twice survivors . ''": {
             "['Cuba', 'administrative divisions', 'Havana']": [
-                  0.9015981043155374,
-                  0.9374108343823194
+                  0.7869412338752949,
+                  0.8310983627782412,
+                  0.7872665745667511,
+                  0.8333904552989806,
+                  0.8507223780629218
             ],
             "['Havana', 'country', 'Cuba']": [
-                  0.8966364750970023,
-                  0.9403600750700982
+                  0.8170171468374148,
+                  0.8610628640876458,
+                  0.806344402962825,
+                  0.8679605619492404,
+                  0.8543507924653294
             ],
             "['Cuba', 'contains', 'Havana']": [
-                  0.901085523721089,
-                  0.9348776000797715
+                  0.803336879000954,
+                  0.838746621766514,
+                  0.7884407625885715,
+                  0.8319359815584771,
+                  0.8638798127423545
             ]
       },
       "Finishing second at 4:50.50 was Jason Donald , an all-but-unknown 27-year-old rider from Winter Park , Colo. , who was appearing in his first professional race .": {
             "['Jason Donald', 'place of birth', 'Winter Park']": [
-                  0.9383083096700995
+                  0.8633675246181904,
+                  0.8434019236446841,
+                  0.9517698256986474
             ]
       },
       "A6 NATIONAL A16-23 Court Asked to Limit Lawyers at Guant\u00e1namo The Justice Department has asked a federal appeals court to impose tight new restrictions on the hundreds of lawyers who represent detainees at Guant\u00e1namo Bay , Cuba , and the request has become a central issue in a new legal battle over the administration 's detention policies .": {
             "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
-                  0.9133980250692105,
-                  0.9758315326355467,
-                  0.895979854667823,
-                  0.8969968729778364,
-                  0.8906464015191353
+                  0.7922964017968476,
+                  0.8395867329827116,
+                  0.7706699233697596,
+                  0.7648261167567844,
+                  0.7774564586747535
             ]
       },
       "But he appears to have an expansive sense of the possibilities : this is the governor , after all , who brought Prime Minister Tony Blair of Britain to the Port of Long Beach last year to sign an accord between California and Britain on global warming .": {
             "['California', 'contains', 'Port of Long Beach']": [
-                  1.0000000000000029,
-                  0.9675750928893294,
-                  0.9344820730253516,
-                  0.9290577607725531,
-                  0.9448564530089186,
-                  0.8870937508115055,
-                  0.9093260922523714,
-                  0.9652598970992385
+                  1.000000000000001,
+                  0.9167691658298065,
+                  0.826960147771275,
+                  0.8417224533109554,
+                  0.8506068668192802,
+                  0.8555929236540935,
+                  0.7704391139521134,
+                  0.7754251693053725,
+                  0.8414464957292109
             ]
       },
       "From 2000 to 2002 , he was a Peace Corps volunteer in Gyumri , Armenia , establishing a summer camp for village children .": {
             "['Armenia', 'contains', 'Gyumri']": [
-                  0.9503042748229262,
-                  0.9381275456113064,
-                  0.942586294046875
+                  0.8091650991398035,
+                  0.7892509889261793,
+                  0.7926481136950112,
+                  0.7880538327906211,
+                  0.7853339588591652,
+                  0.8026488175527756,
+                  0.805033193262504
             ]
       },
       "Born in Cuba in 1964 , Gonz\u00e1lez came to the United States with his family on one of the last freedom flights when he was a month shy of his third birthday . ''": {
             "['Cuba', 'place of birth', 'Gonz\u00e1lez']": [
-                  0.942775266286157
+                  0.8134040902781464,
+                  0.7907964262235591,
+                  0.8615405356701811
             ]
       },
       "Representative Charles B. Rangel used a meeting yesterday between the state 's Congressional and legislative leaders in Washington to criticize Gov. Eliot Spitzer 's conduct , citing the governor 's hostile relationship with labor and hospital groups .": {
             "['Charles B. Rangel', 'place lived', 'Washington']": [
-                  0.9134672421367714,
-                  0.939644263051502,
-                  0.9007633741115119,
-                  0.8959975077352338,
-                  0.9480933212044593
+                  0.7963844506144717,
+                  0.8494813681008226,
+                  0.8426591414153732,
+                  0.7795703283060167,
+                  0.767249030591178,
+                  0.7590594582299218,
+                  0.8690755927596555
+            ]
+      },
+      "He was referring to coverage in the mainstream newspaper Hurriyet that said Mr. Asgari arrived at the Istanbul airport on Feb. 7 after moving his family to safety in Damascus , Syria .": {
+            "['Syria', 'contains', 'Damascus']": [
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7792693377207012,
+                  0.8044032103924125,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541115,
+                  0.7946257775002369,
+                  0.7941861357541118,
+                  0.7946257775002371
+            ],
+            "['Syria', 'administrative divisions', 'Damascus']": [
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7716210792668238,
+                  0.7912457761742029,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626878,
+                  0.7877268917947765,
+                  0.7879953661626881
+            ],
+            "['Damascus', 'country', 'Syria']": [
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.7941571606059936,
+                  0.8056319610133997,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827621,
+                  0.8062374454844008,
+                  0.8016382028827619,
+                  0.8062374454844011
             ]
       },
       "The taxes Mr. Shark sought were embedded in the electric rates paid by customers of Xcel Energy 's Minnesota electric utility .": {
             "['Xcel Energy', 'location', 'Minnesota']": [
-                  0.9741111436879483,
-                  0.9361388418627934
+                  0.9337357900395812,
+                  0.7763183325158659
             ]
       },
       "An article on Feb. 11 about the World War I stage drama '' Journey 's End , '' set on the eve of Germany 's Spring Offensive , misidentified the rank of Erich Ludendorff , who led the campaign .": {
             "['Erich Ludendorff', 'place lived', 'Germany']": [
-                  0.9729364013317773
+                  0.9307710447160393,
+                  0.8414317304897289
             ],
             "['Erich Ludendorff', 'nationality', 'Germany']": [
-                  0.9689077195405429
+                  0.9203145330981766,
+                  0.8304418388796598
             ]
       },
       "A former Baltimore resident , who was transferred last fall from secret C.I.A. custody to detention in Guant\u00e1namo Bay , Cuba , denied to a military hearing that he was an extremist and asserted that he had been tortured while in government custody , according to a transcript the Pentagon released Tuesday . ''": {
             "['Cuba', 'contains', 'Guant\u00e1namo Bay']": [
-                  0.9049128138675939,
-                  0.913080662953788,
-                  0.9107590581412546,
-                  0.9202190601308335,
-                  0.9219364074071497,
-                  0.9515707758003155,
-                  0.9487475025589431,
-                  0.9161603340126991,
-                  0.9181903321939282,
-                  0.9131403636489114,
-                  0.9161284466604902,
-                  0.9209752090119555,
-                  0.9261000010385846,
-                  0.9110312746299676,
-                  0.9218556388472114,
-                  0.917995710643187,
-                  0.9124004571032494,
-                  0.9072174298409817
+                  0.7991613418401445,
+                  0.7944037593973644,
+                  0.7934410892034163,
+                  0.7974646610692702,
+                  0.8086615223353751,
+                  0.8044899929266055,
+                  0.8106705918003905,
+                  0.8732578185674662,
+                  0.8245221308587253,
+                  0.7980601011144259,
+                  0.8077800408379602,
+                  0.7976026195396255,
+                  0.7886511656605344,
+                  0.8065065813923846,
+                  0.8160344723947246,
+                  0.7902212805821376,
+                  0.8149206896546284,
+                  0.796518846051403,
+                  0.7943296818182417,
+                  0.7949237457390135
             ]
       },
       "Pressure to slim General Electric 's corporate portfolio at home has not stopped Jeffrey R. Immelt 's aggressive plans for expanding in emerging markets .": {
             "['General Electric', 'advisors', 'Jeffrey R. Immelt']": [
-                  0.9395785310176128
+                  0.7976681991868345,
+                  0.837949518357102,
+                  0.8463096363334022
             ],
             "['Jeffrey R. Immelt', 'company', 'General Electric']": [
-                  0.9486977862201316
+                  0.9383509725347893,
+                  0.7729800117911971,
+                  0.7987176867022132
             ]
       },
       "To the Editor : It was truly remarkable to read that representatives of prestigious institutions like the Museum of the City of New York and Columbia University were not going to include Robert Caro in a present-day evaluation of Robert Moses ' impact on New York City .": {
             "['Robert Moses', 'place lived', 'New York City']": [
-                  0.9390254530640125,
-                  0.9230637406012463
+                  0.7752132235116196,
+                  0.7759222466620994,
+                  0.9468225581285495,
+                  0.9262759436163169
             ]
       },
       "Among Mr. Shalit 's strategies has been to call on President Bashar al-Assad of Syria to press Mr. Meshal into agreeing to the terms of a prisoner exchange .": {
             "['Bashar al-Assad', 'place lived', 'Syria']": [
-                  0.9384862154561353,
-                  0.9365535770772359
+                  0.8424615991112405,
+                  0.7813588382293517,
+                  0.8192226056271937
             ],
             "['Bashar al-Assad', 'nationality', 'Syria']": [
-                  0.9354338740695878,
-                  0.9345954830234189
+                  0.8410345542261708,
+                  0.7821200282479711,
+                  0.8232411183110583
             ]
       },
       "Jean-Luc Portal , 51 , a wine consultant in Somers who grew up in the tiny village of Alzonne in southern France , said he became obsessed with the game when he was 6 .": {
             "['France', 'contains', 'Alzonne']": [
-                  0.9428122554518003
+                  0.8543038211071391,
+                  0.7943288263432872,
+                  0.7924885319258318
+            ]
+      },
+      "Predeceased by his wife Lois , brother Kenneth , survived by children Dale and Jay Kaplan of Scottsdale , AZ , and Jackson , WY ; Nancy and Richard Block of Pleasantville , NY ; Nina and Joel Levine of Miami , FL ; David List of Santa Cruz , CA ; and five grandchildren .": {
+            "['AZ', 'contains', 'Scottsdale']": [
+                  0.7781558464324025,
+                  0.787944554061647,
+                  0.7786376097018911,
+                  0.7823371212029224,
+                  0.7973264729783102,
+                  0.8364216680518544
             ]
       },
       "Born in California in 1969 , Kara Walker seems young for a full-scale museum survey .": {
             "['Kara Walker', 'place of birth', 'California']": [
-                  0.9413361629337073
+                  0.8558045254471935,
+                  0.9884559552585894
+            ]
+      },
+      "They want to be here because Jerusalem is the holy city and they are prepared to pay for this privilege , '' said Yaron Tzuberi , marketing and sales director for Africa Israel , one of Israel 's top residential real estate developers .": {
+            "['Israel', 'administrative divisions', 'Jerusalem']": [
+                  0.8890363787590887,
+                  0.8143672080771359
+            ],
+            "['Israel', 'contains', 'Jerusalem']": [
+                  0.8968012395788207,
+                  0.8242052244543573
+            ]
+      },
+      "In the past , the best players to come out of New York State tended to be products of playground roller hockey in New York City : Joey and Brian Mullen of Hell 's Kitchen , and Nick Fotiu of Staten Island .": {
+            "['Brian Mullen', 'place lived', 'New York City']": [
+                  0.8759017235234494
+            ],
+            "['New York City', 'contains', 'Staten Island']": [
+                  0.8535378723370086
             ]
       },
       "Take the owner trying to sell a spacious two-bedroom condo for $ 879,000 in the former Columbia Hospital for Women , which closed in 2002 , in the Foggy Bottom neighborhood of Washington .": {
             "['Washington', 'contains', 'Foggy Bottom']": [
-                  0.9163084818148131,
-                  0.9742415654820518,
-                  0.9127070289101848
+                  0.786412540205628,
+                  0.8589135234697947,
+                  0.8070076597212589,
+                  0.8003018388467282
             ]
       },
       "In Lyon , France 's second-largest city , the police used tear gas on anti-Sarkozy protesters in the main square .": {
             "['France', 'administrative divisions', 'Lyon']": [
-                  0.9046752587904234
+                  0.7680656467229655,
+                  0.7727310987076642,
+                  0.872057428110094
             ],
             "['France', 'contains', 'Lyon']": [
-                  0.9082376215371317
+                  0.7934558903358728,
+                  0.7858885329553802,
+                  0.8028582731976441
             ]
       },
       "By the late 19th century , tens of millions of American bison had been reduced to fewer than 1,000 , with two dozen or so in Yellowstone National Park , and another 250 in Wood Buffalo National Park in Canada .": {
             "['Canada', 'contains', 'Wood Buffalo National Park']": [
-                  0.9641793983097529,
-                  0.9738706810010719,
-                  0.957791211612931
+                  0.9050005784581487,
+                  0.8039841971992513,
+                  0.8724201456179326
             ]
       },
       "He is also survived by the children of Ms. Rutledge by her previous marriage : Linda Delbridge of Incline Village , Nev. ; Leslie Brown , of Winter Park , Fla ; and Thomas Rutledge of Atlanta .": {
             "['Thomas Rutledge', 'place lived', 'Atlanta']": [
-                  0.9268011534228745,
-                  0.9415168511700712,
-                  0.9225194768578128
+                  0.8161141538923994,
+                  0.8257056297394436,
+                  0.8147930495442088
+            ]
+      },
+      "He 's going to face a tough decision , '' said Florida 's Corey Brewer , one of the potential draft picks who returned to Florida instead .": {
+            "['Corey Brewer', 'place lived', 'Florida']": [
+                  0.9502088553582811,
+                  0.9468225636176383,
+                  0.9485327227027277,
+                  0.983100990446576
             ]
       },
       "Mr. Putin will continue his Middle Eastern trip Tuesday by traveling to Amman , Jordan , where he will meet with King Abdullah II to discuss economic and political cooperation , and meet with the president of the Palestinian Authority , Mahmoud Abbas .": {
             "['Jordan', 'administrative divisions', 'Amman']": [
-                  0.9133857675434933,
-                  0.9112999083673654,
-                  0.9532424622034288,
-                  0.917217771605116
+                  0.829523150364351,
+                  0.8005550205784514,
+                  0.7925150741048783,
+                  0.7818009789415641,
+                  0.7778057232896298,
+                  0.7694132168473937
             ],
             "['Jordan', 'contains', 'Amman']": [
-                  0.9010255604979632,
-                  0.8973635597075711,
-                  0.9560671765465383,
-                  0.9090944080202141
+                  0.8426805837507179,
+                  0.7837419022953865,
+                  0.775701955216489,
+                  0.7921985843079329,
+                  0.7882033291571933,
+                  0.7825706505546473
             ]
       },
       "Last year , it opened offices in Warsaw and Bucharest , the capital of Romania . ''": {
             "['Romania', 'capital', 'Bucharest']": [
-                  0.9999999999999999
+                  0.8630753308658502,
+                  0.9473838923702987,
+                  0.8174815576230504
             ],
             "['Romania', 'administrative divisions', 'Bucharest']": [
-                  0.9688520390683129
+                  0.8473078613304652,
+                  0.8653598266146005,
+                  0.8017140870379086
             ],
             "['Romania', 'contains', 'Bucharest']": [
-                  0.9751309024908872
+                  0.9285347625907782,
+                  0.8819244585908983,
+                  0.8829409886712922
             ],
             "['Bucharest', 'country', 'Romania']": [
-                  0.9773674184888481
+                  0.8377817434792331,
+                  0.9395232558914302,
+                  0.8094197290563652
+            ]
+      },
+      "In a letter sent this week to Senator Mitch McConnell of Kentucky , the Republican leader , Gen. Peter J. Schoomaker , the Army chief of staff , and Pete Geren , the acting Army secretary , said that without new money in April , the Army would '' be forced to take increasingly draconian measures which will impact Army readiness and impose hardships on our soldiers and their families . ''": {
+            "['Mitch McConnell', 'place lived', 'Kentucky']": [
+                  0.7582500013951365,
+                  0.7610730063982036,
+                  0.7469093078253033,
+                  0.7599025583980865,
+                  0.7606889910701972,
+                  0.7663727410410718,
+                  0.764213332378606,
+                  0.9141627961942713
             ]
       },
       "A concentration of the tents in the 10th Arrondissement in Paris brought the issue to a head , and on New Year 's Eve , President Jacques Chirac promised to ask the government to work on legislation .": {
             "['Jacques Chirac', 'place lived', 'Paris']": [
-                  0.9319626696875805,
-                  0.9517891457135734
+                  0.8439569095836406,
+                  0.9021718797238232,
+                  0.8160669023719582
+            ]
+      },
+      "The Times does n't dispute the recent intimation by Donald E. Graham , chairman of the Washington Post Company , that The Times 's yearly news budget is more than $ 200 million , despite the cost cutting of the past few years .": {
+            "['Donald E. Graham', 'company', 'Washington Post Company']": [
+                  0.9312551467063824,
+                  0.8006116815433154,
+                  0.8656887195242482,
+                  0.7977333172361615,
+                  0.7788258012377272,
+                  0.7787568041329941,
+                  0.8576551590167885
+            ],
+            "['Washington Post Company', 'advisors', 'Donald E. Graham']": [
+                  0.7762429532751688,
+                  0.8829108313558265,
+                  0.8113042610885931,
+                  0.7888606927520107,
+                  0.7822270699894869,
+                  0.7787779268247322,
+                  0.7934290466278152
             ]
       },
       "Israel 's head of military intelligence , Amos Yadlin , told cabinet officials on Sunday that Israeli intelligence had seen signs of defensive planning by Syria , Iran and the Lebanese militant group Hezbollah , all seemingly bracing for a possible attack by the United States in the coming months .": {
             "['Amos Yadlin', 'nationality', 'Israel']": [
-                  0.908817360301394,
-                  0.8965162110102771,
-                  0.8992452916086464,
-                  0.8934539191795772,
-                  0.9048836113046196,
-                  0.8840137754661582,
-                  0.9232324284156745
+                  0.7692225193137385,
+                  0.749337433894923,
+                  0.7424413138999734,
+                  0.7552316134945568,
+                  0.7661298302393261,
+                  0.7587709218351082,
+                  0.8432776416855247
             ]
       },
       "Whenever she had vacation time , she 'd fly somewhere , rent a car and simply drive around , indulging her love of American history everywhere from the Shenandoah Valley of Virginia to Sioux City , Iowa .": {
             "['Iowa', 'contains', 'Sioux City']": [
-                  1.0,
-                  0.9304517435451506
+                  0.9090448323290229,
+                  0.8529091215467136
             ]
       },
       "The United Nations Development Program announced Monday that it was suspending work in North Korea because the country had failed to meet conditions set up in response to American complaints that United Nations money was being diverted to the government of Kim Jong-il . ''": {
             "['Kim Jong-il', 'nationality', 'North Korea']": [
-                  0.9079667361301458,
-                  0.9249389502053931
+                  0.8032425997999408,
+                  0.7853045752072012,
+                  0.766925518958171,
+                  0.7946093387039284,
+                  0.8410286106118916
             ]
       },
       "Gov. Tim Pawlenty of Minnesota ordered the state health department this month to monitor day-to-day operations at the Minneapolis Veterans Home after state inspectors found that three men had died there in the previous month because of neglect or medical errors .": {
             "['Tim Pawlenty', 'place lived', 'Minnesota']": [
-                  0.9241776455854874,
-                  0.9047383966669061
+                  0.7994138628074641,
+                  0.7820633438718505,
+                  0.8234017727395097,
+                  0.7963270686998162,
+                  0.7942663479032274,
+                  0.9003642509977712
+            ]
+      },
+      "What was unique about Semb\u00e8ne was he began to challenge the dominant figure , Senghor , '' recalled Manthia Diawara , a professor of Africana studies at New York University who grew up in Mali in the 1960s . ''": {
+            "['Manthia Diawara', 'place lived', 'Mali']": [
+                  0.934028875325525,
+                  0.9831009894817427,
+                  0.8435479450599397,
+                  0.8640633230609618,
+                  0.9258631716796626
+            ],
+            "['Manthia Diawara', 'company', 'New York University']": [
+                  0.7950602627666074,
+                  0.8441323764840204,
+                  0.9383509734707667,
+                  0.8500628284847295,
+                  0.7868945576985344
             ]
       },
       "Hassan Dahir , the vice president of Puntland , a semiautonomous region of Somalia , said eight Islamist militants had been killed , including one who was an American citizen , according to documents found on his body .": {
             "['Somalia', 'contains', 'Puntland']": [
-                  0.9739592147294581,
-                  0.9115958286428681,
-                  0.9437720677509305
+                  0.8380546645251612,
+                  0.7867776214531541,
+                  0.756597540284377,
+                  0.8655451648409591
             ],
             "['Somalia', 'administrative divisions', 'Puntland']": [
-                  0.9699088879132973,
-                  0.9032204972841427,
-                  0.9497589380555047
+                  0.8276570576507891,
+                  0.7692451005460521,
+                  0.7501382960453784,
+                  0.875027931908121
             ],
             "['Puntland', 'country', 'Somalia']": [
-                  1.000000000000001,
-                  0.89673130822553,
-                  0.9404695481778722
+                  0.9999999999999967,
+                  0.7842193575670332,
+                  0.7653052387404609,
+                  0.8113025944813073
             ]
       },
       "It is the dominant carrier in Ontario and Quebec , the most populous provinces , and is one of Canada 's largest corporations and employers .": {
             "['Canada', 'administrative divisions', 'Ontario']": [
-                  0.9689575144002534,
-                  0.9568765162955655,
-                  0.9689575144002534,
-                  0.9568765162955655,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534502,
-                  0.9532189468534499,
-                  0.9532189468534499
+                  0.918773097418302,
+                  0.8877813715591307,
+                  0.918773097418302,
+                  0.8877813715591307,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331583,
+                  0.8833411109331574,
+                  0.8833411109331574
             ],
             "['Ontario', 'country', 'Canada']": [
-                  0.9745274108788782,
-                  0.9644568048318196,
-                  0.9745274108788782,
-                  0.9644568048318196,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429385,
-                  0.9694607124429389,
-                  0.9694607124429389
+                  0.8608883884878242,
+                  0.8627923130346559,
+                  0.8608883884878242,
+                  0.8627923130346559,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.8963203760272722,
+                  0.896320376027272,
+                  0.896320376027272
             ],
             "['Canada', 'contains', 'Ontario']": [
-                  0.9999999999999997,
-                  0.9882085006249716,
-                  0.9999999999999997,
-                  0.9882085006249716,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388105,
-                  0.9868588482388096,
-                  0.9868588482388096
+                  1.000000000000002,
+                  0.9690082719186505,
+                  1.000000000000002,
+                  0.9690082719186505,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347144,
+                  0.9645680129347154,
+                  0.9645680129347154
+            ]
+      },
+      "CULTURED TRAVELER LA PAZ , BOLIVIA Correction : June 3 , 2007 , Sunday The Cultured Traveler column last Sunday about La Paz , Bolivia , misstated the surname in some copies for Roberto Cazorla Guzman , the owner of the Costilla de Ad\u00e1n bar .": {
+            "['Bolivia', 'contains', 'La Paz']": [
+                  0.7913174942470212,
+                  0.8955975339301097
+            ],
+            "['Bolivia', 'administrative divisions', 'La Paz']": [
+                  0.7846996511139844,
+                  0.8143706326391003
+            ],
+            "['La Paz', 'country', 'Bolivia']": [
+                  0.8078270991986212,
+                  0.8527390085232394
+            ]
+      },
+      "Having so many operating systems makes it expensive to make software , said Faraz Hoodbhoy , the chief executive of PixSense , whose software helps users of camera phones save and share multimedia content . ''": {
+            "['Faraz Hoodbhoy', 'company', 'PixSense']": [
+                  0.9383509626690036
+            ],
+            "['PixSense', 'advisors', 'Faraz Hoodbhoy']": [
+                  0.7550090843025735
+            ]
+      },
+      "The decision to award the contract -- the supposed crime -- occurred in Madison , in the jurisdiction of Wisconsin 's other United States attorney .": {
+            "['Wisconsin', 'contains', 'Madison']": [
+                  0.7926196439451192,
+                  0.7754370112600509,
+                  0.7926196439451192,
+                  0.7703090208415235,
+                  0.8349693040563647
+            ]
+      },
+      "After a childhood in Adelaide , Australia , and graduate school at Princeton , Dr. Tao has settled into sunny Southern California . ''": {
+            "['Australia', 'administrative divisions', 'Adelaide']": [
+                  0.8362818420282953,
+                  0.7719186959876828,
+                  0.7726170570832205
+            ],
+            "['Australia', 'contains', 'Adelaide']": [
+                  0.8429122532943124,
+                  0.7783779400288563,
+                  0.785774491143546
             ]
       },
       "In an effort to broaden her appeal , S\u00e9gol\u00e8ne Royal engaged in a televised debate on Saturday with a man who is no longer even a candidate for the presidency of France .": {
             "['S\u00e9gol\u00e8ne Royal', 'place lived', 'France']": [
-                  0.9027924808973737,
-                  0.9011302694628336,
-                  0.9364093686415912
+                  0.7904736274338751,
+                  0.7788540888299206,
+                  0.7889426741666669,
+                  0.8483378080305126
             ],
             "['S\u00e9gol\u00e8ne Royal', 'nationality', 'France']": [
-                  0.8983310073339738,
-                  0.895830030902583,
-                  0.9302155360593451
+                  0.7886144586975995,
+                  0.7765221031970411,
+                  0.7842483213975386,
+                  0.8393303278649604
             ]
       },
       "In addition to its natural areas , Gateway is also home to the nation 's oldest continuing operating lighthouse , Sandy Hook Lighthouse , built in 1764 ; Floyd Bennett Field in Brooklyn , which was the city 's first municipal airfield ; Fort Wadsworth on Staten Island , which predates the Revolutionary War ; and Rockaway Point in Queens .": {
             "['Staten Island', 'contains', 'Fort Wadsworth']": [
-                  0.9418847749664481,
-                  0.9508474465102761,
-                  0.9438924265575559,
-                  0.9535074048046563,
-                  0.9403888495081663,
-                  0.9709952916612037,
-                  0.9706174181754872,
-                  0.9451965412464223,
-                  0.9506472924703171,
-                  0.948068830985207,
-                  0.9392590639395353
+                  0.8456500903159312,
+                  0.8438738267001701,
+                  0.8579876056230853,
+                  0.851984383088509,
+                  0.8551147367931489,
+                  0.8512917761569103,
+                  0.8517189667694409,
+                  0.9269734825047454,
+                  0.8493550644310044,
+                  0.8532750576424373,
+                  0.8632806378572422,
+                  0.8470730837728171,
+                  0.8441819245985746
+            ]
+      },
+      "He is now finishing a documentary about Winnipeg , the final installment of a personal trilogy that began with '' Cowards Bend the Knee '' -LRB- a 2003 film that also featured a hapless hero named Guy Maddin -RRB- .": {
+            "['Guy Maddin', 'place lived', 'Winnipeg']": [
+                  0.7915655000878007,
+                  0.9309128385860271,
+                  0.7889637268773548
             ]
       },
       "Severe storms swept through Atlanta , grounding planes scheduled to leave Hartsfield-Jackson Atlanta International Airport and diverting and delaying inbound flights .": {
             "['Atlanta', 'contains', 'Hartsfield-Jackson Atlanta International Airport']": [
-                  1.000000000000001
+                  0.819767179914283,
+                  1.0000000000000004
+            ]
+      },
+      "The Socialist government of Spain will never again negotiate with the Basque separatist group ETA after a deadly attack on Madrid 's main airport terminal nine days ago , Interior Minister Alfredo P\u00e9rez Rubalcaba said Monday . ''": {
+            "['Spain', 'contains', 'Madrid']": [
+                  0.7799077186511365,
+                  0.7977158487362888,
+                  0.7915028520416318,
+                  0.8536972180176609
+            ],
+            "['Madrid', 'country', 'Spain']": [
+                  0.8023967911936246,
+                  0.8531687768885543,
+                  0.8418728706431279,
+                  0.8258364881962299
+            ]
+      },
+      "Triple Play Alternative arts in Baltimore -- a tradition that includes the filmmaker John Waters and the musician David Byrne -- is alive and well .": {
+            "['David Byrne', 'place lived', 'Baltimore']": [
+                  0.930912845459769,
+                  0.86661042614159
+            ]
+      },
+      "Mr. Hawass said he was also seeking the zodiac ceiling painting from the Dendera Temple , now in the Louvre ; the statue of Hemiunu in the Roemer and Pelizaeus Museum in Hildesheim , near Hanover , Germany ; and the bust of Anchhaf at the Museum of Fine Arts in Boston .": {
+            "['Hanover', 'contains', 'Hildesheim']": [
+                  0.8504473557418175,
+                  0.8296588162542076,
+                  0.7783149268732148,
+                  0.7782440478097687
+            ],
+            "['Hanover', 'country', 'Germany']": [
+                  0.8003481495600315,
+                  0.8212466717004041,
+                  0.7998430655795745,
+                  0.7786054872791467
+            ],
+            "['Germany', 'contains', 'Hanover']": [
+                  0.7930292499139163,
+                  0.8704057978959763,
+                  0.7820162933567534,
+                  0.7732284266476247
+            ],
+            "['Germany', 'contains', 'Hildesheim']": [
+                  0.8418198264164756,
+                  0.82161521178878,
+                  0.7729942868087819,
+                  0.776518175462702
             ]
       },
       "Attributing the melting to the growing emission of greenhouse gases causing global warming , scientists say Bolivia 's skiing tradition could be extinguished when Chacaltaya 's modest ski run disappears forever in a few years . ''": {
             "['Bolivia', 'contains', 'Chacaltaya']": [
-                  0.934650741687427,
-                  0.9315795052994851,
-                  0.9741766919032124,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.9451649483742326,
-                  0.945164948374232,
-                  0.945164948374232
+                  0.837033332436373,
+                  0.7868860061568409,
+                  0.826364635187625,
+                  0.7888505697751838,
+                  0.7786334948980259,
+                  0.7790731363715838,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849,
+                  0.7971565645016849
             ]
       },
       "In what he calls a '' loving critique '' created for '' Independent Lens , '' Mr. Hurt interviews rappers like Mos Def , Fat Joe , Chuck D , Jadakiss and Busta Rhymes ; moguls including Russell Simmons and Chris Lighty ; and young women at Spelman College , a historically black college in Atlanta , to examine the gritty intersection of culture , commerce and gender in all its complexity .": {
             "['Atlanta', 'contains', 'Spelman College']": [
-                  0.9043706611352988,
-                  0.893949344012589,
-                  0.8935530015072886,
-                  0.8953032697686878,
-                  0.8964180161247248,
-                  0.9039916584133297,
-                  0.8958704748733431,
-                  0.926114067372273,
-                  0.9778404380068271,
-                  0.9028547800777352
+                  0.7698331685574619,
+                  0.7616450768171865,
+                  0.7664995381597923,
+                  0.766546558786837,
+                  0.7673845562063117,
+                  0.7838545255227004,
+                  0.7730919683432456,
+                  0.8252282043247615,
+                  0.8041795567288239,
+                  0.7713985256793033
             ]
       },
       "This was at St. Joseph 's College in Rensselaer , Ind. , right off Interstate 65 where Chicagoland meets Indiana , the epicenter of this year 's regional Super Bowl .": {
             "['Indiana', 'contains', 'Rensselaer']": [
-                  0.9376735493125243
+                  0.785805159929469,
+                  0.8073208070237545,
+                  0.8590359612849563,
+                  0.8064399501344007,
+                  0.870280385391487,
+                  0.9215993969876256
+            ]
+      },
+      "But Senator Mitch McConnell of Kentucky , the Republican leader , said he did not want to hold up financing for the war by spending more time than necessary on a measure that will never become law .": {
+            "['Mitch McConnell', 'place lived', 'Kentucky']": [
+                  0.8472455146049394,
+                  0.8412384833971764,
+                  0.8494408085391202,
+                  0.8390887878489763,
+                  0.8406061156464258,
+                  0.8450261354152366,
+                  0.8380079851111584,
+                  0.8439291778968389,
+                  0.8430777891818421,
+                  0.8402856861127426,
+                  0.8393388684842883,
+                  0.8425292403614212,
+                  0.8445203464819917,
+                  0.8465364298661223,
+                  0.8426105419665678,
+                  0.8450806318029219,
+                  0.8386445817285083,
+                  0.8434063207617992,
+                  0.8413659261461078,
+                  0.8400535339846378,
+                  0.8452186120000516,
+                  0.83873389860608,
+                  0.8390676041097431,
+                  0.8375908275660499,
+                  0.8381281684935873,
+                  0.8383280005242548,
+                  0.8394751843700529,
+                  0.8387092824365585,
+                  0.8364613492225472,
+                  0.8362220134933395,
+                  0.8381083793768127,
+                  0.8367940192107688,
+                  0.8349607941911235,
+                  0.8324516670914296
             ]
       },
       "He went to Southeast Missouri State University in Cape Girardeau for about three years , majoring in marketing , before dropping out to join the Marine Corps Reserve .": {
             "['Cape Girardeau', 'contains', 'Southeast Missouri State University']": [
-                  0.9344758575498309,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996,
-                  0.9999999999999996
+                  0.7897225982506546,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.895443003713074,
+                  0.8954430037130738
             ]
       },
       "A plan to introduce cars produced by the Chinese automaker Chery Automobile foundered , said David E. Cole , chairman of the Center for Automotive Research in Ann Arbor , Mich. '' When you look at what 's required to compete in terms of emissions and safety standards , it is incredibly difficult , '' Mr. Cole said . ''": {
             "['Chery Automobile', 'location', 'Ann Arbor']": [
-                  0.9792438042277152,
-                  0.9027433581582704
+                  0.8527014507752367,
+                  0.7810219524538268,
+                  0.7732875522344139,
+                  0.946925796519942,
+                  0.7845942036015875,
+                  0.8527940921950653
             ]
       },
       "Tom Brokaw , the former NBC anchor , said in his eulogy that when Mr. Ford brought his family to 1600 Pennsylvania Avenue , '' he brought the humanity that comes with a family that seemed to be living right next door . ''": {
             "['Tom Brokaw', 'company', 'NBC']": [
-                  0.9204502087334021,
-                  0.9119318892475301,
-                  0.9204502087334021,
-                  0.9119318892475301,
-                  0.9107951216822017,
-                  0.9392461781728588
+                  0.8060685546603041,
+                  0.7962850057700187,
+                  0.8060685546603041,
+                  0.7962850057700187,
+                  0.7999905081559545,
+                  0.8504496325605904
             ]
       },
       "This sparkling cove at Boulders Beach , less than an hour outside Cape Town , South Africa , is part of Table Mountain National Park , and one of the most protected places along False Bay for kids -- and birds -- to swim .": {
             "['South Africa', 'administrative divisions', 'Cape Town']": [
-                  0.945122341737069,
-                  0.8992254556342637
+                  0.8391940078972213,
+                  0.8066595148518279,
+                  0.7872916976235322,
+                  0.7695093991017149,
+                  0.7671997680251493,
+                  0.8182411011290551,
+                  0.7769205793729633
             ],
             "['South Africa', 'contains', 'Cape Town']": [
-                  0.9455011919637234,
-                  0.9280739121239132
+                  0.8516216037511404,
+                  0.8190871105644323,
+                  0.799719293227811,
+                  0.7826668328902897,
+                  0.7803572021657665,
+                  0.8286387069273993,
+                  0.8581474790777591
             ]
       },
       "Fannie Lee Chaney , a $ 28-a-week bakery worker who became a target of racial hatred herself after her son James Chaney and two other civil rights workers were killed by the Ku Klux Klan in Mississippi during the Freedom Summer of 1964 , died on Tuesday in Willingboro , N.J. She was 84 .": {
             "['Mississippi', 'contains', 'Ku Klux Klan']": [
-                  0.9015220187962645,
-                  0.9450994286771245,
-                  0.9483872305491987
+                  0.8020550868661013,
+                  0.7985273576929279,
+                  0.8064694306040228,
+                  0.7688788906256434,
+                  0.7880415147029785
             ],
             "['Fannie Lee Chaney', 'place of death', 'Willingboro']": [
-                  0.9360063146963662,
-                  0.9313031259015209,
-                  0.9225284352383307
+                  0.8075262907487143,
+                  0.7917702286802174,
+                  0.806328463246997,
+                  0.7925146138940689,
+                  0.8758934440310079
             ],
             "['James Chaney', 'place lived', 'Mississippi']": [
-                  0.9430102491263249,
-                  0.9425580244829994,
-                  0.952332796096126
+                  0.8546835366617631,
+                  0.7951172921339773,
+                  0.8757448862806412,
+                  0.7910342585880071,
+                  0.9520057143246391
             ],
             "['Fannie Lee Chaney', 'children', 'James Chaney']": [
-                  1.0000000000000004,
-                  0.9481851317422996,
-                  0.9044192955448034
+                  0.9378094452455455,
+                  0.8750028822470277,
+                  0.8014087672818262,
+                  0.7627395867784049,
+                  0.8552797675228895
             ]
       },
       "The dispute stems from an investigation of Hewlett-Packard 's directors initiated under the company 's former chairwoman , Patricia C. Dunn .": {
             "['Patricia C. Dunn', 'company', 'Hewlett-Packard']": [
-                  0.9739355826913211
+                  0.7950223082860438
             ]
       },
       "The Democratic Unionist Party has said it will not even consider the so-called St. Andrews Agreement proposals , sponsored by Britain and Ireland , for a Protestant-Catholic local government to be set up in Belfast on March 26 unless Sinn Fein first indicates support for the police .": {
             "['Ireland', 'contains', 'Belfast']": [
-                  0.9272859530341964,
-                  0.9731966520523476
+                  0.7972842284221731,
+                  0.818498601019774,
+                  0.8193117031067537,
+                  0.8287880111825393,
+                  0.9307347334485034
+            ]
+      },
+      "France 's citoyennes were used in the streets of Paris as stooges and enforcers or idolized as keepers of the revolutionary home and heart , but when they drew attention to themselves as individuals rather than symbols , they were disdained , despised and sometimes , like Gouges , condemned to death .": {
+            "['Paris', 'country', 'France']": [
+                  0.8558555709299468,
+                  0.857048139253676,
+                  0.8528147287522203,
+                  0.8673969832571974,
+                  0.8009502292659854,
+                  0.7919796793838741,
+                  0.7709685438353298,
+                  0.7728738693424303,
+                  0.7831225253217824,
+                  0.789451247224195,
+                  0.8301789365519965
+            ],
+            "['France', 'administrative divisions', 'Paris']": [
+                  0.7982050324059203,
+                  0.7954067764100498,
+                  0.797865257458343,
+                  0.8120346313859266,
+                  0.7798083343271482,
+                  0.7747370372633178,
+                  0.7546313940732517,
+                  0.7565604360039592,
+                  0.7651549674291452,
+                  0.7709852824189122,
+                  0.8428619209866471
+            ],
+            "['France', 'contains', 'Paris']": [
+                  0.8074178988452736,
+                  0.8046196426953833,
+                  0.8070781237790531,
+                  0.8212474976330438,
+                  0.7890212004419322,
+                  0.7839499033173777,
+                  0.7638442603819184,
+                  0.7657733021127104,
+                  0.7743678336629725,
+                  0.7801981482750491,
+                  0.8520747870349413
             ]
       },
       "According a source close to the campaign , the itinerary includes fund-raisers in Florida on Tuesday followed by more stops across the country before appearing as the keynote speaker at the California Republican Convention in Sacramento on Saturday .": {
             "['California', 'contains', 'Sacramento']": [
-                  0.9157678289212793,
-                  0.907849888808267,
-                  0.9449074853335074,
-                  0.9580681677771407,
-                  0.8991654890257381
+                  0.7851246129473166,
+                  0.7827865804118981,
+                  0.8123373652371637,
+                  0.8849357559282113,
+                  0.7803112785581443
             ],
             "['California', 'capital', 'Sacramento']": [
-                  0.9164641860715282,
-                  0.91035612745288,
-                  0.9456025668389298,
-                  0.9610073815981146,
-                  0.9052155338354272
+                  0.7875603437821858,
+                  0.7852223113270025,
+                  0.8147730955454647,
+                  0.890667336725006,
+                  0.7880531994992565
+            ]
+      },
+      "Held since 1956 , and intended to help bring the continent together at the height of the cold war , the contest has been the source of many execrable songs as well as a few stars , like Sweden 's Abba and Celine Dion , who appeared for Switzerland .": {
+            "['Celine Dion', 'place lived', 'Switzerland']": [
+                  0.7853872855869444,
+                  0.7806054003906724,
+                  0.7920123066808812,
+                  0.7916541337879526,
+                  0.8091751357853496,
+                  0.7901796637187763,
+                  0.7815975548953564,
+                  0.8569287440145908,
+                  0.7872920438129966
             ]
       },
       "Zalmay Khalilzad , the American ambassador to the United Nations , said a resolution would be introduced this week calling on the Security Council to create a tribunal to judge the killers of Rafik Hariri , the former prime minister who was assassinated in a Beirut car bombing in 2005 .": {
             "['Rafik Hariri', 'place of death', 'Beirut']": [
-                  0.8879252264941943,
-                  0.8920345695251907,
-                  0.9428839667499049,
-                  0.9428091460703809,
-                  0.9031697228549341
+                  0.7650521876066758,
+                  0.7757642069695047,
+                  0.802437188547234,
+                  0.9904221859260247,
+                  0.8153943992224113,
+                  0.7993666533715456
             ]
       },
       "Julia Mancuso , a 23-year-old from Squaw Valley , Calif. , finished third in the overall standings of the 2006-7 World Cup circuit , the best finish for an American woman since 1984 .": {
             "['Julia Mancuso', 'place of birth', 'Squaw Valley']": [
-                  0.9823929504239052,
-                  0.9411610332004936,
-                  0.93121941961384,
-                  0.9338962944758938,
-                  0.9309013467755357
+                  0.9551377478293318,
+                  0.8700317316253011,
+                  0.8862786393959295,
+                  0.8436942614169236,
+                  0.8473277890487505,
+                  0.8527254152501444
             ],
             "['Julia Mancuso', 'place lived', 'Squaw Valley']": [
-                  0.9798955735619898,
-                  0.9322808688629712,
-                  0.9299970658790784,
-                  0.9348163036970596,
-                  0.9249295135952122
+                  0.9486016725068688,
+                  0.8508145853983062,
+                  0.9176098033502111,
+                  0.8434781265191608,
+                  0.8522401008233007,
+                  0.8444190850791816
             ]
       },
       "The American people are not buying it , '' said Senator Jim Bunning , Republican of Kentucky .": {
             "['Jim Bunning', 'place lived', 'Kentucky']": [
-                  0.9310688660924076
+                  0.9690147468427411,
+                  0.8427878618909437,
+                  0.8472546918739305,
+                  0.8570210900946071
+            ]
+      },
+      "Thailand 's battle against air pollution provides a virtual how-to manual of environmental cleanup , say Mr. Shah and other air quality experts in Asia .": {
+            "['Asia', 'contains', 'Thailand']": [
+                  0.7982602427417852,
+                  0.7803398652405771
             ]
       },
       "For visitors , all this activity means a revived downtown core with restaurants whose chefs -- and prices -- could vie with those in Toronto or Montreal ; spruced-up , outlying neighborhoods ; and new places to stay like the Hotel Arts near the cultural heart of the city , or , the west-end Sandman Hotel & Suites , just across from Canada Olympic Park , site of the 1988 Winter Games .": {
             "['Canada', 'administrative divisions', 'Toronto']": [
-                  0.9066602588151313,
-                  0.8990675726982144,
-                  0.9139745674365586,
-                  0.9151468625780976
+                  0.8365144751030834,
+                  0.7879116965049096,
+                  0.7805272251791711,
+                  0.7599374524287601,
+                  0.7797254741092886,
+                  0.7980774856837585,
+                  0.7837761371647735
             ],
             "['Canada', 'contains', 'Toronto']": [
-                  0.9290309882935602,
-                  0.8984471518180714,
-                  0.9152020708755112,
-                  0.917347913524393
+                  0.8496719095794298,
+                  0.8010691308747218,
+                  0.8617541231942708,
+                  0.7749522402221252,
+                  0.7947402613549738,
+                  0.8130922726813318,
+                  0.7969335715325976
             ]
       },
       "OFTEN mentioned as a candidate to receive the Nobel Peace Prize , or , perhaps less seriously , to run the World Bank , U2 's 46-year-old lead singer , Bono , has toured Africa with senior American officials to campaign against AIDS , and hobnobbed with financiers and policymakers while speaking out on global poverty issues at the World Economic Forum in Davos , Switzerland .": {
             "['Switzerland', 'contains', 'Davos']": [
-                  0.910228023734521,
-                  0.9091263434064972,
-                  0.9073911076485578,
-                  0.9044638126492526,
-                  0.900455391709065
+                  0.770347623263409,
+                  0.7667020153348152,
+                  0.7698824306758663,
+                  0.7701943241156914,
+                  0.7704120133146382,
+                  0.7671008816273166,
+                  0.7675249474199997,
+                  0.8511910413932058,
+                  0.7822473383696704,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664,
+                  0.7798511823107358,
+                  0.787574003603414,
+                  0.7809251545281664
             ],
             "['Switzerland', 'administrative divisions', 'Davos']": [
-                  0.9084371357276904,
-                  0.9207106509758872,
-                  0.9152397497603832,
-                  0.9166236835837986,
-                  0.8962417721572575
+                  0.7571901886369423,
+                  0.7600716039320965,
+                  0.7713369043952586,
+                  0.7870074430004835,
+                  0.787225132687673,
+                  0.7839140009168031,
+                  0.766672679939174,
+                  0.838763445715804,
+                  0.7698197425879061,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482,
+                  0.7674235865700688,
+                  0.7751464077292172,
+                  0.7684975590045482
             ]
       },
       "In France , S\u00e9gol\u00e8ne Royal , the Socialist presidential nominee , and her presumed main opponent on the right , Nicolas Sarkozy , have criticized the European Central Bank , which is responsible for setting monetary policy for the 12 countries that use the euro .": {
             "['S\u00e9gol\u00e8ne Royal', 'place lived', 'France']": [
-                  0.8778948982528245,
-                  0.909991103939583,
-                  0.9742102334128769
+                  0.8471208511205535,
+                  0.8091901136675604,
+                  0.7499299661312733,
+                  0.780240741679939,
+                  0.7833382460399011,
+                  0.9329163224427596
             ],
             "['S\u00e9gol\u00e8ne Royal', 'nationality', 'France']": [
-                  0.8856215675928041,
-                  0.919539039768166,
-                  0.9803900064166899
+                  0.8672504647756708,
+                  0.8293197267536719,
+                  0.7642071935810497,
+                  0.7961371026258954,
+                  0.7919228283045899,
+                  0.9488126852606661
+            ]
+      },
+      "And another boy , who was supposed to be flying to Taipei , Taiwan , via Tokyo , ended up in his seat .": {
+            "['Taiwan', 'contains', 'Taipei']": [
+                  0.8013577833029311,
+                  0.8204039272170498,
+                  0.8465977670236351
             ]
       },
       "For years , he has been a regular at the Aspen Institute and the World Economic Forum in Davos , Switzerland . ''": {
             "['Switzerland', 'contains', 'Davos']": [
-                  0.9224080943558945,
-                  0.9507492221408689,
-                  0.9778907713382246,
-                  0.9189713305566267
+                  0.7884358036256245,
+                  0.8761010421768772,
+                  0.8054024808856988,
+                  0.7794067262944149
             ],
             "['Switzerland', 'administrative divisions', 'Davos']": [
-                  0.9120038543847986,
-                  0.9455522519188893,
-                  0.9697302448481598,
-                  0.9095600380597707
+                  0.7755252354097746,
+                  0.8554420357837867,
+                  0.7847434746377934,
+                  0.766496158470445
             ]
       },
       "The Democrats also gained the vote of Senator Ben Nelson , a Nebraska Democrat , who voted against a withdrawal date just two weeks ago . ''": {
             "['Ben Nelson', 'company', 'Nebraska']": [
-                  0.9237399072477226,
-                  0.9295344632784748,
-                  0.9626478443853589,
-                  0.9383411401135461,
-                  0.9352516916383213
+                  0.8064597166678488,
+                  0.8231346627295828,
+                  0.9056622245696413,
+                  0.8354361847414331,
+                  0.8003688301485129
             ],
             "['Ben Nelson', 'place lived', 'Nebraska']": [
-                  0.9202263016622159,
-                  0.930461922583319,
-                  0.9742185947123921,
-                  0.9257431868828774,
-                  0.9274605819284605
+                  0.8053380408428061,
+                  0.8257366117305645,
+                  0.938211541922669,
+                  0.823473896816703,
+                  0.8004607045892749
             ]
       },
       "Israel , he said , '' is committed to a diverse and pluralistic Jerusalem , to improving the conditions of all the city 's inhabitants and to protecting their interests as part of our sovereign responsibility . ''": {
             "['Israel', 'contains', 'Jerusalem']": [
-                  0.9541660597970049,
-                  0.974563247582175
+                  0.8265477988772557,
+                  0.827076402646274,
+                  0.9333873670785304
             ]
       },
       "What I 'll be doing is trying to appeal to my Republican colleagues to not pass a nonbinding resolution that basically says to the troops who are going there this is a mission that does n't have a chance of succeeding , '' Senator Mitch McConnell of Kentucky , the Republican leader , said on '' Face the Nation '' on CBS .": {
             "['Mitch McConnell', 'place lived', 'Kentucky']": [
-                  0.9722207723491121,
-                  0.9282689817520264,
-                  0.9270101434551559,
-                  0.9332301627567563
+                  0.9285504816951671,
+                  0.9831009891497441,
+                  0.8984759431462803,
+                  0.8602089704992875,
+                  0.8575740970162805,
+                  0.8471257316378984
+            ]
+      },
+      "If you caught Elizabeth and John Edwards in the Couric interview on '' 60 Minutes '' or at their joint news conference in Chapel Hill , you saw a couple speaking as couples chasing the presidency rarely do .": {
+            "['John Edwards', 'place lived', 'Chapel Hill']": [
+                  0.9831009907404382,
+                  0.9214452277218095
+            ]
+      },
+      "Mr. Rangel is , by most measures , a liberal , although he said in an interview last month that he would no more be a '' Harlem chairman '' than Representative Nancy Pelosi , Democrat of California , would be a '' San Francisco speaker . ''": {
+            "['California', 'contains', 'San Francisco']": [
+                  0.8512931049461454,
+                  0.854708215216583,
+                  0.8024357788091495,
+                  0.7980839016804083
+            ]
+      },
+      "Arne Duncan , a top Chicago public school official , is helping with Mr. Obama 's education platform .": {
+            "['Arne Duncan', 'place lived', 'Chicago']": [
+                  0.8586964642528054,
+                  0.8774892386328251,
+                  0.7924410483240446,
+                  0.8924136373142316
             ]
       }
 }

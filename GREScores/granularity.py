@@ -33,15 +33,51 @@ def gpt_instruct(prompt):
             
 
 
-def calculate_granularity_score(data_to_evaluate):
+def calculate_granularity_score(data_to_evaluate, dataset_name, model_name, seed):
     # Store the results and scores
     granularity_results = defaultdict(dict)
     granularity_scores = []
     
+    pre_compute_file = f"./granularity/{dataset_name}_{model_name}_{seed}.json"
+    if os.path.exists(pre_compute_file):
+        with open(pre_compute_file, 'r') as f:
+            data = json.load(f)
+        
+        for text, triples_response in tqdm(data.items()):
+            gs_triples = []
+            if len(triples_response) == 0:
+                granularity_scores.append(1)
+                continue
+            responses = triples_response.values()
+            for response in responses:
+                try:
+                    num_sub_triples_1 = response.count('[')  # Counting each sub-triple format
+                    num_sub_triples_2 = response.count(']')
+                    num_sub_triples = min(num_sub_triples_1, num_sub_triples_2)
+                    
+                    # Apply the exponential decay to the number of sub-triples
+                    if num_sub_triples == 1:
+                        num_sub_triples = 0
+                        
+                    gs_triple = np.exp(-num_sub_triples)
+                    gs_triples.append(gs_triple)
+                except:
+                    continue
+            
+            granularity_score = np.mean(gs_triples)
+            granularity_scores.append(granularity_score)
+            
+        avg_granularity_score = np.mean(granularity_scores)
+        granularity_results = data
+        
+        return avg_granularity_score, granularity_results        
+        
+            
+    
     for text, triples in tqdm(data_to_evaluate.items(), desc="Evaluating triples"):
         gs_triples = []
         if len(triples) == 0:
-            granularity_scores.append(0)
+            granularity_scores.append(1)
             continue
         for triple in triples:
             # print(triple)
@@ -55,10 +91,16 @@ def calculate_granularity_score(data_to_evaluate):
             # Parse the response to find the number of sub-triples
             # Assuming the response format is consistent with the provided examples
             # This needs to be adjusted based on the actual response format you get from the model
-            num_sub_triples = response.count('[')  # Counting each sub-triple format
+            num_sub_triples_1 = response.count('[')  # Counting each sub-triple format
+            num_sub_triples_2 = response.count(']')
+            num_sub_triples = min(num_sub_triples_1, num_sub_triples_2)
+            # num_sub_triples = int(response.split('Granularity: ')[1])
             # print(num_sub_triples)
             
             # Apply the exponential decay to the number of sub-triples
+            if num_sub_triples == 1:
+                num_sub_triples = 0
+                
             gs_triple = np.exp(-num_sub_triples)
             # print(gs_triple)
             
@@ -96,13 +138,13 @@ def main():
         
         model_names = [
             # 'vicuna-1.5-7b',
-            # 'vicuna-1.3-33b', 
+            'vicuna-1.3-33b', 
             # 'llama-2-7b',
             'llama-2-70b',
             # 'wizardlm-70b',
             # 'text-davinci-003',
             # 'gpt-3.5-turbo-instruct',
-            # 'gpt-3.5-turbo-1106',
+            'gpt-3.5-turbo-1106',
             # 'gpt-4',
             'gpt-4-1106-preview',
             # 'mistral',
@@ -111,6 +153,7 @@ def main():
             'openchat',
             # 'gpt-3.5_closed',
             # 'gpt-3.5_semi',
+            # 'groundtruth'
             ]
         
         dataset_names = [
@@ -120,12 +163,14 @@ def main():
             'wiki20m_rand_500',
             # 'tacred_rand_800',
             # 'wiki80_rand_800',
+            # 'wiki20m_rand_100',
         ]
         
         seeds = [54, 64, 74, 84]
+        # seeds=[1]
         
-        if os.path.exists(f'./results/GS.json'):
-            with open(f'./results/GS.json', 'r') as f:
+        if os.path.exists(f'./results_new/GS.json'):
+            with open(f'./results_new/GS.json', 'r') as f:
                 all_scores = json.load(f)
             
         for model_name in model_names:
@@ -139,7 +184,7 @@ def main():
                             data_to_evaluate = json.load(f)
                         
                         print(f"Calculating GS score for model {model_name} on dataset {dataset_name}...")
-                        GS_score, results = calculate_granularity_score(data_to_evaluate)
+                        GS_score, results = calculate_granularity_score(data_to_evaluate, dataset_name, model_name, seed)
                         try:
                             with open(f'./granularity/{dataset_name}_{model_name}_{seed}.json', 'w') as f:
                                 json.dump(results, f, indent=6)
@@ -152,7 +197,7 @@ def main():
                         print(f"Error calculating GS score for model {model_name} on dataset {dataset_name}: {e}")
                         continue
                     
-                    with open(f'./results/GS.json', 'w') as f:
+                    with open(f'./results_new/GS.json', 'w') as f:
                         json.dump(all_scores, f, indent=6)
             
     else:

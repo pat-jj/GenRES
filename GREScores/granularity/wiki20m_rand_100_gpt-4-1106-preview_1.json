@@ -1,0 +1,632 @@
+{
+      "The official announcement was made during a press conference at East River Park in Manhattan by New York City Mayor Michael Bloomberg and National Lacrosse League Commissioner Jim Jennings .": {
+            "[\"The official announcement\", \"was made in\", \"Manhattan\"]": " \n[\"The official announcement\", \"was made in\", \"Manhattan\"]\nGranularity: 1",
+            "[\"The official announcement\", \"was made by\", \"New York City Mayor\"]": " \n[\"The official announcement\", \"was made by\", \"New York City Mayor\"]\nGranularity: 1",
+            "[\"New York City Mayor\", \"is\", \"Michael Bloomberg\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The official announcement\", \"was made by\", \"National Lacrosse League Commissioner\"]": " \n[\"The official announcement\", \"was made by\", \"National Lacrosse League\"]\n[\"National Lacrosse League\", \"Commissioner\", \"announced\"]\nGranularity: 2",
+            "[\"National Lacrosse League Commissioner\", \"is\", \"Jim Jennings\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The official announcement\", \"was made at\", \"East River Park\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "MySQL Cluster is implemented through the NDB or NDBCLUSTER storage engine for MySQL ( \" NDB \" stands for Network Database ) .": {
+            "[\"NDB\", \"stands for\", \"Network Database\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"MySQL Cluster\", \"is implemented through\", \"NDB or NDBCLUSTER storage engine\"]": " \n[\"MySQL Cluster\", \"is implemented through\", \"NDB storage engine\"]\n[\"MySQL Cluster\", \"is implemented through\", \"NDBCLUSTER storage engine\"]\nGranularity: 2"
+      },
+      "Shanty Run joins Quinn Run upstream of its mouth .": {
+            "[\"Shanty Run\", \"joins upstream of\", \"its mouth\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Shanty Run\", \"joins\", \"Quinn Run\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Following the passage of a Genoa low the rivers Rhine , Moselle , Main , Danube , Weser , Werra , Unstrut , Elbe , Vltava and their tributaries inundated large areas .": {
+            "[\"Rhine\", \"inundated\", \"large areas\"]": " \n[\"Rhine\", \"inundated\", \"large areas\"]\nGranularity: 1",
+            "[\"Moselle\", \"inundated\", \"large areas\"]": " N/A (The triple is specific, conveying a singular relation between Moselle and the inundation of large areas.)\nGranularity: 0",
+            "[\"Main\", \"inundated\", \"large areas\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Danube\", \"inundated\", \"large areas\"]": "\n[\"Danube\", \"inundated\", \"large areas\"]\nGranularity: 1",
+            "[\"Weser\", \"inundated\", \"large areas\"]": "\n[\"Weser\", \"inundated\", \"large areas\"]\nGranularity: 1",
+            "[\"Werra\", \"inundated\", \"large areas\"]": "\n[\"Werra\", \"inundated\", \"large areas\"]\nGranularity: 1",
+            "[\"Unstrut\", \"inundated\", \"large areas\"]": "\n[\"Unstrut\", \"inundated\", \"large areas\"]\nGranularity: 1",
+            "[\"Elbe\", \"inundated\", \"large areas\"]": " N/A (The triple is specific, conveying a singular relation between the Elbe river and the act of inundation.)\nGranularity: 0",
+            "[\"Vltava\", \"inundated\", \"large areas\"]": " \n[\"Vltava\", \"inundated\", \"large areas\"]\nGranularity: 1",
+            "[\"Rhine\", \"has tributaries\", \"inundating areas\"]": " \n[\"Rhine\", \"has tributaries\", \"inundating\"]\n[\"Rhine\", \"has tributaries\", \"areas\"]\nGranularity: 2",
+            "[\"Moselle\", \"has tributaries\", \"inundating areas\"]": "\n[\"Moselle\", \"has tributaries\", \"inundating\"]\n[\"inundating\", \"affect\", \"areas\"]\nGranularity: 2",
+            "[\"Main\", \"has tributaries\", \"inundating areas\"]": "\n[\"Main\", \"has tributaries\", \"inundating\"]\n[\"inundating\", \"affects\", \"areas\"]\nGranularity: 2",
+            "[\"Danube\", \"has tributaries\", \"inundating areas\"]": " \n[\"Danube\", \"has tributaries\", \"inundating\"]\n[\"Danube\", \"has tributaries\", \"areas\"]\nGranularity: 2",
+            "[\"Weser\", \"has tributaries\", \"inundating areas\"]": "\n[\"Weser\", \"has tributaries\", \"inundating\"]\n[\"Weser\", \"has tributaries\", \"areas\"]\nGranularity: 2",
+            "[\"Werra\", \"has tributaries\", \"inundating areas\"]": " \n[\"Werra\", \"has tributaries\", \"inundating\"]\n[\"Werra\", \"has tributaries\", \"areas\"]\nGranularity: 2",
+            "[\"Unstrut\", \"has tributaries\", \"inundating areas\"]": " \n[\"Unstrut\", \"has tributaries\", \"inundating\"]\n[\"Unstrut\", \"has tributaries\", \"areas\"]\nGranularity: 2",
+            "[\"Elbe\", \"has tributaries\", \"inundating areas\"]": " \n[\"Elbe\", \"has tributaries\", \"inundating\"]\n[\"Elbe\", \"has tributaries\", \"areas\"]\nGranularity: 2",
+            "[\"Vltava\", \"has tributaries\", \"inundating areas\"]": " \n[\"Vltava\", \"has tributaries\", \"inundating\"]\n[\"Vltava\", \"has tributaries\", \"areas\"]\nGranularity: 2",
+            "[\"Genoa low\", \"followed by\", \"inundation of rivers\"]": " \n[\"Genoa low\", \"followed by\", \"inundation\"]\n[\"Genoa low\", \"followed by\", \"rivers\"]\nGranularity: 2"
+      },
+      "Its architect was Gu\u00f0j\u00f3n Sam\u00faelsson , who also designed Hallgr\u00edmskirkja , a Reykjavik landmark , and Akureyrarkirkja in Akureyri , North Iceland .": {
+            "[\"Gu\\u00f0j\\u00f3n Sam\\u00faelsson\", \"designed\", \"Hallgr\\u00edmskirkja\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Hallgr\\u00edmskirkja\", \"is a\", \"Reykjavik landmark\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Gu\\u00f0j\\u00f3n Sam\\u00faelsson\", \"designed\", \"Akureyrarkirkja\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Akureyrarkirkja\", \"is in\", \"Akureyri, North Iceland\"]": " \n[\"Akureyrarkirkja\", \"is in\", \"Akureyri\"]\n[\"Akureyrarkirkja\", \"is in\", \"North Iceland\"]\nGranularity: 2",
+            "[\"Its architect\", \"was\", \"Gu\\u00f0j\\u00f3n Sam\\u00faelsson\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The April 1972 election of Jerry DeGrieck and Nancy Wechsler to the Ann Arbor city council on the Human Rights Party ticket would signal changes for LGBT rights in the state .": {
+            "[\"Nancy Wechsler\", \"elected to\", \"Ann Arbor city council in April 1972\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Jerry DeGrieck\", \"elected on\", \"Human Rights Party ticket\"]": " \n[\"Jerry DeGrieck\", \"elected on\", \"Human Rights Party\"]\n[\"Human Rights Party\", \"ticket\", \"Jerry DeGrieck\"]\nGranularity: 2",
+            "[\"Nancy Wechsler\", \"elected on\", \"Human Rights Party ticket\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Election of Jerry DeGrieck and Nancy Wechsler\", \"would signal changes for\", \"LGBT rights in the state\"]": " \n[\"Election of Jerry DeGrieck\", \"would signal changes for\", \"LGBT rights in the state\"]\n[\"Election of Nancy Wechsler\", \"would signal changes for\", \"LGBT rights in the state\"]\n[\"Election of Jerry DeGrieck and Nancy Wechsler\", \"would signal changes for\", \"LGBT rights\"]\nGranularity: 3",
+            "[\"Jerry DeGrieck\", \"elected to\", \"Ann Arbor city council in April 1972\"]": " \n[\"Jerry DeGrieck\", \"elected to\", \"Ann Arbor city council\"]\n[\"Jerry DeGrieck\", \"elected to\", \"April 1972\"]\nGranularity: 2"
+      },
+      "In July 2006 it performed Leonard Bernstein 's comic operetta \" Candide \"   to much acclaim ) , while in July 2009 the company performed Stephen Sondheim 's Sweeney Todd .": {
+            "[\"Leonard Bernstein's comic operetta 'Candide'\", \"received\", \"much acclaim\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The company\", \"performed\", \"Stephen Sondheim's Sweeney Todd\"]": " \n[\"The company\", \"performed\", \"Stephen Sondheim's Sweeney Todd\"]\nGranularity: 1",
+            "[\"The performance of Stephen Sondheim's Sweeney Todd\", \"occurred in\", \"July 2009\"]": " \n[\"The performance of Stephen Sondheim's Sweeney Todd\", \"occurred in\", \"July\"]\n[\"The performance of Stephen Sondheim's Sweeney Todd\", \"occurred in\", \"2009\"]\nGranularity: 2",
+            "[\"It\", \"performed\", \"Leonard Bernstein's comic operetta 'Candide'\"]": " \n[\"It\", \"performed\", \"Leonard Bernstein's comic operetta\"]\n[\"Leonard Bernstein's comic operetta\", \"performed\", \"Candide\"]\nGranularity: 2"
+      },
+      "Las Mercedes Airport is an airstrip serving San Javier , a town in the Maule Region of Chile .": {
+            "[\"Las Mercedes Airport\", \"serving\", \"San Javier\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"San Javier\", \"is in\", \"Maule Region of Chile\"]": "\n[\"San Javier\", \"is in\", \"Maule Region\"]\n[\"Maule Region\", \"is in\", \"Chile\"]\nGranularity: 2",
+            "[\"Las Mercedes Airport\", \"is an\", \"airstrip\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "In 1989 , Streisand began devoting most of her time towards directing the 1991 film adaptation of Pat Conroy 's 1986 novel \" The Prince of Tides \" .": {
+            "[\"The Prince of Tides\", \"is a film adaptation of\", \"Pat Conroy's 1986 novel\"]": " \n[\"The Prince of Tides\", \"is a film adaptation of\", \"Pat Conroy's 1986 novel\"]\nGranularity: 1",
+            "[\"The Prince of Tides\", \"film adaptation year\", \"1991\"]": " \n[\"The Prince of Tides\", \"film adaptation year\", \"1991\"]\nGranularity: 1",
+            "[\"Pat Conroy's 1986 novel\", \"title\", \"The Prince of Tides\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Streisand\", \"began devoting time towards directing\", \"The Prince of Tides\"]": " \n[\"Streisand\", \"began devoting time towards\", \"directing\"]\n[\"Streisand\", \"directed\", \"The Prince of Tides\"]\nGranularity: 2"
+      },
+      "On 16 January 1847 , Commodore Stockton appointed Fr\u00e9mont military governor of California following the Treaty of Cahuenga signed by Fremont and Andr\u00e9s Pico which ended the Mexican \u2013 American War in California .": {
+            "[\"Appointment\", \"occurred on\", \"16 January 1847\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Treaty of Cahuenga\", \"signed by\", \"Fr\\u00e9mont\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Treaty of Cahuenga\", \"signed by\", \"Andr\\u00e9s Pico\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Treaty of Cahuenga\", \"ended\", \"Mexican \\u2013 American War in California\"]": " \n[\"Treaty of Cahuenga\", \"ended\", \"Mexican \\u2013 American War\"]\n[\"Treaty of Cahuenga\", \"ended\", \"in California\"]\nGranularity: 2",
+            "[\"Commodore Stockton\", \"appointed\", \"Fr\\u00e9mont as military governor of California\"]": " \n[\"Commodore Stockton\", \"appointed\", \"Fr\\u00e9mont as military governor\"]\n[\"Fr\\u00e9mont\", \"served as\", \"military governor of California\"]\nGranularity: 2"
+      },
+      "In 1995 , Griffin Dunne was nominated for an Academy Award for Best Live Action Short Film for \" Duke of Groove \" , which he directed and co - wrote .": {
+            "[\"Griffin Dunne\", \"directed\", \"Duke of Groove\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Griffin Dunne\", \"co-wrote\", \"Duke of Groove\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Duke of Groove\", \"was nominated for\", \"Academy Award for Best Live Action Short Film\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Griffin Dunne\", \"was nominated for\", \"Academy Award for Best Live Action Short Film\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Priit \n\n Priit is an Estonian masculine given name , cognate to English Fred or Frederick and to German Friedrich .": {
+            "[\"Priit\", \"is cognate to\", \"English Fred\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Priit\", \"is cognate to\", \"English Frederick\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Priit\", \"is cognate to\", \"German Friedrich\"]": " \n[\"Priit\", \"is cognate to\", \"German\"]\n[\"Priit\", \"is cognate to\", \"Friedrich\"]\nGranularity: 2",
+            "[\"Priit\", \"is a\", \"Estonian masculine given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The new quintet consists of saxophonist George Coleman , pianist Herbie Hancock , bassist Ron Carter and drummer Tony Williams .": {
+            "[\"The new quintet\", \"consists of\", \"pianist Herbie Hancock\"]": "\n[\"The new quintet\", \"consists of\", \"pianist\"]\n[\"The new quintet\", \"consists of\", \"Herbie Hancock\"]\nGranularity: 2",
+            "[\"The new quintet\", \"consists of\", \"bassist Ron Carter\"]": " \n[\"The new quintet\", \"consists of\", \"bassist\"]\n[\"The new quintet\", \"consists of\", \"Ron Carter\"]\nGranularity: 2",
+            "[\"The new quintet\", \"consists of\", \"drummer Tony Williams\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The new quintet\", \"consists of\", \"saxophonist George Coleman\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Daily Air is the only airline to offer flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island through its Lanyu Airport .": {
+            "[\"Daily Air\", \"is the only airline to offer\", \"flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island through its Lanyu Airport\"]": " \n[\"Daily Air\", \"is the only airline to offer\", \"flights from Taiwan Island through Taitung Airport in Taitung City\"]\n[\"Daily Air\", \"is the only airline to offer\", \"flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island\"]\n[\"Daily Air\", \"is the only airline to offer\", \"flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island through its Lanyu Airport\"]\nGranularity: 3"
+      },
+      "Variations of the given name include : Paschal , Pasqual , Pasquale , Paskal , Pascoal , Pascale , Pascha , Paschalis , Pascual , Pascoe , and Pasco .": {
+            "[\"Pasqual\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Pasquale\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Paskal\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Pascoal\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Pascale\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Pascha\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Paschalis\", \"is a variation of\", \"given name\"]": " \n[\"Paschalis\", \"is a variation of\", \"given name\"]\nGranularity: 1",
+            "[\"Pascual\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Pascoe\", \"is a variation of\", \"given name\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Pasco\", \"is a variation of\", \"given name\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Paschal\", \"is a variation of\", \"given name\"]": " \n[\"Paschal\", \"is a variation of\", \"given name\"]\nGranularity: 1"
+      },
+      "The stations involved in the transaction include CJAV , CKWV and CHWF in Nanaimo , CIBH and CHPQ in Parksville - Qualicum Beach and CKLR in Courtenay .": {
+            "[\"CKWV\", \"involved in\", \"transaction\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"CHWF\", \"involved in\", \"transaction\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"CIBH\", \"involved in\", \"transaction\"]": " N/A (The triple is specific, conveying a singular relation between CIBH and transaction.)\nGranularity: 0",
+            "[\"CHPQ\", \"involved in\", \"transaction\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"CKLR\", \"involved in\", \"transaction\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"CJAV\", \"located in\", \"Nanaimo\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"CKWV\", \"located in\", \"Nanaimo\"]": " \n[\"CKWV\", \"located in\", \"Nanaimo\"]\nGranularity: 1",
+            "[\"CHWF\", \"located in\", \"Nanaimo\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"CIBH\", \"located in\", \"Parksville - Qualicum Beach\"]": "\n[\"CIBH\", \"located in\", \"Parksville\"]\n[\"CIBH\", \"located in\", \"Qualicum Beach\"]\nGranularity: 2",
+            "[\"CHPQ\", \"located in\", \"Parksville - Qualicum Beach\"]": " \n[\"CHPQ\", \"located in\", \"Parksville\"]\n[\"CHPQ\", \"located in\", \"Qualicum Beach\"]\nGranularity: 2",
+            "[\"CKLR\", \"located in\", \"Courtenay\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"CJAV\", \"involved in\", \"transaction\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Dynazty is a Swedish rock band from Stockholm , Sweden , and signed to the StormVox Records , StormVox Records - Dynazty   with license to SoFo Records .": {
+            "[\"Dynazty\", \"from\", \"Stockholm\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dynazty\", \"based in\", \"Sweden\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dynazty\", \"signed to\", \"StormVox Records\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"StormVox Records\", \"has license to\", \"SoFo Records\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dynazty\", \"is a\", \"Swedish rock band\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "3D Friends ( stylized as 3D FRIENDS ) is an American indie rock band from Austin , Texas .": {
+            "[\"3D Friends\", \"from\", \"Austin, Texas\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"3D Friends\", \"is\", \"American indie rock band\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "For both they also manufactured converters to play Famicom titles on the NES .": {
+            "[\"converters\", \"to play\", \"Famicom titles\"]": " \n[\"converters\", \"to play\", \"Famicom titles\"]\nGranularity: 1",
+            "[\"Famicom titles\", \"on\", \"NES\"]": " \n[\"Famicom titles\", \"on\", \"NES\"]\nGranularity: 1",
+            "[\"they\", \"manufactured\", \"converters\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "However , in Defenders of the Earth , the Phantom was not the only playable character , as players were given the choice to control Mandrake the Magician and Flash Gordon as well .": {
+            "[\"Mandrake the Magician\", \"is a playable character in\", \"Defenders of the Earth\"]": " \n[\"Mandrake the Magician\", \"is a playable character in\", \"Defenders\"]\n[\"Mandrake the Magician\", \"is a playable character in\", \"the Earth\"]\nGranularity: 2",
+            "[\"Flash Gordon\", \"is a playable character in\", \"Defenders of the Earth\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"players\", \"given the choice to control\", \"Mandrake the Magician\"]": "\n[\"players\", \"given the choice to control\", \"Mandrake\"]\n[\"players\", \"given the choice to control\", \"the Magician\"]\nGranularity: 2",
+            "[\"players\", \"given the choice to control\", \"Flash Gordon\"]": "\n[\"players\", \"given the choice to control\", \"Flash Gordon\"]\nGranularity: 1",
+            "[\"the Phantom\", \"is a playable character in\", \"Defenders of the Earth\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Ruutu has appeared in six World Championships with Finland and has won silver medals in 1998 , 2001 and 2007 and a bronze medal in 2006 .": {
+            "[\"Ruutu\", \"has won\", \"silver medals\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"silver medals\", \"in years\", \"1998, 2001, 2007\"]": " \n[\"silver medals\", \"in years\", \"1998\"]\n[\"silver medals\", \"in years\", \"2001\"]\n[\"silver medals\", \"in years\", \"2007\"]\nGranularity: 3",
+            "[\"Ruutu\", \"has won\", \"a bronze medal\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"bronze medal\", \"in year\", \"2006\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Ruutu\", \"has appeared in\", \"World Championships with Finland\"]": "\n[\"Ruutu\", \"has appeared in\", \"World Championships\"]\n[\"Ruutu\", \"has appeared in\", \"Finland\"]\nGranularity: 2"
+      },
+      "Union flag ( disambiguation ) \n\n The Union Flag is the name of the flag of the United Kingdom , commonly called the Union Jack .": {
+            "[\"Union Flag\", \"commonly called\", \"Union Jack\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Union Flag\", \"is the name of the flag of\", \"the United Kingdom\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Aktion National Airport is an airport serving Preveza and Lefkada in Greece .": {
+            "[\"Aktion National Airport\", \"is an airport serving\", \"Lefkada\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Aktion National Airport\", \"is located in\", \"Greece\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Aktion National Airport\", \"is an airport serving\", \"Preveza\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Two celebrated Charles Dickens adaptations followed \u2013 \" Great Expectations \" ( 1946 ) and \" Oliver Twist \" ( 1948 ) .": {
+            "[\"Great Expectations\", \"followed\", \"Oliver Twist\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Oliver Twist\", \"is an adaptation of\", \"Charles Dickens\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Great Expectations\", \"released in\", \"1946\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Oliver Twist\", \"released in\", \"1948\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Great Expectations\", \"is an adaptation of\", \"Charles Dickens\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "and husband of Gorgophone , daughter of the famous Perseus .": {
+            "[\"Gorgophone\", \"daughter of\", \"Perseus\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"husband\", \"of\", \"Gorgophone\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The novel \" Zazie dans le M\u00e9tro \" is famously written in French that disregards almost all French spelling conventions .": {
+            "[\"Zazie dans le M\\u00e9tro\", \"disregards\", \"French spelling conventions\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Zazie dans le M\\u00e9tro\", \"is written in\", \"French\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "After the battle Daniel Winter , James Wilson , and James Sloan changed the name of the Peep O ' Day Boys to the Orange Order devoted to maintaining the Protestant ascendency .": {
+            "[\"James Wilson\", \"changed name of\", \"Peep O' Day Boys\"]": " \n[\"James Wilson\", \"changed name of\", \"Peep O' Day Boys\"]\nGranularity: 1",
+            "[\"James Sloan\", \"changed name of\", \"Peep O' Day Boys\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Peep O' Day Boys\", \"changed name to\", \"Orange Order\"]": " \n[\"Peep O' Day Boys\", \"changed name to\", \"Orange Order\"]\nGranularity: 1",
+            "[\"Orange Order\", \"devoted to\", \"maintaining the Protestant ascendency\"]": "\n[\"Orange Order\", \"devoted to\", \"maintaining the Protestant ascendency\"]\nGranularity: 0",
+            "[\"Daniel Winter\", \"changed name of\", \"Peep O' Day Boys\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "In 1988 , he was also appointed to a steering committee for the establishment of NSW \u2019s Independent Commission Against Corruption ( ICAC ) .": {
+            "[\"Steering committee\", \"for establishment of\", \"NSW\\u2019s Independent Commission Against Corruption (ICAC)\"]": " \n[\"Steering committee\", \"for establishment of\", \"NSW's Independent Commission Against Corruption\"]\n[\"NSW's Independent Commission Against Corruption\", \"was established by\", \"Steering committee\"]\nGranularity: 2",
+            "[\"NSW\\u2019s Independent Commission Against Corruption (ICAC)\", \"established in\", \"1988\"]": " \n[\"NSW\\u2019s Independent Commission Against Corruption (ICAC)\", \"established in\", \"1988\"]\nGranularity: 1",
+            "[\"He\", \"was appointed to\", \"steering committee\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "After two scoreless defeats at the inaugurational World Cup in 1930 , Belgium scored their first two World Cup goals in 1934 against Germany , by virtue of Bernard Voorhoof .": {
+            "[\"two scoreless defeats\", \"at\", \"inaugurational World Cup in 1930\"]": " \n[\"two scoreless defeats\", \"at\", \"inaugurational World Cup\"]\n[\"two scoreless defeats\", \"at\", \"1930 World Cup\"]\nGranularity: 2",
+            "[\"Belgium\", \"scored\", \"first two World Cup goals in 1934\"]": " \n[\"Belgium\", \"scored\", \"first two World Cup goals\"]\n[\"Belgium\", \"scored\", \"in 1934\"]\nGranularity: 2",
+            "[\"Belgium\", \"scored against\", \"Germany\"]": " N/A (The triple is specific and does not need further granularity.)\nGranularity: 0",
+            "[\"Bernard Voorhoof\", \"scored\", \"first two World Cup goals for Belgium\"]": " \n[\"Bernard Voorhoof\", \"scored\", \"first two World Cup goals\"]\n[\"Bernard Voorhoof\", \"scored\", \"for Belgium\"]\nGranularity: 2",
+            "[\"Belgium\", \"had\", \"two scoreless defeats\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "\" NHL 2K3 \" was released on the Xbox , PlayStation 2 , and Nintendo GameCube .": {
+            "[\"NHL 2K3\", \"was released on\", \"PlayStation 2\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"NHL 2K3\", \"was released on\", \"Nintendo GameCube\"]": " \n[\"NHL 2K3\", \"was released on\", \"Nintendo\"]\n[\"NHL 2K3\", \"was released on\", \"GameCube\"]\nGranularity: 2",
+            "[\"NHL 2K3\", \"was released on\", \"Xbox\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Biman should , therefore , not expect slot allocations at Heathrow for the summer of 2008 and should look to Stansted or Gatwick airports if it wished to continue serving London .": {
+            "[\"Biman\", \"should look to\", \"Stansted or Gatwick airports\"]": " \n[\"Biman\", \"should look to\", \"Stansted airport\"]\n[\"Biman\", \"should look to\", \"Gatwick airport\"]\nGranularity: 2",
+            "[\"Biman\", \"wished to continue\", \"serving London\"]": " \n[\"Biman\", \"wished to continue\", \"serving\"]\n[\"Biman\", \"wished to continue\", \"London\"]\nGranularity: 2",
+            "[\"Biman\", \"should not expect\", \"slot allocations at Heathrow for the summer of 2008\"]": " \n[\"Biman\", \"should not expect\", \"slot allocations at Heathrow\"]\n[\"Biman\", \"should not expect\", \"slot allocations for the summer of 2008\"]\nGranularity: 2"
+      },
+      "The Sord M5 is a home computer launched by Sord Computer Corporation in 1982 .": {
+            "[\"The Sord M5\", \"launched by\", \"Sord Computer Corporation\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The Sord M5\", \"launched in\", \"1982\"]": " \n[\"The Sord M5\", \"launched\", \"1982\"]\nGranularity: 1",
+            "[\"The Sord M5\", \"is a\", \"home computer\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Oscar Fraley ( August 2 , 1914 \u2013 January 6 , 1994 ) was the co - author , with Eliot Ness , of the famous American memoir \" The Untouchables \" .": {
+            "[\"Oscar Fraley\", \"died on\", \"January 6, 1994\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Oscar Fraley\", \"was the co-author with\", \"Eliot Ness\"]": " \n[\"Oscar Fraley\", \"was the co-author with\", \"Eliot Ness\"]\nGranularity: 1",
+            "[\"Oscar Fraley\", \"co-authored\", \"The Untouchables\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The Untouchables\", \"is a\", \"famous American memoir\"]": " \n[\"The Untouchables\", \"is\", \"a famous American memoir\"]\nGranularity: 1",
+            "[\"Oscar Fraley\", \"born on\", \"August 2, 1914\"]": "\n[\"Oscar Fraley\", \"born on\", \"August 2\"]\n[\"Oscar Fraley\", \"born on\", \"1914\"]\nGranularity: 2"
+      },
+      "Lady Jessica is the concubine of Duke Leto Atreides and mother of Paul Atreides in \" Dune \" ( 1965 ) .": {
+            "[\"Lady Jessica\", \"is the mother of\", \"Paul Atreides\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Paul Atreides\", \"is a character in\", \"Dune (1965)\"]": " \n[\"Paul Atreides\", \"is a character in\", \"Dune\"]\n[\"Dune\", \"was published in\", \"1965\"]\nGranularity: 2",
+            "[\"Lady Jessica\", \"is the concubine of\", \"Duke Leto Atreides\"]": " \n[\"Lady Jessica\", \"is the concubine of\", \"Duke Leto Atreides\"]\nGranularity: 1"
+      },
+      "Cadence - lypso is a fusion of cadence rampa from Haiti and calypso from Trinidad and Tobago .": {
+            "[\"Cadence-lypso\", \"is a fusion of\", \"calypso from Trinidad and Tobago\"]": " \n[\"Cadence-lypso\", \"is a fusion of\", \"calypso\"]\n[\"Cadence-lypso\", \"is a fusion of\", \"Trinidad and Tobago\"]\nGranularity: 2",
+            "[\"Cadence-lypso\", \"is a fusion of\", \"cadence rampa from Haiti\"]": " \n[\"Cadence-lypso\", \"is a fusion of\", \"cadence rampa\"]\n[\"Cadence-lypso\", \"is a fusion of\", \"Haiti\"]\nGranularity: 2"
+      },
+      "He and Stephen Morehouse Avery were nominated for the Academy Award for Best Story for \" The Gay Deception \" ( 1935 ) .": {
+            "[\"He\", \"nominated for\", \"Academy Award for Best Story\"]": " \n[\"He\", \"nominated for\", \"Academy Award\"]\n[\"He\", \"nominated for\", \"Best Story\"]\nGranularity: 2",
+            "[\"Stephen Morehouse Avery\", \"nominated for\", \"Academy Award for Best Story\"]": " \n[\"Stephen Morehouse Avery\", \"nominated for\", \"Academy Award\"]\n[\"Stephen Morehouse Avery\", \"nominated for\", \"Best Story\"]\nGranularity: 2",
+            "[\"The Gay Deception\", \"is the subject of nomination for\", \"Academy Award for Best Story\"]": " \n[\"The Gay Deception\", \"is the subject of nomination for\", \"Academy Award\"]\n[\"Academy Award\", \"is for\", \"Best Story\"]\nGranularity: 2",
+            "[\"The Gay Deception\", \"released in\", \"1935\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"nominated with\", \"Stephen Morehouse Avery\"]": " \n[\"He\", \"nominated with\", \"Stephen Morehouse\"]\n[\"He\", \"nominated with\", \"Avery\"]\nGranularity: 2"
+      },
+      "River \u02bbIfr\u012bn runs from north to south between Mount Simeon and Mount Kurd and then turns west to the Orontes valley , thus separating Mount Kurd from Mount \u1e24\u0101rim to the south .": {
+            "[\"River \\u02bbIfr\\u012bn\", \"runs between\", \"Mount Simeon and Mount Kurd\"]": " \n[\"River \\u02bbIfr\\u012bn\", \"runs between\", \"Mount Simeon\"]\n[\"River \\u02bbIfr\\u012bn\", \"runs between\", \"Mount Kurd\"]\nGranularity: 2",
+            "[\"River \\u02bbIfr\\u012bn\", \"turns\", \"west\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"River \\u02bbIfr\\u012bn\", \"runs to\", \"Orontes valley\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Mount Kurd\", \"is separated from\", \"Mount \\u1e24\\u0101rim by River \\u02bbIfr\\u012bn\"]": " \n[\"Mount Kurd\", \"is separated from\", \"Mount \\u1e24\\u0101rim\"]\n[\"Mount Kurd\", \"is separated from\", \"River \\u02bbIfr\\u012bn\"]\nGranularity: 2",
+            "[\"Mount \\u1e24\\u0101rim\", \"is to the south of\", \"Mount Kurd\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"River \\u02bbIfr\\u012bn\", \"runs from\", \"north to south\"]": " \n[\"River \\u02bbIfr\\u012bn\", \"runs from\", \"north\"]\n[\"River \\u02bbIfr\\u012bn\", \"runs from\", \"south\"]\nGranularity: 2"
+      },
+      "Kiril \n\n The male name Kiril ( or \u041a\u0438\u0440\u0438\u043b or \u041a\u0438\u0440\u0438\u043b\u043b ) is a common first name in the Slavonic world , in particular in Bulgaria , Macedonia , and Russia .": {
+            "[\"Kiril\", \"is a common first name in\", \"Bulgaria\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Kiril\", \"is a common first name in\", \"Macedonia\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Kiril\", \"is a common first name in\", \"Russia\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Kiril\", \"is a common first name in\", \"the Slavonic world\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "It was the started at time when there was no Department of Agriculture in the United States government , before Abraham Lincoln established an independent Department of Agriculture .": {
+            "[\"Abraham Lincoln\", \"established\", \"independent Department of Agriculture\"]": "\n[\"Abraham Lincoln\", \"established\", \"independent Department\"]\n[\"Abraham Lincoln\", \"established\", \"Department of Agriculture\"]\nGranularity: 2",
+            "[\"Department of Agriculture\", \"started at time when there was no\", \"Department of Agriculture in the United States government\"]": " \n[\"Department of Agriculture\", \"started at time when there was no\", \"Department of Agriculture\"]\n[\"Department of Agriculture\", \"started at time when there was no\", \"United States government\"]\nGranularity: 2"
+      },
+      "Abstract expressionism also included anarchist artists such as Mark Rothko and painters such as Jackson Pollock , who had adopted radical ideas during his experience as a muralist for the Works Progress Administration .": {
+            "[\"Mark Rothko\", \"is an\", \"anarchist artist\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Jackson Pollock\", \"is a\", \"painter\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Jackson Pollock\", \"adopted\", \"radical ideas\"]": " N/A (The triple is specific, conveying a singular relation between Jackson Pollock and radical ideas.)\nGranularity: 0",
+            "[\"Jackson Pollock\", \"had experience as\", \"muralist for the Works Progress Administration\"]": "\n[\"Jackson Pollock\", \"had experience as\", \"muralist\"]\n[\"Jackson Pollock\", \"had experience as\", \"Works Progress Administration\"]\nGranularity: 2",
+            "[\"Abstract expressionism\", \"included\", \"anarchist artists\"]": " \n[\"Abstract expressionism\", \"included\", \"anarchist artists\"]\nGranularity: 1"
+      },
+      "The Shoes of the Fisherman is a novel by the Australian writer Morris West first published in 1963 .": {
+            "[\"The Shoes of the Fisherman\", \"written by\", \"Morris West\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The Shoes of the Fisherman\", \"first published in\", \"1963\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The Shoes of the Fisherman\", \"is a\", \"novel\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The game 's soundtrack was composed by Hirokazu Tanaka , the same composer who worked on the music for earlier Nintendo games such as \" Balloon Fight \" and \" Duck Hunt \" .": {
+            "[\"Hirokazu Tanaka\", \"worked on\", \"music for earlier Nintendo games\"]": "\n[\"Hirokazu Tanaka\", \"worked on\", \"music\"]\n[\"Hirokazu Tanaka\", \"worked on\", \"Nintendo games\"]\nGranularity: 2",
+            "[\"music for earlier Nintendo games\", \"includes\", \"Balloon Fight\"]": "\n[\"music for earlier Nintendo games\", \"includes\", \"Balloon Fight\"]\nGranularity: 1",
+            "[\"music for earlier Nintendo games\", \"includes\", \"Duck Hunt\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The game's soundtrack\", \"was composed by\", \"Hirokazu Tanaka\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "His sons , Takahiro Moriuchi and Hiroki Moriuchi are vocalist of the rock bands ONE OK ROCK and MY FIRST STORY , respectively .": {
+            "[\"Hiroki Moriuchi\", \"is vocalist of\", \"MY FIRST STORY\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Takahiro Moriuchi\", \"is vocalist of\", \"ONE OK ROCK\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Yost is an Americanized spelling of Dutch surname \" Joost \" or German surname \" Jost \" .": {
+            "[\"Yost\", \"is an Americanized spelling of\", \"German surname Jost\"]": "\n[\"Yost\", \"is an Americanized spelling of\", \"German surname\"]\n[\"Yost\", \"is an Americanized spelling of\", \"Jost\"]\nGranularity: 2",
+            "[\"Yost\", \"is an Americanized spelling of\", \"Dutch surname Joost\"]": " \n[\"Yost\", \"is an Americanized spelling of\", \"Dutch surname\"]\n[\"Yost\", \"is an Americanized spelling of\", \"Joost\"]\nGranularity: 2"
+      },
+      "On 7 July 1881 , Jacques Paul married Lucie ( Lucy ) Josephine Fehrenbach ( 19 December 1856 - ?": {
+            "[\"Jacques Paul\", \"married to\", \"Lucie Josephine Fehrenbach\"]": " \n[\"Jacques Paul\", \"married to\", \"Lucie Josephine\"]\n[\"Jacques Paul\", \"married to\", \"Fehrenbach\"]\nGranularity: 2",
+            "[\"Lucie Josephine Fehrenbach\", \"born on\", \"19 December 1856\"]": " \n[\"Lucie Josephine Fehrenbach\", \"born on\", \"19 December\"]\n[\"Lucie Josephine Fehrenbach\", \"born on\", \"1856\"]\nGranularity: 2",
+            "[\"Jacques Paul\", \"married on\", \"7 July 1881\"]": " \n[\"Jacques Paul\", \"married on\", \"7 July\"]\n[\"Jacques Paul\", \"married on\", \"1881\"]\nGranularity: 2"
+      },
+      "France Info ( stylised as franceinfo : ) is a brand of news service participated by France T\u00e9l\u00e9visions , Radio France , France M\u00e9dias Monde and the Institut national de l'audiovisuel .": {
+            "[\"France Info\", \"participated by\", \"France T\\u00e9l\\u00e9visions\"]": "\nN/A (The relationship is direct and does not need further granularity.)\nGranularity: 0",
+            "[\"France Info\", \"participated by\", \"Radio France\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"France Info\", \"participated by\", \"France M\\u00e9dias Monde\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"France Info\", \"participated by\", \"Institut national de l'audiovisuel\"]": " \n[\"France Info\", \"participated by\", \"Institut national de l'audiovisuel\"]\nGranularity: 1",
+            "[\"France Info\", \"is a brand of\", \"news service\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The culture of Brij is presented in \" Krishna Tere Desh Main \" ( Hindi ) , \" Kanha Ki Braj Bhumi \" , Brij ki radha dwarika ke shyam and \" Bawre Nain . \"": {
+            "[\"The culture of Brij\", \"is presented in\", \"Kanha Ki Braj Bhumi\"]": " \n[\"The culture of Brij\", \"is presented in\", \"Kanha Ki Braj Bhumi\"]\nGranularity: 1",
+            "[\"The culture of Brij\", \"is presented in\", \"Brij ki radha dwarika ke shyam\"]": "\n[\"The culture of Brij\", \"is presented in\", \"Brij ki radha\"]\n[\"The culture of Brij\", \"is presented in\", \"dwarika ke shyam\"]\nGranularity: 2",
+            "[\"The culture of Brij\", \"is presented in\", \"Bawre Nain\"]": " \n[\"The culture of Brij\", \"is presented in\", \"Bawre Nain\"]\nGranularity: 1",
+            "[\"The culture of Brij\", \"is presented in\", \"Krishna Tere Desh Main\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "After having been recognized for his efforts and budding into one of the French underground hip hop music scene \u2019s premier producers , DJ Mehdi henceforth pushed boundaries by mixing hip hop and electronic music .": {
+            "[\"DJ Mehdi\", \"budded into\", \"one of the French underground hip hop music scene\\u2019s premier producers\"]": " \n[\"DJ Mehdi\", \"budded into\", \"the French underground hip hop music scene\"]\n[\"DJ Mehdi\", \"budded into\", \"one of the premier producers in the French underground hip hop music scene\"]\nGranularity: 2",
+            "[\"DJ Mehdi\", \"pushed boundaries by\", \"mixing hip hop and electronic music\"]": " \n[\"DJ Mehdi\", \"pushed boundaries by\", \"mixing hip hop\"]\n[\"DJ Mehdi\", \"pushed boundaries by\", \"mixing electronic music\"]\nGranularity: 2",
+            "[\"DJ Mehdi\", \"recognized for\", \"his efforts\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "In 1985 , Soundgarden was a recently formed three - piece band with Chris Cornell on vocals and drums , Kim Thayil on guitar , and Hiro Yamamoto on bass guitar .": {
+            "[\"Soundgarden\", \"was a\", \"three-piece band\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Chris Cornell\", \"was on\", \"vocals\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Chris Cornell\", \"played\", \"drums\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Kim Thayil\", \"played\", \"guitar\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Hiro Yamamoto\", \"played\", \"bass guitar\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Soundgarden\", \"was formed in\", \"1985\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The missile becomes a cruise missile , and travels across the world , whereupon it finally crashes into the Opera House in Sydney , during an AC / DC concert .": {
+            "[\"The missile\", \"travels across\", \"the world\"]": " \n[\"The missile\", \"travels across\", \"the world\"]\nGranularity: 1",
+            "[\"The missile\", \"crashes into\", \"the Opera House in Sydney\"]": " \n[\"The missile\", \"crashes into\", \"the Opera House\"]\n[\"The missile\", \"crashes into\", \"Sydney\"]\nGranularity: 2",
+            "[\"The crash\", \"occurs during\", \"an AC/DC concert\"]": " \n[\"The crash\", \"occurs during\", \"an AC/DC concert\"]\nGranularity: 1",
+            "[\"The missile\", \"becomes\", \"a cruise missile\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The Frederick Krause Mansion and Platte County Courthouse are listed on the National Register of Historic Places .": {
+            "[\"Platte County Courthouse\", \"is listed on\", \"National Register of Historic Places\"]": " \n[\"Platte County Courthouse\", \"is listed on\", \"National Register of Historic Places\"]\nGranularity: 1",
+            "[\"Frederick Krause Mansion\", \"is listed on\", \"National Register of Historic Places\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Dawn of Magic 2 , known in North America as Time of Shadows , is an action role - playing game for Microsoft Windows published by Kalypso Media .": {
+            "[\"Dawn of Magic 2\", \"is an\", \"action role-playing game\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dawn of Magic 2\", \"for\", \"Microsoft Windows\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dawn of Magic 2\", \"published by\", \"Kalypso Media\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dawn of Magic 2\", \"known in North America as\", \"Time of Shadows\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Sorin T\u0103n\u0103sie ( born June 8 , 1980 in Craiova , Romania ) is a professional bantamweight boxer .": {
+            "[\"Sorin T\\u0103n\\u0103sie\", \"born in\", \"Craiova, Romania\"]": " \n[\"Sorin T\\u0103n\\u0103sie\", \"born in\", \"Craiova\"]\n[\"Sorin T\\u0103n\\u0103sie\", \"born in\", \"Romania\"]\nGranularity: 2",
+            "[\"Sorin T\\u0103n\\u0103sie\", \"is a\", \"professional bantamweight boxer\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Sorin T\\u0103n\\u0103sie\", \"born on\", \"June 8, 1980\"]": " \n[\"Sorin T\\u0103n\\u0103sie\", \"born on\", \"June 8\"]\n[\"Sorin T\\u0103n\\u0103sie\", \"born on\", \"1980\"]\nGranularity: 2"
+      },
+      "In February 2016 , Alitalia announced that in late March 2016 it would cancel most of its routes from Pisa , including Moscow , Prague , Berlin , Catania and Tirana .": {
+            "[\"Alitalia\", \"would cancel routes from\", \"Pisa\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Alitalia\", \"would cancel route to\", \"Moscow\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Alitalia\", \"would cancel route to\", \"Prague\"]": "\n[\"Alitalia\", \"would cancel route to\", \"Prague\"]\nGranularity: 1",
+            "[\"Alitalia\", \"would cancel route to\", \"Berlin\"]": " \n[\"Alitalia\", \"would cancel route to\", \"Berlin\"]\nGranularity: 1",
+            "[\"Alitalia\", \"would cancel route to\", \"Catania\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Alitalia\", \"would cancel route to\", \"Tirana\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"cancellation announcement\", \"made in\", \"February 2016\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Alitalia\", \"announced cancellation date\", \"late March 2016\"]": " \n[\"Alitalia\", \"announced cancellation date\", \"late March\"]\n[\"Alitalia\", \"announced cancellation date\", \"2016\"]\nGranularity: 2"
+      },
+      "Former San Francisco mayor Willie Brown has stated that Barack Obama declined to have his picture taken with Newsom at a fundraiser in 2004 .": {
+            "[\"Barack Obama\", \"declined\", \"to have his picture taken with Newsom\"]": "\n[\"Barack Obama\", \"declined\", \"to have his picture taken\"]\n[\"Barack Obama\", \"declined\", \"with Newsom\"]\nGranularity: 2",
+            "[\"The event\", \"was\", \"a fundraiser\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The event\", \"occurred in\", \"2004\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Willie Brown\", \"is former mayor of\", \"San Francisco\"]": "\n[\"Willie Brown\", \"is former mayor of\", \"San Francisco\"]\nGranularity: 1"
+      },
+      "He spoke on Wordsworth , with whose work and that of other Romantics , such as Coleridge , Byron , Shelley , and Keats he was well acquainted .": {
+            "[\"He\", \"was well acquainted with\", \"Wordsworth\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"was well acquainted with\", \"Coleridge\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"was well acquainted with\", \"Byron\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"was well acquainted with\", \"Shelley\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"was well acquainted with\", \"Keats\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"spoke on\", \"Wordsworth\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "It was succeeded as Norwegian representative at the 1979 contest by Anita Skorgan ( who later married Teigen ) with \" Oliver \" .": {
+            "[\"Anita Skorgan\", \"married\", \"Teigen\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Anita Skorgan\", \"performed\", \"Oliver at the 1979 contest\"]": " \n[\"Anita Skorgan\", \"performed\", \"Oliver\"]\n[\"Anita Skorgan\", \"performed\", \"at the 1979 contest\"]\nGranularity: 2",
+            "[\"It\", \"was succeeded as Norwegian representative at\", \"the 1979 contest by Anita Skorgan\"]": " \n[\"It\", \"was succeeded\", \"Norwegian representative\"]\n[\"Norwegian representative\", \"at\", \"the 1979 contest\"]\n[\"the 1979 contest\", \"by\", \"Anita Skorgan\"]\nGranularity: 3"
+      },
+      "Tiny Tower released on June 23 , 2011 for iOS devices and on November 16 , 2011 for Android devices .": {
+            "[\"Tiny Tower\", \"for\", \"iOS devices\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Tiny Tower\", \"released on\", \"November 16, 2011\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Tiny Tower\", \"for\", \"Android devices\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Tiny Tower\", \"released on\", \"June 23, 2011\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "In Norse mythology , Loki accuses Freyr and Freyja of committing incest , in \" Lokasenna \" .": {
+            "[\"Loki\", \"accuses\", \"Freyja\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Freyr\", \"committed\", \"incest\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Freyja\", \"committed\", \"incest\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Loki\", \"speaks in\", \"Lokasenna\"]": " \n[\"Loki\", \"speaks in\", \"Lokasenna\"]\nGranularity: 1",
+            "[\"Loki\", \"accuses\", \"Freyr\"]": " N/A (The triple is specific and does not need further granularity.)\nGranularity: 0"
+      },
+      "Alternative spellings are : Lucy , Lucie , Luci , Luce .": {
+            "[\"Lucy\", \"alternative spelling\", \"Luci\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Lucy\", \"alternative spelling\", \"Luce\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Lucy\", \"alternative spelling\", \"Lucie\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Ekaterina Vilkova was born in Gorky , Russian SFSR , Soviet Union ( now Nizhny Novgorod , Russia ) .": {
+            "[\"Gorky\", \"is now known as\", \"Nizhny Novgorod\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Gorky\", \"was part of\", \"Russian SFSR\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Russian SFSR\", \"was part of\", \"Soviet Union\"]": " \n[\"Russian SFSR\", \"was part of\", \"Soviet Union\"]\nGranularity: 1",
+            "[\"Ekaterina Vilkova\", \"was born in\", \"Gorky\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "' \u201d \n\n The 17th century alchemist Eirenaeus Philalethes , also known as George Starkey , describes stibnite in his alchemical commentary \" An Exposition upon Sir George Ripley 's Epistle \" .": {
+            "[\"Eirenaeus Philalethes\", \"describes\", \"stibnite\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Eirenaeus Philalethes\", \"author of\", \"An Exposition upon Sir George Ripley's Epistle\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"An Exposition upon Sir George Ripley's Epistle\", \"is a commentary on\", \"Sir George Ripley's Epistle\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Eirenaeus Philalethes\", \"also known as\", \"George Starkey\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The relationship of all of these taxa \u2014 members of the family Auriscalpiaceae of the order Russulales \u2014 has been demonstrated through molecular phylogenetics .": {
+            "[\"family Auriscalpiaceae\", \"is of\", \"order Russulales\"]": " \n[\"family Auriscalpiaceae\", \"is of\", \"order Russulales\"]\nGranularity: 1",
+            "[\"relationship of taxa\", \"has been demonstrated through\", \"molecular phylogenetics\"]": " \n[\"relationship of taxa\", \"has been demonstrated through\", \"molecular data\"]\n[\"relationship of taxa\", \"has been demonstrated through\", \"phylogenetic analysis\"]\nGranularity: 2",
+            "[\"taxa\", \"are members of\", \"family Auriscalpiaceae\"]": " \n[\"taxa\", \"are members of\", \"family Auriscalpiaceae\"]\nGranularity: 1"
+      },
+      "General Sir Hew Whitefoord Dalrymple , 1st Baronet ( 3 December 1750 \u2013 9 April 1830 ) was a British Army general and Governor of Gibraltar .": {
+            "[\"General Sir Hew Whitefoord Dalrymple\", \"was\", \"Governor of Gibraltar\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"General Sir Hew Whitefoord Dalrymple\", \"had title\", \"1st Baronet\"]": " \n[\"General Sir Hew Whitefoord Dalrymple\", \"had title\", \"1st Baronet\"]\nGranularity: 1",
+            "[\"General Sir Hew Whitefoord Dalrymple\", \"born on\", \"3 December 1750\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"General Sir Hew Whitefoord Dalrymple\", \"died on\", \"9 April 1830\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"General Sir Hew Whitefoord Dalrymple\", \"was\", \"British Army general\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Lieutenant - General Richard Stovin ( died 1825 ) was a British Army officer during the late eighteenth and early nineteenth centuries .": {
+            "[\"Lieutenant-General Richard Stovin\", \"was\", \"British Army officer\"]": " \n[\"Lieutenant-General Richard Stovin\", \"was\", \"British Army officer\"]\nGranularity: 1",
+            "[\"Lieutenant-General Richard Stovin\", \"served during\", \"late eighteenth and early nineteenth centuries\"]": " \n[\"Lieutenant-General Richard Stovin\", \"served during\", \"late eighteenth century\"]\n[\"Lieutenant-General Richard Stovin\", \"served during\", \"early nineteenth century\"]\nGranularity: 2",
+            "[\"Lieutenant-General Richard Stovin\", \"died in\", \"1825\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "\" Cogan ( 2008 ) , p. 82 \n\n \" Yahweh \" ( \u05d9\u05d4\u05d5\u05d4 ) is the name of the Judeo - Christian God in both the Bible .": {
+            "[\"Yahweh\", \"is in\", \"the Bible\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Yahweh\", \"is the name of\", \"the Judeo-Christian God\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "British pop art painters David Hockney , Patrick Caulfield , Derek Boshier , Peter Phillips , Peter Blake ( best known for the cover - art for \" Sgt .": {
+            "[\"Patrick Caulfield\", \"is associated with\", \"British pop art\"]": " N/A (The triple is specific and does not need further granularity.)\nGranularity: 0",
+            "[\"Derek Boshier\", \"is associated with\", \"British pop art\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Peter Phillips\", \"is associated with\", \"British pop art\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Peter Blake\", \"is associated with\", \"British pop art\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Peter Blake\", \"best known for\", \"cover art for 'Sgt. Pepper's Lonely Hearts Club Band'\"]": " \n[\"Peter Blake\", \"best known for\", \"cover art\"]\n[\"Peter Blake\", \"best known for\", \"'Sgt. Pepper's Lonely Hearts Club Band'\"]\nGranularity: 2",
+            "[\"David Hockney\", \"is associated with\", \"British pop art\"]": " \n[\"David Hockney\", \"is associated with\", \"British art\"]\n[\"David Hockney\", \"is associated with\", \"pop art\"]\nGranularity: 2"
+      },
+      "He went on to receive Best Director and Best Picture nominations in 1995 for \" Quiz Show \" .": {
+            "[\"He\", \"received nomination for\", \"Best Picture\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Best Director nomination\", \"in\", \"1995\"]": "\n[\"Best Director nomination\", \"in\", \"1995\"]\nGranularity: 1",
+            "[\"Best Picture nomination\", \"in\", \"1995\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Best Director nomination\", \"for\", \"Quiz Show\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Best Picture nomination\", \"for\", \"Quiz Show\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"received nomination for\", \"Best Director\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "That same year , he worked under Hall again in the English language premiere of \" Waiting for Godot \" by Samuel Beckett at the Arts Theatre , London .": {
+            "[\"he\", \"participated in\", \"English language premiere\"]": " \n[\"he\", \"participated in\", \"English language\"]\n[\"he\", \"participated in\", \"premiere\"]\nGranularity: 2",
+            "[\"English language premiere\", \"of\", \"Waiting for Godot\"]": " \n[\"English language premiere\", \"of\", \"Waiting for Godot\"]\nGranularity: 1",
+            "[\"Waiting for Godot\", \"written by\", \"Samuel Beckett\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"English language premiere\", \"at\", \"Arts Theatre\"]": "\n[\"English language premiere\", \"at\", \"Arts Theatre\"]\nGranularity: 1",
+            "[\"Arts Theatre\", \"located in\", \"London\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"he\", \"worked under\", \"Hall\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The Episode file system is the basis for the IBM z / OS POSIX - compatible file system called zFS .": {
+            "[\"IBM z / OS POSIX - compatible file system\", \"is called\", \"zFS\"]": " \n[\"IBM z / OS\", \"has\", \"POSIX - compatible file system\"]\n[\"POSIX - compatible file system\", \"is called\", \"zFS\"]\nGranularity: 2",
+            "[\"Episode file system\", \"is the basis for\", \"IBM z / OS POSIX - compatible file system\"]": " \n[\"Episode file system\", \"is the basis for\", \"IBM z / OS\"]\n[\"Episode file system\", \"is the basis for\", \"POSIX - compatible file system\"]\n[\"IBM z / OS\", \"is compatible with\", \"POSIX\"]\nGranularity: 3"
+      },
+      "Later also UC I , UB II and UC II series were constructed at AG Weser .": {
+            "[\"UB II\", \"later also constructed at\", \"AG Weser\"]": " \n[\"UB II\", \"later also constructed at\", \"AG Weser\"]\nGranularity: 1",
+            "[\"UC II\", \"later also constructed at\", \"AG Weser\"]": "\n[\"UC II\", \"later also constructed at\", \"AG Weser\"]\nGranularity: 1",
+            "[\"UC I\", \"later also constructed at\", \"AG Weser\"]": "\n[\"UC I\", \"later also constructed at\", \"AG Weser\"]\nGranularity: 1"
+      },
+      "Johanna Liebeneiner is a German stage , film and television actress . Goble p.428 She is the daughter of the actors Hilde Krahl and Wolfgang Liebeneiner .": {
+            "[\"Johanna Liebeneiner\", \"is a\", \"film actress\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Johanna Liebeneiner\", \"is a\", \"television actress\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Johanna Liebeneiner\", \"is the daughter of\", \"Hilde Krahl\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Johanna Liebeneiner\", \"is the daughter of\", \"Wolfgang Liebeneiner\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Johanna Liebeneiner\", \"is a\", \"German stage actress\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Microsoft has made several changes to Internet Explorer Mobile that brings the browser experience closer in line with the experiences on Safari ( iOS ) and Chrome ( Android ) .": {
+            "[\"Internet Explorer Mobile\", \"brings experience closer in line with\", \"Safari (iOS)\"]": " \n[\"Internet Explorer Mobile\", \"brings experience closer in line with\", \"Safari\"]\n[\"Internet Explorer Mobile\", \"brings experience closer in line with\", \"iOS\"]\nGranularity: 2",
+            "[\"Internet Explorer Mobile\", \"brings experience closer in line with\", \"Chrome (Android)\"]": " \n[\"Internet Explorer Mobile\", \"brings experience closer in line with\", \"Chrome\"]\n[\"Internet Explorer Mobile\", \"brings experience closer in line with\", \"Android\"]\nGranularity: 2",
+            "[\"Microsoft\", \"has made changes to\", \"Internet Explorer Mobile\"]": "\n[\"Microsoft\", \"has made changes to\", \"Internet Explorer\"]\n[\"Internet Explorer\", \"has\", \"Mobile\"]\nGranularity: 2"
+      },
+      "It is located on the banks of the Gods River where the Echoing River joins as a right tributary .": {
+            "[\"Echoing River\", \"joins as\", \"a right tributary\"]": " \n[\"Echoing River\", \"joins\", \"a right tributary\"]\nGranularity: 1",
+            "[\"Echoing River\", \"joins\", \"Gods River\"]": " \n[\"Echoing River\", \"joins\", \"Gods River\"]\nGranularity: 1",
+            "[\"It\", \"is located on\", \"the banks of the Gods River\"]": " \n[\"It\", \"is located on\", \"the banks\"]\n[\"the banks\", \"of\", \"the Gods River\"]\nGranularity: 2"
+      },
+      "The landscape of the district is flat and much of the district 's territory belongs to the basin of the Mologa River and its principal left tributaries , the Kobozha and the Chagodoshcha .": {
+            "[\"Much of the district's territory\", \"belongs to\", \"the basin of the Mologa River\"]": " \n[\"Much of the district's territory\", \"belongs to\", \"the basin of the Mologa River\"]\nGranularity: 1",
+            "[\"The Mologa River\", \"has tributaries\", \"the Kobozha\"]": " \n[\"The Mologa River\", \"has tributaries\", \"the Kobozha\"]\nGranularity: 1",
+            "[\"The Mologa River\", \"has tributaries\", \"the Chagodoshcha\"]": " \n[\"The Mologa River\", \"has tributaries\", \"the Chagodoshcha\"]\nGranularity: 1",
+            "[\"The Kobozha\", \"is\", \"principal left tributary of the Mologa River\"]": "\n[\"The Kobozha\", \"is\", \"principal left tributary\"]\n[\"The Kobozha\", \"is\", \"of the Mologa River\"]\nGranularity: 2",
+            "[\"The Chagodoshcha\", \"is\", \"principal left tributary of the Mologa River\"]": " \n[\"The Chagodoshcha\", \"is\", \"principal left tributary\"]\n[\"The Chagodoshcha\", \"is\", \"Mologa River\"]\nGranularity: 2",
+            "[\"The landscape of the district\", \"is\", \"flat\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "This result is sometimes called the FLP impossibility proof named after the authors Michael J. Fischer , Nancy Lynch , and Mike Paterson who were awarded a Dijkstra Prize for this significant work .": {
+            "[\"FLP impossibility proof\", \"is named after\", \"Nancy Lynch\"]": " \n[\"FLP impossibility proof\", \"is named after\", \"Nancy Lynch\"]\nGranularity: 1",
+            "[\"FLP impossibility proof\", \"is named after\", \"Mike Paterson\"]": " \n[\"FLP impossibility proof\", \"is named after\", \"Mike Paterson\"]\nGranularity: 1",
+            "[\"Michael J. Fischer\", \"awarded\", \"Dijkstra Prize\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Nancy Lynch\", \"awarded\", \"Dijkstra Prize\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Mike Paterson\", \"awarded\", \"Dijkstra Prize\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"FLP impossibility proof\", \"is sometimes called\", \"result\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Michael J. Fischer\", \"authored\", \"FLP impossibility proof\"]": "\n[\"Michael J. Fischer\", \"authored\", \"FLP impossibility proof\"]\nGranularity: 1",
+            "[\"Nancy Lynch\", \"authored\", \"FLP impossibility proof\"]": " \n[\"Nancy Lynch\", \"authored\", \"FLP impossibility proof\"]\nGranularity: 1",
+            "[\"Mike Paterson\", \"authored\", \"FLP impossibility proof\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"FLP impossibility proof\", \"is named after\", \"Michael J. Fischer\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Rides are often held on public lands , such as Forest Service or BLM lands in the United States , but are also held on private property .": {
+            "[\"Public lands\", \"include\", \"Forest Service lands\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Public lands\", \"include\", \"BLM lands\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"BLM lands\", \"located in\", \"the United States\"]": " \n[\"BLM lands\", \"located in\", \"the United States\"]\nGranularity: 1",
+            "[\"Rides\", \"also held on\", \"private property\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Rides\", \"held on\", \"public lands\"]": " \n[\"Rides\", \"held on\", \"public lands\"]\nGranularity: 1"
+      },
+      "Mega Man 6 \n\n Mega Man 6 , known in Japan as , is an action - video game developed by Capcom for the Nintendo Entertainment System ( NES ) .": {
+            "[\"Mega Man 6\", \"is a type of\", \"action-video game\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Mega Man 6\", \"developed by\", \"Capcom\"]": " N/A (The triple is specific and does not need further granularity.)\nGranularity: 0",
+            "[\"Mega Man 6\", \"for\", \"Nintendo Entertainment System (NES)\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Mega Man 6\", \"known in Japan as\", \"Rockman 6: Shij\\u014d Saidai no Tatakai!!\"]": " \n[\"Mega Man 6\", \"known in Japan as\", \"Rockman 6: Shij\\u014d Saidai no Tatakai!!\"]\nGranularity: 1"
+      },
+      "Willys later produced the M38 Jeep for the U.S. Army , and continued the CJ series of civilian Jeeps .": {
+            "[\"M38 Jeep\", \"for\", \"U.S. Army\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Willys\", \"continued\", \"CJ series of civilian Jeeps\"]": "\n[\"Willys\", \"continued\", \"CJ series\"]\n[\"CJ series\", \"of\", \"civilian Jeeps\"]\nGranularity: 2",
+            "[\"Willys\", \"produced\", \"M38 Jeep\"]": " \n[\"Willys\", \"produced\", \"M38\"]\n[\"Willys\", \"produced\", \"Jeep\"]\nGranularity: 2"
+      },
+      "It runs well on 32bit and 64bit versions on Windows , Mac OS X and Linux using either .NET Framework or Mono .": {
+            "[\"It\", \"runs on\", \"64bit versions on Windows\"]": " \n[\"It\", \"runs on\", \"64bit versions\"]\n[\"It\", \"runs on\", \"Windows\"]\nGranularity: 2",
+            "[\"It\", \"runs on\", \"Mac OS X\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"It\", \"runs on\", \"Linux\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"It\", \"uses\", \".NET Framework\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"It\", \"uses\", \"Mono\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"It\", \"runs on\", \"32bit versions on Windows\"]": "\n[\"It\", \"runs on\", \"32bit versions\"]\n[\"It\", \"runs on\", \"Windows\"]\nGranularity: 2"
+      },
+      "In 2013 , the airline announced its return to Abu Dhabi , Dammam and Riyadh , and launched new routes to Brisbane and Perth ( via Darwin ) , as well as Doha and Jeddah .": {
+            "[\"the airline\", \"announced return to\", \"Dammam\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"the airline\", \"announced return to\", \"Riyadh\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"the airline\", \"launched new routes to\", \"Brisbane\"]": "\n[\"the airline\", \"launched new routes to\", \"Brisbane\"]\nGranularity: 1",
+            "[\"the airline\", \"launched new routes to\", \"Perth\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"the airline\", \"launched new routes to\", \"Doha\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"the airline\", \"launched new routes to\", \"Jeddah\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Brisbane\", \"via\", \"Darwin\"]": "\n[\"Brisbane\", \"via\", \"Darwin\"]\nGranularity: 1",
+            "[\"the airline\", \"announced return to\", \"Abu Dhabi\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Hasidic Judaism was founded by Israel ben Eliezer ( 1700\u20131760 ) , also known as the Baal Shem Tov .": {
+            "[\"Israel ben Eliezer\", \"also known as\", \"the Baal Shem Tov\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Hasidic Judaism\", \"was founded by\", \"Israel ben Eliezer\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The NES version was not licensed by Nintendo .": {
+            "[\"The NES version\", \"was not licensed by\", \"Nintendo\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "He was sired by Fair Trial , whose other offspring included Palestine , Festoon and Court Martial .": {
+            "[\"Fair Trial\", \"offspring included\", \"Palestine\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Fair Trial\", \"offspring included\", \"Festoon\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Fair Trial\", \"offspring included\", \"Court Martial\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"sired by\", \"Fair Trial\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "In Hesiod 's \" Theogony \" , the six children of Cronus and Rhea are Zeus , Hera , Poseidon , Hades , Demeter , and Hestia .": {
+            "[\"Rhea\", \"parent of\", \"Zeus\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Cronus\", \"parent of\", \"Hera\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Rhea\", \"parent of\", \"Hera\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Cronus\", \"parent of\", \"Poseidon\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Rhea\", \"parent of\", \"Poseidon\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Cronus\", \"parent of\", \"Hades\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Rhea\", \"parent of\", \"Hades\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Cronus\", \"parent of\", \"Demeter\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Rhea\", \"parent of\", \"Demeter\"]": " N/A (The triple is specific, conveying a singular relation between Rhea and Demeter.)\nGranularity: 0",
+            "[\"Cronus\", \"parent of\", \"Hestia\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Rhea\", \"parent of\", \"Hestia\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Cronus\", \"parent of\", \"Zeus\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "In the 1995 General Election an alliance consisting of the PTR and MMM won the election , Dr. Navin Ramgoolam became Prime Minister of Mauritius .": {
+            "[\"an alliance\", \"won\", \"1995 General Election\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dr. Navin Ramgoolam\", \"became\", \"Prime Minister of Mauritius\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"an alliance\", \"consisting of\", \"PTR and MMM\"]": " \n[\"an alliance\", \"consisting of\", \"PTR\"]\n[\"an alliance\", \"consisting of\", \"MMM\"]\nGranularity: 2"
+      },
+      "In 2014 , the Department of Biotechnology and Department of Science and Technology , under Ministry of Science and Technology , Government of India jointly announced their open access policy .": {
+            "[\"Department of Science and Technology\", \"under\", \"Ministry of Science and Technology\"]": " \n[\"Department of Science and Technology\", \"under\", \"Ministry of Science\"]\n[\"Department of Science and Technology\", \"under\", \"Technology\"]\nGranularity: 2",
+            "[\"Department of Biotechnology and Department of Science and Technology\", \"announced\", \"open access policy\"]": " \n[\"Department of Biotechnology\", \"announced\", \"open access policy\"]\n[\"Department of Science and Technology\", \"announced\", \"open access policy\"]\nGranularity: 2",
+            "[\"open access policy\", \"announced in\", \"2014\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"open access policy\", \"by\", \"Government of India\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Department of Biotechnology\", \"under\", \"Ministry of Science and Technology\"]": " \n[\"Department of Biotechnology\", \"under\", \"Ministry of Science\"]\n[\"Department of Biotechnology\", \"under\", \"Technology\"]\nGranularity: 2"
+      },
+      "Genoa subsequently opted against exercising their option to sign him permanently and on 22 July 2016 he was loaned to Portuguese Primeira Liga side Estoril for the 2016 - 17 season .": {
+            "[\"He\", \"was loaned to\", \"Portuguese Primeira Liga side Estoril\"]": " \n[\"He\", \"was loaned to\", \"Portuguese Primeira Liga side\"]\n[\"He\", \"was loaned to\", \"Estoril\"]\nGranularity: 2",
+            "[\"Loan duration\", \"for\", \"the 2016 - 17 season\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Genoa\", \"opted against\", \"exercising their option to sign him permanently\"]": " \n[\"Genoa\", \"opted against\", \"exercising their option\"]\n[\"Genoa\", \"opted against\", \"signing him permanently\"]\nGranularity: 2"
+      },
+      "Zeta Capricorni , Latinized from \u03b6 Capricorni , is a fourth - magnitude star in the constellation Capricornus .": {
+            "[\"Zeta Capricorni\", \"in the constellation\", \"Capricornus\"]": " \n[\"Zeta Capricorni\", \"in the constellation\", \"Capricornus\"]\nGranularity: 1",
+            "[\"Zeta Capricorni\", \"is a\", \"fourth-magnitude star\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "He was commissioned by Pope John Paul II to assist Emmanuel Milingo , Archbishop Emeritus of Lusaka , Zambia , in returning to the Catholic Church in 2001 .": {
+            "[\"He\", \"to assist\", \"Emmanuel Milingo\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Emmanuel Milingo\", \"is\", \"Archbishop Emeritus of Lusaka\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Emmanuel Milingo\", \"is from\", \"Zambia\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"assisted in\", \"returning to the Catholic Church\"]": " \n[\"He\", \"assisted in\", \"returning\"]\n[\"He\", \"assisted in\", \"the Catholic Church\"]\nGranularity: 2",
+            "[\"Returning\", \"occurred in\", \"2001\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"He\", \"was commissioned by\", \"Pope John Paul II\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "Cord is also known to science fiction enthusiasts for having portrayed Dylan Hunt in the failed 1973 television pilot , \" Genesis II , \" which was created by Gene Roddenberry .": {
+            "[\"Cord\", \"portrayed\", \"Dylan Hunt\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Dylan Hunt\", \"in\", \"Genesis II\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Genesis II\", \"is a\", \"failed 1973 television pilot\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Genesis II\", \"was created by\", \"Gene Roddenberry\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Cord\", \"is known to\", \"science fiction enthusiasts\"]": " N/A (The triple is specific, conveying a singular relation between Cord and science fiction enthusiasts.)\nGranularity: 0"
+      },
+      "The temple is dedicated to Chandraprabhu , the eighth Tirthankara of Jainism .": {
+            "[\"Chandraprabhu\", \"is the\", \"eighth Tirthankara of Jainism\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The temple\", \"is dedicated to\", \"Chandraprabhu\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "London has hosted the Summer Olympics in 1908 at White City and 1948 at Wembley Stadium .": {
+            "[\"Summer Olympics 1908\", \"at\", \"White City\"]": "\nN/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"London\", \"hosted\", \"Summer Olympics 1948\"]": " \n[\"London\", \"hosted\", \"Summer Olympics\"]\n[\"Summer Olympics\", \"took place in\", \"1948\"]\nGranularity: 2",
+            "[\"Summer Olympics 1948\", \"at\", \"Wembley Stadium\"]": " \n[\"Summer Olympics 1948\", \"took place at\", \"Wembley Stadium\"]\n[\"Summer Olympics 1948\", \"were held at\", \"Wembley Stadium\"]\nGranularity: 2",
+            "[\"London\", \"hosted\", \"Summer Olympics 1908\"]": " \n[\"London\", \"hosted\", \"Summer Olympics\"]\n[\"Summer Olympics\", \"took place in\", \"1908\"]\nGranularity: 2"
+      },
+      "Ray Nunatak is 1,630 m , located just north of Beiszer Nunatak and 5 nautical miles ( 9 \u00a0 km ) southwest of Dyrdal Peak in southern Forrestal Range , Pensacola Mountains .": {
+            "[\"Ray Nunatak\", \"located\", \"north of Beiszer Nunatak\"]": " \n[\"Ray Nunatak\", \"located\", \"north of Beiszer Nunatak\"]\nGranularity: 1",
+            "[\"Ray Nunatak\", \"located\", \"5 nautical miles southwest of Dyrdal Peak\"]": "\n[\"Ray Nunatak\", \"located\", \"5 nautical miles southwest of Dyrdal Peak\"]\nGranularity: 1 (The triple is already specific, but could potentially be split into two sub-triples: one for the location of Ray Nunatak and one for the distance and direction from Dyrdal Peak.)",
+            "[\"Ray Nunatak\", \"located in\", \"southern Forrestal Range\"]": " \n[\"Ray Nunatak\", \"located in\", \"southern Forrestal Range\"]\nGranularity: 1",
+            "[\"southern Forrestal Range\", \"is part of\", \"Pensacola Mountains\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Ray Nunatak\", \"is\", \"1,630 m\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The tracks \" Hard to Make a Stand \" , \" A Change Would Do You Good \" , and \" Home \" were released as the album 's last three singles .": {
+            "[\"A Change Would Do You Good\", \"released as\", \"album's second last single\"]": " \n[\"A Change Would Do You Good\", \"released as\", \"album's second last single\"]\nGranularity: 1",
+            "[\"Home\", \"released as\", \"album's third last single\"]": "\n[\"Home\", \"released as\", \"album's third single\"]\n[\"Home\", \"released as\", \"album's last single\"]\nGranularity: 2",
+            "[\"Hard to Make a Stand\", \"released as\", \"album's last single\"]": " \n[\"Hard to Make a Stand\", \"released as\", \"album's last single\"]\nGranularity: 1"
+      },
+      "By this time she also sang for other Hindi films such as \" Dum \" and \" Bunty Aur Babli \" .": {
+            "[\"Dum\", \"is one of\", \"other Hindi films\"]": " \n[\"Dum\", \"is one of\", \"Hindi films\"]\n[\"Dum\", \"is one of\", \"other films\"]\nGranularity: 2",
+            "[\"Bunty Aur Babli\", \"is one of\", \"other Hindi films\"]": " \n[\"Bunty Aur Babli\", \"is one of\", \"Hindi films\"]\n[\"Bunty Aur Babli\", \"is one of\", \"other films\"]\nGranularity: 2",
+            "[\"she\", \"sang for\", \"other Hindi films\"]": " \n[\"she\", \"sang for\", \"Hindi films\"]\n[\"she\", \"sang for\", \"other films\"]\nGranularity: 2"
+      },
+      "Masterson has recently appeared as Tara Chambler on the AMC series \" The Walking Dead \" , having debuted in the show 's fourth season .": {
+            "[\"Tara Chambler\", \"on\", \"The Walking Dead\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Masterson\", \"debuted in\", \"show's fourth season\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"The Walking Dead\", \"has season\", \"fourth\"]": "\n[\"The Walking Dead\", \"has season\", \"fourth\"]\nGranularity: 1",
+            "[\"Masterson\", \"appeared as\", \"Tara Chambler\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      },
+      "The buyer and his three sons , Vencel / Venceslav , Raszl\u00f3 / Vraslav and L\u00e1szl\u00f3 / Ladislav , now partially used the predicate of Pethenegh .": {
+            "[\"The buyer\", \"has sons\", \"Raszl\\u00f3 / Vraslav\"]": " \n[\"The buyer\", \"has sons\", \"Raszl\\u00f3\"]\n[\"The buyer\", \"has sons\", \"Vraslav\"]\nGranularity: 2",
+            "[\"The buyer\", \"has sons\", \"L\\u00e1szl\\u00f3 / Ladislav\"]": " \n[\"The buyer\", \"has sons\", \"L\\u00e1szl\\u00f3\"]\n[\"The buyer\", \"has sons\", \"Ladislav\"]\nGranularity: 2",
+            "[\"The buyer and his three sons\", \"used\", \"the predicate of Pethenegh\"]": " \n[\"The buyer and his three sons\", \"used\", \"the predicate\"]\n[\"The buyer and his three sons\", \"used\", \"Pethenegh\"]\nGranularity: 2",
+            "[\"The buyer\", \"has sons\", \"Vencel / Venceslav\"]": " \n[\"The buyer\", \"has sons\", \"Vencel\"]\n[\"The buyer\", \"has sons\", \"Venceslav\"]\nGranularity: 2"
+      },
+      "Old time and fiddle music are well represented by such Canadian exponents as Jerry Holland , Natalie MacMaster , Sierra Noble , The Rankin Family , and Ashley MacIsaac .": {
+            "[\"Old time music\", \"represented by\", \"Natalie MacMaster\"]": " \n[\"Old time music\", \"represented by\", \"Natalie MacMaster\"]\nGranularity: 1",
+            "[\"Old time music\", \"represented by\", \"Sierra Noble\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Old time music\", \"represented by\", \"The Rankin Family\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Old time music\", \"represented by\", \"Ashley MacIsaac\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Fiddle music\", \"represented by\", \"Jerry Holland\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Fiddle music\", \"represented by\", \"Natalie MacMaster\"]": " \n[\"Fiddle music\", \"represented by\", \"Natalie MacMaster\"]\nGranularity: 1",
+            "[\"Fiddle music\", \"represented by\", \"Sierra Noble\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Fiddle music\", \"represented by\", \"The Rankin Family\"]": " N/A (The triple is specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Fiddle music\", \"represented by\", \"Ashley MacIsaac\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0",
+            "[\"Old time music\", \"represented by\", \"Jerry Holland\"]": " N/A (The triple is already specific and cannot be broken down further.)\nGranularity: 0"
+      }
+}

@@ -97,22 +97,25 @@ def main():
             'openchat',
             # 'gpt-3.5_closed',
             # 'gpt-3.5_semi',
+            'groundtruth'
             ]
         
         dataset_names = [
             # 'cdr_rand_200',
             # 'docred_rand_200',
             # 'nyt10m_rand_500',
-            'wiki20m_rand_500',
+            # 'wiki20m_rand_500',
             # 'tacred_rand_800',
             # 'wiki80_rand_800',
+            'wiki20m_rand_100',
         ]
         
-        seeds = [54, 64, 74, 84]
+        # seeds = [54, 64, 74, 84]
+        seeds=[1]
         
-        if os.path.exists(f'./results/FS.json'):
-            with open(f'./results/FS.json', 'r') as f:
-                all_scores = json.load(f)
+        # if os.path.exists(f'./results/FS.json'):
+        #     with open(f'./results/FS.json', 'r') as f:
+        #         all_scores = json.load(f)
             
         for model_name in model_names:
             for dataset_name in dataset_names:
@@ -138,7 +141,7 @@ def main():
                         print(f"Error calculating FS score for model {model_name} on dataset {dataset_name}: {e}")
                         continue
                     
-                    with open(f'./results/FS.json', 'w') as f:
+                    with open(f'./results_new/FS.json', 'w') as f:
                         json.dump(all_scores, f, indent=6)
             
     else:

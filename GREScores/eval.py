@@ -16,8 +16,8 @@ def main():
     datasets = [
         # 'cdr', 
         # 'docred', 
-        'nyt10m', 
-        # 'wiki20m', 
+        # 'nyt10m', 
+        'wiki20m', 
         # 'tacred', 
         # 'wiki80'
         ]    

@@ -1,0 +1,960 @@
+{
+      "The official announcement was made during a press conference at East River Park in Manhattan by New York City Mayor Michael Bloomberg and National Lacrosse League Commissioner Jim Jennings .": {
+            "['michael bloomberg', 'residence', 'manhattan']": [
+                  0.9999999999999994,
+                  0.9520651133616355
+            ],
+            "['new york city', 'head of government', 'michael bloomberg']": [
+                  0.9520651133616356,
+                  1.0000000000000013
+            ]
+      },
+      "MySQL Cluster is implemented through the NDB or NDBCLUSTER storage engine for MySQL ( \" NDB \" stands for Network Database ) .": {
+            "['mysql cluster', 'said to be the same as', 'ndb']": [
+                  1.0000000000000022,
+                  1.0000000000000022
+            ],
+            "['ndb', 'said to be the same as', 'mysql cluster']": [
+                  1.0000000000000022,
+                  1.0000000000000022
+            ]
+      },
+      "Shanty Run joins Quinn Run upstream of its mouth .": {
+            "['quinn run', 'tributary', 'shanty run']": [
+                  1.0000000000000002,
+                  0.972782416162914
+            ],
+            "['shanty run', 'mouth of the watercourse', 'quinn run']": [
+                  0.9727824161629139,
+                  1.0000000000000002
+            ]
+      },
+      "Following the passage of a Genoa low the rivers Rhine , Moselle , Main , Danube , Weser , Werra , Unstrut , Elbe , Vltava and their tributaries inundated large areas .": {
+            "['rhine', 'tributary', 'moselle']": [
+                  1.0000000000000004,
+                  0.9544848813751396
+            ],
+            "['elbe', 'tributary', 'vltava']": [
+                  0.9544848813751396,
+                  1.0000000000000016
+            ]
+      },
+      "Its architect was Gu\u00f0j\u00f3n Sam\u00faelsson , who also designed Hallgr\u00edmskirkja , a Reykjavik landmark , and Akureyrarkirkja in Akureyri , North Iceland .": {
+            "['akureyrarkirkja', 'architect', 'gu\u00f0j\u00f3n sam\u00faelsson']": [
+                  0.9999999999999998,
+                  0.9894680807073769
+            ],
+            "['hallgr\u00edmskirkja', 'architect', 'gu\u00f0j\u00f3n sam\u00faelsson']": [
+                  0.9894680807073769,
+                  0.9999999999999982
+            ]
+      },
+      "The April 1972 election of Jerry DeGrieck and Nancy Wechsler to the Ann Arbor city council on the Human Rights Party ticket would signal changes for LGBT rights in the state .": {
+            "['nancy wechsler', 'residence', 'ann arbor']": [
+                  0.999999999999998,
+                  0.9397636065702533
+            ],
+            "['human rights party', 'headquarters location', 'ann arbor']": [
+                  0.9397636065702533,
+                  1.0000000000000007
+            ]
+      },
+      "In July 2006 it performed Leonard Bernstein 's comic operetta \" Candide \"   to much acclaim ) , while in July 2009 the company performed Stephen Sondheim 's Sweeney Todd .": {
+            "['sweeney todd', 'screenwriter', 'stephen sondheim']": [
+                  0.9999999999999989,
+                  0.9174269675622752
+            ],
+            "['leonard bernstein', 'notable work', 'candide']": [
+                  0.9174269675622752,
+                  1.0000000000000027
+            ]
+      },
+      "Las Mercedes Airport is an airstrip serving San Javier , a town in the Maule Region of Chile .": {
+            "['las mercedes airport', 'place served by transport hub', 'san javier']": [
+                  0.9999999999999989,
+                  0.9252890218655176
+            ],
+            "['san javier', 'country', 'chile']": [
+                  0.9252890218655174,
+                  0.9999999999999984
+            ]
+      },
+      "In 1989 , Streisand began devoting most of her time towards directing the 1991 film adaptation of Pat Conroy 's 1986 novel \" The Prince of Tides \" .": {
+            "['1991 film adaptation', 'after a work by', 'pat conroy']": [
+                  1.0000000000000002,
+                  0.9732083086298204
+            ],
+            "['the prince of tides', 'after a work by', 'pat conroy']": [
+                  0.9732083086298204,
+                  1.0000000000000016
+            ]
+      },
+      "On 16 January 1847 , Commodore Stockton appointed Fr\u00e9mont military governor of California following the Treaty of Cahuenga signed by Fremont and Andr\u00e9s Pico which ended the Mexican \u2013 American War in California .": {
+            "['fremont', 'said to be the same as', 'fr\u00e9mont']": [
+                  1.0000000000000007,
+                  1.0000000000000007
+            ],
+            "['fr\u00e9mont', 'said to be the same as', 'fremont']": [
+                  1.0000000000000007,
+                  1.0000000000000007
+            ]
+      },
+      "In 1995 , Griffin Dunne was nominated for an Academy Award for Best Live Action Short Film for \" Duke of Groove \" , which he directed and co - wrote .": {
+            "['duke of groove', 'nominated for', 'academy award for best live action short film']": [
+                  1.0000000000000033,
+                  0.9736743741997445
+            ],
+            "['griffin dunne', 'nominated for', 'academy award for best live action short film']": [
+                  0.9736743741997446,
+                  1.0000000000000018
+            ]
+      },
+      "Priit \n\n Priit is an Estonian masculine given name , cognate to English Fred or Frederick and to German Friedrich .": {
+            "['frederick', 'said to be the same as', 'friedrich']": [
+                  0.9999999999999988,
+                  0.9999999999999989
+            ],
+            "['friedrich', 'said to be the same as', 'frederick']": [
+                  0.9999999999999988,
+                  0.9999999999999989
+            ]
+      },
+      "The new quintet consists of saxophonist George Coleman , pianist Herbie Hancock , bassist Ron Carter and drummer Tony Williams .": {
+            "['george coleman', 'instrument', 'saxophonist']": [
+                  0.9999999999999982,
+                  0.9536566913090598
+            ],
+            "['tony williams', 'instrument', 'drummer']": [
+                  0.95365669130906,
+                  0.999999999999998
+            ]
+      },
+      "Daily Air is the only airline to offer flights from Taiwan Island through Taitung Airport in Taitung City to Orchid Island through its Lanyu Airport .": {
+            "['lanyu airport', 'place served by transport hub', 'orchid island']": [
+                  0.9999999999999989,
+                  0.939657073578311
+            ],
+            "['taitung airport', 'place served by transport hub', 'taitung city']": [
+                  0.9396570735783112,
+                  0.9999999999999996
+            ]
+      },
+      "Variations of the given name include : Paschal , Pasqual , Pasquale , Paskal , Pascoal , Pascale , Pascha , Paschalis , Pascual , Pascoe , and Pasco .": {
+            "['pascual', 'said to be the same as', 'pasquale']": [
+                  1.0000000000000018,
+                  1.0000000000000018
+            ],
+            "['pasquale', 'said to be the same as', 'pascual']": [
+                  1.0000000000000018,
+                  1.0000000000000018
+            ]
+      },
+      "The stations involved in the transaction include CJAV , CKWV and CHWF in Nanaimo , CIBH and CHPQ in Parksville - Qualicum Beach and CKLR in Courtenay .": {
+            "['cklr', 'licensed to broadcast to', 'courtenay']": [
+                  1.0000000000000007,
+                  0.9570828588055282
+            ],
+            "['ckwv', 'licensed to broadcast to', 'nanaimo']": [
+                  0.9570828588055282,
+                  1.0000000000000007
+            ]
+      },
+      "Dynazty is a Swedish rock band from Stockholm , Sweden , and signed to the StormVox Records , StormVox Records - Dynazty   with license to SoFo Records .": {
+            "['dynazty', 'location of formation', 'stockholm']": [
+                  1.0000000000000016,
+                  0.9580685758867693
+            ],
+            "['dynazty', 'country of origin', 'sweden']": [
+                  0.9580685758867693,
+                  1.0
+            ]
+      },
+      "3D Friends ( stylized as 3D FRIENDS ) is an American indie rock band from Austin , Texas .": {
+            "['3d friends', 'genre', 'indie rock']": [
+                  0.9999999999999982,
+                  0.9288299995014164
+            ],
+            "['3d friends', 'location of formation', 'austin']": [
+                  0.9288299995014163,
+                  0.9999999999999998
+            ]
+      },
+      "For both they also manufactured converters to play Famicom titles on the NES .": {
+            "['nes', 'said to be the same as', 'nes']": [
+                  0.9999999999999996,
+                  0.9767415011380722
+            ],
+            "['nes', 'said to be the same as', 'famicom']": [
+                  0.9767415011380722,
+                  0.9999999999999994
+            ]
+      },
+      "However , in Defenders of the Earth , the Phantom was not the only playable character , as players were given the choice to control Mandrake the Magician and Flash Gordon as well .": {
+            "['defenders of the earth', 'characters', 'mandrake the magician']": [
+                  1.0,
+                  0.9733731547853595
+            ],
+            "['defenders of the earth', 'characters', 'flash gordon']": [
+                  0.9733731547853595,
+                  1.0000000000000004
+            ]
+      },
+      "Union flag ( disambiguation ) \n\n The Union Flag is the name of the flag of the United Kingdom , commonly called the Union Jack .": {
+            "['union flag', 'said to be the same as', 'flag of the united kingdom']": [
+                  0.9999999999999992,
+                  0.9999999999999992
+            ],
+            "['flag of the united kingdom', 'said to be the same as', 'union flag']": [
+                  0.9999999999999992,
+                  0.9999999999999992
+            ]
+      },
+      "Aktion National Airport is an airport serving Preveza and Lefkada in Greece .": {
+            "['lefkada', 'country', 'greece']": [
+                  1.0000000000000016,
+                  0.9109329647214026
+            ],
+            "['aktion national airport', 'place served by transport hub', 'preveza']": [
+                  0.9109329647214025,
+                  0.9999999999999987
+            ]
+      },
+      "Two celebrated Charles Dickens adaptations followed \u2013 \" Great Expectations \" ( 1946 ) and \" Oliver Twist \" ( 1948 ) .": {
+            "['great expectations', 'after a work by', 'charles dickens']": [
+                  0.9999999999999989,
+                  0.9782230562660997
+            ],
+            "['oliver twist', 'after a work by', 'charles dickens']": [
+                  0.9782230562660998,
+                  0.9999999999999996
+            ]
+      },
+      "and husband of Gorgophone , daughter of the famous Perseus .": {
+            "['perseus', 'child', 'gorgophone']": [
+                  0.9999999999999994,
+                  0.9833084042232788
+            ],
+            "['gorgophone', 'father', 'perseus']": [
+                  0.9833084042232788,
+                  0.9999999999999996
+            ]
+      },
+      "After the battle Daniel Winter , James Wilson , and James Sloan changed the name of the Peep O ' Day Boys to the Orange Order devoted to maintaining the Protestant ascendency .": {
+            "['james wilson', 'member of', 'orange order']": [
+                  1.0000000000000004,
+                  0.9294639474655836
+            ],
+            "['orange order', 'religion', 'protestant']": [
+                  0.9294639474655836,
+                  0.9999999999999979
+            ]
+      },
+      "In 1988 , he was also appointed to a steering committee for the establishment of NSW \u2019s Independent Commission Against Corruption ( ICAC ) .": {
+            "['independent commission against corruption', 'applies to jurisdiction', 'nsw']": [
+                  0.9999999999999979,
+                  0.9761912639162295
+            ],
+            "['icac', 'applies to jurisdiction', 'nsw']": [
+                  0.9761912639162295,
+                  1.0000000000000018
+            ]
+      },
+      "After two scoreless defeats at the inaugurational World Cup in 1930 , Belgium scored their first two World Cup goals in 1934 against Germany , by virtue of Bernard Voorhoof .": {
+            "['bernard voorhoof', 'participant of', 'inaugurational world cup']": [
+                  0.9999999999999991,
+                  0.9307713624094077
+            ],
+            "['1934', 'participating team', 'germany']": [
+                  0.9307713624094077,
+                  0.9999999999999991
+            ]
+      },
+      "\" NHL 2K3 \" was released on the Xbox , PlayStation 2 , and Nintendo GameCube .": {
+            "['nhl 2k3', 'platform', 'playstation 2']": [
+                  0.9999999999999996,
+                  0.9815993238665661
+            ],
+            "['nhl 2k3', 'platform', 'xbox']": [
+                  0.9815993238665661,
+                  0.9999999999999994
+            ]
+      },
+      "Biman should , therefore , not expect slot allocations at Heathrow for the summer of 2008 and should look to Stansted or Gatwick airports if it wished to continue serving London .": {
+            "['stansted', 'place served by transport hub', 'london']": [
+                  0.9999999999999989,
+                  0.9839324471786097
+            ],
+            "['heathrow', 'place served by transport hub', 'london']": [
+                  0.98393244717861,
+                  0.9999999999999984
+            ]
+      },
+      "The Sord M5 is a home computer launched by Sord Computer Corporation in 1982 .": {
+            "['sord m5', 'manufacturer', 'sord computer corporation']": [
+                  0.999999999999998,
+                  0.9405549227137862
+            ],
+            "['sord m5', 'instance of', 'home computer']": [
+                  0.9405549227137862,
+                  1.0000000000000033
+            ]
+      },
+      "Oscar Fraley ( August 2 , 1914 \u2013 January 6 , 1994 ) was the co - author , with Eliot Ness , of the famous American memoir \" The Untouchables \" .": {
+            "['eliot ness', 'country of citizenship', 'american']": [
+                  1.0,
+                  0.903087419631545
+            ],
+            "['the untouchables', 'after a work by', 'oscar fraley']": [
+                  0.903087419631545,
+                  1.0000000000000009
+            ]
+      },
+      "Lady Jessica is the concubine of Duke Leto Atreides and mother of Paul Atreides in \" Dune \" ( 1965 ) .": {
+            "['dune', 'characters', 'lady jessica']": [
+                  1.0000000000000024,
+                  0.9723612391778911
+            ],
+            "['dune', 'characters', 'paul atreides']": [
+                  0.9723612391778911,
+                  0.9999999999999989
+            ]
+      },
+      "Cadence - lypso is a fusion of cadence rampa from Haiti and calypso from Trinidad and Tobago .": {
+            "['calypso', 'country of origin', 'trinidad and tobago']": [
+                  0.9999999999999982,
+                  0.9573757301049733
+            ],
+            "['cadence rampa', 'country of origin', 'haiti']": [
+                  0.9573757301049733,
+                  1.0000000000000004
+            ]
+      },
+      "He and Stephen Morehouse Avery were nominated for the Academy Award for Best Story for \" The Gay Deception \" ( 1935 ) .": {
+            "['stephen morehouse avery', 'nominated for', 'academy award for best story']": [
+                  1.0000000000000004,
+                  0.9321095698550119
+            ],
+            "['the gay deception', 'screenwriter', 'stephen morehouse avery']": [
+                  0.9321095698550119,
+                  1.000000000000001
+            ]
+      },
+      "River \u02bbIfr\u012bn runs from north to south between Mount Simeon and Mount Kurd and then turns west to the Orontes valley , thus separating Mount Kurd from Mount \u1e24\u0101rim to the south .": {
+            "['orontes', 'tributary', 'river \u02bbifr\u012bn']": [
+                  1.0,
+                  0.9727496965266458
+            ],
+            "['river \u02bbifr\u012bn', 'mouth of the watercourse', 'orontes']": [
+                  0.9727496965266457,
+                  0.9999999999999992
+            ]
+      },
+      "Kiril \n\n The male name Kiril ( or \u041a\u0438\u0440\u0438\u043b or \u041a\u0438\u0440\u0438\u043b\u043b ) is a common first name in the Slavonic world , in particular in Bulgaria , Macedonia , and Russia .": {
+            "['\u043a\u0438\u0440\u0438\u043b\u043b', 'said to be the same as', 'kiril']": [
+                  1.0000000000000004,
+                  1.0000000000000007
+            ],
+            "['kiril', 'said to be the same as', '\u043a\u0438\u0440\u0438\u043b\u043b']": [
+                  1.0000000000000004,
+                  1.0000000000000007
+            ]
+      },
+      "It was the started at time when there was no Department of Agriculture in the United States government , before Abraham Lincoln established an independent Department of Agriculture .": {
+            "['united states', 'head of government', 'abraham lincoln']": [
+                  0.9999999999999988,
+                  0.9396108190513592
+            ],
+            "['department of agriculture', 'applies to jurisdiction', 'united states']": [
+                  0.9396108190513592,
+                  1.000000000000001
+            ]
+      },
+      "Abstract expressionism also included anarchist artists such as Mark Rothko and painters such as Jackson Pollock , who had adopted radical ideas during his experience as a muralist for the Works Progress Administration .": {
+            "['jackson pollock', 'movement', 'abstract expressionism']": [
+                  0.9999999999999991,
+                  0.977607424854851
+            ],
+            "['mark rothko', 'movement', 'abstract expressionism']": [
+                  0.977607424854851,
+                  1.0000000000000018
+            ]
+      },
+      "The Shoes of the Fisherman is a novel by the Australian writer Morris West first published in 1963 .": {
+            "['the shoes of the fisherman', 'after a work by', 'morris west']": [
+                  0.9999999999999998,
+                  0.979063406488577
+            ],
+            "['morris west', 'notable work', 'the shoes of the fisherman']": [
+                  0.979063406488577,
+                  0.9999999999999991
+            ]
+      },
+      "The game 's soundtrack was composed by Hirokazu Tanaka , the same composer who worked on the music for earlier Nintendo games such as \" Balloon Fight \" and \" Duck Hunt \" .": {
+            "['duck hunt', 'publisher', 'nintendo']": [
+                  1.0000000000000004,
+                  0.9771752372642514
+            ],
+            "['balloon fight', 'publisher', 'nintendo']": [
+                  0.9771752372642513,
+                  1.0
+            ]
+      },
+      "His sons , Takahiro Moriuchi and Hiroki Moriuchi are vocalist of the rock bands ONE OK ROCK and MY FIRST STORY , respectively .": {
+            "['hiroki moriuchi', 'sibling', 'takahiro moriuchi']": [
+                  1.0000000000000013,
+                  0.9486170954322775
+            ],
+            "['takahiro moriuchi', 'member of', 'one ok rock']": [
+                  0.9486170954322775,
+                  1.0000000000000018
+            ]
+      },
+      "Yost is an Americanized spelling of Dutch surname \" Joost \" or German surname \" Jost \" .": {
+            "['jost', 'said to be the same as', 'yost']": [
+                  0.9999999999999993,
+                  0.9999999999999993
+            ],
+            "['yost', 'said to be the same as', 'jost']": [
+                  0.9999999999999993,
+                  0.9999999999999993
+            ]
+      },
+      "On 7 July 1881 , Jacques Paul married Lucie ( Lucy ) Josephine Fehrenbach ( 19 December 1856 - ?": {
+            "['lucie', 'said to be the same as', 'lucy']": [
+                  0.9999999999999998,
+                  0.9999999999999998
+            ],
+            "['lucy', 'said to be the same as', 'lucie']": [
+                  0.9999999999999998,
+                  0.9999999999999998
+            ]
+      },
+      "France Info ( stylised as franceinfo : ) is a brand of news service participated by France T\u00e9l\u00e9visions , Radio France , France M\u00e9dias Monde and the Institut national de l'audiovisuel .": {
+            "['france info', 'owned by', 'radio france']": [
+                  0.9999999999999989,
+                  0.9855426429203
+            ],
+            "['france info', 'owned by', 'france m\u00e9dias monde']": [
+                  0.9855426429203,
+                  1.0000000000000004
+            ]
+      },
+      "After having been recognized for his efforts and budding into one of the French underground hip hop music scene \u2019s premier producers , DJ Mehdi henceforth pushed boundaries by mixing hip hop and electronic music .": {
+            "['dj mehdi', 'field of work', 'electronic music']": [
+                  1.0000000000000009,
+                  0.9774162907628192
+            ],
+            "['dj mehdi', 'field of work', 'hip hop']": [
+                  0.9774162907628192,
+                  0.9999999999999996
+            ]
+      },
+      "In 1985 , Soundgarden was a recently formed three - piece band with Chris Cornell on vocals and drums , Kim Thayil on guitar , and Hiro Yamamoto on bass guitar .": {
+            "['soundgarden', 'has part', 'chris cornell']": [
+                  0.9999999999999987,
+                  0.9670490428805892
+            ],
+            "['soundgarden', 'has part', 'hiro yamamoto']": [
+                  0.9670490428805891,
+                  0.9999999999999997
+            ]
+      },
+      "The missile becomes a cruise missile , and travels across the world , whereupon it finally crashes into the Opera House in Sydney , during an AC / DC concert .": {
+            "['opera house', 'location', 'sydney']": [
+                  0.999999999999999,
+                  0.9469033309387355
+            ],
+            "['ac/dc', 'location of formation', 'sydney']": [
+                  0.9469033309387355,
+                  0.9999999999999998
+            ]
+      },
+      "The Frederick Krause Mansion and Platte County Courthouse are listed on the National Register of Historic Places .": {
+            "['platte county courthouse', 'heritage designation', 'national register of historic places']": [
+                  1.0000000000000002,
+                  0.9682405255114866
+            ],
+            "['frederick krause mansion', 'heritage designation', 'national register of historic places']": [
+                  0.9682405255114866,
+                  1.0000000000000018
+            ]
+      },
+      "Dawn of Magic 2 , known in North America as Time of Shadows , is an action role - playing game for Microsoft Windows published by Kalypso Media .": {
+            "['dawn of magic', 'genre', 'action role-playing game']": [
+                  1.0000000000000009,
+                  0.9370285150770123
+            ],
+            "['dawn of magic', 'platform', 'microsoft windows']": [
+                  0.9370285150770122,
+                  1.0000000000000027
+            ]
+      },
+      "Sorin T\u0103n\u0103sie ( born June 8 , 1980 in Craiova , Romania ) is a professional bantamweight boxer .": {
+            "['sorin t\u0103n\u0103sie', 'country of citizenship', 'romania']": [
+                  1.0000000000000009,
+                  0.9626407900813464
+            ],
+            "['craiova', 'country', 'romania']": [
+                  0.9626407900813461,
+                  1.0000000000000002
+            ]
+      },
+      "In February 2016 , Alitalia announced that in late March 2016 it would cancel most of its routes from Pisa , including Moscow , Prague , Berlin , Catania and Tirana .": {
+            "['tirana', 'place served by transport hub', 'tirana']": [
+                  1.0000000000000009,
+                  0.9250780886275519
+            ],
+            "['moscow', 'place served by transport hub', 'moscow']": [
+                  0.9250780886275519,
+                  1.0000000000000022
+            ]
+      },
+      "Former San Francisco mayor Willie Brown has stated that Barack Obama declined to have his picture taken with Newsom at a fundraiser in 2004 .": {
+            "['san francisco', 'head of government', 'willie brown']": [
+                  1.0000000000000004,
+                  0.9695006264224251
+            ],
+            "['willie brown', 'residence', 'san francisco']": [
+                  0.9695006264224251,
+                  1.0000000000000002
+            ]
+      },
+      "He spoke on Wordsworth , with whose work and that of other Romantics , such as Coleridge , Byron , Shelley , and Keats he was well acquainted .": {
+            "['shelley', 'movement', 'romantics']": [
+                  0.9999999999999993,
+                  0.980387552843364
+            ],
+            "['byron', 'movement', 'romantics']": [
+                  0.980387552843364,
+                  0.9999999999999982
+            ]
+      },
+      "It was succeeded as Norwegian representative at the 1979 contest by Anita Skorgan ( who later married Teigen ) with \" Oliver \" .": {
+            "['1979 contest', 'participant', 'anita skorgan']": [
+                  0.9999999999999989,
+                  0.9911262395020037
+            ],
+            "['anita skorgan', 'participant of', '1979 contest']": [
+                  0.9911262395020036,
+                  1.000000000000001
+            ]
+      },
+      "Tiny Tower released on June 23 , 2011 for iOS devices and on November 16 , 2011 for Android devices .": {
+            "['tiny tower', 'platform', 'android']": [
+                  1.0000000000000002,
+                  0.9802170075825056
+            ],
+            "['tiny tower', 'platform', 'ios']": [
+                  0.9802170075825056,
+                  0.9999999999999972
+            ]
+      },
+      "In Norse mythology , Loki accuses Freyr and Freyja of committing incest , in \" Lokasenna \" .": {
+            "['lokasenna', 'characters', 'freyr']": [
+                  1.0000000000000002,
+                  0.9411547504945471
+            ],
+            "['freyja', 'part of', 'norse mythology']": [
+                  0.9411547504945471,
+                  0.9999999999999998
+            ]
+      },
+      "Alternative spellings are : Lucy , Lucie , Luci , Luce .": {
+            "['lucie', 'said to be the same as', 'lucy']": [
+                  0.9999999999999998,
+                  0.9999999999999998
+            ],
+            "['lucy', 'said to be the same as', 'lucie']": [
+                  0.9999999999999998,
+                  0.9999999999999998
+            ]
+      },
+      "Ekaterina Vilkova was born in Gorky , Russian SFSR , Soviet Union ( now Nizhny Novgorod , Russia ) .": {
+            "['gorky', 'residence', 'gorky']": [
+                  0.9999999999999993,
+                  0.9813182092067251
+            ],
+            "['gorky', 'residence', 'nizhny novgorod']": [
+                  0.9813182092067252,
+                  1.0000000000000009
+            ]
+      },
+      "' \u201d \n\n The 17th century alchemist Eirenaeus Philalethes , also known as George Starkey , describes stibnite in his alchemical commentary \" An Exposition upon Sir George Ripley 's Epistle \" .": {
+            "['george starkey', 'said to be the same as', 'eirenaeus philalethes']": [
+                  1.0000000000000002,
+                  1.0000000000000002
+            ],
+            "['eirenaeus philalethes', 'said to be the same as', 'george starkey']": [
+                  1.0000000000000002,
+                  1.0000000000000002
+            ]
+      },
+      "The relationship of all of these taxa \u2014 members of the family Auriscalpiaceae of the order Russulales \u2014 has been demonstrated through molecular phylogenetics .": {
+            "['russulales', 'taxon rank', 'order']": [
+                  0.9999999999999998,
+                  0.9466688489222358
+            ],
+            "['auriscalpiaceae', 'taxon rank', 'family']": [
+                  0.9466688489222358,
+                  0.9999999999999984
+            ]
+      },
+      "General Sir Hew Whitefoord Dalrymple , 1st Baronet ( 3 December 1750 \u2013 9 April 1830 ) was a British Army general and Governor of Gibraltar .": {
+            "['hew whitefoord dalrymple', 'military rank', 'general']": [
+                  0.9999999999999998,
+                  0.9527690266757958
+            ],
+            "['hew whitefoord dalrymple', 'military branch', 'british army']": [
+                  0.9527690266757958,
+                  0.9999999999999991
+            ]
+      },
+      "Lieutenant - General Richard Stovin ( died 1825 ) was a British Army officer during the late eighteenth and early nineteenth centuries .": {
+            "['richard stovin', 'military rank', 'lieutenant-general']": [
+                  0.9999999999999996,
+                  0.9564950876499754
+            ],
+            "['richard stovin', 'military branch', 'british army']": [
+                  0.9564950876499754,
+                  1.0000000000000007
+            ]
+      },
+      "\" Cogan ( 2008 ) , p. 82 \n\n \" Yahweh \" ( \u05d9\u05d4\u05d5\u05d4 ) is the name of the Judeo - Christian God in both the Bible .": {
+            "['yahweh', 'said to be the same as', 'christian god']": [
+                  1.0000000000000002,
+                  1.0000000000000002
+            ],
+            "['christian god', 'said to be the same as', 'yahweh']": [
+                  1.0000000000000002,
+                  1.0000000000000002
+            ]
+      },
+      "British pop art painters David Hockney , Patrick Caulfield , Derek Boshier , Peter Phillips , Peter Blake ( best known for the cover - art for \" Sgt .": {
+            "['patrick caulfield', 'movement', 'pop art']": [
+                  1.0000000000000002,
+                  0.9746284368079606
+            ],
+            "['peter blake', 'movement', 'pop art']": [
+                  0.9746284368079606,
+                  1.0000000000000022
+            ]
+      },
+      "He went on to receive Best Director and Best Picture nominations in 1995 for \" Quiz Show \" .": {
+            "['quiz show', 'nominated for', 'best picture']": [
+                  0.9999999999999996,
+                  0.9773350033593042
+            ],
+            "['quiz show', 'nominated for', 'best director']": [
+                  0.9773350033593042,
+                  0.9999999999999992
+            ]
+      },
+      "That same year , he worked under Hall again in the English language premiere of \" Waiting for Godot \" by Samuel Beckett at the Arts Theatre , London .": {
+            "['waiting for godot', 'language', 'english language']": [
+                  0.9305458373380626
+            ],
+            "['waiting for godot', 'after a work by', 'samuel beckett']": [
+                  0.9999999999999994
+            ]
+      },
+      "The Episode file system is the basis for the IBM z / OS POSIX - compatible file system called zFS .": {
+            "['zfs', 'instance of', 'file system']": [
+                  0.9999999999999989,
+                  0.9518830737391566
+            ],
+            "['zfs', 'operating system', 'z/os']": [
+                  0.9518830737391566,
+                  0.999999999999999
+            ]
+      },
+      "Later also UC I , UB II and UC II series were constructed at AG Weser .": {
+            "['uc ii', 'manufacturer', 'ag weser']": [
+                  0.9999999999999996,
+                  0.9938482235129344
+            ],
+            "['ub ii', 'manufacturer', 'ag weser']": [
+                  0.9938482235129347,
+                  1.0000000000000018
+            ]
+      },
+      "Johanna Liebeneiner is a German stage , film and television actress . Goble p.428 She is the daughter of the actors Hilde Krahl and Wolfgang Liebeneiner .": {
+            "['johanna liebeneiner', 'father', 'wolfgang liebeneiner']": [
+                  0.9999999999999998,
+                  0.9640907827960744
+            ],
+            "['johanna liebeneiner', 'mother', 'hilde krahl']": [
+                  0.9640907827960747,
+                  1.0000000000000002
+            ]
+      },
+      "Microsoft has made several changes to Internet Explorer Mobile that brings the browser experience closer in line with the experiences on Safari ( iOS ) and Chrome ( Android ) .": {
+            "['chrome', 'operating system', 'ios']": [
+                  0.9999999999999993,
+                  0.9802036982614445
+            ],
+            "['chrome', 'operating system', 'android']": [
+                  0.9802036982614445,
+                  0.9999999999999999
+            ]
+      },
+      "It is located on the banks of the Gods River where the Echoing River joins as a right tributary .": {
+            "['gods river', 'tributary', 'echoing river']": [
+                  1.0000000000000002,
+                  0.9739662644413428
+            ],
+            "['echoing river', 'mouth of the watercourse', 'gods river']": [
+                  0.9739662644413429,
+                  0.9999999999999992
+            ]
+      },
+      "The landscape of the district is flat and much of the district 's territory belongs to the basin of the Mologa River and its principal left tributaries , the Kobozha and the Chagodoshcha .": {
+            "['mologa river', 'tributary', 'kobozha']": [
+                  0.9999999999999988,
+                  0.9535885052266647
+            ],
+            "['chagodoshcha', 'mouth of the watercourse', 'mologa river']": [
+                  0.9535885052266647,
+                  0.9999999999999996
+            ]
+      },
+      "This result is sometimes called the FLP impossibility proof named after the authors Michael J. Fischer , Nancy Lynch , and Mike Paterson who were awarded a Dijkstra Prize for this significant work .": {
+            "['dijkstra prize', 'winner', 'nancy lynch']": [
+                  0.9999999999999978,
+                  0.9743637088930115
+            ],
+            "['dijkstra prize', 'winner', 'mike paterson']": [
+                  0.9743637088930115,
+                  0.9999999999999996
+            ]
+      },
+      "Rides are often held on public lands , such as Forest Service or BLM lands in the United States , but are also held on private property .": {
+            "['blm', 'applies to jurisdiction', 'united states']": [
+                  1.000000000000001,
+                  0.9800700450347752
+            ],
+            "['forest service', 'applies to jurisdiction', 'united states']": [
+                  0.9800700450347752,
+                  0.9999999999999984
+            ]
+      },
+      "Mega Man 6 \n\n Mega Man 6 , known in Japan as , is an action - video game developed by Capcom for the Nintendo Entertainment System ( NES ) .": {
+            "['nes', 'said to be the same as', 'nintendo entertainment system']": [
+                  0.9999999999999998,
+                  0.9999999999999998
+            ],
+            "['nintendo entertainment system', 'said to be the same as', 'nes']": [
+                  0.9999999999999998,
+                  0.9999999999999998
+            ]
+      },
+      "Willys later produced the M38 Jeep for the U.S. Army , and continued the CJ series of civilian Jeeps .": {
+            "['cj series', 'manufacturer', 'willys']": [
+                  0.9999999999999983,
+                  0.9762360134497894
+            ],
+            "['jeeps', 'manufacturer', 'willys']": [
+                  0.9762360134497894,
+                  0.9999999999999996
+            ]
+      },
+      "It runs well on 32bit and 64bit versions on Windows , Mac OS X and Linux using either .NET Framework or Mono .": {
+            "['mono', 'operating system', 'windows']": [
+                  1.0000000000000002,
+                  0.977866588563248
+            ],
+            "['mono', 'operating system', 'mac os x']": [
+                  0.9778665885632483,
+                  0.9999999999999992
+            ]
+      },
+      "Rainier ( name ) \n\n The name Rainier ( or ; , a French form of Rainer ) may refer to \n\n Given name : \n\n Surname : \n\n Fiction :": {
+            "['rainer', 'said to be the same as', 'rainier']": [
+                  0.9999999999999998,
+                  0.9999999999999999
+            ],
+            "['rainier', 'said to be the same as', 'rainer']": [
+                  0.9999999999999998,
+                  0.9999999999999999
+            ]
+      },
+      "In 2013 , the airline announced its return to Abu Dhabi , Dammam and Riyadh , and launched new routes to Brisbane and Perth ( via Darwin ) , as well as Doha and Jeddah .": {
+            "['brisbane', 'place served by transport hub', 'brisbane']": [
+                  1.0000000000000004,
+                  0.8910704056777841
+            ],
+            "['jeddah', 'place served by transport hub', 'jeddah']": [
+                  0.891070405677784,
+                  1.0000000000000009
+            ]
+      },
+      "Hasidic Judaism was founded by Israel ben Eliezer ( 1700\u20131760 ) , also known as the Baal Shem Tov .": {
+            "['israel ben eliezer', 'religion', 'hasidic judaism']": [
+                  0.9999999999999968,
+                  0.9762243885763378
+            ],
+            "['baal shem tov', 'religion', 'hasidic judaism']": [
+                  0.9762243885763378,
+                  1.0000000000000002
+            ]
+      },
+      "The NES version was not licensed by Nintendo .": {
+            "['nes', 'said to be the same as', 'nes']": [
+                  0.9999999999999996,
+                  0.9464879547225249
+            ],
+            "['nes', 'manufacturer', 'nintendo']": [
+                  0.9464879547225251,
+                  0.9999999999999988
+            ]
+      },
+      "He was sired by Fair Trial , whose other offspring included Palestine , Festoon and Court Martial .": {
+            "['palestine', 'father', 'fair trial']": [
+                  1.0,
+                  0.9676982324561142
+            ],
+            "['festoon', 'father', 'fair trial']": [
+                  0.9676982324561143,
+                  0.9999999999999982
+            ]
+      },
+      "In Hesiod 's \" Theogony \" , the six children of Cronus and Rhea are Zeus , Hera , Poseidon , Hades , Demeter , and Hestia .": {
+            "['theogony', 'characters', 'cronus']": [
+                  1.0000000000000018,
+                  0.9727557998299098
+            ],
+            "['theogony', 'characters', 'rhea']": [
+                  0.9727557998299098,
+                  1.0000000000000009
+            ]
+      },
+      "In the 1995 General Election an alliance consisting of the PTR and MMM won the election , Dr. Navin Ramgoolam became Prime Minister of Mauritius .": {
+            "['1995 general election', 'successful candidate', 'navin ramgoolam']": [
+                  1.0000000000000004,
+                  0.9455051562838908
+            ],
+            "['navin ramgoolam', 'member of political party', 'ptr']": [
+                  0.9455051562838908,
+                  1.0000000000000016
+            ]
+      },
+      "In 2014 , the Department of Biotechnology and Department of Science and Technology , under Ministry of Science and Technology , Government of India jointly announced their open access policy .": {
+            "['ministry of science and technology', 'subsidiary', 'department of biotechnology']": [
+                  0.9999999999999986,
+                  0.9901440568740794
+            ],
+            "['ministry of science and technology', 'subsidiary', 'department of science and technology']": [
+                  0.9901440568740791,
+                  1.0000000000000004
+            ]
+      },
+      "Genoa subsequently opted against exercising their option to sign him permanently and on 22 July 2016 he was loaned to Portuguese Primeira Liga side Estoril for the 2016 - 17 season .": {
+            "['2016-17', 'participating team', 'estoril']": [
+                  0.9999999999999981,
+                  0.942190445081964
+            ],
+            "['estoril', 'league', 'primeira liga']": [
+                  0.9421904450819639,
+                  1.0000000000000013
+            ]
+      },
+      "Zeta Capricorni , Latinized from \u03b6 Capricorni , is a fourth - magnitude star in the constellation Capricornus .": {
+            "['capricornus', 'instance of', 'constellation']": [
+                  0.9999999999999998,
+                  0.967489656567224
+            ],
+            "['zeta capricorni', 'constellation', 'capricornus']": [
+                  0.9674896565672242,
+                  1.0000000000000007
+            ]
+      },
+      "He was commissioned by Pope John Paul II to assist Emmanuel Milingo , Archbishop Emeritus of Lusaka , Zambia , in returning to the Catholic Church in 2001 .": {
+            "['emmanuel milingo', 'religion', 'catholic church']": [
+                  1.0,
+                  0.9710944948899809
+            ],
+            "['pope john paul ii', 'religion', 'catholic church']": [
+                  0.971094494889981,
+                  0.9999999999999987
+            ]
+      },
+      "Cord is also known to science fiction enthusiasts for having portrayed Dylan Hunt in the failed 1973 television pilot , \" Genesis II , \" which was created by Gene Roddenberry .": {
+            "['genesis ii', 'screenwriter', 'gene roddenberry']": [
+                  1.0000000000000002,
+                  0.9456534374647714
+            ],
+            "['gene roddenberry', 'notable work', 'dylan hunt']": [
+                  0.9456534374647714,
+                  0.9999999999999993
+            ]
+      },
+      "The temple is dedicated to Chandraprabhu , the eighth Tirthankara of Jainism .": {
+            "['chandraprabhu', 'religion', 'jainism']": [
+                  0.9999999999999991,
+                  0.9829415678945089
+            ],
+            "['tirthankara', 'religion', 'jainism']": [
+                  0.9829415678945088,
+                  0.9999999999999993
+            ]
+      },
+      "London has hosted the Summer Olympics in 1908 at White City and 1948 at Wembley Stadium .": {
+            "['1908', 'location', 'white city']": [
+                  1.0000000000000029,
+                  0.9735916261770923
+            ],
+            "['white city', 'occupant', '1908']": [
+                  0.9735916261770923,
+                  1.0000000000000004
+            ]
+      },
+      "Ray Nunatak is 1,630 m , located just north of Beiszer Nunatak and 5 nautical miles ( 9 \u00a0 km ) southwest of Dyrdal Peak in southern Forrestal Range , Pensacola Mountains .": {
+            "['ray nunatak', 'mountain range', 'forrestal range']": [
+                  0.9999999999999986,
+                  0.9672852521666269
+            ],
+            "['forrestal range', 'mountain range', 'pensacola mountains']": [
+                  0.9672852521666269,
+                  0.9999999999999999
+            ]
+      },
+      "The tracks \" Hard to Make a Stand \" , \" A Change Would Do You Good \" , and \" Home \" were released as the album 's last three singles .": {
+            "['a change would do you good', 'followed by', 'home']": [
+                  1.0000000000000013,
+                  0.9885694059533384
+            ],
+            "['home', 'follows', 'a change would do you good']": [
+                  0.9885694059533384,
+                  0.9999999999999972
+            ]
+      },
+      "Masterson has recently appeared as Tara Chambler on the AMC series \" The Walking Dead \" , having debuted in the show 's fourth season .": {
+            "['fourth season', 'original network', 'amc']": [
+                  0.9999999999999992,
+                  0.9446339090711788
+            ],
+            "['fourth season', 'part of', 'the walking dead']": [
+                  0.9446339090711788,
+                  1.0
+            ]
+      },
+      "The buyer and his three sons , Vencel / Venceslav , Raszl\u00f3 / Vraslav and L\u00e1szl\u00f3 / Ladislav , now partially used the predicate of Pethenegh .": {
+            "['ladislav', 'said to be the same as', 'l\u00e1szl\u00f3']": [
+                  1.0000000000000002,
+                  1.0000000000000002
+            ],
+            "['l\u00e1szl\u00f3', 'said to be the same as', 'ladislav']": [
+                  1.0000000000000002,
+                  1.0000000000000002
+            ]
+      },
+      "Old time and fiddle music are well represented by such Canadian exponents as Jerry Holland , Natalie MacMaster , Sierra Noble , The Rankin Family , and Ashley MacIsaac .": {
+            "['natalie macmaster', 'instrument', 'fiddle']": [
+                  1.0000000000000002,
+                  0.9791025170037868
+            ],
+            "['ashley macisaac', 'instrument', 'fiddle']": [
+                  0.9791025170037868,
+                  1.0
+            ]
+      }
+}

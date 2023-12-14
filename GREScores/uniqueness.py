@@ -19,6 +19,8 @@ with open('/data/pj20/gre_element_embedding_dict.json', 'r') as f:
 def get_triple_embedding(triple):
     entity_emb = np.add(ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]])
     triple_emb = np.add(entity_emb, ELE_EMB_DICT[triple[1]])
+    # emb_ = np.concatenate([ELE_EMB_DICT[triple[0]], ELE_EMB_DICT[triple[2]]])
+    # triple_emb = np.concatenate([emb_, ELE_EMB_DICT[triple[1]]])
     return triple_emb.tolist()
 
 
@@ -92,38 +94,41 @@ def main():
         all_scores = defaultdict(dict)
         
         model_names = [
-            # 'vicuna-1.5-7b',
-            # 'vicuna-1.3-33b', 
-            # 'llama-2-7b',
+            'vicuna-1.5-7b',
+            'vicuna-1.3-33b', 
+            'llama-2-7b',
             'llama-2-70b',
-            # 'wizardlm-70b',
-            # 'text-davinci-003',
-            # 'gpt-3.5-turbo-instruct',
-            # 'gpt-3.5-turbo-1106',
-            # 'gpt-4',
+            'wizardlm-70b',
+            'text-davinci-003',
+            'gpt-3.5-turbo-instruct',
+            'gpt-3.5-turbo-1106',
+            'gpt-4',
             'gpt-4-1106-preview',
-            # 'mistral',
-            # 'zephyr-7b-beta',
-            # 'galactica-30b',
+            'mistral',
+            'zephyr-7b-beta',
+            'galactica-30b',
             'openchat',
-            # 'gpt-3.5_closed',
-            # 'gpt-3.5_semi',
+            'gpt-3.5_closed',
+            'gpt-3.5_semi',
+            'groundtruth'
             ]
         
         dataset_names = [
-            # 'cdr_rand_200',
-            # 'docred_rand_200',
-            # 'nyt10m_rand_500',
+            'cdr_rand_200',
+            'docred_rand_200',
+            'nyt10m_rand_500',
             'wiki20m_rand_500',
-            # 'tacred_rand_800',
-            # 'wiki80_rand_800',
+            'tacred_rand_800',
+            'wiki80_rand_800',
+            'wiki20m_rand_100',
         ]
         
-        seeds = [54, 64, 74, 84]
+        # seeds = [54, 64, 74, 84]
+        seeds=[1]
         
-        if os.path.exists(f'./results/US.json'):
-            with open(f'./results/US.json', 'r') as f:
-                all_scores = json.load(f)
+        # if os.path.exists(f'./results/US.json'):
+        #     with open(f'./results/US.json', 'r') as f:
+        #         all_scores = json.load(f)
             
         for model_name in model_names:
             for dataset_name in dataset_names:
@@ -146,7 +151,7 @@ def main():
                     all_scores[dataset_name][f'{model_name}-{seed}'] = us_score
 
                     
-                    with open(f'./results/US.json', 'w') as f:
+                    with open(f'./results_new/US.json', 'w') as f:
                         json.dump(all_scores, f, indent=6)
                     
     else:
