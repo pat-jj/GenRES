@@ -35,10 +35,11 @@ for dataset in ['cdr', 'docred', 'nyt10m', 'wiki20m', 'tacred', 'wiki80']:
             
 
 import threading
-def calculate_completeness_score(data_to_evaluate, dataset, model_name=None, threshold=0.95):
+def calculate_completeness_score(data_to_evaluate, dataset, model_name=None, threshold=0.95, output_all_scores=False):
         
     completeness_scores = []
     scores_details = defaultdict(dict)
+    text2cs = {}
     with open(f'../datasets/processed/{dataset}_processed.json', 'r') as f:
             gt_text_triples = json.load(f)
 
@@ -96,11 +97,16 @@ def calculate_completeness_score(data_to_evaluate, dataset, model_name=None, thr
             scores_details[text][gt_triple] = similarity_scores.tolist()[0]
 
         # Compute completeness score for this text
-        completeness_scores.append(sum(gt_recalls.values()) / len(gt_recalls) if len(gt_recalls) > 0 else 0)
-        
+        score = sum(gt_recalls.values()) / len(gt_recalls) if len(gt_recalls) > 0 else 0
+        completeness_scores.append(score)
+        text2cs[text] = score
 
     avg_completeness_score = np.mean(completeness_scores) if completeness_scores else 0
-    return avg_completeness_score, scores_details
+    
+    if output_all_scores != True:
+        return avg_completeness_score, scores_details
+    else:
+        return avg_completeness_score, scores_details, text2cs
 
 
 

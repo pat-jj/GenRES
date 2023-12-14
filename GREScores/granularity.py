@@ -33,10 +33,11 @@ def gpt_instruct(prompt):
             
 
 
-def calculate_granularity_score(data_to_evaluate, dataset_name, model_name, seed):
+def calculate_granularity_score(data_to_evaluate, dataset_name, model_name, seed, output_all_scores=False):
     # Store the results and scores
     granularity_results = defaultdict(dict)
     granularity_scores = []
+    text2gs = {}
     
     pre_compute_file = f"./granularity/{dataset_name}_{model_name}_{seed}.json"
     if os.path.exists(pre_compute_file):
@@ -66,11 +67,15 @@ def calculate_granularity_score(data_to_evaluate, dataset_name, model_name, seed
             
             granularity_score = np.mean(gs_triples)
             granularity_scores.append(granularity_score)
+            text2gs[text] = granularity_score
             
         avg_granularity_score = np.mean(granularity_scores)
         granularity_results = data
         
-        return avg_granularity_score, granularity_results        
+        if output_all_scores==True:
+            return avg_granularity_score, granularity_results, text2gs    
+        else:
+            return avg_granularity_score, granularity_results
         
             
     

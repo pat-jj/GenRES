@@ -31,31 +31,33 @@ def gpt_instruct(prompt):
             time.sleep(50)
 
 
-def calculate_factualness_score(data_to_evaluate):
-    # Store the results
+def calculate_factualness_score(data_to_evaluate, dataset_name=None, model_name=None, seed=None):
     results = {}
-
-    for source_text, triples_list in tqdm(data_to_evaluate.items()):
-        # Store the factualness results for each triple
-        factualness_results = []
-        
-        for triple in triples_list:
-            # Replace placeholders with actual source text and triple
-            prompt = fact_checker_prompt.replace('$TEXT$', source_text).replace('$TRIPLE$', json.dumps(triple))
-            # Get the factualness result from the GPT model
-            result = gpt_instruct(prompt).strip().lower()
+    if dataset_name != None:
+        with open(f'./factualness/{dataset_name}_{model_name}_{seed}.json') as f: 
+            results = json.load(f)
+    else:
+        for source_text, triples_list in tqdm(data_to_evaluate.items()):
+            # Store the factualness results for each triple
+            factualness_results = []
             
-            # Check if the result is 'true' or 'false' and convert it to a boolean
-            is_factual = True if result == 'true' else False
-            factualness_results.append(is_factual)
-        
-        # Calculate the factualness score
-        factualness_score = sum(factualness_results) / len(triples_list) if triples_list else 0
-        # Store the score and the individual results
-        results[source_text] = {
-            'score': factualness_score,
-            'results': factualness_results
-        }
+            for triple in triples_list:
+                # Replace placeholders with actual source text and triple
+                prompt = fact_checker_prompt.replace('$TEXT$', source_text).replace('$TRIPLE$', json.dumps(triple))
+                # Get the factualness result from the GPT model
+                result = gpt_instruct(prompt).strip().lower()
+                
+                # Check if the result is 'true' or 'false' and convert it to a boolean
+                is_factual = True if result == 'true' else False
+                factualness_results.append(is_factual)
+            
+            # Calculate the factualness score
+            factualness_score = sum(factualness_results) / len(triples_list) if triples_list else 0
+            # Store the score and the individual results
+            results[source_text] = {
+                'score': factualness_score,
+                'results': factualness_results
+            }
         
     avg_factualness_score = sum([result['score'] for result in results.values()]) / len(results) if results else 0
     
