@@ -1,6 +1,7 @@
 # GenRES: Evaluate Generative Relation Extraction
 This repository is the official implementation of [GenRES: Rethinking Evaluation for Generative Relation Extraction in the Era of Large Language Models](https://arxiv.org/abs/2402.10744). 
 
+**We will release the pip installer of GenRES soon!**
 ## Requirements and Installation
 
 ## Get Started
